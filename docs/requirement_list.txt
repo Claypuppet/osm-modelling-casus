@@ -1,0 +1,42 @@
+-Functioneel
+Een persoon registreert zich als klant bij redcars.
+Nieuwe klant ontvangt ledenpas met pasnummer na succesvolle registratie.
+Klant logt in op het systeem met gebruikernaam en wachtwoord.
+Medewerker beheert klantgegevens (CRUD).
+Medewerker zet klant account op inactief zodat deze niet kan inloggen.
+Medewerker beheert deelautogegevens (CRUD).
+Redcars kent de volgende deelautotypes: Personenauto en Stationwagen met trekhaak.
+Klant ziet de locatie van een deelauto op de website.
+Klant ziet de beschikbaarheid van een deelauto op de website.
+Klant reserveert deelauto op de website aan de hand van begin- en eindtijd.
+#Klant checkt in bij gereseveerde deelauto met zijn ledenpas.
+#	Klant ontgrendelt de deelauto met zijn ledenpas als sleutel.
+#	Klant vergrendelt de deelauto met zijn ledenpas als sleutel.
+#Klant check uit bij ingecheckte deelauto met zijn ledenpas.
+Factuur wordt automatisch aangemaakt na uitchecken deelauto of na verloop reservering.
+
+
+-Usability
+De locatie van een beschikbare deelauto is eenvoudig zichtbaar.
+Klant kan alleen inchecken bij een door hem gereserveerde deelauto binnen de periode van reservering.
+Klant kan alleen uitchecken wanneer de deelauto geparkeerd staat op de inchecklocatie.
+Betalingopdracht wordt automatisch ingedient, met behulp van automatische incasso, zodra een factuur is aangemaakt.
+
+
+-Reliability
+
+
+-Performance
+De gegevens die de klant ziet zijn maximaal 10(?) seconden oud.
+
+-Supportability
+
+
+-+
+De applicatie wordt ontwikkelt met de programeertaal c++.
+De eerste versie van de applicatie zal met een commandline interface uitgevoerd worden.
+
+-Gegevens
+Klant heeft de volgende gegevens: NAW, Email en Bankrekeningnummer.
+Deelauto heeft de volgende gegevens: Kenteken, Type en Standplaats.
+
