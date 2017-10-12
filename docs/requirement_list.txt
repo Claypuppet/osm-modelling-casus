@@ -9,15 +9,16 @@ Klant ziet de locatie van een deelauto op de website.
 Klant ziet de beschikbaarheid van een deelauto op de website.
 Klant reserveert deelauto op de website aan de hand van begin- en eindtijd.
 Klant verzilvert zijn reservering door in te checken bij registratiepaal met zijn ledenpas.
+Klant meldt schade (gebreken) van de auto bij inchecken.
 Klant ontgrendelt de deelauto met zijn ledenpas als sleutel.
 Klant vergrendelt de deelauto met zijn ledenpas als sleutel.
-Klant beïndigt zijn reservering door uit te checken bij een registratiepaal met zijn ledenpas.
+Klant beïndoor uit te checken bij een registratiepaal met zijn ledenpas.
 Factuur wordt automatisch aangemaakt na uitchecken deelauto of na verloop eindtijd reservering.
 Betalingopdracht wordt automatisch ingeplant zodra een factuur is aangemaakt.
 Klant heeft de mogelijkheid om van abbonementtype te wisselen.
 De kosten voor een reservering wordt berekend op basis van abbonementtype, deelautotype en tarfiekeuze.
 Klant kan geen reservering doen wanneer er er sprake is van een betalingsachterstand.
-Klant kan niet inchecken bij een reservering wanneer deze al ingecheck is.
+Klant kan een reservering niet verzilveren wanneer de klant al ingecheckt is.
 
 -Usability
 De locatie van een beschikbare deelauto is eenvoudig zichtbaar.
