@@ -5,32 +5,37 @@ Klant logt in op het systeem met gebruikernaam en wachtwoord.
 Medewerker beheert klantgegevens (CRUD).
 Medewerker zet klant account op inactief zodat deze niet kan inloggen.
 Medewerker beheert deelautogegevens (CRUD).
-Redcars kent de volgende deelautotypes: Personenauto en Stationwagen met trekhaak.
 Klant ziet de locatie van een deelauto op de website.
 Klant ziet de beschikbaarheid van een deelauto op de website.
 Klant reserveert deelauto op de website aan de hand van begin- en eindtijd.
-#Klant checkt in bij gereseveerde deelauto met zijn ledenpas.
-#	Klant ontgrendelt de deelauto met zijn ledenpas als sleutel.
-#	Klant vergrendelt de deelauto met zijn ledenpas als sleutel.
-#Klant check uit bij ingecheckte deelauto met zijn ledenpas.
-Factuur wordt automatisch aangemaakt na uitchecken deelauto of na verloop reservering.
-
+Klant verzilvert zijn reservering door in te checken bij registratiepaal met zijn ledenpas.
+Klant ontgrendelt de deelauto met zijn ledenpas als sleutel.
+Klant vergrendelt de deelauto met zijn ledenpas als sleutel.
+Klant beïndigt zijn reservering door uit te checken bij een registratiepaal met zijn ledenpas.
+Factuur wordt automatisch aangemaakt na uitchecken deelauto of na verloop eindtijd reservering.
+Betalingopdracht wordt automatisch ingeplant zodra een factuur is aangemaakt.
+Klant heeft de mogelijkheid om van abbonementtype te wisselen.
+De kosten voor een reservering wordt berekend op basis van abbonementtype, deelautotype en tarfiekeuze.
+Klant kan geen reservering doen wanneer er er sprake is van een betalingsachterstand.
 
 -Usability
 De locatie van een beschikbare deelauto is eenvoudig zichtbaar.
-Klant kan alleen inchecken bij een door hem gereserveerde deelauto binnen de periode van reservering.
+Klant kan alleen bij een registratiepaal inchecken binnen de periode van zijn reservering.
 Klant kan alleen uitchecken wanneer de deelauto geparkeerd staat op de inchecklocatie.
-Betalingopdracht wordt automatisch ingedient, met behulp van automatische incasso, zodra een factuur is aangemaakt.
-
+Klant ontvangt een boete wanneer hij zijn deelauto parkeert op zijn startlocatie en niet is uitgecheckt na 10 minuten.
+*Klant ontvangt een boete wanneer hij zijn deelauto te laat uit checkt.
+*Bij het te laat uitchecken van een deelauto wordt het huurbedrag plus extra uren als boete verrekend.
+De klant heeft een betalingsachterstand wanneer een automatische incasso is mislukt.
 
 -Reliability
 
 
 -Performance
-De gegevens die de klant ziet zijn maximaal 10(?) seconden oud.
+De locatie- en beschikbaarheidgegevens van een deelauto die de klant ziet zijn maximaal 10(?) seconden oud.
 
 -Supportability
-
+Types van deelautos zijn eenvoudig uitbreidbaar.
+Types van abbonementen zijn eenvoudig uitbreidbaar.
 
 -+
 De applicatie wordt ontwikkelt met de programeertaal c++.
@@ -39,4 +44,7 @@ De eerste versie van de applicatie zal met een commandline interface uitgevoerd 
 -Gegevens
 Klant heeft de volgende gegevens: NAW, Email en Bankrekeningnummer.
 Deelauto heeft de volgende gegevens: Kenteken, Type en Standplaats.
-
+Abbonement kent de volgende types: Gratis en Betaald
+Deelauto kent de volgende typen: Personenauto en Stationwagen met trekhaak
+Elk type deelauto kent per abbonementtype de volgende tarieven: Prijs per uur, Prijs per dag, Prijs per weekend, Prijs per week, Prijs per kilomenter, Kilometers vrij.
+Reservering kent de volgende tariefsoorten: Per uur, Per dag, Per weekend, Per week
