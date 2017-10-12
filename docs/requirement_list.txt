@@ -17,6 +17,7 @@ Betalingopdracht wordt automatisch ingeplant zodra een factuur is aangemaakt.
 Klant heeft de mogelijkheid om van abbonementtype te wisselen.
 De kosten voor een reservering wordt berekend op basis van abbonementtype, deelautotype en tarfiekeuze.
 Klant kan geen reservering doen wanneer er er sprake is van een betalingsachterstand.
+Klant kan niet inchecken bij een reservering wanneer deze al ingecheck is.
 
 -Usability
 De locatie van een beschikbare deelauto is eenvoudig zichtbaar.
@@ -28,7 +29,7 @@ Klant ontvangt een boete wanneer hij zijn deelauto parkeert op zijn startlocatie
 De klant heeft een betalingsachterstand wanneer een automatische incasso is mislukt.
 
 -Reliability
-
+GEEN
 
 -Performance
 De locatie- en beschikbaarheidgegevens van een deelauto die de klant ziet zijn maximaal 10(?) seconden oud.
