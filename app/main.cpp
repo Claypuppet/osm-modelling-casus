@@ -5,6 +5,8 @@
  *      Author: klei
  */
 
+#include "Application.h"
+
 int main(int argc, char **argv) {
-	return 6930;
+	return Application::getInstance().main(argc, argv);
 }
