@@ -11,6 +11,8 @@ local.properties
 .recommenders
 .project
 
+app/libs/*
+
 Debug/
 
 # Astah ding
