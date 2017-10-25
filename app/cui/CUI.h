@@ -8,8 +8,11 @@
 #ifndef CUI_H_
 #define CUI_H_
 
-//#include <curses/curses.h>
-#include <ncursesw/curses.h>
+#if defined(_WIN32)
+#	include <curses/curses.h>
+#else
+#	error "Jelle fix die ncruses library nouw eens"
+#endif
 #include <string>
 
 namespace cui
