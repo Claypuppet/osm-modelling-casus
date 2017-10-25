@@ -9,8 +9,8 @@
 #define CUI_H_
 
 //#include <curses/curses.h>
-#include <ncursesw/curses.h>
-#include <string>
+#include <curses.h>
+//#include <string>
 
 namespace cui
 {
