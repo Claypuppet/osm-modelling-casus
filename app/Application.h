@@ -40,6 +40,7 @@ public:
 	StaticDatastore& getDataStore();
 	KlantRepo<StaticDatastore>& getKlantRepo();
 	VerhuurRepo<StaticDatastore>& getVehuurRepo();
+	TariefRepo<StaticDatastore>& getTariefRepo();
 
 private:
 

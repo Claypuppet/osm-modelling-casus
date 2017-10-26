@@ -10,16 +10,15 @@
 
 
 #include "DatastoreModel.h"
-#include "AbbonomentType.h"
-
 #include <stdint.h>
+#include "AbonnementType.h"
 
 class Klant : public DatastoreModel<Klant>
 {
 	friend DatastoreModel<Klant>;
 
 	Klant();
-	Klant(uint32_t pasNummer, std::shared_ptr<AbbonomentType>& abbonomentType);
+	Klant(uint32_t pasNummer, std::shared_ptr<AbonnementType>& abbonomentType);
 
 
 public:
@@ -27,7 +26,7 @@ public:
 	~Klant();
 
 	uint32_t pasNummmer;
-	std::shared_ptr<AbbonomentType> abbonomentType;
+	std::shared_ptr<AbonnementType> abbonomentType;
 };
 
 typedef std::shared_ptr<Klant> KlantPtr;

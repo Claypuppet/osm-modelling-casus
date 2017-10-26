@@ -9,6 +9,9 @@
 #include "Verhuur.h"
 #include "Klant.h"
 #include "ReserveringRepo.h"
+#include "AutoType.h"
+#include "Deelauto.h"
+#include "Tarief.h"
 
 #include <stdexcept>
 
@@ -55,8 +58,17 @@ bool Reservering::isIngecheckt()
 
 tarieven::TariefPtr Reservering::getTarief()
 {
+	std::shared_ptr<AutoType> autoType = deelauto->type;
+	std::shared_ptr<AbonnementType> aboType = klant->abbonomentType;
 
-	return NULL;
+	auto repo = Application::getInstance().getTariefRepo();
+
+	tarieven::TariefPtr tarief = repo.getTariefByTypes(autoType, aboType);
+
+	if(tarief == NULL)
+		throw std::logic_error("Geen tarief voor deze combinatie!");
+
+	return tarief;
 }
 
 Geld Reservering::getKosten()

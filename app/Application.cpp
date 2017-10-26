@@ -65,3 +65,7 @@ VerhuurRepo<StaticDatastore>& Application::getVehuurRepo()
 	return mVehuurRepo;
 }
 
+TariefRepo<StaticDatastore>& Application::getTariefRepo()
+{
+	return mTariefRepo;
+}

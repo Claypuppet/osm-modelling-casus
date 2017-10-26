@@ -17,14 +17,14 @@
 
 
 
-class AbbonomentType : public DatastoreModel<AbbonomentType>
+class AbonnementType : public DatastoreModel<AbonnementType>
 {
-	friend DatastoreModel<AbbonomentType>;
-	AbbonomentType();
-	AbbonomentType(const std::string& naam, const Geld& kosten);
+	friend DatastoreModel<AbonnementType>;
+	AbonnementType();
+	AbonnementType(const std::string& naam, const Geld& kosten);
 
 public:
-	~AbbonomentType();
+	~AbonnementType();
 
 	std::string	naam;
 	Geld kosten;

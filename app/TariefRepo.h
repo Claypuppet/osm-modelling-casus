@@ -10,12 +10,11 @@
 
 
 #include "IDataStore.h"
-#include "Geld.h"
-#include "Verhuur.h"
+#include "Tarief.h"
+#include "AutoType.h"
+#include "AbonnementType.h"
 #include <memory>
 
-class Klant;
-class Verhuur;
 
 template <typename DataStoreType>
 class TariefRepo
@@ -26,14 +25,20 @@ public:
 	{}
 	~TariefRepo() = default;
 
-
+	tarieven::TariefPtr getTariefByTypes(std::shared_ptr<AutoType> aut, std::shared_ptr<AbonnementType> abt)
+	{
+		auto tL = [aut, abt](tarieven::TariefPtr t)
+		{
+			return (t->autoType->id == aut->id && t->aboType->id == abt->id);
+		};
+		tarieven::TariefPtr tarief = mDataStore.loadModel(tL);
+		return tarief;
+	}
 
 
 private:
 	IDataStore<DataStoreType>& mDataStore;
 };
-
-
 
 
 #endif /* TARIEFREPO_H_ */

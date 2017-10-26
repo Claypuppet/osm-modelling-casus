@@ -10,7 +10,8 @@
 
 #include "Geld.h"
 #include "TariefSoortPrijs.h"
-
+#include "AutoType.h"
+#include "AbonnementType.h"
 
 namespace tarieven
 {
@@ -21,6 +22,8 @@ public:
 	uint32_t kilometersVrij;
 	Geld prijsPerKilometer;
 	tariefSoortenPrijsLijst prijzen;
+	std::shared_ptr<AutoType> autoType;
+	std::shared_ptr<AbonnementType> aboType;
 
 public:
 	virtual ~Tarief() = default;

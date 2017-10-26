@@ -14,6 +14,7 @@
 
 class Standplaats;
 class RedcarModule;
+class AutoType;
 
 class Deelauto : public DatastoreModel<Deelauto>
 {
@@ -31,6 +32,7 @@ public:
 	std::string kenteken;
 	std::shared_ptr<Standplaats> standplaats;
 	std::shared_ptr<RedcarModule> redcardModule;
+	std::shared_ptr<AutoType> type;
 
 };
 

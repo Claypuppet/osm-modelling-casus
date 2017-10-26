@@ -12,7 +12,7 @@ Klant::Klant()
 {
 }
 
-Klant::Klant(uint32_t pasNummer, std::shared_ptr<AbbonomentType>& abbonomentType)
+Klant::Klant(uint32_t pasNummer, std::shared_ptr<AbonnementType>& abbonomentType)
 : pasNummmer(pasNummer)
 , abbonomentType(abbonomentType)
 {

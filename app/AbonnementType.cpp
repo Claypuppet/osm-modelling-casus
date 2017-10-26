@@ -5,19 +5,19 @@
  *      Author: Vuurvlieg
  */
 
-#include "AbbonomentType.h"
+#include "AbonnementType.h"
 
-AbbonomentType::AbbonomentType()
+AbonnementType::AbonnementType()
 {
 }
 
-AbbonomentType::AbbonomentType(const std::string& naam,const Geld& kosten)
+AbonnementType::AbonnementType(const std::string& naam,const Geld& kosten)
 : naam(naam)
 , kosten(kosten)
 {
 }
 
-AbbonomentType::~AbbonomentType()
+AbonnementType::~AbonnementType()
 {
 	// TODO Auto-generated destructor stub
 }

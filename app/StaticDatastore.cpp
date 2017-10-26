@@ -9,11 +9,11 @@
 #include "Klant.h"
 #include "Reservering.h"
 #include "Verhuur.h"
-#include "AbbonomentType.h"
 #include "Deelauto.h"
 #include "AutoType.h"
 
 #include <algorithm>
+#include "AbonnementType.h"
 
 StaticDatastore::StaticDatastore()
 {
@@ -38,8 +38,8 @@ void StaticDatastore::initStaticTestData()
 	auto stationWagen = createModel<AutoType>(AutoType::Create("Stationwagen"));
 
 	// Abbonomenten
-	createModel<AbbonomentType>(AbbonomentType::Create("Gratis", 0));
-	createModel<AbbonomentType>(AbbonomentType::Create("Betaald", Geld(49, 95)));
+	createModel<AbonnementType>(AbonnementType::Create("Gratis", 0));
+	createModel<AbonnementType>(AbonnementType::Create("Betaald", Geld(49, 95)));
 
 
 	// Klanten
