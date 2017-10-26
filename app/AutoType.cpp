@@ -8,14 +8,12 @@
 #include "AutoType.h"
 
 AutoType::AutoType()
-: id(0)
 {
-	// TODO Auto-generated constructor stub
 
 }
 
 AutoType::AutoType(uint32_t id, const std::string& naam)
-: id(id)
+: DatastoreModel(id)
 , naam(naam)
 {
 }

@@ -20,7 +20,6 @@ public:
 
 	~AutoType() = default;
 
-	uint32_t id;
 	std::string naam;
 };
 

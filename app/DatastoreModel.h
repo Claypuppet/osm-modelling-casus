@@ -30,9 +30,14 @@ public:
 		return ModelPtr(new ModelType(std::forward<Args>(args)...));
 	}
 
+public:
+
+	uint32_t id;
+
 private:
 	friend ModelType;
-	DatastoreModel() = default;
+	DatastoreModel() : id(0) {}
+	DatastoreModel(uint32_t id) : id(id) {}
 };
 
 #endif /* DATASTOREMODEL_H_ */

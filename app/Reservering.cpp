@@ -12,8 +12,7 @@
 #include <stdexcept>
 
 Reservering::Reservering()
-: id(0)
-, beginMoment(0)
+: beginMoment(0)
 , eindMoment(0)
 , klant(nullptr)
 , verhuur(nullptr)
@@ -25,7 +24,7 @@ Reservering::~Reservering()
 }
 
 Reservering::Reservering(uint32_t id, uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant)
-: id(id)
+: DatastoreModel(id)
 , beginMoment(beginMoment)
 , eindMoment(eindMoment)
 , klant(klant)

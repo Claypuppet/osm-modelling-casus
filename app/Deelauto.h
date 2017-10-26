@@ -21,7 +21,6 @@ public:
 	~Deelauto();
 
 public:
-	uint32_t id;
 	std::string kenteken;
 };
 

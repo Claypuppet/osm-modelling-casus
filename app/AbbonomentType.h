@@ -26,8 +26,6 @@ class AbbonomentType : public DatastoreModel<AbbonomentType>
 public:
 	~AbbonomentType();
 
-
-	uint32_t id;
 	std::string	naam;
 	Geld kosten;
 };

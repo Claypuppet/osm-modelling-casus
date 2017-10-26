@@ -28,7 +28,6 @@ public:
 
 public:
 
-	uint32_t					id;
 	uint32_t					beginMoment;
 	uint32_t					eindMoment;
 	std::shared_ptr<Klant>		klant;
