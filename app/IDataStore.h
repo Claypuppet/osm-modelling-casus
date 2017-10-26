@@ -8,11 +8,13 @@
 #ifndef IDATASTORE_H_
 #define IDATASTORE_H_
 
+
+#include "DatastoreModel.h"
+#include "ctti/type_id.hpp"
+
 #include <functional>
 #include <type_traits>
 #include <memory>
-#include "DatastoreModel.h"
-#include "ctti/type_id.hpp"
 #include <utility>
 
 
@@ -34,10 +36,10 @@ class IDataStoreNew
 {
 protected:
 	template<typename ModelType>
-	using IsValidModelType = typename std::is_convertible<ModelType, IDatastoreModel>::value;
+	using IsValidModelType = typename std::is_convertible<ModelType*, IDatastoreModel*>::value;
 
 	template<typename ModelType>
-	using ValidModelType = typename std::enable_if<std::is_convertible<ModelType, IDatastoreModel>::value,ModelType>::type;
+	using ValidModelType = typename std::enable_if<std::is_convertible<ModelType*, IDatastoreModel*>::value,ModelType>::type;
 
 	template <typename T, typename = uint32_t>
 	struct HasId : std::false_type { };
@@ -100,10 +102,10 @@ public:
 	~IDataStore() = default;
 
 	template<typename ModelType>
-	using IsValidModelType = typename std::is_convertible<ModelType,DatastoreModel<ModelType>>::value;
+	using IsValidModelType = std::is_same<bool,bool>; //std::is_base_of<DatastoreModel<ModelType>*, ModelType*>
 
 	template<typename ModelType>
-	using ValidModelType = typename std::enable_if<std::is_convertible<ModelType,DatastoreModel<ModelType>>::value,ModelType>::type;
+	using ValidModelType = std::enable_if<IsValidModelType<ModelType>::value,ModelType>;
 
 	template <typename T, typename = uint32_t>
 	struct HasId : std::false_type { };
@@ -112,7 +114,7 @@ public:
 	struct HasId <T, decltype((void) T::x, 0)> : std::true_type {};
 
 
-	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, ValidModelType<ModelType>>
+	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, typename ValidModelType<ModelType>::type>
 	typename ModelType::ModelPtr loadModel(const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
@@ -123,7 +125,7 @@ public:
 		return d.loadModel(predicate);
 	}
 
-	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, ValidModelType<ModelType>>
+	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, typename ValidModelType<ModelType>::type>
 	typename ModelType::ModelPtr saveModel(const ModelType& in, const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
@@ -135,7 +137,7 @@ public:
 	}
 
 
-	template<typename ModelType, ValidModelType<ModelType>>
+	template<typename ModelType, typename ValidModelType<ModelType>::type>
 		typename ModelType::ModelPtr createModel(typename ModelType::ModelPtr& model)
 	{
 		static_assert(!HasId<ModelType>::value, "Model needs to have an id as primary key");
