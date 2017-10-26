@@ -31,7 +31,7 @@ struct StaticDatastoreStoreage : public std::false_type {};
 
 
 template <typename ModelType>
-struct StaticDatastoreStoreage<ModelType, typename std::enable_if<std::is_convertible<bool, bool>::value,ModelType>::type> : public std::true_type
+struct StaticDatastoreStoreage<ModelType, typename std::enable_if<std::is_convertible<ModelType,DatastoreModel<ModelType>>::value,ModelType>::type> : public std::true_type
 {
 private:
 	friend StaticDatastore;
@@ -80,6 +80,8 @@ public:
 
 	friend IDataStore<StaticDatastore>;
 
+	void initStaticTestData();
+
 protected:
 
 
@@ -96,8 +98,8 @@ protected:
 	}
 
 
-	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	typename ModelType::ModelPtr createModel(typename ModelType::ModelPtr& model)
+	template<typename ModelType>
+	typename ModelType::ModelPtr createModel(typename ModelType::ModelPtr model)
 	{
 		StaticDatastoreStoreage<ModelType>::create(model);
 		return model;

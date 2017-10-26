@@ -36,4 +36,12 @@ DEFINE_STORE(Verhuur);
 DEFINE_STORE(AbbonomentType);
 
 
+void StaticDatastore::initStaticTestData()
+{
+	// Abbonomenten
+	createModel<AbbonomentType>(AbbonomentType::Create(0, "Gratis", 0));
 
+
+	// Klanten
+	//Klant::Create(0, 112233, )
+}
