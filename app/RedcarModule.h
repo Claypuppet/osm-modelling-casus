@@ -20,7 +20,7 @@ public:
 	uint32_t getLocatie() const;
 	void reset();
 	uint32_t getPasNummer() const;
-	void setPasnummer(uint32_t pasNummer);
+	void setPasNummer(uint32_t pasNummer);
 	float getAantalKilometers() const;
 
 public:

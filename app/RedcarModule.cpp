@@ -43,7 +43,7 @@ float RedcarModule::getAantalKilometers() const
 	return aantalKilometers;
 }
 
-void RedcarModule::setPasnummer(uint32_t pasNummer)
+void RedcarModule::setPasNummer(uint32_t pasNummer)
 {
-	return
+	this->pasNummer = pasNummer;
 }

@@ -25,6 +25,7 @@ public:
 	uint32_t periode;
 
 private:
+	friend DatastoreModel<TariefSoort>;
 	TariefSoort(std::string naam, uint8_t weekMask, uint32_t periode);
 };
 

@@ -14,13 +14,15 @@
 Verhuur::Verhuur()
 : incheckMoment(0)
 , uitcheckMoment(0)
+, aantalKilometers(0)
 {
 }
 
-Verhuur::Verhuur(std::shared_ptr<Reservering> reservering, uint32_t incheckMoment, uint32_t uitcheckMoment)
+Verhuur::Verhuur(std::shared_ptr<Reservering> reservering, uint32_t incheckMoment, uint32_t uitcheckMoment, uint32_t aantalKilometers)
 : reservering(reservering)
 , incheckMoment(incheckMoment)
 , uitcheckMoment(uitcheckMoment)
+, aantalKilometers(aantalKilometers)
 {
 
 }

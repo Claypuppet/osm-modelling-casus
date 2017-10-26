@@ -49,16 +49,16 @@ void StaticDatastore::initStaticTestData()
 	auto abboBetlaad = createModel<AbonnementType>(AbonnementType::Create("Betaald", Geld(49, 95)));
 
 	// Tariefsoorten
-	auto tariefPerUur = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per uur", 0, 3600));
-	auto tariefPerDag = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per dag", 0, 3600*24));
-	auto tariefPerWerk = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per week", 0, 3600*24*7));
-	auto tatiefPerWeekend = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per weekend", (1 << 6) | (1 << 7), 3600*24*2));
+	auto tariefPerUur = createModel<tarieven::TariefSoort>(tarieven::TariefSoort::Create("Per uur", 0, 3600));
+	auto tariefPerDag = createModel<tarieven::TariefSoort>(tarieven::TariefSoort::Create("Per dag", 0, 3600*24));
+	auto tariefPerWerk = createModel<tarieven::TariefSoort>(tarieven::TariefSoort::Create("Per week", 0, 3600*24*7));
+	auto tatiefPerWeekend = createModel<tarieven::TariefSoort>(tarieven::TariefSoort::Create("Per weekend", (1 << 6) | (1 << 7), 3600*24*2));
 
 	// Standplaatsen
 	//auto standPlaats1 = createMode<Standplaats>(Standplaats::Create())
 
 
-	//Application::getInstance().setBoeteTariefSoort(tariefPerUur);
+	Application::getInstance().setBoeteTariefSoort(tariefPerUur);
 
 
 
