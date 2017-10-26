@@ -9,22 +9,27 @@
 #define APP_TARIEF_H_
 
 #include "Geld.h"
-#include "TariefSoort.h"
+#include "TariefSoortPrijs.h"
 
 
 namespace tarieven
 {
 
-class Tarief
+class Tarief : public DatastoreModel<Tarief>
 {
 public:
 	uint32_t kilometersVrij;
-	Geld PrijsPerKilometer;
-
+	Geld prijsPerKilometer;
+	tariefSoortenPrijsLijst prijzen;
 
 public:
-	Tarief();
-	virtual ~Tarief();
+	virtual ~Tarief() = default;
+	Geld berekenKosten(uint32_t aantalKilometers, TariefSoortPtr soort, uint32_t aantal);
+
+private:
+	Tarief::Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen);
+	TariefSoortPrijsPtr getTariefSoortPrijs(const TariefSoortPtr& soort);
+	Geld getKilometerPrijs(uint32_t aantalKilometers);
 };
 
 typedef std::shared_ptr<Tarief> TariefPtr;

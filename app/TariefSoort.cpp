@@ -10,15 +10,10 @@
 namespace tarieven
 {
 
-TariefSoort::TariefSoort()
+TariefSoort::TariefSoort(std::string naam, uint8_t weekMask, uint32_t periode)
+: naam(naam), weekMask(weekMask), periode(periode)
 {
-	// TODO Auto-generated constructor stub
-
 }
 
-TariefSoort::~TariefSoort()
-{
-	// TODO Auto-generated destructor stub
-}
 
 } /* namespace tarieven */

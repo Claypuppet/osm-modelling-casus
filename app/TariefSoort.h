@@ -8,21 +8,24 @@
 #ifndef APP_TARIEFSOORT_H_
 #define APP_TARIEFSOORT_H_
 
+#include "DatastoreModel.h"
 #include <memory>
 
 namespace tarieven
 {
 
-class TariefSoort
+class TariefSoort : public DatastoreModel<TariefSoort>
 {
 public:
-	TariefSoort();
-	virtual ~TariefSoort();
+	virtual ~TariefSoort() = default;
 
 private:
 	std::string naam;
 	uint8_t weekMask;
 	uint32_t periode;
+
+private:
+	TariefSoort(std::string naam, uint8_t weekMask, uint32_t periode);
 };
 
 typedef std::shared_ptr<TariefSoort> TariefSoortPtr;

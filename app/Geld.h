@@ -39,7 +39,8 @@ public:
 
 	Geld& operator=(const Geld& other)
 	{
-		waarde = other.waarde;
+		if(&other != this)
+			waarde = other.waarde;
 		return *this;
 	}
 
@@ -70,29 +71,29 @@ public:
 	}
 
 
-	Geld operator*(const Geld& other)
+	Geld operator*(int32_t i)
 	{
 		Geld result(*this);
-		result *= other;
+		result *= i;
 		return result;
 	}
 
-	Geld& operator*=(const Geld& other)
+	Geld& operator*=(int32_t i)
 	{
-		waarde *= other.waarde;
+		waarde *= i;
 		return *this;
 	}
 
-	Geld operator/(const Geld& other)
+	Geld operator/(int32_t i)
 	{
 		Geld result(*this);
-		result /= other;
+		result /= i;
 		return result;
 	}
 
-	Geld& operator/=(const Geld& other)
+	Geld& operator/=(int32_t i)
 	{
-		waarde /= other.waarde;
+		waarde /= i;
 		return *this;
 	}
 

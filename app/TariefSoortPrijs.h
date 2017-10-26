@@ -15,17 +15,19 @@
 namespace tarieven
 {
 
-
-class TariefSoortPrijs
+class TariefSoortPrijs : public DatastoreModel<TariefSoortPrijs>
 {
 
 public:
-	TariefSoortPrijs();
-	virtual ~TariefSoortPrijs();
+	virtual ~TariefSoortPrijs() = default;
+	Geld berekenKosten(uint32_t aantalPeriodes);
 
 private:
 	TariefSoortPtr soort;
 	Geld prijs;
+
+private:
+	TariefSoortPrijs(TariefSoortPtr soort, Geld prijs);
 };
 
 typedef std::shared_ptr<TariefSoortPrijs> TariefSoortPrijsPtr;
