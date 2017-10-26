@@ -10,7 +10,7 @@
 
 #include "DatastoreModel.h"
 #include "Product.h"
-#include <memory>
+#include "Tarief.h"
 
 class Klant;
 class Verhuur;
@@ -34,6 +34,9 @@ public:
 	std::shared_ptr<Klant>		klant;
 	std::shared_ptr<Verhuur>	verhuur;
 
+public:
+	virtual tarieven::TariefPtr getTarief();
+	virtual Geld getKosten() override;
 
 };
 

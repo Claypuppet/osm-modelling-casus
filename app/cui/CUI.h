@@ -11,7 +11,7 @@
 #if defined(_WIN32)
 #	include <curses/curses.h>
 #else
-#	error "Jelle fix die ncruses library nouw eens"
+#	include <ncurses.h>
 #endif
 #include <string>
 
