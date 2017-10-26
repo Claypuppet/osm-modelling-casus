@@ -9,13 +9,27 @@
 #include "Product.h"
 
 Verhuur::Verhuur()
+: incheckMoment(0)
+, uitcheckMoment(0)
 {
-	// TODO Auto-generated constructor stub
+}
+
+Verhuur::Verhuur(std::shared_ptr<Reservering>& reservering, uint32_t incheckMoment, uint32_t uitcheckMoment)
+: reservering(reservering)
+, incheckMoment(incheckMoment)
+, uitcheckMoment(uitcheckMoment)
+{
 
 }
 
-Verhuur::~Verhuur()
+Geld Verhuur::berekenTeLaatBoeteKosten()
 {
-	// TODO Auto-generated destructor stub
+	/* TODO
+	int32_t deltaSec = reservering->eindMoment - uitcheckMoment;
+	if(deltaSec < 0) {
+		deltaSec = -deltaSec;
+		float uren = (float)deltaSec / 60 / 60;
+	}
+	*/
+	return 50;
 }
-

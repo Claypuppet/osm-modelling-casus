@@ -112,6 +112,11 @@ public:
 		return std::to_string(getEuros()) + seperator + std::to_string(getCenten());
 	}
 
+	explicit operator bool()
+	{
+		return waarde != 0;
+	}
+
 private:
 	int32_t waarde;
 };

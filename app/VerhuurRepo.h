@@ -9,6 +9,7 @@
 #define VERHUURREPO_H_
 
 #include "IDataStore.h"
+#include "Geld.h"
 #include <memory>
 
 class Klant;
@@ -25,6 +26,7 @@ public:
 
 
 	std::shared_ptr<Verhuur> getActiefVerhuur(const std::shared_ptr<Klant>& klant);
+
 
 
 private:
