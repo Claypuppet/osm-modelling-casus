@@ -19,7 +19,7 @@ class Reservering : public DatastoreModel<Reservering>, public Product
 {
 	friend DatastoreModel<Klant>;
 	Reservering();
-	Reservering(uint32_t id, uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant);
+	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant);
 	~Reservering();
 
 public:

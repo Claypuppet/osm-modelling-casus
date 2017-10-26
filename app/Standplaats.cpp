@@ -8,13 +8,18 @@
 #include "Standplaats.h"
 
 Standplaats::Standplaats()
-: id(0)
-, locatie()
+: locatie(0)
 {
 	// TODO Auto-generated constructor stub
 
 }
 
-Standplaats::Standplaats(uint32_t id, uint32_t locatie)
+Standplaats::Standplaats(uint32_t locatie)
+: locatie(locatie)
 {
+}
+
+bool Standplaats::controlleerLocatie(uint32_t locatie)
+{
+	return this->locatie == locatie;
 }

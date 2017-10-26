@@ -10,18 +10,28 @@
 
 #include "DatastoreModel.h"
 #include <string>
+#include <memory>
+
+class Standplaats;
+class RedcarModule;
 
 class Deelauto : public DatastoreModel<Deelauto>
 {
 	friend DatastoreModel<Deelauto>;
 	Deelauto();
-	Deelauto(uint32_t id, std::string kenteken);
+	Deelauto(const std::string& kenteken, std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule);
 
 public:
-	~Deelauto();
+	~Deelauto() = default;
+
+	std::shared_ptr<Standplaats> getStandPlaats() const;
+	std::shared_ptr<RedcarModule> getRedcarModule() const;
 
 public:
 	std::string kenteken;
+	std::shared_ptr<Standplaats> standplaats;
+	std::shared_ptr<RedcarModule> redcardModule;
+
 };
 
 #endif /* DEELAUTO_H_ */

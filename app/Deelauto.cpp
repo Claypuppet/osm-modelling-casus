@@ -8,19 +8,22 @@
 #include "Deelauto.h"
 
 Deelauto::Deelauto()
-: id(0)
-{
-
-
-}
-
-Deelauto::Deelauto(uint32_t id, std::string kenteken)
-: id(id)
-, kenteken(kenteken)
 {
 }
 
-Deelauto::~Deelauto()
+Deelauto::Deelauto(const std::string& kenteken, std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule)
+: kenteken(kenteken)
+, standplaats(standplaats)
+, redcardModule(redcardModule)
 {
 }
 
+std::shared_ptr<Standplaats> Deelauto::getStandPlaats() const
+{
+	return standplaats;
+}
+
+std::shared_ptr<RedcarModule> Deelauto::getRedcarModule() const
+{
+	return redcardModule;
+}

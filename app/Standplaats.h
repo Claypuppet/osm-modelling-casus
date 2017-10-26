@@ -13,12 +13,14 @@
 class Standplaats : public DatastoreModel<Standplaats>
 {
 	Standplaats();
-	Standplaats(uint32_t id, uint32_t locatie);
+	Standplaats(uint32_t locatie);
 public:
 
 	~Standplaats() = default;
 
-	uint32_t id;
+	bool controlleerLocatie(uint32_t locatie);
+
+public:
 	uint32_t locatie;
 };
 

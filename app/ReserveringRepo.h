@@ -11,6 +11,7 @@
 
 #include "Reservering.h"
 #include "Klant.h"
+#include "Application.h"
 
 #include <stdint.h>
 #include <memory>
@@ -53,14 +54,9 @@ public:
 	{}
 	~ReserveringRepo() = default;
 
-	static uint32_t getNowMoment()
-	{
-		return std::chrono::time_point_cast<std::chrono::seconds>(std::chrono::system_clock::now()).time_since_epoch().count();
-	}
-
 	std::shared_ptr<Reservering> getBeschrikbareReservering(std::shared_ptr<Klant>& klant)
 	{
-		return mDataStore.loadModel(ReserverMetKlantEnMoment(klant, getNowMoment()));
+		return mDataStore.loadModel(ReserverMetKlantEnMoment(klant, Application::getNowMoment()));
 	}
 
 

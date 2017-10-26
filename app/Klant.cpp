@@ -7,6 +7,16 @@
 
 #include "Klant.h"
 
+Klant::Klant()
+: pasNummmer(0)
+{
+}
+
+Klant::Klant(uint32_t pasNummer, std::shared_ptr<AbbonomentType>& abbonomentType)
+: pasNummmer(pasNummer)
+, abbonomentType(abbonomentType)
+{
+}
 
 
 Klant::~Klant()

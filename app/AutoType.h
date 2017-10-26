@@ -14,7 +14,7 @@ class AutoType : public DatastoreModel<AutoType>
 {
 	friend  DatastoreModel<AutoType>;
 	AutoType();
-	AutoType(uint32_t id, const std::string& naam);
+	AutoType(const std::string& naam);
 
 public:
 
