@@ -7,6 +7,10 @@
 
 #include "StaticDatastore.h"
 #include "Klant.h"
+#include "Reservering.h"
+#include "Verhuur.h"
+#include "AbbonomentType.h"
+
 #include <algorithm>
 
 StaticDatastore::StaticDatastore()
@@ -23,8 +27,13 @@ StaticDatastore::~StaticDatastore()
 	// TODO Auto-generated destructor stub
 }
 
+#define DEFINE_STORE(ModelType) \
+		template<> StaticDatastoreStoreage<ModelType, ModelType>::VectorType StaticDatastoreStoreage<ModelType, ModelType>::store
 
-std::vector<Klant> StaticDatastoreStoreage<Klant>::store {
-	Klant{102, 27364},
-};
+DEFINE_STORE(Klant);
+DEFINE_STORE(Reservering);
+DEFINE_STORE(Verhuur);
+DEFINE_STORE(AbbonomentType);
+
+
 

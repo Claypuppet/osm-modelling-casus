@@ -7,14 +7,3 @@
 
 #include "ReserveringRepo.h"
 
-ReserveringRepo::ReserveringRepo()
-{
-	// TODO Auto-generated constructor stub
-
-}
-
-ReserveringRepo::~ReserveringRepo()
-{
-	// TODO Auto-generated destructor stub
-}
-

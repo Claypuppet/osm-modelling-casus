@@ -37,6 +37,7 @@ private:
 	cui::CUI mCUI;
 
 	StaticDatastore mDatastore;
+	StaticDatastoreNew mNewDataStore;
 	KlantRepo<StaticDatastore> mKlantRepo;
 };
 
