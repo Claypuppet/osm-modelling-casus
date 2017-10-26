@@ -16,6 +16,7 @@
 
 class Boete : public DatastoreModel<Boete>, public Product
 {
+	friend DatastoreModel<Boete>;
 
 public:
 	Geld getKosten();

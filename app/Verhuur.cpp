@@ -9,6 +9,7 @@
 #include "Product.h"
 #include "Deelauto.h"
 #include "Application.h"
+#include "Boete.h"
 
 Verhuur::Verhuur()
 : incheckMoment(0)
@@ -26,14 +27,16 @@ Verhuur::Verhuur(std::shared_ptr<Reservering> reservering, uint32_t incheckMomen
 
 Geld Verhuur::berekenTeLaatBoeteKosten()
 {
-	/* TODO
-	int32_t deltaSec = reservering->eindMoment - uitcheckMoment;
-	if(deltaSec < 0) {
-		deltaSec = -deltaSec;
-		float uren = (float)deltaSec / 60 / 60;
+	int32_t deltaSec = uitcheckMoment - reservering->eindMoment;
+	Geld kosten;
+	if(deltaSec > 0) {
+		tarieven::TariefSoortPtr boeteSoort = Application::getInstance().getBoeteTariefSoort();
+		uint32_t aantal = deltaSec / boeteSoort->periode;
+		tarieven::TariefPtr tarief = reservering->getTarief();
+		kosten = tarief->berekenKosten(0, boeteSoort, aantal);
 	}
-	*/
-	return 50;
+
+	return kosten;
 }
 
 void Verhuur::setIncheckMoment(uint32_t moment)
@@ -51,6 +54,12 @@ void Verhuur::voltooi()
 	if(!reservering->deelauto->checkOpLocatie()) {
 		reservering->deelauto->verhuurVoltooid();
 		setUitcheckMoment(Application::getNowMoment());
+		if(uitcheckMoment > reservering->eindMoment){
+			Geld kosten = berekenTeLaatBoeteKosten();
+			std::shared_ptr<Boete> boete = Boete::Create(kosten, "TE LAAT TERUG GEBRACHT!! :((");
+			reservering->addBoete(boete);
+		}
+		reservering->maakFactuur();
 	}
 	else {
 

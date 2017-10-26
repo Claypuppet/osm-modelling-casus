@@ -20,6 +20,7 @@ class Deelauto;
 class Reservering : public DatastoreModel<Reservering>, public Product
 {
 	friend DatastoreModel<Klant>;
+	friend Verhuur;
 	Reservering();
 	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant, std::shared_ptr<Deelauto>& deelauto);
 	virtual ~Reservering();
