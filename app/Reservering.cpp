@@ -6,15 +6,43 @@
  */
 
 #include "Reservering.h"
+#include "Verhuur.h"
+#include "Klant.h"
+
+#include <stdexcept>
 
 Reservering::Reservering()
+: id(0)
+, beginMoment(0)
+, eindMoment(0)
+, klant(nullptr)
+, verhuur(nullptr)
 {
-	// TODO Auto-generated constructor stub
-
 }
 
 Reservering::~Reservering()
 {
-	// TODO Auto-generated destructor stub
 }
 
+Reservering::Reservering(uint32_t id, uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant)
+: id(id)
+, beginMoment(beginMoment)
+, eindMoment(eindMoment)
+, klant(klant)
+, verhuur(nullptr)
+{
+	if(!klant)
+		throw std::logic_error("Reservering moet tot een klant behoren");
+}
+
+std::shared_ptr<Verhuur> Reservering::verzilveren()
+{
+	if(verhuur)
+		throw std::logic_error("Reservering is al verzilvert");
+	return verhuur;
+}
+
+bool Reservering::isIngecheckt()
+{
+	return verhuur != nullptr;
+}
