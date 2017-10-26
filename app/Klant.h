@@ -38,4 +38,6 @@ public:
 	std::shared_ptr<AbbonomentType> abbonomentType;
 };
 
+typedef std::shared_ptr<Klant> KlantPtr;
+
 #endif /* KLANT_H_ */

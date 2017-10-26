@@ -11,15 +11,16 @@
 #include "DatastoreModel.h"
 #include "Product.h"
 #include "Tarief.h"
+#include "Klant.h"
 
-class Klant;
 class Verhuur;
+class Deelauto;
 
 class Reservering : public DatastoreModel<Reservering>, public Product
 {
 	friend DatastoreModel<Klant>;
 	Reservering();
-	Reservering(uint32_t id, uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant);
+	Reservering(uint32_t id, uint32_t beginMoment , uint32_t eindMoment, KlantPtr& klant);
 	~Reservering();
 
 public:
@@ -30,7 +31,8 @@ public:
 
 	uint32_t					beginMoment;
 	uint32_t					eindMoment;
-	std::shared_ptr<Klant>		klant;
+	KlantPtr					klant;
+	std::shared_ptr<Deelauto>	deelauto;
 	std::shared_ptr<Verhuur>	verhuur;
 
 public:

@@ -30,10 +30,12 @@ Geld Tarief::berekenKosten(uint32_t aantalKilometers, TariefSoortPtr soort,
 
 TariefSoortPrijsPtr Tarief::getTariefSoortPrijs(const TariefSoortPtr& soort)
 {
-	auto res = std::find_if(prijzen.begin(), prijzen.end(), [soort](const TariefSoortPrijsPtr& tsp){ return tsp->soort->id == soort->id;});
-	if(res == prijzen.end())
+	auto soortPrijs = std::find_if(prijzen.begin(), prijzen.end(),
+			[soort](const TariefSoortPrijsPtr& tsp){ return tsp->soort->id == soort->id;});
+
+	if(soortPrijs == prijzen.end())
 		throw std::logic_error("Tarief soort niet ondersteunt door dit tarief");
-	return res;
+	return soortPrijs;
 }
 
 Geld Tarief::getKilometerPrijs(uint32_t aantalKilometers)
