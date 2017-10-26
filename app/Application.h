@@ -41,11 +41,14 @@ public:
 	KlantRepo<StaticDatastore>& getKlantRepo();
 	VerhuurRepo<StaticDatastore>& getVehuurRepo();
 	TariefRepo<StaticDatastore>& getTariefRepo();
+	tarieven::TariefSoortPtr getBoeteTariefSoort() const;
+	void setBoeteTariefSoort(tarieven::TariefSoortPtr boeteTariefSoort);
 
 private:
 
 	bool	mQuit;
 	cui::CUI mCUI;
+	tarieven::TariefSoortPtr boeteTariefSoort;
 
 	StaticDatastore mDatastore;
 	KlantRepo<StaticDatastore> mKlantRepo;

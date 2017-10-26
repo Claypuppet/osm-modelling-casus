@@ -33,6 +33,8 @@ protected:
 protected:
 	Product() = default;
 	Product(boeteList boetes) : boetes(boetes){};
+	void addBoete(const BoetePtr b);
+	void maakFactuur();
 
 };
 

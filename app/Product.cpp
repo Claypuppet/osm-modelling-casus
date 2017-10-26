@@ -22,3 +22,13 @@ Geld Product::getTotaalKosten()
 {
 	return getKosten() + getExtraKosten();
 }
+
+void Product::addBoete(const BoetePtr b)
+{
+	boetes.push_back(b);
+	// TODO: BoeteRepo.save boete, niet voor static repo voorlopig
+}
+
+void Product::maakFactuur()
+{
+}

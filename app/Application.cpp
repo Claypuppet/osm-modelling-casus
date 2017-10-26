@@ -69,3 +69,13 @@ TariefRepo<StaticDatastore>& Application::getTariefRepo()
 {
 	return mTariefRepo;
 }
+
+tarieven::TariefSoortPtr Application::getBoeteTariefSoort() const
+{
+	return boeteTariefSoort;
+}
+
+void Application::setBoeteTariefSoort(tarieven::TariefSoortPtr boeteTariefSoort)
+{
+	this->boeteTariefSoort = boeteTariefSoort;
+}

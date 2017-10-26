@@ -54,6 +54,9 @@ void Verhuur::voltooi()
 	if(!reservering->deelauto->checkOpLocatie()) {
 		reservering->deelauto->verhuurVoltooid();
 		setUitcheckMoment(Application::getNowMoment());
+<<<<<<< HEAD
+		return;
+=======
 		if(uitcheckMoment > reservering->eindMoment){
 			Geld kosten = berekenTeLaatBoeteKosten();
 			std::shared_ptr<Boete> boete = Boete::Create(kosten, "TE LAAT TERUG GEBRACHT!! :((");
@@ -63,6 +66,7 @@ void Verhuur::voltooi()
 	}
 	else {
 
+>>>>>>> 51c1bbf5150b7028d740123d6ee917d67db6b034
 	}
 }
 
