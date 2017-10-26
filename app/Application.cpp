@@ -17,6 +17,7 @@
 Application::Application()
 : mQuit(false)
 , mKlantRepo(mDatastore)
+, mVehuurRepo(mDatastore)
 {
 	// TODO Auto-generated constructor stub
 
@@ -57,3 +58,9 @@ KlantRepo<StaticDatastore>& Application::getKlantRepo()
 {
 	return mKlantRepo;
 }
+
+VerhuurRepo<StaticDatastore>& Application::getVehuurRepo()
+{
+	return mVehuurRepo;
+}
+

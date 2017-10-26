@@ -10,6 +10,7 @@
 
 #include "IDataStore.h"
 #include "Geld.h"
+#include "Verhuur.h"
 #include <memory>
 
 class Klant;
@@ -26,6 +27,7 @@ public:
 
 
 	std::shared_ptr<Verhuur> getActiefVerhuur(const std::shared_ptr<Klant>& klant);
+	void save(std::shared_ptr<Verhuur>& verhuur);
 
 
 
@@ -39,6 +41,12 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 		const std::shared_ptr<Klant>& klant)
 {
 	return nullptr;
+}
+
+template<typename DataStoreType>
+inline void VerhuurRepo<DataStoreType>::save(std::shared_ptr<Verhuur>& verhuur)
+{
+	mDataStore.saveModel(verhuur, ModelById<uint32_t>(verhuur->id));
 }
 
 #endif /* VERHUURREPO_H_ */

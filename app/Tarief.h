@@ -27,7 +27,7 @@ public:
 	Geld berekenKosten(uint32_t aantalKilometers, TariefSoortPtr soort, uint32_t aantal);
 
 private:
-	Tarief::Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen);
+	Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen);
 	TariefSoortPrijsPtr getTariefSoortPrijs(const TariefSoortPtr& soort);
 	Geld getKilometerPrijs(uint32_t aantalKilometers);
 };

@@ -11,8 +11,11 @@
 #include "Singleton.h"
 #include "cui/CUI.h"
 
-#include "KlantRepo.h"
 #include "StaticDatastore.h"
+#include "KlantRepo.h"
+#include "VerhuurRepo.h"
+
+
 #include <chrono>
 
 class Application : public Singleton<Application>
@@ -35,7 +38,7 @@ public:
 
 	StaticDatastore& getDataStore();
 	KlantRepo<StaticDatastore>& getKlantRepo();
-
+	VerhuurRepo<StaticDatastore>& getVehuurRepo();
 
 private:
 
@@ -43,8 +46,8 @@ private:
 	cui::CUI mCUI;
 
 	StaticDatastore mDatastore;
-	StaticDatastoreNew mNewDataStore;
 	KlantRepo<StaticDatastore> mKlantRepo;
+	VerhuurRepo<StaticDatastore> mVehuurRepo;
 };
 
 #endif /* APPLICATION_H_ */

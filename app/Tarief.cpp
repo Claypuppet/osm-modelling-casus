@@ -35,7 +35,7 @@ TariefSoortPrijsPtr Tarief::getTariefSoortPrijs(const TariefSoortPtr& soort)
 
 	if(soortPrijs == prijzen.end())
 		throw std::logic_error("Tarief soort niet ondersteunt door dit tarief");
-	return soortPrijs;
+	return *soortPrijs;
 }
 
 Geld Tarief::getKilometerPrijs(uint32_t aantalKilometers)

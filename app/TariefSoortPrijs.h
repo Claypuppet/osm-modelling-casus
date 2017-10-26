@@ -22,7 +22,6 @@ public:
 	virtual ~TariefSoortPrijs() = default;
 	Geld berekenKosten(uint32_t aantalPeriodes);
 
-private:
 	TariefSoortPtr soort;
 	Geld prijs;
 
