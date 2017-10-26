@@ -6,6 +6,8 @@
  */
 
 #include "Deelauto.h"
+#include "RedcarModule.h"
+#include "Standplaats.h"
 
 Deelauto::Deelauto()
 {
@@ -26,4 +28,24 @@ std::shared_ptr<Standplaats> Deelauto::getStandPlaats() const
 std::shared_ptr<RedcarModule> Deelauto::getRedcarModule() const
 {
 	return redcardModule;
+}
+
+std::shared_ptr<AutoType> Deelauto::getAutoType() const
+{
+	return type;
+}
+
+void Deelauto::verhuurActief(uint32_t pasNummer)
+{
+	redcardModule->setPasNummer(pasNummer);
+}
+
+bool Deelauto::checkOpLocatie() const
+{
+	return redcardModule->getLocatie() == standplaats->locatie;
+}
+
+void Deelauto::verhuurVoltooid()
+{
+	redcardModule->setPasNummer(0);
 }

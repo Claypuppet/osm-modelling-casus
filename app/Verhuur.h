@@ -25,6 +25,13 @@ public:
 
 	Geld berekenTeLaatBoeteKosten();
 
+	void setIncheckMoment(uint32_t moment);
+	void setUitcheckMoment(uint32_t moment);
+	void voltooi();
+	Geld bekerenTeLaatBoeteKosten();
+
+
+
 public:
 	std::shared_ptr<Reservering> reservering;
 	uint32_t incheckMoment;

@@ -27,6 +27,11 @@ public:
 
 	std::shared_ptr<Standplaats> getStandPlaats() const;
 	std::shared_ptr<RedcarModule> getRedcarModule() const;
+	std::shared_ptr<AutoType> getAutoType() const;
+
+	void verhuurActief(uint32_t pasNummer);
+	bool checkOpLocatie() const;
+	void verhuurVoltooid();
 
 public:
 	std::string kenteken;

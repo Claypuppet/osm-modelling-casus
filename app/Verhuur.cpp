@@ -7,6 +7,8 @@
 
 #include "Verhuur.h"
 #include "Product.h"
+#include "Deelauto.h"
+#include "Application.h"
 
 Verhuur::Verhuur()
 : incheckMoment(0)
@@ -33,3 +35,26 @@ Geld Verhuur::berekenTeLaatBoeteKosten()
 	*/
 	return 50;
 }
+
+void Verhuur::setIncheckMoment(uint32_t moment)
+{
+	incheckMoment = moment;
+}
+
+void Verhuur::setUitcheckMoment(uint32_t moment)
+{
+	uitcheckMoment = moment;
+}
+
+void Verhuur::voltooi()
+{
+	if(!reservering->deelauto->checkOpLocatie()) {
+		reservering->deelauto->verhuurVoltooid();
+		setUitcheckMoment(Application::getNowMoment());
+	}
+	else {
+
+	}
+}
+
+

@@ -36,11 +36,29 @@ private:
 };
 
 
+struct ActiefVerhuurVanKlant {
+	ActiefVerhuurVanKlant(const std::shared_ptr<Klant>& klant)
+	: klant(klant)
+	{
+	}
+
+	bool operator()(const std::shared_ptr<Verhuur>& verhuur)
+	{
+		if(verhuur->reservering->klant->id != klant->id)
+			return false;
+		return verhuur->uitcheckMoment == 0;
+	}
+
+	const std::shared_ptr<Klant>& klant;
+};
+
+
 template<typename DataStoreType>
 inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 		const std::shared_ptr<Klant>& klant)
 {
-	return nullptr;
+	std::shared_ptr<Verhuur> result;
+	return mDataStore.loadModel(result, ActiefVerhuurVanKlant(klant));
 }
 
 template<typename DataStoreType>
