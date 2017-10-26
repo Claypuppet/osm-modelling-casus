@@ -11,9 +11,16 @@
 #include "Verhuur.h"
 #include "Deelauto.h"
 #include "AutoType.h"
+#include "AbonnementType.h"
+#include "TariefSoort.h"
+#include "Tarief.h"
+#include "TariefSoortPrijs.h"
+#include "Application.h"
+#include "Standplaats.h"
+
 
 #include <algorithm>
-#include "AbonnementType.h"
+
 
 StaticDatastore::StaticDatastore()
 {
@@ -38,10 +45,21 @@ void StaticDatastore::initStaticTestData()
 	auto stationWagen = createModel<AutoType>(AutoType::Create("Stationwagen"));
 
 	// Abbonomenten
-	createModel<AbonnementType>(AbonnementType::Create("Gratis", 0));
-	createModel<AbonnementType>(AbonnementType::Create("Betaald", Geld(49, 95)));
+	auto abboGratis = createModel<AbonnementType>(AbonnementType::Create("Gratis", 0));
+	auto abboBetlaad = createModel<AbonnementType>(AbonnementType::Create("Betaald", Geld(49, 95)));
+
+	// Tariefsoorten
+	auto tariefPerUur = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per uur", 0, 3600));
+	auto tariefPerDag = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per dag", 0, 3600*24));
+	auto tariefPerWerk = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per week", 0, 3600*24*7));
+	auto tatiefPerWeekend = createModel<tarieven::TariefSoort>(tarieven::TariefSoort>::Create("Per weekend", (1 << 6) | (1 << 7), 3600*24*2));
+
+	// Standplaatsen
+	//auto standPlaats1 = createMode<Standplaats>(Standplaats::Create())
 
 
-	// Klanten
-	//Klant::Create(0, 112233, )
+	//Application::getInstance().setBoeteTariefSoort(tariefPerUur);
+
+
+
 }

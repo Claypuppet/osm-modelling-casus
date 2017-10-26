@@ -47,5 +47,5 @@ bool Deelauto::checkOpLocatie() const
 
 void Deelauto::verhuurVoltooid()
 {
-	redcardModule->setPasNummer(0);
+	redcardModule->reset();
 }

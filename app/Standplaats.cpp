@@ -14,8 +14,9 @@ Standplaats::Standplaats()
 
 }
 
-Standplaats::Standplaats(uint32_t locatie)
+Standplaats::Standplaats(uint32_t locatie, const std::string& naam)
 : locatie(locatie)
+, naam(naam)
 {
 }
 

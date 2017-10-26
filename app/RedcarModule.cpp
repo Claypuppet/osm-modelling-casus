@@ -19,7 +19,6 @@ RedcarModule::RedcarModule(float aantalKilometers, uint32_t pasNummer)
 : aantalKilometers(aantalKilometers)
 , pasNummer(pasNummer)
 {
-
 }
 
 uint32_t RedcarModule::getLocatie() const
@@ -27,9 +26,10 @@ uint32_t RedcarModule::getLocatie() const
 	return 1;
 }
 
-void RedcarModule::setPasNummer(uint32_t pasNummer)
+void RedcarModule::reset()
 {
-	this->pasNummer = pasNummer;
+	this->pasNummer = 0;
+	this->aantalKilometers = 0;
 }
 
 uint32_t RedcarModule::getPasNummer() const
@@ -41,4 +41,9 @@ uint32_t RedcarModule::getPasNummer() const
 float RedcarModule::getAantalKilometers() const
 {
 	return aantalKilometers;
+}
+
+void RedcarModule::setPasnummer(uint32_t pasNummer)
+{
+	return
 }

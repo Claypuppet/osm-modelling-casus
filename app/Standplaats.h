@@ -12,8 +12,9 @@
 
 class Standplaats : public DatastoreModel<Standplaats>
 {
+	friend DatastoreModel<Standplaats>;
 	Standplaats();
-	Standplaats(uint32_t locatie);
+	Standplaats(uint32_t locatie, const std::string& naam);
 public:
 
 	~Standplaats() = default;
@@ -22,6 +23,7 @@ public:
 
 public:
 	uint32_t locatie;
+	std::string naam;
 };
 
 #endif /* STANDPLAATS_H_ */

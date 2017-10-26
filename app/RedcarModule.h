@@ -18,12 +18,13 @@ public:
 	~RedcarModule() = default;
 
 	uint32_t getLocatie() const;
-	void setPasNummer(uint32_t pasNummer);
+	void reset();
 	uint32_t getPasNummer() const;
+	void setPasnummer(uint32_t pasNummer);
 	float getAantalKilometers() const;
 
 public:
-	float		aantalKilometers;
+	uint32_t	aantalKilometers;
 	uint32_t	pasNummer;
 };
 

@@ -51,9 +51,7 @@ void Verhuur::voltooi()
 	if(!reservering->deelauto->checkOpLocatie()) {
 		reservering->deelauto->verhuurVoltooid();
 		setUitcheckMoment(Application::getNowMoment());
-	}
-	else {
-
+		return;
 	}
 }
 
