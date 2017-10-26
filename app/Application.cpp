@@ -18,6 +18,7 @@ Application::Application()
 : mQuit(false)
 , mKlantRepo(mDatastore)
 , mVehuurRepo(mDatastore)
+, mTariefRepo(mDatastore)
 {
 	// TODO Auto-generated constructor stub
 

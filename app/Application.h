@@ -14,6 +14,7 @@
 #include "StaticDatastore.h"
 #include "KlantRepo.h"
 #include "VerhuurRepo.h"
+#include "TariefRepo.h"
 
 
 #include <chrono>
@@ -48,6 +49,7 @@ private:
 	StaticDatastore mDatastore;
 	KlantRepo<StaticDatastore> mKlantRepo;
 	VerhuurRepo<StaticDatastore> mVehuurRepo;
+	TariefRepo<StaticDatastore> mTariefRepo;
 };
 
 #endif /* APPLICATION_H_ */
