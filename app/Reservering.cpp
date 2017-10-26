@@ -46,7 +46,8 @@ std::shared_ptr<Verhuur> Reservering::verzilveren()
 		throw std::logic_error("Reservering is al verzilvert");
 
 
-
+	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::getNowMoment());
+	Application::getInstance().getVehuurRepo().save(verhuur);
 
 	return verhuur;
 }

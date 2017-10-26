@@ -27,7 +27,7 @@ public:
 
 
 	std::shared_ptr<Verhuur> getActiefVerhuur(const std::shared_ptr<Klant>& klant);
-	void save(std::shared_ptr<Verhuur>& verhuur);
+	void save(std::shared_ptr<Verhuur> verhuur);
 
 
 
@@ -44,9 +44,9 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 }
 
 template<typename DataStoreType>
-inline void VerhuurRepo<DataStoreType>::save(std::shared_ptr<Verhuur>& verhuur)
+inline void VerhuurRepo<DataStoreType>::save(std::shared_ptr<Verhuur> verhuur)
 {
-	mDataStore.saveModel(verhuur, ModelById<uint32_t>(verhuur->id));
+	mDataStore.saveModel(verhuur, ModelById<Verhuur>(verhuur->id));
 }
 
 #endif /* VERHUURREPO_H_ */

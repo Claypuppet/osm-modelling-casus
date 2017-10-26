@@ -49,7 +49,7 @@ private:
 	}
 
 	template<typename SelectPredicate>
-	static bool save(const ModelPtr model, const SelectPredicate& selectPredicate)
+	static bool save(ModelPtr& model, const SelectPredicate& selectPredicate)
 	{
 		auto iter = std::find_if(store.begin(), store.end(), selectPredicate);
 		if(iter != store.end()) {
@@ -92,20 +92,20 @@ protected:
 
 
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	typename ModelType::ModelPtr loadModel(const SelectPredicate& predicate)
+	std::shared_ptr<ModelType> loadModel(const SelectPredicate& predicate)
 	{
 		return StaticDatastoreStoreage<ModelType>::load(predicate);
 	}
 
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	typename ModelType::ModelPtr saveModel(typename ModelType::ModelPtr& model, const SelectPredicate& predicate)
+	bool saveModel(std::shared_ptr<ModelType>& model, const SelectPredicate& predicate)
 	{
 		return StaticDatastoreStoreage<ModelType>::save(model, predicate);
 	}
 
 
 	template<typename ModelType>
-	typename ModelType::ModelPtr createModel(typename ModelType::ModelPtr model)
+	std::shared_ptr<ModelType> createModel(std::shared_ptr<ModelType> model)
 	{
 		StaticDatastoreStoreage<ModelType>::create(model);
 		return model;

@@ -16,7 +16,7 @@ class Verhuur : public DatastoreModel<Verhuur>
 {
 	friend DatastoreModel<Verhuur>;
 	Verhuur();
-	Verhuur(std::shared_ptr<Reservering>& reservering, uint32_t incheckMoment, uint32_t uitcheckMoment = 0);
+	Verhuur(std::shared_ptr<Reservering> reservering, uint32_t incheckMoment, uint32_t uitcheckMoment = 0);
 
 
 

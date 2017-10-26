@@ -14,7 +14,7 @@ Verhuur::Verhuur()
 {
 }
 
-Verhuur::Verhuur(std::shared_ptr<Reservering>& reservering, uint32_t incheckMoment, uint32_t uitcheckMoment)
+Verhuur::Verhuur(std::shared_ptr<Reservering> reservering, uint32_t incheckMoment, uint32_t uitcheckMoment)
 : reservering(reservering)
 , incheckMoment(incheckMoment)
 , uitcheckMoment(uitcheckMoment)

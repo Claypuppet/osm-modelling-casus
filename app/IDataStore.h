@@ -23,9 +23,9 @@ struct ModelById
 {
 	ModelById(const ModelIdFieldType& id) : id(id) {}
 
-	bool operator()(const ModelType& model)
+	bool operator()(const std::shared_ptr<ModelType>& model)
 	{
-		return model.id == id;
+		return model->id == id;
 	}
 
 public:
@@ -114,7 +114,7 @@ public:
 	struct HasId <T, decltype((void) T::x, 0)> : std::true_type {};
 
 
-	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, typename ValidModelType<ModelType>::type>
+	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
 	typename ModelType::ModelPtr loadModel(const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
@@ -125,13 +125,13 @@ public:
 		return d.loadModel(predicate);
 	}
 
-	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>, typename ValidModelType<ModelType>::type>
-	typename ModelType::ModelPtr saveModel(const ModelType& in, const SelectPredicate& predicate)
+	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
+	bool saveModel(std::shared_ptr<ModelType> in, const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
-		// prevent inf recursion
-		if(&d.saveModel<ModelType, SelectPredicate> == &saveModel)
-			throw std::logic_error("derrived did not overload this method");
+		//prevent inf recursion
+		//if(&d.saveModel<ModelType, SelectPredicate> == &saveModel)
+		//	throw std::logic_error("derrived did not overload this method");
 
 		return d.saveModel(in, predicate);
 	}
