@@ -46,3 +46,13 @@ bool Reservering::isIngecheckt()
 {
 	return verhuur != nullptr;
 }
+
+tarieven::TariefPtr Reservering::getTarief()
+{
+	return NULL;
+}
+
+Geld Reservering::getKosten()
+{
+	return Geld(0);
+}
