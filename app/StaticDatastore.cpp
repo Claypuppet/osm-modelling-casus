@@ -10,6 +10,7 @@
 #include "Reservering.h"
 #include "Verhuur.h"
 #include "AbbonomentType.h"
+#include "Deelauto.h"
 
 #include <algorithm>
 
@@ -27,19 +28,16 @@ StaticDatastore::~StaticDatastore()
 	// TODO Auto-generated destructor stub
 }
 
-#define DEFINE_STORE(ModelType) \
-		template<> StaticDatastoreStoreage<ModelType, ModelType>::VectorType StaticDatastoreStoreage<ModelType, ModelType>::store
-
-DEFINE_STORE(Klant);
-DEFINE_STORE(Reservering);
-DEFINE_STORE(Verhuur);
-DEFINE_STORE(AbbonomentType);
-
 
 void StaticDatastore::initStaticTestData()
 {
+
+	createModel<Deelauto>(Deelauto::Create());
+	//&saveModel<Deelauto, ModelById>;
+
+
 	// Abbonomenten
-	createModel<AbbonomentType>(AbbonomentType::Create(0, "Gratis", 0));
+	//createModel<AbbonomentType>(AbbonomentType::Create(0, "Gratis", 0));
 
 
 	// Klanten

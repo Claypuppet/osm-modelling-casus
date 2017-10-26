@@ -8,9 +8,9 @@
 #ifndef STATICDATASTORE_H_
 #define STATICDATASTORE_H_
 
+#include "Singleton.h"
 #include "IDataStore.h"
 #include "DatastoreModel.h"
-#include "Singleton.h"
 #include "ctti/type_id.hpp"
 
 #include <functional>
@@ -21,17 +21,17 @@
 #include <map>
 #include <unordered_map>
 
-class Klant;
+
 class StaticDatastore;
+//class Klant;S
+//class Deelauto;
 
-template <typename ModelType, typename Enable = void>
-struct StaticDatastoreStoreage : public std::false_type {};
-
-
+//template <typename ModelType, typename Enable = void>
+//struct StaticDatastoreStoreage : public std::false_type {};
 
 
 template <typename ModelType>
-struct StaticDatastoreStoreage<ModelType, typename std::enable_if<std::is_convertible<ModelType,DatastoreModel<ModelType>>::value,ModelType>::type> : public std::true_type
+struct StaticDatastoreStoreage : public std::true_type
 {
 private:
 	friend StaticDatastore;
@@ -70,6 +70,12 @@ private:
 	static VectorType store;
 
 };
+
+template<typename ModelType>
+std::vector<typename ModelType::ModelPtr> StaticDatastoreStoreage<ModelType>::store;
+
+template<typename ModelType>
+std::atomic<uint32_t> StaticDatastoreStoreage<ModelType>::idCounter;
 
 
 class StaticDatastore : public IDataStore<StaticDatastore>
