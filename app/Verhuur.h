@@ -34,6 +34,7 @@ public:
 
 public:
 	std::shared_ptr<Reservering> reservering;
+	uint32_t aantalKilometers;
 	uint32_t incheckMoment;
 	uint32_t uitcheckMoment;
 
