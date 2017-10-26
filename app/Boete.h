@@ -19,11 +19,11 @@ class Boete : public DatastoreModel<Boete>, public Product
 
 public:
 	Geld getKosten();
+	virtual ~Boete() = default;
 
 private:
-	Boete(Geld kosten, std::string reden, uint32_t timeStamp) : kosten(kosten), reden(reden), timeStamp(timeStamp){};
-	Boete(Geld kosten, std::string reden): Boete(kosten, reden, 0){};
-	virtual ~Boete() = default;
+	Boete(Geld kosten, std::string reden, uint32_t timeStamp);
+	Boete(Geld kosten, std::string reden);
 
 private:
 	Geld kosten;

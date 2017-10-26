@@ -10,9 +10,18 @@
 //namespace producten
 //{
 
+Boete::Boete(Geld kosten, std::string reden, uint32_t timeStamp)
+: kosten(kosten), reden(reden), timeStamp(timeStamp)
+{
+}
+
+Boete::Boete(Geld kosten, std::string reden)
+: kosten(kosten), reden(reden), timeStamp(1234567890)
+{
+}
+
 Geld Boete::getKosten()
 {
 	return kosten;
 }
-
 //} /* namespace producten */

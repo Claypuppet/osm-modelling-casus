@@ -10,15 +10,16 @@
 namespace tarieven
 {
 
-TariefSoortPrijs::TariefSoortPrijs()
+TariefSoortPrijs::TariefSoortPrijs(TariefSoortPtr soort, Geld prijs)
+: soort(soort), prijs(prijs)
 {
-	// TODO Auto-generated constructor stub
-
 }
 
-TariefSoortPrijs::~TariefSoortPrijs()
+Geld tarieven::TariefSoortPrijs::berekenKosten(uint32_t aantalPeriodes)
 {
-	// TODO Auto-generated destructor stub
+	return prijs * aantalPeriodes;
 }
+
 
 } /* namespace tarieven */
+

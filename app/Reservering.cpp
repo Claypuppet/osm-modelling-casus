@@ -48,6 +48,7 @@ bool Reservering::isIngecheckt()
 
 tarieven::TariefPtr Reservering::getTarief()
 {
+
 	return NULL;
 }
 
