@@ -6,6 +6,7 @@
  */
 
 #include "Boete.h"
+#include "Application.h"
 
 //namespace producten
 //{
@@ -16,7 +17,7 @@ Boete::Boete(Geld kosten, std::string reden, uint32_t timeStamp)
 }
 
 Boete::Boete(Geld kosten, std::string reden)
-: kosten(kosten), reden(reden), timeStamp(1234567890)
+: kosten(kosten), reden(reden), timeStamp(Application::getNowMoment())
 {
 }
 
