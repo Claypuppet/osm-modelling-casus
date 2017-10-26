@@ -13,6 +13,7 @@
 
 #include "KlantRepo.h"
 #include "StaticDatastore.h"
+#include <chrono>
 
 class Application : public Singleton<Application>
 {
@@ -25,6 +26,11 @@ public:
 	void initUI();
 
 	int main(int argc, char* argv[]);
+
+	static uint32_t getNowMoment()
+	{
+		return std::chrono::time_point_cast<std::chrono::seconds>(std::chrono::system_clock::now()).time_since_epoch().count();
+	}
 
 
 	StaticDatastore& getDataStore();

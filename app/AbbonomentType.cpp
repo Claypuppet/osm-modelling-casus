@@ -8,14 +8,11 @@
 #include "AbbonomentType.h"
 
 AbbonomentType::AbbonomentType()
-: id(0)
 {
-	// TODO Auto-generated constructor stub
 }
 
-AbbonomentType::AbbonomentType(uint32_t id, const std::string& naam,const Geld& kosten)
-: id(id)
-, naam(naam)
+AbbonomentType::AbbonomentType(const std::string& naam,const Geld& kosten)
+: naam(naam)
 , kosten(kosten)
 {
 }

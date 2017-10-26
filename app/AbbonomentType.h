@@ -21,7 +21,7 @@ class AbbonomentType : public DatastoreModel<AbbonomentType>
 {
 	friend DatastoreModel<AbbonomentType>;
 	AbbonomentType();
-	AbbonomentType(uint32_t id, const std::string& naam, const Geld& kosten);
+	AbbonomentType(const std::string& naam, const Geld& kosten);
 
 public:
 	~AbbonomentType();

@@ -8,6 +8,7 @@
 #include "Reservering.h"
 #include "Verhuur.h"
 #include "Klant.h"
+#include "ReserveringRepo.h"
 
 #include <stdexcept>
 
@@ -23,21 +24,27 @@ Reservering::~Reservering()
 {
 }
 
-Reservering::Reservering(uint32_t id, uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant)
-: DatastoreModel(id)
-, beginMoment(beginMoment)
+Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant, std::shared_ptr<Deelauto>& deelauto)
+: beginMoment(beginMoment)
 , eindMoment(eindMoment)
 , klant(klant)
+, deelauto(deelauto)
 , verhuur(nullptr)
 {
 	if(!klant)
 		throw std::logic_error("Reservering moet tot een klant behoren");
+	if(!deelauto)
+		throw std::logic_error("Reservering moet tot een deelauto behoren");
 }
 
 std::shared_ptr<Verhuur> Reservering::verzilveren()
 {
 	if(verhuur)
 		throw std::logic_error("Reservering is al verzilvert");
+
+
+
+
 	return verhuur;
 }
 

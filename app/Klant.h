@@ -18,16 +18,8 @@ class Klant : public DatastoreModel<Klant>
 {
 	friend DatastoreModel<Klant>;
 
-	Klant()
-	: DatastoreModel(0)
-	, pasNummmer(0)
-	{}
-
-	Klant(uint32_t id, uint32_t pasNummer, std::shared_ptr<AbbonomentType>& abbonomentType)
-	: DatastoreModel(id)
-	, pasNummmer(pasNummer)
-	, abbonomentType(abbonomentType)
-	{}
+	Klant();
+	Klant(uint32_t pasNummer, std::shared_ptr<AbbonomentType>& abbonomentType);
 
 
 public:

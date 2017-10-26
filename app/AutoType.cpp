@@ -12,9 +12,8 @@ AutoType::AutoType()
 
 }
 
-AutoType::AutoType(uint32_t id, const std::string& naam)
-: DatastoreModel(id)
-, naam(naam)
+AutoType::AutoType(const std::string& naam)
+: naam(naam)
 {
 }
 
