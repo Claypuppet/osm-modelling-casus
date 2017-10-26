@@ -115,18 +115,21 @@ public:
 
 
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	typename ModelType::ModelPtr loadModel(const SelectPredicate& predicate)
+	std::shared_ptr<ModelType> loadModel(const std::shared_ptr<ModelType>& out, const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
 		// prevent inf recursion
-		if(&d.loadModel<ModelType, SelectPredicate> == &loadModel)
-			throw std::logic_error("derrived did not overload this method");
+		//if(&d.loadModel<ModelType, SelectPredicate> == &loadModel)
+		//	throw std::logic_error("derrived did not overload this method");
 
-		return d.loadModel(predicate);
+		return d.loadModel(out, predicate);
 	}
 
+
+
+
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	bool saveModel(std::shared_ptr<ModelType> in, const SelectPredicate& predicate)
+	std::shared_ptr<ModelType> saveModel(std::shared_ptr<ModelType> in, const SelectPredicate& predicate)
 	{
 		Derrived& d = static_cast<Derrived&>(*this);
 		//prevent inf recursion

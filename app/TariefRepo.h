@@ -31,7 +31,8 @@ public:
 		{
 			return (t->autoType->id == aut->id && t->aboType->id == abt->id);
 		};
-		tarieven::TariefPtr tarief = mDataStore.loadModel(tL);
+		auto tp = tarieven::TariefPtr();
+		tarieven::TariefPtr tarief = mDataStore.loadModel(tp, tL);
 		return tarief;
 	}
 

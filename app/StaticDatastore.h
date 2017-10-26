@@ -92,15 +92,15 @@ protected:
 
 
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	std::shared_ptr<ModelType> loadModel(const SelectPredicate& predicate)
+	std::shared_ptr<ModelType> loadModel(const std::shared_ptr<ModelType>& out, const SelectPredicate& predicate)
 	{
 		return StaticDatastoreStoreage<ModelType>::load(predicate);
 	}
 
 	template<typename ModelType, typename SelectPredicate=ModelById<ModelType>>
-	bool saveModel(std::shared_ptr<ModelType>& model, const SelectPredicate& predicate)
+	std::shared_ptr<ModelType> saveModel(std::shared_ptr<ModelType>& model, const SelectPredicate& predicate)
 	{
-		return StaticDatastoreStoreage<ModelType>::save(model, predicate);
+		return StaticDatastoreStoreage<ModelType>::save(model, predicate), model;
 	}
 
 
