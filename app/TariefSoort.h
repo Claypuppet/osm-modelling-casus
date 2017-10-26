@@ -19,7 +19,7 @@ class TariefSoort : public DatastoreModel<TariefSoort>
 public:
 	virtual ~TariefSoort() = default;
 
-private:
+public:
 	std::string naam;
 	uint8_t weekMask;
 	uint32_t periode;

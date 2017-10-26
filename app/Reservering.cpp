@@ -72,7 +72,17 @@ tarieven::TariefPtr Reservering::getTarief()
 	return tarief;
 }
 
+uint32_t Reservering::getTariefSoortPeriodeAantal()
+{
+	uint32_t timeDelta = eindMoment - beginMoment;
+	uint32_t betalingPer = tariefSoort->periode;
+	return (timeDelta / betalingPer) + 1;
+}
+
 Geld Reservering::getKosten()
 {
-	return Geld(0);
+	tarieven::TariefPtr t = getTarief();
+	uint32_t aantal = getTariefSoortPeriodeAantal();
+	uint32_t kilometers = verhuur != NULL ? verhuur->aantalKilometers : 0;
+	return t->berekenKosten(kilometers, tariefSoort, aantal);
 }

@@ -11,6 +11,7 @@
 #include "DatastoreModel.h"
 #include "Product.h"
 #include "Tarief.h"
+#include "TariefSoort.h"
 #include "Klant.h"
 
 class Verhuur;
@@ -26,6 +27,7 @@ class Reservering : public DatastoreModel<Reservering>, public Product
 public:
 	std::shared_ptr<Verhuur>	verzilveren();
 	bool						isIngecheckt();
+	uint32_t 					getTariefSoortPeriodeAantal();
 
 public:
 
@@ -33,6 +35,7 @@ public:
 	uint32_t					eindMoment;
 	KlantPtr					klant;
 	std::shared_ptr<Deelauto>	deelauto;
+	tarieven::TariefSoortPtr 	tariefSoort;
 	std::shared_ptr<Verhuur>	verhuur;
 
 public:
