@@ -20,6 +20,9 @@
 
 namespace Producten
 {
+	using Core::BaseRepo;
+	using Core::Application;
+	using Klanten::Klant;
 
 struct ReserverMetKlantEnMoment
 {

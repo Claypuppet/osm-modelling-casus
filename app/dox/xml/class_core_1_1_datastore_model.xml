@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_datastore_model" kind="class" language="C++" prot="public">
+    <compoundname>Core::DatastoreModel</compoundname>
+    <basecompoundref refid="struct_core_1_1_i_datastore_model" prot="public" virt="non-virtual">Core::IDatastoreModel</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</basecompoundref>
+    <derivedcompoundref refid="class_deelautos_1_1_auto_type" prot="public" virt="non-virtual">Deelautos::AutoType</derivedcompoundref>
+    <derivedcompoundref refid="class_deelautos_1_1_deelauto" prot="public" virt="non-virtual">Deelautos::Deelauto</derivedcompoundref>
+    <derivedcompoundref refid="class_deelautos_1_1_standplaats" prot="public" virt="non-virtual">Deelautos::Standplaats</derivedcompoundref>
+    <derivedcompoundref refid="class_klanten_1_1_klant" prot="public" virt="non-virtual">Klanten::Klant</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_abonnement_type" prot="public" virt="non-virtual">Producten::AbonnementType</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_boete" prot="public" virt="non-virtual">Producten::Boete</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_reservering" prot="public" virt="non-virtual">Producten::Reservering</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_verhuur" prot="public" virt="non-virtual">Producten::Verhuur</derivedcompoundref>
+    <derivedcompoundref refid="class_redcard_module_1_1_redcar_module" prot="public" virt="non-virtual">RedcardModule::RedcarModule</derivedcompoundref>
+    <derivedcompoundref refid="class_tarieven_1_1_tarief" prot="public" virt="non-virtual">Tarieven::Tarief</derivedcompoundref>
+    <derivedcompoundref refid="class_tarieven_1_1_tarief_soort" prot="public" virt="non-virtual">Tarieven::TariefSoort</derivedcompoundref>
+    <derivedcompoundref refid="class_tarieven_1_1_tarief_soort_prijs" prot="public" virt="non-virtual">Tarieven::TariefSoortPrijs</derivedcompoundref>
+    <includes refid="_datastore_model_8h" local="no">DatastoreModel.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>ModelType</declname>
+        <defname>ModelType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" prot="public" static="no">
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>typedef std::shared_ptr&lt;ModelType&gt; Core::DatastoreModel&lt; ModelType &gt;::ModelPtr</definition>
+        <argsstring></argsstring>
+        <name>ModelPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="25" column="1" bodyfile="DatastoreModel.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" prot="public" static="no">
+        <type>std::weak_ptr&lt; ModelType &gt;</type>
+        <definition>typedef std::weak_ptr&lt;ModelType&gt; Core::DatastoreModel&lt; ModelType &gt;::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="26" column="1" bodyfile="DatastoreModel.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Core::DatastoreModel&lt; ModelType &gt;::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="46" column="1" bodyfile="DatastoreModel.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_1_1_datastore_model_1ae45356919b532cb8134753dec57c2df0" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Core::DatastoreModel&lt; ModelType &gt;::ModelType</definition>
+        <argsstring></argsstring>
+        <name>ModelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="49" column="1" bodyfile="DatastoreModel.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Core::DatastoreModel&lt; ModelType &gt;::~DatastoreModel</definition>
+        <argsstring>()=default</argsstring>
+        <name>~DatastoreModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" kindref="member">ModelPtr</ref></type>
+        <definition>ModelPtr Core::DatastoreModel&lt; ModelType &gt;::shared_from_this</definition>
+        <argsstring>()</argsstring>
+        <name>shared_from_this</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="31" column="1" bodyfile="DatastoreModel.h" bodystart="31" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Args</declname>
+            <defname>Args</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" kindref="member">ModelPtr</ref></type>
+        <definition>static ModelPtr Core::DatastoreModel&lt; ModelType &gt;::Create</definition>
+        <argsstring>(Args &amp;&amp;... args)</argsstring>
+        <name>Create</name>
+        <param>
+          <type>Args &amp;&amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="38" column="1" bodyfile="DatastoreModel.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_1_1_datastore_model_1a4919147a7f347456ebb0cc03533daf95" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core::DatastoreModel&lt; ModelType &gt;::DatastoreModel</definition>
+        <argsstring>()</argsstring>
+        <name>DatastoreModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="50" column="1" bodyfile="DatastoreModel.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_datastore_model_1a4dbc39cd945276a554a86a003fb22d55" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core::DatastoreModel&lt; ModelType &gt;::DatastoreModel</definition>
+        <argsstring>(uint32_t id)</argsstring>
+        <name>DatastoreModel</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="51" column="1" bodyfile="DatastoreModel.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>RedcardModule::RedcarModule&lt; RedcarModule &gt;</label>
+        <link refid="class_redcard_module_1_1_redcar_module"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="52">
+        <label>Producten::Boete&lt; Boete &gt;</label>
+        <link refid="class_producten_1_1_boete"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>Deelautos::Standplaats&lt; Standplaats &gt;</label>
+        <link refid="class_deelautos_1_1_standplaats"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Tarieven::Tarief&lt; Tarief &gt;</label>
+        <link refid="class_tarieven_1_1_tarief"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>Tarieven::TariefSoort&lt; TariefSoort &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_soort"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="58">
+        <label>Tarieven::TariefSoortPrijs&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_soort_prijs"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>Deelautos::Deelauto&lt; Deelauto &gt;</label>
+        <link refid="class_deelautos_1_1_deelauto"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>Deelautos::AutoType&lt; AutoType &gt;</label>
+        <link refid="class_deelautos_1_1_auto_type"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>Core::DatastoreModel&lt; ModelType &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>Producten::Reservering&lt; Reservering &gt;</label>
+        <link refid="class_producten_1_1_reservering"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>Klanten::Klant&lt; Klant &gt;</label>
+        <link refid="class_klanten_1_1_klant"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>Producten::AbonnementType&lt; AbonnementType &gt;</label>
+        <link refid="class_producten_1_1_abonnement_type"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>Producten::Verhuur&lt; Verhuur &gt;</label>
+        <link refid="class_producten_1_1_verhuur"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="60">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="61">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="59">
+        <label>Core::DatastoreModel&lt; ModelType &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="DatastoreModel.h" line="22" column="1" bodyfile="DatastoreModel.h" bodystart="21" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" prot="public" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>Create</name></member>
+      <member refid="class_core_1_1_datastore_model_1a4919147a7f347456ebb0cc03533daf95" prot="private" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>DatastoreModel</name></member>
+      <member refid="class_core_1_1_datastore_model_1a4dbc39cd945276a554a86a003fb22d55" prot="private" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>DatastoreModel</name></member>
+      <member refid="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" prot="public" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>id</name></member>
+      <member refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" prot="public" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>ModelPtr</name></member>
+      <member refid="class_core_1_1_datastore_model_1ae45356919b532cb8134753dec57c2df0" prot="private" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>ModelType</name></member>
+      <member refid="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" prot="public" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>ptr</name></member>
+      <member refid="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" prot="public" virt="non-virtual"><scope>Core::DatastoreModel</scope><name>shared_from_this</name></member>
+      <member refid="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" prot="public" virt="virtual"><scope>Core::DatastoreModel</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" virt="virtual"><scope>Core::DatastoreModel</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

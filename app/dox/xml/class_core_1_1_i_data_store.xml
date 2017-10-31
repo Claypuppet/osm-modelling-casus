@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_i_data_store" kind="class" language="C++" prot="public">
+    <compoundname>Core::IDataStore</compoundname>
+    <derivedcompoundref refid="class_core_1_1_static_datastore" prot="public" virt="non-virtual">Core::StaticDatastore</derivedcompoundref>
+    <includes refid="_i_data_store_8h" local="no">IDataStore.h</includes>
+    <innerclass refid="struct_core_1_1_i_data_store_1_1_has_id" prot="public">Core::IDataStore::HasId</innerclass>
+    <innerclass refid="struct_core_1_1_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4" prot="public">Core::IDataStore::HasId&lt; T, decltype((void) T::x, 0)&gt;</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>Derrived</declname>
+        <defname>Derrived</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_core_1_1_i_data_store_1acf41fbcfc53e02d2bbef9adc82d3f5ff" prot="public" static="no">
+        <type>std::is_same&lt; bool, bool &gt;</type>
+        <definition>using Core::IDataStore&lt; Derrived &gt;::IsValidModelType =  std::is_same&lt;bool,bool&gt;</definition>
+        <argsstring></argsstring>
+        <name>IsValidModelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="47" column="1" bodyfile="IDataStore.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_core_1_1_i_data_store_1a1f1a7edf2447cf606cff275b8a060065" prot="public" static="no">
+        <type>std::enable_if&lt; <ref refid="class_core_1_1_i_data_store_1acf41fbcfc53e02d2bbef9adc82d3f5ff" kindref="member">IsValidModelType</ref>&lt; ModelType &gt;::value, ModelType &gt;</type>
+        <definition>using Core::IDataStore&lt; Derrived &gt;::ValidModelType =  std::enable_if&lt;IsValidModelType&lt;ModelType&gt;::value,ModelType&gt;</definition>
+        <argsstring></argsstring>
+        <name>ValidModelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="50" column="1" bodyfile="IDataStore.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_i_data_store_1ae31b416da536fa67ae59a18942019ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::IDataStore&lt; Derrived &gt;::IDataStore</definition>
+        <argsstring>()=default</argsstring>
+        <name>IDataStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_i_data_store_1a71a98ef1ebcbc9ddd7b4f9fabac75db6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::IDataStore&lt; Derrived &gt;::~IDataStore</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IDataStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_i_data_store_1a0f58fffd47db45493d1eccf35f1e91ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+          <param>
+            <type>typename SelectPredicate</type>
+            <defval><ref refid="struct_core_1_1_model_by_id" kindref="compound">ModelById</ref>&lt;ModelType&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::IDataStore&lt; Derrived &gt;::loadModel</definition>
+        <argsstring>(const std::shared_ptr&lt; ModelType &gt; &amp;out, const SelectPredicate &amp;predicate)</argsstring>
+        <name>loadModel</name>
+        <param>
+          <type>const std::shared_ptr&lt; ModelType &gt; &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="60" column="1" bodyfile="IDataStore.h" bodystart="60" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_i_data_store_1a0515b13f9c31faf054d3d0265f63dc50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+          <param>
+            <type>typename SelectPredicate</type>
+            <defval><ref refid="struct_core_1_1_model_by_id" kindref="compound">ModelById</ref>&lt;ModelType&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::IDataStore&lt; Derrived &gt;::saveModel</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; in, const SelectPredicate &amp;predicate)</argsstring>
+        <name>saveModel</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="75" column="1" bodyfile="IDataStore.h" bodystart="75" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_i_data_store_1a50230ba876480b9097c2710b08601182" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::IDataStore&lt; Derrived &gt;::createModel</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>createModel</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="IDataStore.h" line="88" column="1" bodyfile="IDataStore.h" bodystart="88" bodyend="104"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="84">
+        <label>Core::IDataStore&lt; Derrived &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="85">
+        <label>Core::StaticDatastore&lt; StaticDatastore &gt;</label>
+        <link refid="class_core_1_1_static_datastore"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="IDataStore.h" line="41" column="1" bodyfile="IDataStore.h" bodystart="40" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_i_data_store_1a50230ba876480b9097c2710b08601182" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>createModel</name></member>
+      <member refid="class_core_1_1_i_data_store_1ae31b416da536fa67ae59a18942019ed2" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>IDataStore</name></member>
+      <member refid="class_core_1_1_i_data_store_1acf41fbcfc53e02d2bbef9adc82d3f5ff" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>IsValidModelType</name></member>
+      <member refid="class_core_1_1_i_data_store_1a0f58fffd47db45493d1eccf35f1e91ab" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>loadModel</name></member>
+      <member refid="class_core_1_1_i_data_store_1a0515b13f9c31faf054d3d0265f63dc50" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>saveModel</name></member>
+      <member refid="class_core_1_1_i_data_store_1a1f1a7edf2447cf606cff275b8a060065" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>ValidModelType</name></member>
+      <member refid="class_core_1_1_i_data_store_1a71a98ef1ebcbc9ddd7b4f9fabac75db6" prot="public" virt="non-virtual"><scope>Core::IDataStore</scope><name>~IDataStore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

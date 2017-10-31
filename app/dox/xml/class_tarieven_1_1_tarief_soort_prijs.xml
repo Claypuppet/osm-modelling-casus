@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_tarieven_1_1_tarief_soort_prijs" kind="class" language="C++" prot="public">
+    <compoundname>Tarieven::TariefSoortPrijs</compoundname>
+    <basecompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; TariefSoortPrijs &gt;</basecompoundref>
+    <includes refid="_tarief_soort_prijs_8h" local="no">TariefSoortPrijs.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_tarieven_1_1_tarief_soort_prijs_1a05379b7fc199d16fc3465c7858240860" prot="public" static="no" mutable="no">
+        <type><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref></type>
+        <definition>TariefSoortPtr Tarieven::TariefSoortPrijs::soort</definition>
+        <argsstring></argsstring>
+        <name>soort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="29" column="1" bodyfile="TariefSoortPrijs.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_tarieven_1_1_tarief_soort_prijs_1aef331f97d4106da2a28c6a928129ebd6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Tarieven::TariefSoortPrijs::prijs</definition>
+        <argsstring></argsstring>
+        <name>prijs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="30" column="1" bodyfile="TariefSoortPrijs.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_tarieven_1_1_tarief_soort_prijs_1aa52cb094535067de7c8a4b2a0d6cdd7b" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Tarieven::TariefSoortPrijs::DatastoreModel&lt; TariefSoortPrijs &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; TariefSoortPrijs &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="33" column="1" bodyfile="TariefSoortPrijs.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_soort_prijs_1a49967b2c1e8e61a8069017352c313350" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Tarieven::TariefSoortPrijs::~TariefSoortPrijs</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TariefSoortPrijs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_soort_prijs_1a27c30d0731f49dcf2a361070fa3e7384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Tarieven::TariefSoortPrijs::berekenKosten</definition>
+        <argsstring>(uint32_t aantalPeriodes)</argsstring>
+        <name>berekenKosten</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>aantalPeriodes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="27" column="1" bodyfile="TariefSoortPrijs.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_soort_prijs_1a75b4e8b224356ad507f51e38b4997c6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Tarieven::TariefSoortPrijs::TariefSoortPrijs</definition>
+        <argsstring>(TariefSoortPtr soort, Geld prijs)</argsstring>
+        <name>TariefSoortPrijs</name>
+        <param>
+          <type><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref></type>
+          <declname>soort</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+          <declname>prijs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="34" column="1" bodyfile="TariefSoortPrijs.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="224">
+        <label>Tarieven::TariefSoortPrijs</label>
+        <link refid="class_tarieven_1_1_tarief_soort_prijs"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="227">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="225">
+        <label>Core::DatastoreModel&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="226" relation="public-inheritance">
+        </childnode>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="228">
+        <label>Tarieven::TariefSoortPrijs</label>
+        <link refid="class_tarieven_1_1_tarief_soort_prijs"/>
+        <childnode refid="229" relation="public-inheritance">
+        </childnode>
+        <childnode refid="232" relation="usage">
+          <edgelabel>prijs</edgelabel>
+        </childnode>
+      </node>
+      <node id="232">
+        <label>Core::Geld</label>
+        <link refid="class_core_1_1_geld"/>
+      </node>
+      <node id="230">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="231">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="229">
+        <label>Core::DatastoreModel&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="230" relation="public-inheritance">
+        </childnode>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TariefSoortPrijs.h" line="23" column="1" bodyfile="TariefSoortPrijs.h" bodystart="22" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1a27c30d0731f49dcf2a361070fa3e7384" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>berekenKosten</name></member>
+      <member refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>Create</name></member>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1aa52cb094535067de7c8a4b2a0d6cdd7b" prot="private" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>DatastoreModel&lt; TariefSoortPrijs &gt;</name></member>
+      <member refid="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>id</name></member>
+      <member refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>ModelPtr</name></member>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1aef331f97d4106da2a28c6a928129ebd6" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>prijs</name></member>
+      <member refid="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>ptr</name></member>
+      <member refid="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>shared_from_this</name></member>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1a05379b7fc199d16fc3465c7858240860" prot="public" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>soort</name></member>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1a75b4e8b224356ad507f51e38b4997c6d" prot="private" virt="non-virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>TariefSoortPrijs</name></member>
+      <member refid="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" prot="public" virt="virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" virt="virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_tarieven_1_1_tarief_soort_prijs_1a49967b2c1e8e61a8069017352c313350" prot="public" virt="virtual"><scope>Tarieven::TariefSoortPrijs</scope><name>~TariefSoortPrijs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

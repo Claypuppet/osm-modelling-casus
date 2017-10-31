@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['baserepo',['BaseRepo',['../class_base_repo.html#ad15627fcbaa43e486c20386d48b28a49',1,'BaseRepo']]],
-  ['bekerentelaatboetekosten',['bekerenTeLaatBoeteKosten',['../class_verhuur.html#a08167eb383d5f0916f2cb5072eecc406',1,'Verhuur']]],
-  ['berekenkosten',['berekenKosten',['../classtarieven_1_1_tarief.html#a51327c6e2748820c35939c291e615ee3',1,'tarieven::Tarief::berekenKosten()'],['../classtarieven_1_1_tarief_soort_prijs.html#a573e947cd87de42a07f643c26a7b9ff4',1,'tarieven::TariefSoortPrijs::berekenKosten()']]],
-  ['berekentelaatboetekosten',['berekenTeLaatBoeteKosten',['../class_verhuur.html#a6fe17e568fcf8af56a3561461ae9534c',1,'Verhuur']]]
+  ['baserepo',['BaseRepo',['../class_core_1_1_base_repo.html#a94c99f4ef8b6e09875976a437f6698fe',1,'Core::BaseRepo']]],
+  ['bekerentelaatboetekosten',['bekerenTeLaatBoeteKosten',['../class_producten_1_1_verhuur.html#a00b974125cea3687091ff77691c805dd',1,'Producten::Verhuur']]],
+  ['berekenkosten',['berekenKosten',['../class_tarieven_1_1_tarief.html#a88a9a640f3e6f420a397cb98baf335fa',1,'Tarieven::Tarief::berekenKosten()'],['../class_tarieven_1_1_tarief_soort_prijs.html#a27c30d0731f49dcf2a361070fa3e7384',1,'Tarieven::TariefSoortPrijs::berekenKosten()']]],
+  ['berekentelaatboetekosten',['berekenTeLaatBoeteKosten',['../class_producten_1_1_verhuur.html#a22779f7c01abd0d45294bbd885a8e36d',1,'Producten::Verhuur']]]
 ];

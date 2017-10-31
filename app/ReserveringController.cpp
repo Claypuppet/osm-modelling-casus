@@ -12,6 +12,8 @@
 
 namespace Producten
 {
+	using Core::RedCarsContext;
+	using Klanten::KlantRepo;
 
 ReserveringController::ReserveringController()
 {

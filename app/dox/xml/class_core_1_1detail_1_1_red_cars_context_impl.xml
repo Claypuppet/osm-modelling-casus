@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1detail_1_1_red_cars_context_impl" kind="class" language="C++" prot="public">
+    <compoundname>Core::detail::RedCarsContextImpl</compoundname>
+    <basecompoundref refid="class_singleton" prot="public" virt="non-virtual">Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</basecompoundref>
+    <includes refid="_red_cars_context_8h" local="no">RedCarsContext.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1a257e76cb16902348ad9bc9e17e8b5434" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</definition>
+        <argsstring></argsstring>
+        <name>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="29" column="1" bodyfile="RedCarsContext.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1a1a5ed67ea34d9f8d4a5c37ee80c7f5f1" prot="private" static="no" mutable="no">
+        <type>DataStoreType</type>
+        <definition>DataStoreType Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::mDatastore</definition>
+        <argsstring></argsstring>
+        <name>mDatastore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="51" column="1" bodyfile="RedCarsContext.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1a6b84326285490d8b32fbe52ba79a0f95" prot="private" static="no" mutable="no">
+        <type><ref refid="class_klanten_1_1_klant_repo" kindref="compound">KlantRepo</ref>&lt; DataStoreType &gt;</type>
+        <definition>KlantRepo&lt;DataStoreType&gt; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::mKlantRepo</definition>
+        <argsstring></argsstring>
+        <name>mKlantRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="52" column="1" bodyfile="RedCarsContext.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1a88756def89560bd3b01300b6cc522fce" prot="private" static="no" mutable="no">
+        <type><ref refid="class_producten_1_1_verhuur_repo" kindref="compound">VerhuurRepo</ref>&lt; DataStoreType &gt;</type>
+        <definition>VerhuurRepo&lt;DataStoreType&gt; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::mVehuurRepo</definition>
+        <argsstring></argsstring>
+        <name>mVehuurRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="53" column="1" bodyfile="RedCarsContext.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1a291c4ad4832aff370ced0bcbf51facba" prot="private" static="no" mutable="no">
+        <type><ref refid="class_tarieven_1_1_tarief_repo" kindref="compound">TariefRepo</ref>&lt; DataStoreType &gt;</type>
+        <definition>TariefRepo&lt;DataStoreType&gt; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::mTariefRepo</definition>
+        <argsstring></argsstring>
+        <name>mTariefRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="54" column="1" bodyfile="RedCarsContext.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1detail_1_1_red_cars_context_impl_1ab6613235b405b526eac023f29f1a751c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_producten_1_1_reservering_repo" kindref="compound">ReserveringRepo</ref>&lt; DataStoreType &gt;</type>
+        <definition>ReserveringRepo&lt;DataStoreType&gt; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::mReserveringRepo</definition>
+        <argsstring></argsstring>
+        <name>mReserveringRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="55" column="1" bodyfile="RedCarsContext.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1a9476be3c8431bca7e5109b74dd87be31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::RedCarsContextImpl</definition>
+        <argsstring>()</argsstring>
+        <name>RedCarsContextImpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="31" column="1" bodyfile="RedCarsContext.h" bodystart="31" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1a23ec5485a61b94a6d401093f1a1bc71b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::~RedCarsContextImpl</definition>
+        <argsstring>()=default</argsstring>
+        <name>~RedCarsContextImpl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1ace2c54ee9a85636f01f6e94909e7b766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>IDataStore&lt;DataStoreType&gt;&amp; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::getDataStore</definition>
+        <argsstring>()</argsstring>
+        <name>getDataStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="44" column="1" bodyfile="RedCarsContext.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1a0fd4e163371ccebc49052ff2e0109c41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_klanten_1_1_klant_repo" kindref="compound">KlantRepo</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>KlantRepo&lt;DataStoreType&gt;&amp; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::getKlantRepo</definition>
+        <argsstring>()</argsstring>
+        <name>getKlantRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="45" column="1" bodyfile="RedCarsContext.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1a4c6c523ee840ed83d476a9f3c39325be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_producten_1_1_verhuur_repo" kindref="compound">VerhuurRepo</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>VerhuurRepo&lt;DataStoreType&gt;&amp; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::getVehuurRepo</definition>
+        <argsstring>()</argsstring>
+        <name>getVehuurRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="46" column="1" bodyfile="RedCarsContext.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1ac55ade2318c0579601a5b0b6e97e02d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_tarieven_1_1_tarief_repo" kindref="compound">TariefRepo</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>TariefRepo&lt;DataStoreType&gt;&amp; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::getTariefRepo</definition>
+        <argsstring>()</argsstring>
+        <name>getTariefRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="47" column="1" bodyfile="RedCarsContext.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1detail_1_1_red_cars_context_impl_1ae457b48fe90c3bfecfb33a74e8117658" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_producten_1_1_reservering_repo" kindref="compound">ReserveringRepo</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>ReserveringRepo&lt;DataStoreType&gt;&amp; Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;::getReserveringRepo</definition>
+        <argsstring>()</argsstring>
+        <name>getReserveringRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="48" column="1" bodyfile="RedCarsContext.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="155">
+        <label>Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1detail_1_1_red_cars_context_impl"/>
+        <childnode refid="156" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="156">
+        <label>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="157">
+        <label>Core::detail::RedCarsContextImpl&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1detail_1_1_red_cars_context_impl"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </collaborationgraph>
+    <location file="RedCarsContext.h" line="28" column="1" bodyfile="RedCarsContext.h" bodystart="27" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ace2c54ee9a85636f01f6e94909e7b766" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>getDataStore</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a0fd4e163371ccebc49052ff2e0109c41" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>getKlantRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ae457b48fe90c3bfecfb33a74e8117658" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>getReserveringRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ac55ade2318c0579601a5b0b6e97e02d4" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>getTariefRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a4c6c523ee840ed83d476a9f3c39325be" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>getVehuurRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a1a5ed67ea34d9f8d4a5c37ee80c7f5f1" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>mDatastore</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a6b84326285490d8b32fbe52ba79a0f95" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>mKlantRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ab6613235b405b526eac023f29f1a751c" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>mReserveringRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a291c4ad4832aff370ced0bcbf51facba" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>mTariefRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a88756def89560bd3b01300b6cc522fce" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>mVehuurRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a9476be3c8431bca7e5109b74dd87be31" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>RedCarsContextImpl</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a257e76cb16902348ad9bc9e17e8b5434" prot="private" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a23ec5485a61b94a6d401093f1a1bc71b" prot="public" virt="non-virtual"><scope>Core::detail::RedCarsContextImpl</scope><name>~RedCarsContextImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_producten_1_1_product" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Producten::Product</compoundname>
+    <derivedcompoundref refid="class_producten_1_1_boete" prot="public" virt="non-virtual">Producten::Boete</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_reservering" prot="public" virt="non-virtual">Producten::Reservering</derivedcompoundref>
+    <includes refid="_product_8h" local="no">Product.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_producten_1_1_product_1a56892a895b84046b3c26c15122ae1ff8" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_producten_1a863337b1958e14705b32592f71c29d87" kindref="member">BoeteList</ref></type>
+        <definition>BoeteList Producten::Product::boetes</definition>
+        <argsstring></argsstring>
+        <name>boetes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="36" column="1" bodyfile="Product.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_producten_1_1_product_1a84490e62e33c8b07ea9eeb7206256161" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Producten::Product::~Product</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1a42f02ea9745c49de96d0112fc8440331" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>virtual Geld Producten::Product::getKosten</definition>
+        <argsstring>()=0</argsstring>
+        <name>getKosten</name>
+        <reimplementedby refid="class_producten_1_1_boete_1a24da94e06dd4b720fd5da3bc7a010453">getKosten</reimplementedby>
+        <reimplementedby refid="class_producten_1_1_reservering_1abe1a68953a3fbaf95120c4bdc9e226a8">getKosten</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1aae2d928dad8e6de569a2c537302f1666" prot="public" static="no" const="no" explicit="no" inline="no" final="yes" virt="virtual">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Producten::Product::getExtraKosten</definition>
+        <argsstring>() final</argsstring>
+        <name>getExtraKosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="31" column="1" bodyfile="Product.cpp" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1ab222b6ebdde88726f73d5a66195a2351" prot="public" static="no" const="no" explicit="no" inline="no" final="yes" virt="virtual">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Producten::Product::getTotaalKosten</definition>
+        <argsstring>() final</argsstring>
+        <name>getTotaalKosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="32" column="1" bodyfile="Product.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1ab03e9b20265b86f021af1a1416ec9fba" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string Producten::Product::asString</definition>
+        <argsstring>()=0</argsstring>
+        <name>asString</name>
+        <reimplementedby refid="class_producten_1_1_boete_1ab0b90310f6008d0feabcd71113d47d8d">asString</reimplementedby>
+        <reimplementedby refid="class_producten_1_1_reservering_1a25bacff6ec0e8fbbbc484e7dcb7a203b">asString</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_producten_1_1_product_1a7ae9d1c078e42e604e062124484543ca" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Producten::Product::Product</definition>
+        <argsstring>()=default</argsstring>
+        <name>Product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1a531790125c6af44b2b5f436c3a9d2ed8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Producten::Product::Product</definition>
+        <argsstring>(BoeteList boetes)</argsstring>
+        <name>Product</name>
+        <param>
+          <type><ref refid="namespace_producten_1a863337b1958e14705b32592f71c29d87" kindref="member">BoeteList</ref></type>
+          <declname>boetes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="40" column="1" bodyfile="Product.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1aabac8db92098047c7c60cba3b4682286" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Producten::Product::addBoete</definition>
+        <argsstring>(const BoetePtr b)</argsstring>
+        <name>addBoete</name>
+        <param>
+          <type>const <ref refid="namespace_producten_1aeef4d0cb2e4403db471b5f3bdc62fcb8" kindref="member">BoetePtr</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="41" column="1" bodyfile="Product.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_product_1a802a8a8290df2dd2497bdd85dc614f08" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Producten::Product::maakFactuur</definition>
+        <argsstring>()</argsstring>
+        <name>maakFactuur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="42" column="1" bodyfile="Product.cpp" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="133">
+        <label>Producten::Product</label>
+        <link refid="class_producten_1_1_product"/>
+      </node>
+      <node id="135">
+        <label>Producten::Reservering</label>
+        <link refid="class_producten_1_1_reservering"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>Producten::Boete</label>
+        <link refid="class_producten_1_1_boete"/>
+        <childnode refid="133" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Product.h" line="26" column="1" bodyfile="Product.h" bodystart="25" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_producten_1_1_product_1aabac8db92098047c7c60cba3b4682286" prot="protected" virt="non-virtual"><scope>Producten::Product</scope><name>addBoete</name></member>
+      <member refid="class_producten_1_1_product_1ab03e9b20265b86f021af1a1416ec9fba" prot="public" virt="pure-virtual"><scope>Producten::Product</scope><name>asString</name></member>
+      <member refid="class_producten_1_1_product_1a56892a895b84046b3c26c15122ae1ff8" prot="protected" virt="non-virtual"><scope>Producten::Product</scope><name>boetes</name></member>
+      <member refid="class_producten_1_1_product_1aae2d928dad8e6de569a2c537302f1666" prot="public" virt="virtual"><scope>Producten::Product</scope><name>getExtraKosten</name></member>
+      <member refid="class_producten_1_1_product_1a42f02ea9745c49de96d0112fc8440331" prot="public" virt="pure-virtual"><scope>Producten::Product</scope><name>getKosten</name></member>
+      <member refid="class_producten_1_1_product_1ab222b6ebdde88726f73d5a66195a2351" prot="public" virt="virtual"><scope>Producten::Product</scope><name>getTotaalKosten</name></member>
+      <member refid="class_producten_1_1_product_1a802a8a8290df2dd2497bdd85dc614f08" prot="protected" virt="non-virtual"><scope>Producten::Product</scope><name>maakFactuur</name></member>
+      <member refid="class_producten_1_1_product_1a7ae9d1c078e42e604e062124484543ca" prot="protected" virt="non-virtual"><scope>Producten::Product</scope><name>Product</name></member>
+      <member refid="class_producten_1_1_product_1a531790125c6af44b2b5f436c3a9d2ed8" prot="protected" virt="non-virtual"><scope>Producten::Product</scope><name>Product</name></member>
+      <member refid="class_producten_1_1_product_1a84490e62e33c8b07ea9eeb7206256161" prot="public" virt="virtual"><scope>Producten::Product</scope><name>~Product</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

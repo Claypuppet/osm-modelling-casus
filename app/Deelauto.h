@@ -9,17 +9,19 @@
 #define DEELAUTO_H_
 
 #include "DatastoreModel.h"
+#include "RedcarModule.h"
 #include <string>
 #include <memory>
 
-class Standplaats;
+
 
 namespace Deelautos {
 
-	using core::DatastoreModel;
+	using Core::DatastoreModel;
+	using RedcardModule::RedcarModule;
 
-	class RedcarModule;
 	class AutoType;
+	class Standplaats;
 
 class Deelauto : public DatastoreModel<Deelauto>
 {

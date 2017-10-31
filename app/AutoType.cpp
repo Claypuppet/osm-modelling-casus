@@ -9,7 +9,7 @@
 
 namespace Deelautos {
 
-}
+
 AutoType::AutoType()
 {
 

@@ -15,6 +15,9 @@
 
 namespace Producten
 {
+	using Core::Application;
+	using Core::Signals;
+	using Tarieven::TariefSoortPtr;
 
 Verhuur::Verhuur()
 : incheckMoment(0)
@@ -37,7 +40,7 @@ Geld Verhuur::berekenTeLaatBoeteKosten()
 	int32_t deltaSec = uitcheckMoment - reservering->eindMoment;
 	Geld kosten;
 	if(deltaSec > 0) {
-		Tarieven::TariefSoortPtr boeteSoort = Application::getInstance().getBoeteTariefSoort();
+		TariefSoortPtr boeteSoort = Application::i().getBoeteTariefSoort();
 		uint32_t aantal = deltaSec / boeteSoort->periode + (deltaSec % boeteSoort->periode ? 1 : 0);
 		Tarieven::TariefPtr tarief = reservering->getTarief();
 		kosten = tarief->berekenKosten(0, boeteSoort, aantal);

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_klanten" kind="namespace" language="C++">
+    <compoundname>Klanten</compoundname>
+    <innerclass refid="class_klanten_1_1_klant" prot="public">Klanten::Klant</innerclass>
+    <innerclass refid="class_klanten_1_1_klant_repo" prot="public">Klanten::KlantRepo</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Klant&gt; Klanten::KlantPtr</definition>
+        <argsstring></argsstring>
+        <name>KlantPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="40" column="1" bodyfile="Klant.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Klant.cpp" line="10" column="1"/>
+  </compounddef>
+</doxygen>

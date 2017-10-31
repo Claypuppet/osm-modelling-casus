@@ -23,6 +23,20 @@
 #include <algorithm>
 #include <iostream>
 
+namespace Core {
+
+	using Deelautos::AutoType;
+	using Deelautos::Deelauto;
+	using Deelautos::Standplaats;
+	using Klanten::Klant;
+	using Producten::AbonnementType;
+	using Producten::Reservering;
+	using Tarieven::TariefSoort;
+	using Tarieven::Tarief;
+	using Tarieven::TariefSoortPrijs;
+	using Tarieven::tariefSoortenPrijsLijst;
+	using RedcardModule::RedcarModule;
+
 
 StaticDatastore::StaticDatastore()
 {
@@ -53,42 +67,42 @@ void StaticDatastore::initStaticTestData()
 	auto abboBetlaad = createModel<AbonnementType>(AbonnementType::Create("Betaald", Geld(49, 95)));
 
 	// Tariefsoorten
-	auto tariefPerUur = createModel<Tarieven::TariefSoort>(Tarieven::TariefSoort::Create("Per uur", 0, 3600));
-	auto tariefPerDag = createModel<Tarieven::TariefSoort>(Tarieven::TariefSoort::Create("Per dag", 0, 3600*24));
-	auto tariefPerWeek = createModel<Tarieven::TariefSoort>(Tarieven::TariefSoort::Create("Per week", 0, 3600*24*7));
-	auto tariefPerWeekend = createModel<Tarieven::TariefSoort>(Tarieven::TariefSoort::Create("Per weekend", (1 << 6) | (1 << 7), 3600*24*2));
+	auto tariefPerUur = createModel<TariefSoort>(TariefSoort::Create("Per uur", 0, 3600));
+	auto tariefPerDag = createModel<TariefSoort>(TariefSoort::Create("Per dag", 0, 3600*24));
+	auto tariefPerWeek = createModel<TariefSoort>(TariefSoort::Create("Per week", 0, 3600*24*7));
+	auto tariefPerWeekend = createModel<TariefSoort>(TariefSoort::Create("Per weekend", (1 << 6) | (1 << 7), 3600*24*2));
 
 	// Tariefsoort prijzen
 	// Gratis / Personenauto
-	auto tspGPU = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerUur, Geld(6,0)));
-	auto tspGPD = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerDag, Geld(50,0)));
-	auto tspGPW = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeekend, Geld(70,0)));
-	auto tspGPWK = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeek, Geld(150,0)));
+	auto tspGPU = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerUur, Geld(6,0)));
+	auto tspGPD = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerDag, Geld(50,0)));
+	auto tspGPW = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeekend, Geld(70,0)));
+	auto tspGPWK = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeek, Geld(150,0)));
 	// Betaald / Personenauto
-	auto tspBPU = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerUur, Geld(4,0)));
-	auto tspBPD = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerDag, Geld(40,0)));
-	auto tspBPW = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeekend, Geld(60,0)));
-	auto tspBPWK = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeek, Geld(140,0)));
+	auto tspBPU = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerUur, Geld(4,0)));
+	auto tspBPD = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerDag, Geld(40,0)));
+	auto tspBPW = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeekend, Geld(60,0)));
+	auto tspBPWK = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeek, Geld(140,0)));
 	// Gratis / Stationwagon
-	auto tspGSU = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerUur, Geld(7,50)));
-	auto tspGSD = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerDag, Geld(60,0)));
-	auto tspGSW = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeekend, Geld(90,0)));
-	auto tspGSWK = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeek, Geld(180,0)));
+	auto tspGSU = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerUur, Geld(7,50)));
+	auto tspGSD = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerDag, Geld(60,0)));
+	auto tspGSW = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeekend, Geld(90,0)));
+	auto tspGSWK = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeek, Geld(180,0)));
 	// Betaad / Stationwagon
-	auto tspBSU = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerUur, Geld(5,50)));
-	auto tspBSD = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerDag, Geld(50,0)));
-	auto tspBSW = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeekend, Geld(80,0)));
-	auto tspBSWK = createModel<Tarieven::TariefSoortPrijs>(Tarieven::TariefSoortPrijs::Create(tariefPerWeek, Geld(170,0)));
+	auto tspBSU = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerUur, Geld(5,50)));
+	auto tspBSD = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerDag, Geld(50,0)));
+	auto tspBSW = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeekend, Geld(80,0)));
+	auto tspBSWK = createModel<TariefSoortPrijs>(TariefSoortPrijs::Create(tariefPerWeek, Geld(170,0)));
 
 	// Tarieven
-	Tarieven::tariefSoortenPrijsLijst tarievenGP = {tspGPU, tspGPD, tspGPWK, tspGPW};
-	Tarieven::tariefSoortenPrijsLijst tarievenBP = {tspBPU, tspBPD, tspBPWK, tspBPW};
-	Tarieven::tariefSoortenPrijsLijst tarievenGS = {tspGSU, tspGSD, tspGSWK, tspGSW};
-	Tarieven::tariefSoortenPrijsLijst tarievenBS = {tspBSU, tspBSD, tspBSWK, tspBSW};
-	auto tariefGP = createModel<Tarieven::Tarief>(Tarieven::Tarief::Create(0, Geld(0,30), tarievenGP, personenAuto, abboGratis));
-	auto tariefBP = createModel<Tarieven::Tarief>(Tarieven::Tarief::Create(0, Geld(0,35), tarievenBP, personenAuto, abboBetlaad));
-	auto tariefGS = createModel<Tarieven::Tarief>(Tarieven::Tarief::Create(100, Geld(0,25), tarievenGS, stationWagen, abboGratis));
-	auto tariefBS = createModel<Tarieven::Tarief>(Tarieven::Tarief::Create(100, Geld(0,30), tarievenBS, stationWagen, abboBetlaad));
+	tariefSoortenPrijsLijst tarievenGP = {tspGPU, tspGPD, tspGPWK, tspGPW};
+	tariefSoortenPrijsLijst tarievenBP = {tspBPU, tspBPD, tspBPWK, tspBPW};
+	tariefSoortenPrijsLijst tarievenGS = {tspGSU, tspGSD, tspGSWK, tspGSW};
+	tariefSoortenPrijsLijst tarievenBS = {tspBSU, tspBSD, tspBSWK, tspBSW};
+	auto tariefGP = createModel<Tarief>(Tarief::Create(0, Geld(0,30), tarievenGP, personenAuto, abboGratis));
+	auto tariefBP = createModel<Tarief>(Tarief::Create(0, Geld(0,35), tarievenBP, personenAuto, abboBetlaad));
+	auto tariefGS = createModel<Tarief>(Tarief::Create(100, Geld(0,25), tarievenGS, stationWagen, abboGratis));
+	auto tariefBS = createModel<Tarief>(Tarief::Create(100, Geld(0,30), tarievenBS, stationWagen, abboBetlaad));
 
 	// Klanten
 	auto klant1 = createModel<Klant>(Klant::Create("Jelle Bouwhuis", "jelle@email.nl", 12345678, abboGratis));
@@ -115,5 +129,7 @@ void StaticDatastore::initStaticTestData()
 
 	// Set boete tariefsoort
 	Application::getInstance().setBoeteTariefSoort(tariefPerUur);
+
+}
 
 }

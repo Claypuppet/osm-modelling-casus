@@ -9,11 +9,12 @@
 #define APP_TARIEFSOORT_H_
 
 #include "DatastoreModel.h"
-//#include "BitFlag.h"
 #include <memory>
 
 namespace Tarieven
 {
+	using Core::DatastoreModel;
+
 
 	class TariefSoort : public DatastoreModel<TariefSoort>
 	{

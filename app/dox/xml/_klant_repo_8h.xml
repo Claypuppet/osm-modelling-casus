@@ -9,195 +9,196 @@
     <includedby refid="_red_cars_context_8h" local="yes">RedCarsContext.h</includedby>
     <includedby refid="_klant_repo_8cpp" local="yes">KlantRepo.cpp</includedby>
     <incdepgraph>
-      <node id="460">
+      <node id="482">
         <label>BaseRepo.h</label>
         <link refid="_base_repo_8h"/>
-        <childnode refid="461" relation="include">
+        <childnode refid="483" relation="include">
         </childnode>
-        <childnode refid="455" relation="include">
+        <childnode refid="477" relation="include">
         </childnode>
       </node>
-      <node id="462">
+      <node id="484">
         <label>functional</label>
       </node>
-      <node id="452">
+      <node id="474">
         <label>KlantRepo.h</label>
         <link refid="_klant_repo_8h"/>
-        <childnode refid="453" relation="include">
+        <childnode refid="475" relation="include">
         </childnode>
-        <childnode refid="460" relation="include">
-        </childnode>
-        <childnode refid="458" relation="include">
-        </childnode>
-      </node>
-      <node id="456">
-        <label>AbonnementType.h</label>
-        <link refid="_abonnement_type_8h"/>
-        <childnode refid="457" relation="include">
-        </childnode>
-        <childnode refid="454" relation="include">
-        </childnode>
-        <childnode refid="458" relation="include">
-        </childnode>
-        <childnode refid="459" relation="include">
-        </childnode>
-      </node>
-      <node id="458">
-        <label>stdint.h</label>
-      </node>
-      <node id="459">
-        <label>string</label>
-      </node>
-      <node id="457">
-        <label>Geld.h</label>
-        <link refid="_geld_8h"/>
-        <childnode refid="458" relation="include">
-        </childnode>
-        <childnode refid="459" relation="include">
-        </childnode>
-      </node>
-      <node id="465">
-        <label>boost/type_index/ctti_type_index.hpp</label>
-      </node>
-      <node id="453">
-        <label>Klant.h</label>
-        <link refid="_klant_8h"/>
-        <childnode refid="454" relation="include">
-        </childnode>
-        <childnode refid="456" relation="include">
-        </childnode>
-        <childnode refid="458" relation="include">
-        </childnode>
-      </node>
-      <node id="461">
-        <label>IDataStore.h</label>
-        <link refid="_i_data_store_8h"/>
-        <childnode refid="454" relation="include">
-        </childnode>
-        <childnode refid="462" relation="include">
-        </childnode>
-        <childnode refid="463" relation="include">
-        </childnode>
-        <childnode refid="455" relation="include">
-        </childnode>
-        <childnode refid="464" relation="include">
-        </childnode>
-        <childnode refid="465" relation="include">
-        </childnode>
-      </node>
-      <node id="464">
-        <label>utility</label>
-      </node>
-      <node id="463">
-        <label>type_traits</label>
-      </node>
-      <node id="454">
-        <label>DatastoreModel.h</label>
-        <link refid="_datastore_model_8h"/>
-        <childnode refid="455" relation="include">
-        </childnode>
-      </node>
-      <node id="455">
-        <label>memory</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="473">
-        <label>Reservering.cpp</label>
-        <link refid="_reservering_8cpp"/>
-      </node>
-      <node id="471">
-        <label>Product.cpp</label>
-        <link refid="_product_8cpp"/>
-      </node>
-      <node id="466">
-        <label>KlantRepo.h</label>
-        <link refid="_klant_repo_8h"/>
-        <childnode refid="467" relation="include">
-        </childnode>
-        <childnode refid="470" relation="include">
+        <childnode refid="482" relation="include">
         </childnode>
         <childnode refid="480" relation="include">
         </childnode>
       </node>
-      <node id="477">
-        <label>main.cpp</label>
-        <link refid="main_8cpp"/>
-      </node>
-      <node id="480">
-        <label>KlantRepo.cpp</label>
-        <link refid="_klant_repo_8cpp"/>
-      </node>
-      <node id="474">
-        <label>ReserveringController.cpp</label>
-        <link refid="_reservering_controller_8cpp"/>
-      </node>
-      <node id="467">
-        <label>Application.h</label>
-        <link refid="_application_8h"/>
-        <childnode refid="468" relation="include">
-        </childnode>
-        <childnode refid="469" relation="include">
+      <node id="478">
+        <label>AbonnementType.h</label>
+        <link refid="_abonnement_type_8h"/>
+        <childnode refid="479" relation="include">
         </childnode>
         <childnode refid="476" relation="include">
         </childnode>
-        <childnode refid="477" relation="include">
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+      </node>
+      <node id="480">
+        <label>stdint.h</label>
+      </node>
+      <node id="481">
+        <label>string</label>
+      </node>
+      <node id="479">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="480" relation="include">
+        </childnode>
+        <childnode refid="481" relation="include">
+        </childnode>
+      </node>
+      <node id="487">
+        <label>boost/type_index/ctti_type_index.hpp</label>
+      </node>
+      <node id="475">
+        <label>Klant.h</label>
+        <link refid="_klant_8h"/>
+        <childnode refid="476" relation="include">
         </childnode>
         <childnode refid="478" relation="include">
         </childnode>
-        <childnode refid="479" relation="include">
+        <childnode refid="480" relation="include">
         </childnode>
       </node>
-      <node id="472">
+      <node id="483">
+        <label>IDataStore.h</label>
+        <link refid="_i_data_store_8h"/>
+        <childnode refid="476" relation="include">
+        </childnode>
+        <childnode refid="484" relation="include">
+        </childnode>
+        <childnode refid="485" relation="include">
+        </childnode>
+        <childnode refid="477" relation="include">
+        </childnode>
+        <childnode refid="486" relation="include">
+        </childnode>
+        <childnode refid="487" relation="include">
+        </childnode>
+      </node>
+      <node id="486">
+        <label>utility</label>
+      </node>
+      <node id="485">
+        <label>type_traits</label>
+      </node>
+      <node id="476">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="477" relation="include">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="495">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="493">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="488">
+        <label>KlantRepo.h</label>
+        <link refid="_klant_repo_8h"/>
+        <childnode refid="489" relation="include">
+        </childnode>
+        <childnode refid="492" relation="include">
+        </childnode>
+        <childnode refid="502" relation="include">
+        </childnode>
+      </node>
+      <node id="499">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="502">
+        <label>KlantRepo.cpp</label>
+        <link refid="_klant_repo_8cpp"/>
+      </node>
+      <node id="496">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="489">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="490" relation="include">
+        </childnode>
+        <childnode refid="491" relation="include">
+        </childnode>
+        <childnode refid="498" relation="include">
+        </childnode>
+        <childnode refid="499" relation="include">
+        </childnode>
+        <childnode refid="500" relation="include">
+        </childnode>
+        <childnode refid="501" relation="include">
+        </childnode>
+      </node>
+      <node id="494">
         <label>RedCarsContext.cpp</label>
         <link refid="_red_cars_context_8cpp"/>
       </node>
-      <node id="468">
+      <node id="490">
         <label>Application.cpp</label>
         <link refid="_application_8cpp"/>
       </node>
-      <node id="469">
+      <node id="491">
         <label>ReserveringRepo.h</label>
         <link refid="_reservering_repo_8h"/>
-        <childnode refid="470" relation="include">
+        <childnode refid="492" relation="include">
         </childnode>
-        <childnode refid="473" relation="include">
+        <childnode refid="495" relation="include">
         </childnode>
-        <childnode refid="475" relation="include">
+        <childnode refid="497" relation="include">
         </childnode>
       </node>
-      <node id="478">
+      <node id="500">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
       </node>
-      <node id="479">
+      <node id="501">
         <label>Verhuur.cpp</label>
         <link refid="_verhuur_8cpp"/>
       </node>
-      <node id="475">
+      <node id="497">
         <label>ReserveringRepo.cpp</label>
         <link refid="_reservering_repo_8cpp"/>
       </node>
-      <node id="476">
+      <node id="498">
         <label>Boete.cpp</label>
         <link refid="_boete_8cpp"/>
       </node>
-      <node id="470">
+      <node id="492">
         <label>RedCarsContext.h</label>
         <link refid="_red_cars_context_8h"/>
-        <childnode refid="468" relation="include">
+        <childnode refid="490" relation="include">
         </childnode>
-        <childnode refid="471" relation="include">
+        <childnode refid="493" relation="include">
         </childnode>
-        <childnode refid="472" relation="include">
+        <childnode refid="494" relation="include">
         </childnode>
-        <childnode refid="473" relation="include">
+        <childnode refid="495" relation="include">
         </childnode>
-        <childnode refid="474" relation="include">
+        <childnode refid="496" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_klant_repo" prot="public">KlantRepo</innerclass>
+    <innerclass refid="class_klanten_1_1_klant_repo" prot="public">Klanten::KlantRepo</innerclass>
+    <innernamespace refid="namespace_klanten">Klanten</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -217,27 +218,33 @@
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_base_repo_8h" kindref="compound">BaseRepo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>DataStoreType&gt;</highlight></codeline>
-<codeline lineno="17" refid="class_klant_repo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_klant_repo" kindref="compound">KlantRepo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;Klant,<sp/>DataStoreType&gt;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="20" refid="class_klant_repo_1ac97ab20e0642e2aac8ecf7f49daf294e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_klant_repo_1ac97ab20e0642e2aac8ecf7f49daf294e" kindref="member">KlantRepo</ref>(<ref refid="class_i_data_store" kindref="compound">IDataStore&lt;DataStoreType&gt;</ref>&amp;<sp/>dataStore)</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;<ref refid="class_klant" kindref="compound">Klant</ref>,<sp/>DataStoreType&gt;(dataStore)</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24" refid="class_klant_repo_1ab794e95898d2ef2e0529e17dd2426122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_klant_repo_1ab794e95898d2ef2e0529e17dd2426122" kindref="member">~KlantRepo</ref>()<sp/>{}</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="class_klant_repo_1aeecf25377bbf3608cc673443e9793653" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_klant_8h_1af9d6e4df704cd5d4d583060ae945034c" kindref="member">KlantPtr</ref><sp/><ref refid="class_klant_repo_1aeecf25377bbf3608cc673443e9793653" kindref="member">getKlantByPasNummer</ref>(uint32_t<sp/>pasNummer){</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klantByPasNummer<sp/>=<sp/>[pasNummer](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_klant_8h_1af9d6e4df704cd5d4d583060ae945034c" kindref="member">KlantPtr</ref>&amp;<sp/>k){</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>k-&gt;pasNummmer<sp/>==<sp/>pasNummer;<sp/>};</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_klant_8h_1af9d6e4df704cd5d4d583060ae945034c" kindref="member">KlantPtr</ref><sp/>klant;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" kindref="member">mDataStore</ref>.<ref refid="class_i_data_store_1a484c3e1a854147995ab7d519640acdb1" kindref="member">loadModel</ref>(klant,<sp/>klantByPasNummer);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>KLANTREPO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_klanten" kindref="compound">Klanten</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_base_repo" kindref="compound">Core::BaseRepo</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_i_data_store" kindref="compound">Core::IDataStore</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="21" refid="class_klanten_1_1_klant_repo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_klanten_1_1_klant_repo" kindref="compound">KlantRepo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_base_repo" kindref="compound">BaseRepo</ref>&lt;Klant,<sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_klanten_1_1_klant_repo_1a5af09644b9594c07430600ef28235de2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_klanten_1_1_klant_repo_1a5af09644b9594c07430600ef28235de2" kindref="member">KlantRepo</ref>(<ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore&lt;DataStoreType&gt;</ref>&amp;<sp/>dataStore)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_core_1_1_base_repo" kindref="compound">BaseRepo</ref>&lt;<ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref>,<sp/>DataStoreType&gt;(dataStore)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_klanten_1_1_klant_repo_1af1041205dbef901a2ca3f844533898b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_klanten_1_1_klant_repo_1af1041205dbef901a2ca3f844533898b2" kindref="member">~KlantRepo</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="class_klanten_1_1_klant_repo_1a0bb7b9c2b6cdf22cd0ebbadd0631be7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">KlantPtr</ref><sp/><ref refid="class_klanten_1_1_klant_repo_1a0bb7b9c2b6cdf22cd0ebbadd0631be7a" kindref="member">getKlantByPasNummer</ref>(uint32_t<sp/>pasNummer){</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klantByPasNummer<sp/>=<sp/>[pasNummer](</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">KlantPtr</ref>&amp;<sp/>k){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>k-&gt;pasNummmer<sp/>==<sp/>pasNummer;<sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">KlantPtr</ref><sp/>klant;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" kindref="member">mDataStore</ref>.<ref refid="class_core_1_1_i_data_store_1a0f58fffd47db45493d1eccf35f1e91ab" kindref="member">loadModel</ref>(klant,<sp/>klantByPasNummer);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>KLANTREPO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="KlantRepo.h"/>
   </compounddef>

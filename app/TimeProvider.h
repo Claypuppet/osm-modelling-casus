@@ -10,6 +10,8 @@
 
 #include <chrono>
 
+namespace Core {
+
 class ITimeProvider
 {
 public:
@@ -42,6 +44,8 @@ public:
 private:
 	uint32_t fakeTime;
 };
+
+}
 
 
 #endif /* APP_TIMEPROFIDER_H_ */

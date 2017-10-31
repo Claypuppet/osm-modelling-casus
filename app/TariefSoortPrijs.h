@@ -8,13 +8,16 @@
 #ifndef APP_TARIEFSOORTPRIJS_H_
 #define APP_TARIEFSOORTPRIJS_H_
 
-#include <vector>
+
 #include "DatastoreModel.h"
 #include "TariefSoort.h"
 #include "Geld.h"
 
+#include <vector>
+
 namespace Tarieven
 {
+	using Core::Geld;
 
 class TariefSoortPrijs : public DatastoreModel<TariefSoortPrijs>
 {

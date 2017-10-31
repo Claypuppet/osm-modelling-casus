@@ -12,7 +12,7 @@
 
 namespace RedcardModule {
 
-using core::DatastoreModel;
+using Core::DatastoreModel;
 
 class RedcarModule : public DatastoreModel<RedcarModule>
 {

@@ -15,7 +15,7 @@
 
 namespace Producten
 {
-
+using Core::Geld;
 
 class Boete;
 

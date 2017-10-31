@@ -7,6 +7,8 @@
 
 #include "Application.h"
 
+using Core::Application;
+
 int main(int argc, char **argv) {
-	return Application::getInstance().main(argc, argv);
+	return Application::i().main(argc, argv);
 }

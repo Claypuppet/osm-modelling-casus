@@ -15,9 +15,13 @@
 
 namespace Tarieven
 {
-class Tarief;
+	class Tarief;
+	using Core::Geld;
+	using Core::DatastoreModel;
+	using Deelautos::AutoType;
+	using Producten::AbonnementType;
 
-typedef std::shared_ptr<Tarief> TariefPtr;
+	typedef std::shared_ptr<Tarief> TariefPtr;
 
 class Tarief : public DatastoreModel<Tarief>
 {

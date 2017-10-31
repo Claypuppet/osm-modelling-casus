@@ -18,7 +18,8 @@
 
 namespace Producten
 {
-
+using Core::DatastoreModel;
+using Core::Geld;
 
 class AbonnementType : public DatastoreModel<AbonnementType>
 {

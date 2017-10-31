@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tarieven',['tarieven',['../namespacetarieven.html',1,'']]]
+  ['klanten',['Klanten',['../namespace_klanten.html',1,'']]]
 ];

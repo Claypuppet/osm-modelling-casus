@@ -4,28 +4,29 @@
     <compoundname>Standplaats.cpp</compoundname>
     <includes refid="_standplaats_8h" local="yes">Standplaats.h</includes>
     <incdepgraph>
-      <node id="938">
+      <node id="997">
         <label>Standplaats.h</label>
         <link refid="_standplaats_8h"/>
-        <childnode refid="939" relation="include">
+        <childnode refid="998" relation="include">
         </childnode>
       </node>
-      <node id="937">
+      <node id="996">
         <label>Standplaats.cpp</label>
         <link refid="_standplaats_8cpp"/>
-        <childnode refid="938" relation="include">
+        <childnode refid="997" relation="include">
         </childnode>
       </node>
-      <node id="939">
+      <node id="998">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="940" relation="include">
+        <childnode refid="999" relation="include">
         </childnode>
       </node>
-      <node id="940">
+      <node id="999">
         <label>memory</label>
       </node>
     </incdepgraph>
+    <innernamespace refid="namespace_deelautos">Deelautos</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -40,23 +41,27 @@
 <codeline lineno="7"><highlight class="normal"></highlight></codeline>
 <codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_standplaats_8h" kindref="compound">Standplaats.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="9"><highlight class="normal"></highlight></codeline>
-<codeline lineno="10"><highlight class="normal">Standplaats::Standplaats()</highlight></codeline>
-<codeline lineno="11"><highlight class="normal">:<sp/>locatie(0)</highlight></codeline>
-<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_deelautos" kindref="compound">Deelautos</ref><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">Standplaats::Standplaats()</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">:<sp/>locatie(0)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal">Standplaats::Standplaats(uint32_t<sp/>locatie,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>naam)</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">:<sp/>locatie(locatie)</highlight></codeline>
-<codeline lineno="19"><highlight class="normal">,<sp/>naam(naam)</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_standplaats_1abd239e4fec2735fb2acc09689c6b37b7" kindref="member">Standplaats::controlleerLocatie</ref>(uint32_t<sp/>locatie)</highlight></codeline>
-<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;locatie<sp/>==<sp/>locatie;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">Standplaats::Standplaats(uint32_t<sp/>locatie,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>naam)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">:<sp/>locatie(locatie)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">,<sp/>naam(naam)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Standplaats::controlleerLocatie(uint32_t<sp/>locatie)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;locatie<sp/>==<sp/>locatie;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="Standplaats.cpp"/>
   </compounddef>

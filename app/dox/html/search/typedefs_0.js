@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['boetelist',['BoeteList',['../_product_8h.html#a5669d6a05910cd4686bb899c22971351',1,'Product.h']]],
-  ['boeteptr',['BoetePtr',['../_product_8h.html#a41a482f12e7fa484ce98429cf302e4d7',1,'Product.h']]]
+  ['boetelist',['BoeteList',['../namespace_producten.html#a863337b1958e14705b32592f71c29d87',1,'Producten']]],
+  ['boeteptr',['BoetePtr',['../namespace_producten.html#aeef4d0cb2e4403db471b5f3bdc62fcb8',1,'Producten']]]
 ];

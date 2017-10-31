@@ -1,348 +1,359 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
-  <compound refid="class_abonnement_type" kind="class"><name>AbonnementType</name>
-    <member refid="class_abonnement_type_1ade13b37943529ed72789aaed16013b1a" kind="variable"><name>DatastoreModel&lt; AbonnementType &gt;</name></member>
-    <member refid="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" kind="variable"><name>naam</name></member>
-    <member refid="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" kind="variable"><name>kosten</name></member>
-    <member refid="class_abonnement_type_1ad5293c6ce913997acc1a1a57c3e9b678" kind="function"><name>AbonnementType</name></member>
-    <member refid="class_abonnement_type_1afbbfede844d819aff74f9d5d418b46b9" kind="function"><name>AbonnementType</name></member>
-    <member refid="class_abonnement_type_1af9b69c7f28d7ade3d204fe9d899f13bb" kind="function"><name>~AbonnementType</name></member>
+  <compound refid="class_producten_1_1_abonnement_type" kind="class"><name>Producten::AbonnementType</name>
+    <member refid="class_producten_1_1_abonnement_type_1a4059e83a284b5db9a17b68bfc9dd1a1a" kind="variable"><name>DatastoreModel&lt; AbonnementType &gt;</name></member>
+    <member refid="class_producten_1_1_abonnement_type_1acfb29ef66e0277ee1006f181b07b730e" kind="variable"><name>naam</name></member>
+    <member refid="class_producten_1_1_abonnement_type_1aff9786b76e7450b982cd465d0483d187" kind="variable"><name>kosten</name></member>
+    <member refid="class_producten_1_1_abonnement_type_1a47d1a22a45b6381918538921aa002061" kind="function"><name>AbonnementType</name></member>
+    <member refid="class_producten_1_1_abonnement_type_1ac5c905273ac8f5602e1b57266d2ff405" kind="function"><name>AbonnementType</name></member>
+    <member refid="class_producten_1_1_abonnement_type_1a8e9eeaf6524297e5305fb24eae1fca6b" kind="function"><name>~AbonnementType</name></member>
   </compound>
-  <compound refid="struct_actief_verhuur_van_klant" kind="struct"><name>ActiefVerhuurVanKlant</name>
-    <member refid="struct_actief_verhuur_van_klant_1a5577bbe4782d7bab02ba18395d97875a" kind="variable"><name>klant</name></member>
-    <member refid="struct_actief_verhuur_van_klant_1a7f31994d186bff2e013c5f720d342098" kind="function"><name>ActiefVerhuurVanKlant</name></member>
-    <member refid="struct_actief_verhuur_van_klant_1a577acab6729be34b8039e0fb8d8b3fdc" kind="function"><name>operator()</name></member>
+  <compound refid="struct_producten_1_1_actief_verhuur_van_klant" kind="struct"><name>Producten::ActiefVerhuurVanKlant</name>
+    <member refid="struct_producten_1_1_actief_verhuur_van_klant_1a1a3e37cd552a6a5972052982a61df64c" kind="variable"><name>klant</name></member>
+    <member refid="struct_producten_1_1_actief_verhuur_van_klant_1ad25c7a15ef17e9cc72c6eca3a78aef5c" kind="function"><name>ActiefVerhuurVanKlant</name></member>
+    <member refid="struct_producten_1_1_actief_verhuur_van_klant_1a60c31ab52896d63675b02ad89fdd847a" kind="function"><name>operator()</name></member>
   </compound>
-  <compound refid="class_application" kind="class"><name>Application</name>
-    <member refid="class_application_1af47e8d572eb4c171795ebb98a27fcf1a" kind="variable"><name>mQuit</name></member>
-    <member refid="class_application_1a655bc0e60813edb50823651e96b16363" kind="variable"><name>mCUI</name></member>
-    <member refid="class_application_1abece0941dce27507735a65dc79eb6600" kind="variable"><name>boeteTariefSoort</name></member>
-    <member refid="class_application_1a498b2a36b724fc198c6b20213f50b7ff" kind="variable"><name>timeProvider</name></member>
-    <member refid="class_application_1afa8cc05ce6b6092be5ecdfdae44e05f8" kind="function"><name>Application</name></member>
-    <member refid="class_application_1a748bca84fefb9c12661cfaa2f623748d" kind="function"><name>~Application</name></member>
-    <member refid="class_application_1aebb6d1a7983d8d23368b5b34461111ee" kind="function"><name>init</name></member>
-    <member refid="class_application_1a8c7b2b4adc8500ed15b7e56ebdb8642b" kind="function"><name>initUI</name></member>
-    <member refid="class_application_1afa67d2360b97f534818547203749d02d" kind="function"><name>main</name></member>
-    <member refid="class_application_1a34da6a4e08c0a88607f45f8f0a991ec4" kind="function"><name>getNowMoment</name></member>
-    <member refid="class_application_1a20ecb3ac8e5de87844e5d6d451ac8f73" kind="function"><name>setTimeProvider</name></member>
-    <member refid="class_application_1a424b9512a7acb791dc31cf213e47f94c" kind="function"><name>getBoeteTariefSoort</name></member>
-    <member refid="class_application_1a5ad86f158eb501af0b118f87eb8f9bb4" kind="function"><name>setBoeteTariefSoort</name></member>
+  <compound refid="class_core_1_1_application" kind="class"><name>Core::Application</name>
+    <member refid="class_core_1_1_application_1a71631cff585e507c57234c19b870965d" kind="variable"><name>mQuit</name></member>
+    <member refid="class_core_1_1_application_1aa2a712af5d85189a08a6435016f1ac61" kind="variable"><name>mCUI</name></member>
+    <member refid="class_core_1_1_application_1ae1ea07b5aa6890c8e05fd298e2d3ec8c" kind="variable"><name>boeteTariefSoort</name></member>
+    <member refid="class_core_1_1_application_1a30e8aeed1508b683009aeca70da456db" kind="variable"><name>timeProvider</name></member>
+    <member refid="class_core_1_1_application_1a14ac652e4e0960d1e92e9ee400ffcb0a" kind="function"><name>Application</name></member>
+    <member refid="class_core_1_1_application_1abf898bbfb37196662e56bbc144875ac2" kind="function"><name>~Application</name></member>
+    <member refid="class_core_1_1_application_1a99b17e92c48af4ef617f9fd42cc14898" kind="function"><name>init</name></member>
+    <member refid="class_core_1_1_application_1ab459228620f1af34bdfee220bbf68c81" kind="function"><name>initUI</name></member>
+    <member refid="class_core_1_1_application_1aee5fedc73e15d4cc27c1fc3fd1362878" kind="function"><name>main</name></member>
+    <member refid="class_core_1_1_application_1afc5331eeb0cf059c425052f75bc99169" kind="function"><name>getNowMoment</name></member>
+    <member refid="class_core_1_1_application_1aebf62f8ce09efe7f55aaa5824ea2d199" kind="function"><name>setTimeProvider</name></member>
+    <member refid="class_core_1_1_application_1a2143733d47f1d8fb3bd31e690dee954d" kind="function"><name>getBoeteTariefSoort</name></member>
+    <member refid="class_core_1_1_application_1ad98fbc704e0eb5d4f97b369791878b31" kind="function"><name>setBoeteTariefSoort</name></member>
   </compound>
-  <compound refid="class_auto_type" kind="class"><name>AutoType</name>
-    <member refid="class_auto_type_1ae2a8555d7ae69db79eb922568b449e17" kind="variable"><name>DatastoreModel&lt; AutoType &gt;</name></member>
-    <member refid="class_auto_type_1aa821fcbc9018e0264e189175c9cafaa9" kind="variable"><name>naam</name></member>
-    <member refid="class_auto_type_1a6687fe7aaf559f0bb2690b9af45c1be7" kind="function"><name>AutoType</name></member>
-    <member refid="class_auto_type_1a58ee8c600e720e9c69641d73f93c5d41" kind="function"><name>AutoType</name></member>
-    <member refid="class_auto_type_1a03a766960e5001c1460f656bfe9b3afc" kind="function"><name>~AutoType</name></member>
+  <compound refid="class_deelautos_1_1_auto_type" kind="class"><name>Deelautos::AutoType</name>
+    <member refid="class_deelautos_1_1_auto_type_1ae218e48865648823f961da943f52aafb" kind="variable"><name>DatastoreModel&lt; AutoType &gt;</name></member>
+    <member refid="class_deelautos_1_1_auto_type_1a34e4c4e4b815654183741bf8a246a27f" kind="variable"><name>naam</name></member>
+    <member refid="class_deelautos_1_1_auto_type_1a9cd9da74753068dc04db54aab2182537" kind="function"><name>AutoType</name></member>
+    <member refid="class_deelautos_1_1_auto_type_1ae5b5dd10a24599520006f67f00d91f4d" kind="function"><name>AutoType</name></member>
+    <member refid="class_deelautos_1_1_auto_type_1a966d650c5459ce475805a375a197ea37" kind="function"><name>~AutoType</name></member>
   </compound>
-  <compound refid="class_base_repo" kind="class"><name>BaseRepo</name>
-    <member refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" kind="variable"><name>mDataStore</name></member>
-    <member refid="class_base_repo_1ad15627fcbaa43e486c20386d48b28a49" kind="function"><name>BaseRepo</name></member>
-    <member refid="class_base_repo_1af2168f49ca27644b1f3d362e1913e8e6" kind="function"><name>~BaseRepo</name></member>
-    <member refid="class_base_repo_1a2466ad8a9c91a45a365777c8b3dc9a85" kind="function"><name>save</name></member>
-    <member refid="class_base_repo_1a8aabaca29cee66eb9ca5dad568cba7a0" kind="function"><name>create</name></member>
-    <member refid="class_base_repo_1acead0908baa6af29577487e3a9bcf1ca" kind="function"><name>getById</name></member>
+  <compound refid="class_core_1_1_base_repo" kind="class"><name>Core::BaseRepo</name>
+    <member refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" kind="variable"><name>mDataStore</name></member>
+    <member refid="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" kind="function"><name>BaseRepo</name></member>
+    <member refid="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" kind="function"><name>~BaseRepo</name></member>
+    <member refid="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" kind="function"><name>save</name></member>
+    <member refid="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" kind="function"><name>create</name></member>
+    <member refid="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" kind="function"><name>getById</name></member>
   </compound>
-  <compound refid="class_boete" kind="class"><name>Boete</name>
-    <member refid="class_boete_1a926b4c0277b1c31f1d69c2ae0aaff219" kind="variable"><name>DatastoreModel&lt; Boete &gt;</name></member>
-    <member refid="class_boete_1aea709b74c085ddd4b3fec93827a9f4ed" kind="variable"><name>kosten</name></member>
-    <member refid="class_boete_1a1336f073956262da7f134aca4b1f6f51" kind="variable"><name>reden</name></member>
-    <member refid="class_boete_1a2b7fc3791f523596493f337f03f2b19d" kind="variable"><name>timeStamp</name></member>
-    <member refid="class_boete_1ab302f78468da3e1e10d1df96f0cc3e9b" kind="function"><name>getKosten</name></member>
-    <member refid="class_boete_1a8861be9c6f438179b631cc99d5e658a4" kind="function"><name>~Boete</name></member>
-    <member refid="class_boete_1a47349453a610fd573ddd8e3e7bf3328c" kind="function"><name>asString</name></member>
-    <member refid="class_boete_1adad75b9bc81ef740e3d43abe1ce83397" kind="function"><name>Boete</name></member>
-    <member refid="class_boete_1aea6ef3d75e432a94154b35383dc0abee" kind="function"><name>Boete</name></member>
+  <compound refid="class_producten_1_1_boete" kind="class"><name>Producten::Boete</name>
+    <member refid="class_producten_1_1_boete_1ace09f51f0015162ba1e4f7fe8525cc1f" kind="variable"><name>DatastoreModel&lt; Boete &gt;</name></member>
+    <member refid="class_producten_1_1_boete_1ad2a18c81ecfe1d59fafa4e689c74132d" kind="variable"><name>kosten</name></member>
+    <member refid="class_producten_1_1_boete_1ad1ff4f620491ada5dab1b8976b849994" kind="variable"><name>reden</name></member>
+    <member refid="class_producten_1_1_boete_1a2102ff00bd7b6f800477e88600f0a996" kind="variable"><name>timeStamp</name></member>
+    <member refid="class_producten_1_1_boete_1a24da94e06dd4b720fd5da3bc7a010453" kind="function"><name>getKosten</name></member>
+    <member refid="class_producten_1_1_boete_1afe46d081ccb160b42fe7d91ce4d94a69" kind="function"><name>~Boete</name></member>
+    <member refid="class_producten_1_1_boete_1ab0b90310f6008d0feabcd71113d47d8d" kind="function"><name>asString</name></member>
+    <member refid="class_producten_1_1_boete_1a55ca4546fdc8942a46cac4a79bbe3b3e" kind="function"><name>Boete</name></member>
+    <member refid="class_producten_1_1_boete_1a67f49eb6fe23b272676f451ce4bf0b03" kind="function"><name>Boete</name></member>
   </compound>
-  <compound refid="class_datastore_model" kind="class"><name>DatastoreModel</name>
-    <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" kind="typedef"><name>ModelPtr</name></member>
-    <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" kind="typedef"><name>ptr</name></member>
-    <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" kind="variable"><name>id</name></member>
-    <member refid="class_datastore_model_1aea400e267ded08af07445bf356126d86" kind="variable"><name>ModelType</name></member>
-    <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" kind="function"><name>~DatastoreModel</name></member>
-    <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" kind="function"><name>shared_from_this</name></member>
-    <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kind="function"><name>Create</name></member>
-    <member refid="class_datastore_model_1a7c490b686840f919bfcb2fca49221600" kind="function"><name>DatastoreModel</name></member>
-    <member refid="class_datastore_model_1af413eef0590328af1dc355d89f34f204" kind="function"><name>DatastoreModel</name></member>
+  <compound refid="class_core_1_1_datastore_model" kind="class"><name>Core::DatastoreModel</name>
+    <member refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" kind="typedef"><name>ModelPtr</name></member>
+    <member refid="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" kind="typedef"><name>ptr</name></member>
+    <member refid="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" kind="variable"><name>id</name></member>
+    <member refid="class_core_1_1_datastore_model_1ae45356919b532cb8134753dec57c2df0" kind="variable"><name>ModelType</name></member>
+    <member refid="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" kind="function"><name>~DatastoreModel</name></member>
+    <member refid="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" kind="function"><name>shared_from_this</name></member>
+    <member refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kind="function"><name>Create</name></member>
+    <member refid="class_core_1_1_datastore_model_1a4919147a7f347456ebb0cc03533daf95" kind="function"><name>DatastoreModel</name></member>
+    <member refid="class_core_1_1_datastore_model_1a4dbc39cd945276a554a86a003fb22d55" kind="function"><name>DatastoreModel</name></member>
   </compound>
-  <compound refid="class_deelauto" kind="class"><name>Deelauto</name>
-    <member refid="class_deelauto_1ad851b5f6557f98e060bffbd9441c9a52" kind="variable"><name>DatastoreModel&lt; Deelauto &gt;</name></member>
-    <member refid="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" kind="variable"><name>kenteken</name></member>
-    <member refid="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" kind="variable"><name>standplaats</name></member>
-    <member refid="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" kind="variable"><name>redcardModule</name></member>
-    <member refid="class_deelauto_1aef1ef7a4ba9568f6320359b5985941df" kind="variable"><name>type</name></member>
-    <member refid="class_deelauto_1a1c5595e1b8531f174ca27a0f0ca3ea31" kind="function"><name>Deelauto</name></member>
-    <member refid="class_deelauto_1a1a95e1cab51e8990163bde107a6b343d" kind="function"><name>Deelauto</name></member>
-    <member refid="class_deelauto_1a18f784bc15dea06fc748dbd03af06805" kind="function"><name>~Deelauto</name></member>
-    <member refid="class_deelauto_1a1b9cfb16a8619673c6a43c3127fb872a" kind="function"><name>getStandPlaats</name></member>
-    <member refid="class_deelauto_1a9891421f62aeda3260ae58eea5ded031" kind="function"><name>getRedcarModule</name></member>
-    <member refid="class_deelauto_1a147354557bd5ca7bda8d45debb9fb090" kind="function"><name>getAutoType</name></member>
-    <member refid="class_deelauto_1a39d5e228746821cdac75194be2493bbe" kind="function"><name>verhuurActief</name></member>
-    <member refid="class_deelauto_1ab359f821f58d16f35ec8e8bce8282020" kind="function"><name>checkOpLocatie</name></member>
-    <member refid="class_deelauto_1a2e7c9595453e9fb20881344b469fc285" kind="function"><name>verhuurVoltooid</name></member>
+  <compound refid="class_deelautos_1_1_deelauto" kind="class"><name>Deelautos::Deelauto</name>
+    <member refid="class_deelautos_1_1_deelauto_1ac3fff9961a9a4c745e63879cbfaeb663" kind="variable"><name>DatastoreModel&lt; Deelauto &gt;</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a6eb5a3066223a5b075223e2915c9edd2" kind="variable"><name>kenteken</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a8f219b43d3c056b92ce4324329853437" kind="variable"><name>type</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1ada75153fc4a88e80d6e3c2482336ceef" kind="variable"><name>standplaats</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a2bac9f276cb0e732497d943352c003b6" kind="variable"><name>redcardModule</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a2153d59b41f6f8d2679f4961ff85b7ce" kind="function"><name>Deelauto</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a86d3a4eef57a3f85a0f21707352ad330" kind="function"><name>Deelauto</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a8d13e8c117445e89170b19b880cd44d4" kind="function"><name>~Deelauto</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a1fd6044d658b3bcddf972148708da7d7" kind="function"><name>getStandPlaats</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a9aff4be795ddcba8c44dbd2adbe4f53a" kind="function"><name>getRedcarModule</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a9e400fc6bf40f0d97dd97833f6547345" kind="function"><name>getAutoType</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a24d41d27dbb11c852dc1728522f5c8a6" kind="function"><name>verhuurActief</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a9592aad177c1ca9a0c0f54cb2b2d4ab3" kind="function"><name>checkOpLocatie</name></member>
+    <member refid="class_deelautos_1_1_deelauto_1a8512b3816e853c894f79341835973cb1" kind="function"><name>verhuurVoltooid</name></member>
   </compound>
-  <compound refid="class_fake_time_provider" kind="class"><name>FakeTimeProvider</name>
-    <member refid="class_fake_time_provider_1a3545be40c96512bb0c125c7c0c155b24" kind="variable"><name>fakeTime</name></member>
-    <member refid="class_fake_time_provider_1a6419726d6f0c02fa2ba73333e7b7b6dc" kind="function"><name>FakeTimeProvider</name></member>
-    <member refid="class_fake_time_provider_1ae67f62fb064117e0b9644c1e774de0d0" kind="function"><name>~FakeTimeProvider</name></member>
-    <member refid="class_fake_time_provider_1a0c9f32a4e2f5d531d02f10faac480e15" kind="function"><name>getTime</name></member>
+  <compound refid="class_core_1_1_fake_time_provider" kind="class"><name>Core::FakeTimeProvider</name>
+    <member refid="class_core_1_1_fake_time_provider_1ad82c7e9942679a88663a2cb37e10c8a9" kind="variable"><name>fakeTime</name></member>
+    <member refid="class_core_1_1_fake_time_provider_1a3705a1739c9cf3197e89fdb35e692d49" kind="function"><name>FakeTimeProvider</name></member>
+    <member refid="class_core_1_1_fake_time_provider_1afa26bdb8cef3e124ad66df3959d9a6e9" kind="function"><name>~FakeTimeProvider</name></member>
+    <member refid="class_core_1_1_fake_time_provider_1abbe31a0bf33b383a03c082855883f6cf" kind="function"><name>getTime</name></member>
   </compound>
-  <compound refid="class_geld" kind="class"><name>Geld</name>
-    <member refid="class_geld_1a9cba09dc10e3209a3c0663e34c78e903" kind="variable"><name>waarde</name></member>
-    <member refid="class_geld_1a80e1ab33d177b6d7f70e1610dffae19a" kind="function"><name>Geld</name></member>
-    <member refid="class_geld_1a2a8fdbab571a74c1a06df62e70a1a850" kind="function"><name>Geld</name></member>
-    <member refid="class_geld_1ad2b157fb040fff6da979e80a783e35bd" kind="function"><name>Geld</name></member>
-    <member refid="class_geld_1a8df5e7e9fda6454ff28a2ce79c0edeea" kind="function"><name>Geld</name></member>
-    <member refid="class_geld_1a995e367b24dcd1ee229fd2452a651c05" kind="function"><name>~Geld</name></member>
-    <member refid="class_geld_1ae49ffd3c78e3d287f704232eec9cb6a7" kind="function"><name>operator=</name></member>
-    <member refid="class_geld_1a3c48c8bc5f3a2e9d65584d0cb9ae7a75" kind="function"><name>operator+</name></member>
-    <member refid="class_geld_1a98935b89ec79cc50b9bfbf8aabd9356d" kind="function"><name>operator+=</name></member>
-    <member refid="class_geld_1ad1f83073d1f681c6ef5ca3ebe151b53c" kind="function"><name>operator-</name></member>
-    <member refid="class_geld_1aefe916604a61e04f55b146b20eb8c680" kind="function"><name>operator-=</name></member>
-    <member refid="class_geld_1a7a385684ce851a0cc22e9d430cb94891" kind="function"><name>operator*</name></member>
-    <member refid="class_geld_1a3f8ec1a877ef7111c563dcb20c4aec9b" kind="function"><name>operator*=</name></member>
-    <member refid="class_geld_1a1b25c6a0c4ed2170d4eddef340c5f262" kind="function"><name>operator/</name></member>
-    <member refid="class_geld_1a0dfeee0055a33f2c4b5fa8da91961d4d" kind="function"><name>operator/=</name></member>
-    <member refid="class_geld_1a46540828ebcba69e949886faeb903858" kind="function"><name>getEuros</name></member>
-    <member refid="class_geld_1ab209a6106085b97956ff97b84cd14e8c" kind="function"><name>getCenten</name></member>
-    <member refid="class_geld_1a8da3212a4162a4764b24d5498eb4937f" kind="function"><name>toString</name></member>
-    <member refid="class_geld_1aff6c913aca08b53f32a30f6a6fd0acba" kind="function"><name>operator bool</name></member>
+  <compound refid="class_core_1_1_geld" kind="class"><name>Core::Geld</name>
+    <member refid="class_core_1_1_geld_1a854197b86774424b08a61a5ba9b41691" kind="variable"><name>waarde</name></member>
+    <member refid="class_core_1_1_geld_1a9815f34d31481884ba6fecb45ba3a834" kind="function"><name>Geld</name></member>
+    <member refid="class_core_1_1_geld_1a8520dd5faaaefa8a8c6df00d1b0af636" kind="function"><name>Geld</name></member>
+    <member refid="class_core_1_1_geld_1a52c5c398763b6b9f397a95d2108e8880" kind="function"><name>Geld</name></member>
+    <member refid="class_core_1_1_geld_1a790940e80fc22ba10a9dd7d83b6d2107" kind="function"><name>Geld</name></member>
+    <member refid="class_core_1_1_geld_1a73230e8d329c07a51ec739aed9edf18a" kind="function"><name>~Geld</name></member>
+    <member refid="class_core_1_1_geld_1a7a688ae9d1760de036a4cb151071567c" kind="function"><name>operator=</name></member>
+    <member refid="class_core_1_1_geld_1a6bb39aabb263e2e734be5392bbf19648" kind="function"><name>operator+</name></member>
+    <member refid="class_core_1_1_geld_1acc91cc321dca75e1fd010f555cb40a25" kind="function"><name>operator+=</name></member>
+    <member refid="class_core_1_1_geld_1a3d647491a150d4d34ce07129d71321bb" kind="function"><name>operator-</name></member>
+    <member refid="class_core_1_1_geld_1af0163fff6e5b7d1c367d3b1aac71fed3" kind="function"><name>operator-=</name></member>
+    <member refid="class_core_1_1_geld_1a11dec49982c08ccc67c03f1d2cd72c6e" kind="function"><name>operator*</name></member>
+    <member refid="class_core_1_1_geld_1ab668e9abfac16d6f59255f210690773e" kind="function"><name>operator*=</name></member>
+    <member refid="class_core_1_1_geld_1a92d5223c43adb775182680911adddc30" kind="function"><name>operator/</name></member>
+    <member refid="class_core_1_1_geld_1ad3416a2c4a1bfaa3c00856dcb8003aa5" kind="function"><name>operator/=</name></member>
+    <member refid="class_core_1_1_geld_1a8c06740b19bd1099d7a789fdae4266b5" kind="function"><name>getEuros</name></member>
+    <member refid="class_core_1_1_geld_1ac3650826f2582169ebdcaebe886f5de0" kind="function"><name>getCenten</name></member>
+    <member refid="class_core_1_1_geld_1a4307f01b2b1a814431331d3f0a58c960" kind="function"><name>toString</name></member>
+    <member refid="class_core_1_1_geld_1aa911afe7b1e6354c235d8d6e82ecec54" kind="function"><name>operator bool</name></member>
   </compound>
-  <compound refid="struct_i_data_store_1_1_has_id" kind="struct"><name>IDataStore::HasId</name>
+  <compound refid="struct_core_1_1_i_data_store_1_1_has_id" kind="struct"><name>Core::IDataStore::HasId</name>
   </compound>
-  <compound refid="struct_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4" kind="struct"><name>IDataStore::HasId&lt; T, decltype((void) T::x, 0)&gt;</name>
+  <compound refid="struct_core_1_1_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4" kind="struct"><name>Core::IDataStore::HasId&lt; T, decltype((void) T::x, 0)&gt;</name>
   </compound>
-  <compound refid="class_i_data_store" kind="class"><name>IDataStore</name>
-    <member refid="class_i_data_store_1ade2a9006332b4607108f902fc51ead2f" kind="typedef"><name>IsValidModelType</name></member>
-    <member refid="class_i_data_store_1aeb32518e9df86d85f64e44a632265af9" kind="typedef"><name>ValidModelType</name></member>
-    <member refid="class_i_data_store_1af1b50e382efcb85092680e8ae3f16741" kind="function"><name>IDataStore</name></member>
-    <member refid="class_i_data_store_1a1eaee551165f3548c3fbd7d34205309f" kind="function"><name>~IDataStore</name></member>
-    <member refid="class_i_data_store_1a484c3e1a854147995ab7d519640acdb1" kind="function"><name>loadModel</name></member>
-    <member refid="class_i_data_store_1ae968da642eadfe1105f345f9130eeb53" kind="function"><name>saveModel</name></member>
-    <member refid="class_i_data_store_1af1dbbe9a3721d06e922032234ba10edb" kind="function"><name>createModel</name></member>
+  <compound refid="class_core_1_1_i_data_store" kind="class"><name>Core::IDataStore</name>
+    <member refid="class_core_1_1_i_data_store_1acf41fbcfc53e02d2bbef9adc82d3f5ff" kind="typedef"><name>IsValidModelType</name></member>
+    <member refid="class_core_1_1_i_data_store_1a1f1a7edf2447cf606cff275b8a060065" kind="typedef"><name>ValidModelType</name></member>
+    <member refid="class_core_1_1_i_data_store_1ae31b416da536fa67ae59a18942019ed2" kind="function"><name>IDataStore</name></member>
+    <member refid="class_core_1_1_i_data_store_1a71a98ef1ebcbc9ddd7b4f9fabac75db6" kind="function"><name>~IDataStore</name></member>
+    <member refid="class_core_1_1_i_data_store_1a0f58fffd47db45493d1eccf35f1e91ab" kind="function"><name>loadModel</name></member>
+    <member refid="class_core_1_1_i_data_store_1a0515b13f9c31faf054d3d0265f63dc50" kind="function"><name>saveModel</name></member>
+    <member refid="class_core_1_1_i_data_store_1a50230ba876480b9097c2710b08601182" kind="function"><name>createModel</name></member>
   </compound>
-  <compound refid="struct_i_datastore_model" kind="struct"><name>IDatastoreModel</name>
-    <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" kind="function"><name>~IDatastoreModel</name></member>
+  <compound refid="struct_core_1_1_i_datastore_model" kind="struct"><name>Core::IDatastoreModel</name>
+    <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" kind="function"><name>~IDatastoreModel</name></member>
   </compound>
-  <compound refid="class_i_time_provider" kind="class"><name>ITimeProvider</name>
-    <member refid="class_i_time_provider_1aee17cd245c6c4a552ce62ab9c796c1f3" kind="function"><name>~ITimeProvider</name></member>
-    <member refid="class_i_time_provider_1ac04614c0b8650d18832759654040780f" kind="function"><name>getTime</name></member>
-    <member refid="class_i_time_provider_1a7efca2fd640d20135aefbb9e51edad1c" kind="function"><name>ITimeProvider</name></member>
+  <compound refid="class_core_1_1_i_time_provider" kind="class"><name>Core::ITimeProvider</name>
+    <member refid="class_core_1_1_i_time_provider_1a69b65fac2cdd7cfe32e1a9c1547f6287" kind="function"><name>~ITimeProvider</name></member>
+    <member refid="class_core_1_1_i_time_provider_1acf921d9a8e87991498b3a885048f0479" kind="function"><name>getTime</name></member>
+    <member refid="class_core_1_1_i_time_provider_1a9ad4b5f7fe14f80ef4af5e7cb7b47588" kind="function"><name>ITimeProvider</name></member>
   </compound>
-  <compound refid="class_klant" kind="class"><name>Klant</name>
-    <member refid="class_klant_1a9764ab4091a269471ac75af318e3d80a" kind="variable"><name>DatastoreModel&lt; Klant &gt;</name></member>
-    <member refid="class_klant_1a9614730ae8e800fee4b077046ef9b38d" kind="variable"><name>naam</name></member>
-    <member refid="class_klant_1aebc5faf471fe6a59598f9d0c082056fd" kind="variable"><name>email</name></member>
-    <member refid="class_klant_1a4c24f7febe32dbe6f68042848ec893d7" kind="variable"><name>pasNummmer</name></member>
-    <member refid="class_klant_1a09b4811cf5e2fc0ecc91e5500cf7ef2a" kind="variable"><name>abbonomentType</name></member>
-    <member refid="class_klant_1a6244137a189ec7d8af734ebc8537f3d4" kind="function"><name>Klant</name></member>
-    <member refid="class_klant_1a09ceabad455ac4d88ab7d3972811d02d" kind="function"><name>Klant</name></member>
-    <member refid="class_klant_1a8880dca337bf647fa9dab0e10c37fae5" kind="function"><name>~Klant</name></member>
+  <compound refid="class_klanten_1_1_klant" kind="class"><name>Klanten::Klant</name>
+    <member refid="class_klanten_1_1_klant_1aa910a6ff2ee2a3e6208df60a489d4731" kind="variable"><name>DatastoreModel&lt; Klant &gt;</name></member>
+    <member refid="class_klanten_1_1_klant_1a7224e48fbc7fad593422737392496c6a" kind="variable"><name>naam</name></member>
+    <member refid="class_klanten_1_1_klant_1a1a44f2d1c1b404109729b8ab85791462" kind="variable"><name>email</name></member>
+    <member refid="class_klanten_1_1_klant_1a4f365c3808cc6b59ea97019aa28b5ecd" kind="variable"><name>pasNummmer</name></member>
+    <member refid="class_klanten_1_1_klant_1ae24b49a7d7103d95c7616dc4fad97803" kind="variable"><name>abbonomentType</name></member>
+    <member refid="class_klanten_1_1_klant_1ac9ca539b891da514b3d76e9a2accb9b6" kind="function"><name>Klant</name></member>
+    <member refid="class_klanten_1_1_klant_1ac1755f3f6906fc2f4a326ea352ca94f3" kind="function"><name>Klant</name></member>
+    <member refid="class_klanten_1_1_klant_1ae325db545f8641cbd75d7c590f57e235" kind="function"><name>~Klant</name></member>
   </compound>
-  <compound refid="class_klant_repo" kind="class"><name>KlantRepo</name>
-    <member refid="class_klant_repo_1ac97ab20e0642e2aac8ecf7f49daf294e" kind="function"><name>KlantRepo</name></member>
-    <member refid="class_klant_repo_1ab794e95898d2ef2e0529e17dd2426122" kind="function"><name>~KlantRepo</name></member>
-    <member refid="class_klant_repo_1aeecf25377bbf3608cc673443e9793653" kind="function"><name>getKlantByPasNummer</name></member>
+  <compound refid="class_klanten_1_1_klant_repo" kind="class"><name>Klanten::KlantRepo</name>
+    <member refid="class_klanten_1_1_klant_repo_1a5af09644b9594c07430600ef28235de2" kind="function"><name>KlantRepo</name></member>
+    <member refid="class_klanten_1_1_klant_repo_1af1041205dbef901a2ca3f844533898b2" kind="function"><name>~KlantRepo</name></member>
+    <member refid="class_klanten_1_1_klant_repo_1a0bb7b9c2b6cdf22cd0ebbadd0631be7a" kind="function"><name>getKlantByPasNummer</name></member>
   </compound>
-  <compound refid="struct_model_by_id" kind="struct"><name>ModelById</name>
-    <member refid="struct_model_by_id_1afbfe301c35f38ab1d670f89646252903" kind="variable"><name>id</name></member>
-    <member refid="struct_model_by_id_1a407c3ce3d2bc7b599a44e247893f7a38" kind="function"><name>ModelById</name></member>
-    <member refid="struct_model_by_id_1ac4925cef0ee09008f1bef22cecd5a708" kind="function"><name>operator()</name></member>
+  <compound refid="struct_core_1_1_model_by_id" kind="struct"><name>Core::ModelById</name>
+    <member refid="struct_core_1_1_model_by_id_1ab9301786d6361fca83b0475d8b015cf9" kind="variable"><name>id</name></member>
+    <member refid="struct_core_1_1_model_by_id_1a4f0e1c929b463510b47db4e5a56ad86c" kind="function"><name>ModelById</name></member>
+    <member refid="struct_core_1_1_model_by_id_1a4b3450a059365205e50df9d5ec2ea702" kind="function"><name>operator()</name></member>
   </compound>
-  <compound refid="class_product" kind="class"><name>Product</name>
-    <member refid="class_product_1adca84a4ec80bb8f905d1e60d01c268b5" kind="variable"><name>boetes</name></member>
-    <member refid="class_product_1a8b28088bf44ce0b2a1548fb1d48709ca" kind="function"><name>~Product</name></member>
-    <member refid="class_product_1a522cada24747c261256fb2a2f84c3df7" kind="function"><name>getKosten</name></member>
-    <member refid="class_product_1a909fc12b80f4638775084397a3ec9d7a" kind="function"><name>getExtraKosten</name></member>
-    <member refid="class_product_1a4ab8cc7ecfe96cb54df437ce6b993ec4" kind="function"><name>getTotaalKosten</name></member>
-    <member refid="class_product_1a37f12dba000da49e91741915b0326448" kind="function"><name>asString</name></member>
-    <member refid="class_product_1a0b641a5eadb6ff3488c09329acd6d1ef" kind="function"><name>Product</name></member>
-    <member refid="class_product_1a24c9842e7a076d4da5c106010c3481b9" kind="function"><name>Product</name></member>
-    <member refid="class_product_1ab77f17e6bbbb5f686330af1b04b6ee01" kind="function"><name>addBoete</name></member>
-    <member refid="class_product_1a4d36a87cd6e9bb55496c3a19a45fcf51" kind="function"><name>maakFactuur</name></member>
+  <compound refid="class_producten_1_1_product" kind="class"><name>Producten::Product</name>
+    <member refid="class_producten_1_1_product_1a56892a895b84046b3c26c15122ae1ff8" kind="variable"><name>boetes</name></member>
+    <member refid="class_producten_1_1_product_1a84490e62e33c8b07ea9eeb7206256161" kind="function"><name>~Product</name></member>
+    <member refid="class_producten_1_1_product_1a42f02ea9745c49de96d0112fc8440331" kind="function"><name>getKosten</name></member>
+    <member refid="class_producten_1_1_product_1aae2d928dad8e6de569a2c537302f1666" kind="function"><name>getExtraKosten</name></member>
+    <member refid="class_producten_1_1_product_1ab222b6ebdde88726f73d5a66195a2351" kind="function"><name>getTotaalKosten</name></member>
+    <member refid="class_producten_1_1_product_1ab03e9b20265b86f021af1a1416ec9fba" kind="function"><name>asString</name></member>
+    <member refid="class_producten_1_1_product_1a7ae9d1c078e42e604e062124484543ca" kind="function"><name>Product</name></member>
+    <member refid="class_producten_1_1_product_1a531790125c6af44b2b5f436c3a9d2ed8" kind="function"><name>Product</name></member>
+    <member refid="class_producten_1_1_product_1aabac8db92098047c7c60cba3b4682286" kind="function"><name>addBoete</name></member>
+    <member refid="class_producten_1_1_product_1a802a8a8290df2dd2497bdd85dc614f08" kind="function"><name>maakFactuur</name></member>
   </compound>
-  <compound refid="class_real_time_provider" kind="class"><name>RealTimeProvider</name>
-    <member refid="class_real_time_provider_1af6436a01980c31ba650a2bacfd5620dd" kind="function"><name>RealTimeProvider</name></member>
-    <member refid="class_real_time_provider_1a75e3a444c8e8dec411080f8b20197d82" kind="function"><name>~RealTimeProvider</name></member>
-    <member refid="class_real_time_provider_1ad57d78aa6ad8d152f09ca77ab4c906a2" kind="function"><name>getTime</name></member>
+  <compound refid="class_core_1_1_real_time_provider" kind="class"><name>Core::RealTimeProvider</name>
+    <member refid="class_core_1_1_real_time_provider_1a41237e4850e50ca37ab834753adf1bec" kind="function"><name>RealTimeProvider</name></member>
+    <member refid="class_core_1_1_real_time_provider_1a0a37a6867c2acf06629718f4d47ebf92" kind="function"><name>~RealTimeProvider</name></member>
+    <member refid="class_core_1_1_real_time_provider_1aab6e941cfe27b728a74f129b20e82a6e" kind="function"><name>getTime</name></member>
   </compound>
-  <compound refid="class_redcar_module" kind="class"><name>RedcarModule</name>
-    <member refid="class_redcar_module_1a804a42c22e82911db36c62101505fb57" kind="variable"><name>DatastoreModel&lt; RedcarModule &gt;</name></member>
-    <member refid="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" kind="variable"><name>aantalKilometers</name></member>
-    <member refid="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" kind="variable"><name>pasNummer</name></member>
-    <member refid="class_redcar_module_1afa0c2303d2367344909b4c6b8d322582" kind="function"><name>RedcarModule</name></member>
-    <member refid="class_redcar_module_1a1c92265ddfe3d2892b90e3b9a090c489" kind="function"><name>RedcarModule</name></member>
-    <member refid="class_redcar_module_1ad21e63c47532df17429940d7f6c9f47a" kind="function"><name>~RedcarModule</name></member>
-    <member refid="class_redcar_module_1a9a46508cd9b0c4d4343cab27b8012aec" kind="function"><name>getLocatie</name></member>
-    <member refid="class_redcar_module_1a610e38f55874087231fbf5f1ea5fffa2" kind="function"><name>reset</name></member>
-    <member refid="class_redcar_module_1ad204aaaa745ced3dd0b7b38d4c8dee8e" kind="function"><name>getPasNummer</name></member>
-    <member refid="class_redcar_module_1ae05872f0f87a0e0a62569c3d5b833f0b" kind="function"><name>setPasNummer</name></member>
-    <member refid="class_redcar_module_1a5b960d6671bfae3757d28151d997d543" kind="function"><name>getAantalKilometers</name></member>
+  <compound refid="class_redcard_module_1_1_redcar_module" kind="class"><name>RedcardModule::RedcarModule</name>
+    <member refid="class_redcard_module_1_1_redcar_module_1adf04bc2f39a7037a5b5e5a78a2619d49" kind="variable"><name>DatastoreModel&lt; RedcarModule &gt;</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a0df3c4750bb61f758e235bbdda2496de" kind="variable"><name>aantalKilometers</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a0a29cda2fa3fe169e6a7b4c1250b4845" kind="variable"><name>pasNummer</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a9369477046297e1190f7f04758820fa0" kind="function"><name>RedcarModule</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a63b18073221d166a28767db2bc248ff6" kind="function"><name>RedcarModule</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a32bae5a89b698293fc6c4ccdf2d71d20" kind="function"><name>~RedcarModule</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a539ae4f09384714b7b4cfa85e0a0f21a" kind="function"><name>getLocatie</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a39343907c5e03f305bcdfc98f8c9fa98" kind="function"><name>reset</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a91a5fd059e416f523de3a4a210f410b6" kind="function"><name>getPasNummer</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a77b3303f33d25b7856a7e91dacc11297" kind="function"><name>setPasNummer</name></member>
+    <member refid="class_redcard_module_1_1_redcar_module_1a76708838c2a3667415433a96e324fe72" kind="function"><name>getAantalKilometers</name></member>
   </compound>
-  <compound refid="class_red_cars_context" kind="class"><name>RedCarsContext</name>
-    <member refid="class_red_cars_context_1aca3f7c136391fdd6d2fe0059d0879362" kind="typedef"><name>super</name></member>
-    <member refid="class_red_cars_context_1a41bd2f15fbbc869a8d8716db3e023a77" kind="function"><name>getInstance</name></member>
+  <compound refid="class_core_1_1_red_cars_context" kind="class"><name>Core::RedCarsContext</name>
+    <member refid="class_core_1_1_red_cars_context_1a4f45db64869ed961ef15b50e7dd79b8a" kind="typedef"><name>super</name></member>
+    <member refid="class_core_1_1_red_cars_context_1a56a093f6d274081208f40a4f5ea4ea68" kind="function"><name>getInstance</name></member>
   </compound>
-  <compound refid="classdetail_1_1_red_cars_context_impl" kind="class"><name>detail::RedCarsContextImpl</name>
-    <member refid="classdetail_1_1_red_cars_context_impl_1ae167f37b93b9b175de07d0b487733530" kind="variable"><name>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a15cd417062d1448009f37f371a7228e9" kind="variable"><name>mDatastore</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a4de22e5a95ef292fb17c7a4eb12e4435" kind="variable"><name>mKlantRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a5387e9244a74dece542d86e5ccfd5e86" kind="variable"><name>mVehuurRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1ac4725174bb258b1801f037e5c0ffcc1d" kind="variable"><name>mTariefRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1ad09099af3e7e1436224b62491bcb9a8c" kind="variable"><name>mReserveringRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a76a863809fef04da7d85de8d3af0914a" kind="function"><name>RedCarsContextImpl</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1abb610a148f75067f8e0867ca95dc243c" kind="function"><name>~RedCarsContextImpl</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a06b1d5812754c0ffb46e63355fa7abde" kind="function"><name>getDataStore</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a0f46ae0aa2e6c056fd34b36c9957901c" kind="function"><name>getKlantRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a487e0edc99e35d878536829ba40f05e6" kind="function"><name>getVehuurRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a2fa99997b3a1f63c50a4d951399b4375" kind="function"><name>getTariefRepo</name></member>
-    <member refid="classdetail_1_1_red_cars_context_impl_1a16c7eb905651b692c576f53671d68319" kind="function"><name>getReserveringRepo</name></member>
+  <compound refid="class_core_1_1detail_1_1_red_cars_context_impl" kind="class"><name>Core::detail::RedCarsContextImpl</name>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a257e76cb16902348ad9bc9e17e8b5434" kind="variable"><name>Singleton&lt; RedCarsContextImpl&lt; DataStoreType &gt; &gt;</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a1a5ed67ea34d9f8d4a5c37ee80c7f5f1" kind="variable"><name>mDatastore</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a6b84326285490d8b32fbe52ba79a0f95" kind="variable"><name>mKlantRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a88756def89560bd3b01300b6cc522fce" kind="variable"><name>mVehuurRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a291c4ad4832aff370ced0bcbf51facba" kind="variable"><name>mTariefRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ab6613235b405b526eac023f29f1a751c" kind="variable"><name>mReserveringRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a9476be3c8431bca7e5109b74dd87be31" kind="function"><name>RedCarsContextImpl</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a23ec5485a61b94a6d401093f1a1bc71b" kind="function"><name>~RedCarsContextImpl</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ace2c54ee9a85636f01f6e94909e7b766" kind="function"><name>getDataStore</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a0fd4e163371ccebc49052ff2e0109c41" kind="function"><name>getKlantRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a4c6c523ee840ed83d476a9f3c39325be" kind="function"><name>getVehuurRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ac55ade2318c0579601a5b0b6e97e02d4" kind="function"><name>getTariefRepo</name></member>
+    <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ae457b48fe90c3bfecfb33a74e8117658" kind="function"><name>getReserveringRepo</name></member>
   </compound>
-  <compound refid="class_reservering" kind="class"><name>Reservering</name>
-    <member refid="class_reservering_1a36f056b35d86c4ea6f8922c70e276077" kind="variable"><name>DatastoreModel&lt; Klant &gt;</name></member>
-    <member refid="class_reservering_1a6fe810a1d2caa8d0112dadc4ad015090" kind="variable"><name>Verhuur</name></member>
-    <member refid="class_reservering_1a94067270270d9a82a2cac9be256c8402" kind="variable"><name>beginMoment</name></member>
-    <member refid="class_reservering_1a1aad46b288366c852e2aa94489806347" kind="variable"><name>eindMoment</name></member>
-    <member refid="class_reservering_1a23849bb01ce045281e9f04220d038f45" kind="variable"><name>klant</name></member>
-    <member refid="class_reservering_1a3ad73f685d41464e4c82fdbcf744e5f3" kind="variable"><name>deelauto</name></member>
-    <member refid="class_reservering_1ac4209052b83e77bc1b72558fcd57ea33" kind="variable"><name>tariefSoort</name></member>
-    <member refid="class_reservering_1a8648c354605a6196cb082b26d67a0dca" kind="variable"><name>verhuur</name></member>
-    <member refid="class_reservering_1ad81ad37ab56781537c77c29a468c9a4d" kind="function"><name>Reservering</name></member>
-    <member refid="class_reservering_1a16f8001bbe18c09159d3009ad1eeb46f" kind="function"><name>Reservering</name></member>
-    <member refid="class_reservering_1a0bb30c182d47cefebaca366085f96525" kind="function"><name>~Reservering</name></member>
-    <member refid="class_reservering_1aff8b9556abe036abd438aabef57f8804" kind="function"><name>getTarief</name></member>
-    <member refid="class_reservering_1a27fd6336ff5ffad0fa6f4dcb9ba71299" kind="function"><name>getKosten</name></member>
-    <member refid="class_reservering_1a86d16f96fb4f66582c4ed689816f0755" kind="function"><name>verzilveren</name></member>
-    <member refid="class_reservering_1afc6da2cf16c896d88e0eeed82d84036a" kind="function"><name>isIngecheckt</name></member>
-    <member refid="class_reservering_1acd271f74f8a546e66cc254a408af2bef" kind="function"><name>getTariefSoortPeriodeAantal</name></member>
-    <member refid="class_reservering_1a6b5401c15d6d9b341af9040b6528c9dc" kind="function"><name>asString</name></member>
+  <compound refid="class_producten_1_1_reservering" kind="class"><name>Producten::Reservering</name>
+    <member refid="class_producten_1_1_reservering_1a49d3e6cc5073a1a1852ee7219d2283ee" kind="variable"><name>DatastoreModel&lt; Klant &gt;</name></member>
+    <member refid="class_producten_1_1_reservering_1aa09b70957adfbee16450ffe624083937" kind="variable"><name>Verhuur</name></member>
+    <member refid="class_producten_1_1_reservering_1a66ee44a06d885d771113e1654e57886a" kind="variable"><name>beginMoment</name></member>
+    <member refid="class_producten_1_1_reservering_1a429245a309c8a2c031100b2613968f29" kind="variable"><name>eindMoment</name></member>
+    <member refid="class_producten_1_1_reservering_1a2861853474dc0c95cdb8a81b17a7e683" kind="variable"><name>klant</name></member>
+    <member refid="class_producten_1_1_reservering_1ab7238473f0cf1d3464510691a40092af" kind="variable"><name>deelauto</name></member>
+    <member refid="class_producten_1_1_reservering_1a2e03bd49d89417fe9e5ee1a5e41f2c37" kind="variable"><name>tariefSoort</name></member>
+    <member refid="class_producten_1_1_reservering_1a8a0babc48f5e187eb3861483f2acfde8" kind="variable"><name>verhuur</name></member>
+    <member refid="class_producten_1_1_reservering_1a118aae96b4c460213a6b098523702103" kind="function"><name>Reservering</name></member>
+    <member refid="class_producten_1_1_reservering_1aa102b51527ec09dc8138c523f0de4860" kind="function"><name>Reservering</name></member>
+    <member refid="class_producten_1_1_reservering_1a2abc14c859df61e0b1d3dc8e51793df8" kind="function"><name>~Reservering</name></member>
+    <member refid="class_producten_1_1_reservering_1a98a7f8ace4673cd21c50c7e010344e83" kind="function"><name>getTarief</name></member>
+    <member refid="class_producten_1_1_reservering_1abe1a68953a3fbaf95120c4bdc9e226a8" kind="function"><name>getKosten</name></member>
+    <member refid="class_producten_1_1_reservering_1abbacd086238500f8111ee1da026b8fc5" kind="function"><name>verzilveren</name></member>
+    <member refid="class_producten_1_1_reservering_1a13022fa2fe85fb3a3e199d9c80e65c33" kind="function"><name>isIngecheckt</name></member>
+    <member refid="class_producten_1_1_reservering_1ae34a0e9c1ec2a8503f60c8bc14d8e1dd" kind="function"><name>getTariefSoortPeriodeAantal</name></member>
+    <member refid="class_producten_1_1_reservering_1a25bacff6ec0e8fbbbc484e7dcb7a203b" kind="function"><name>asString</name></member>
   </compound>
-  <compound refid="classreserveringen_1_1_reservering_controller" kind="class"><name>reserveringen::ReserveringController</name>
-    <member refid="classreserveringen_1_1_reservering_controller_1a25e5e764683e8d83ebec7c2d30be535b" kind="function"><name>ReserveringController</name></member>
-    <member refid="classreserveringen_1_1_reservering_controller_1aaf23d1d46948663c1a965a846af3fd78" kind="function"><name>~ReserveringController</name></member>
-    <member refid="classreserveringen_1_1_reservering_controller_1a28e6f69d420b2422eb3e3f3e6e2d8568" kind="function"><name>verzilverReservering</name></member>
-    <member refid="classreserveringen_1_1_reservering_controller_1a1f28a09fed98ee746bed434dca2b862c" kind="function"><name>voltooiVerhuur</name></member>
+  <compound refid="class_producten_1_1_reservering_controller" kind="class"><name>Producten::ReserveringController</name>
+    <member refid="class_producten_1_1_reservering_controller_1ae5929676979ef84bdde0b338946f304e" kind="function"><name>ReserveringController</name></member>
+    <member refid="class_producten_1_1_reservering_controller_1a9ae1a5c45abda2a674939843a419c3ed" kind="function"><name>~ReserveringController</name></member>
+    <member refid="class_producten_1_1_reservering_controller_1a4da24dd58c39aecd792851e6504cf2e1" kind="function"><name>verzilverReservering</name></member>
+    <member refid="class_producten_1_1_reservering_controller_1ad78d5dcd26d96ef1f731fddc8875b0f6" kind="function"><name>voltooiVerhuur</name></member>
   </compound>
-  <compound refid="class_reservering_repo" kind="class"><name>ReserveringRepo</name>
-    <member refid="class_reservering_repo_1aae3522a2303489eaf3ff285b0db977fe" kind="function"><name>ReserveringRepo</name></member>
-    <member refid="class_reservering_repo_1a1c93b5b18a511619e47c3f970b451d78" kind="function"><name>~ReserveringRepo</name></member>
-    <member refid="class_reservering_repo_1a21ff9c7afed28d12ab5aada45ab77e34" kind="function"><name>getBeschikbareReservering</name></member>
+  <compound refid="class_producten_1_1_reservering_repo" kind="class"><name>Producten::ReserveringRepo</name>
+    <member refid="class_producten_1_1_reservering_repo_1a71beb2666e67f0acf12131f4a3b4be81" kind="function"><name>ReserveringRepo</name></member>
+    <member refid="class_producten_1_1_reservering_repo_1ae98952d1e0974ae9dd33b0ec9b007365" kind="function"><name>~ReserveringRepo</name></member>
+    <member refid="class_producten_1_1_reservering_repo_1a570f615297a90f53645fb52de013e4dd" kind="function"><name>getBeschikbareReservering</name></member>
   </compound>
-  <compound refid="struct_reserver_met_klant_en_moment" kind="struct"><name>ReserverMetKlantEnMoment</name>
-    <member refid="struct_reserver_met_klant_en_moment_1a835ba075b8e1d2c56a80da24cbb04718" kind="variable"><name>klant</name></member>
-    <member refid="struct_reserver_met_klant_en_moment_1a72ba7882c46ff37c09f8a52a07b82884" kind="variable"><name>moment</name></member>
-    <member refid="struct_reserver_met_klant_en_moment_1af27049fe38d044c7d49d6b722c8e1884" kind="function"><name>ReserverMetKlantEnMoment</name></member>
-    <member refid="struct_reserver_met_klant_en_moment_1a5097bc3e5af25192beaeac739c908794" kind="function"><name>operator()</name></member>
+  <compound refid="struct_producten_1_1_reserver_met_klant_en_moment" kind="struct"><name>Producten::ReserverMetKlantEnMoment</name>
+    <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a82ec304b6f13a087ecfa0505b93a6fb3" kind="variable"><name>klant</name></member>
+    <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1ad6375a6869d8c6715ad4e351375fd5e1" kind="variable"><name>moment</name></member>
+    <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a41b4eee2a88ccd41786c0e563fb89e73" kind="function"><name>ReserverMetKlantEnMoment</name></member>
+    <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a14186718078aee289b4e2b063d4aa3cb" kind="function"><name>operator()</name></member>
   </compound>
-  <compound refid="class_signals" kind="class"><name>Signals</name>
-    <member refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kind="typedef"><name>s</name></member>
-    <member refid="class_signals_1abce6ff595af29558c355531fb70725a1" kind="variable"><name>Singleton&lt; Signals &gt;</name></member>
-    <member refid="class_signals_1af876cd4f710c1a80ad16e0038fa41167" kind="variable"><name>VehuurIngecheckt</name></member>
-    <member refid="class_signals_1a86f79381d295cf235c2b4c37b1da921e" kind="variable"><name>VehuurWasAlIngecheckt</name></member>
-    <member refid="class_signals_1a70f4351d47ea2e0fbc67b9141fe78ca6" kind="variable"><name>VehuurUitgeckect</name></member>
-    <member refid="class_signals_1ac1395f3e8434bbbce3fecd5acd6947de" kind="variable"><name>VehuurUitcheckAutoNietOpLocatie</name></member>
-    <member refid="class_signals_1ae5d45dd99e1813096a114498f7a5d20b" kind="function"><name>Signals</name></member>
-    <member refid="class_signals_1a462098da50c67701acb407bdcc3ab03c" kind="function"><name>~Signals</name></member>
+  <compound refid="class_core_1_1_signals" kind="class"><name>Core::Signals</name>
+    <member refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kind="typedef"><name>s</name></member>
+    <member refid="class_core_1_1_signals_1a915f916b59a44f99b07f4d6f6baed65e" kind="variable"><name>Singleton&lt; Signals &gt;</name></member>
+    <member refid="class_core_1_1_signals_1a5c44931e548d7ba5fa6c67b71164af8b" kind="variable"><name>VehuurIngecheckt</name></member>
+    <member refid="class_core_1_1_signals_1a71cb4e721c84b20153181f1ace73d333" kind="variable"><name>VehuurWasAlIngecheckt</name></member>
+    <member refid="class_core_1_1_signals_1a24d8900c003a6aea66bd0d8f9ccc6c59" kind="variable"><name>VehuurUitgeckect</name></member>
+    <member refid="class_core_1_1_signals_1a9c8ec8014ab3ef21a68d0884daa95a53" kind="variable"><name>VehuurUitcheckAutoNietOpLocatie</name></member>
+    <member refid="class_core_1_1_signals_1ae865d82e08f4a4e31c77386a31eed9a6" kind="function"><name>Signals</name></member>
+    <member refid="class_core_1_1_signals_1a8040bef2aa5fbf12aef396c8137ea639" kind="function"><name>~Signals</name></member>
   </compound>
   <compound refid="class_singleton" kind="class"><name>Singleton</name>
     <member refid="class_singleton_1a9a45a40c71395ffc66f888bae6645536" kind="variable"><name>T</name></member>
     <member refid="class_singleton_1adb1b554fec7ae6065fe0e09111f3581f" kind="function"><name>Singleton</name></member>
     <member refid="class_singleton_1a23b2407170cc04f6746874704b928044" kind="function"><name>Singleton</name></member>
   </compound>
-  <compound refid="class_standplaats" kind="class"><name>Standplaats</name>
-    <member refid="class_standplaats_1a4404f27ad2ed454c29bedabbcd02dd36" kind="variable"><name>DatastoreModel&lt; Standplaats &gt;</name></member>
-    <member refid="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" kind="variable"><name>locatie</name></member>
-    <member refid="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" kind="variable"><name>naam</name></member>
-    <member refid="class_standplaats_1ad9e8389c3c1a221a32802a419e3d0f73" kind="function"><name>Standplaats</name></member>
-    <member refid="class_standplaats_1ab52b98b67ada7811e04bc1f5752ae3d9" kind="function"><name>Standplaats</name></member>
-    <member refid="class_standplaats_1a386ae97c1b99cfca1391b393e40dc9e6" kind="function"><name>~Standplaats</name></member>
-    <member refid="class_standplaats_1abd239e4fec2735fb2acc09689c6b37b7" kind="function"><name>controlleerLocatie</name></member>
+  <compound refid="class_deelautos_1_1_standplaats" kind="class"><name>Deelautos::Standplaats</name>
+    <member refid="class_deelautos_1_1_standplaats_1ab55173d86c01a7e2a79881e385968ea2" kind="variable"><name>DatastoreModel&lt; Standplaats &gt;</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1a8353cfdf7b7a888596300437203f6674" kind="variable"><name>locatie</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1aaa070429b431dee35e5f57f2bcfb4ae5" kind="variable"><name>naam</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1a165c832fbd59fde5232d4d4bfb004ab2" kind="function"><name>Standplaats</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1a1ad17512bcdbd773890d0b3e96abacca" kind="function"><name>Standplaats</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1a75783ce6fdd4bb07bede1fb8a99545c6" kind="function"><name>~Standplaats</name></member>
+    <member refid="class_deelautos_1_1_standplaats_1a096f8ac0f5ec872573555e2d0dae500b" kind="function"><name>controlleerLocatie</name></member>
   </compound>
-  <compound refid="class_static_datastore" kind="class"><name>StaticDatastore</name>
-    <member refid="class_static_datastore_1a7c4c16749cec67f9cf1dc7576bacbaec" kind="variable"><name>IDataStore&lt; StaticDatastore &gt;</name></member>
-    <member refid="class_static_datastore_1a3cd386fc42ac75eafb0e620fc52aab05" kind="function"><name>StaticDatastore</name></member>
-    <member refid="class_static_datastore_1a510ec21da2195496c1657bf94ddd5ef1" kind="function"><name>~StaticDatastore</name></member>
-    <member refid="class_static_datastore_1ac04182c19ff9d848f2ae58a90fc31cc6" kind="function"><name>initStaticTestData</name></member>
-    <member refid="class_static_datastore_1ac12baef7882b40bb26c2f5652ff2cd65" kind="function"><name>loadModel</name></member>
-    <member refid="class_static_datastore_1ad71e533d271eb10ea898304429294c20" kind="function"><name>saveModel</name></member>
-    <member refid="class_static_datastore_1a0dd6eb6ef28298629213369acde75905" kind="function"><name>createModel</name></member>
+  <compound refid="class_core_1_1_static_datastore" kind="class"><name>Core::StaticDatastore</name>
+    <member refid="class_core_1_1_static_datastore_1a76661f0fc2fa1b1907f8148a54ce1bed" kind="variable"><name>IDataStore&lt; StaticDatastore &gt;</name></member>
+    <member refid="class_core_1_1_static_datastore_1a6c9eae61b920d4694d7eac0baf5d524d" kind="function"><name>StaticDatastore</name></member>
+    <member refid="class_core_1_1_static_datastore_1a28250fbad27d3e65ce9f5d827e16f04e" kind="function"><name>~StaticDatastore</name></member>
+    <member refid="class_core_1_1_static_datastore_1a98d31863d338825720ac961c6acd7797" kind="function"><name>initStaticTestData</name></member>
+    <member refid="class_core_1_1_static_datastore_1a7c6f6c0ba9db170b5b61f7fd0aa6e152" kind="function"><name>loadModel</name></member>
+    <member refid="class_core_1_1_static_datastore_1a00a47d9befa7373041a6f46a377d8714" kind="function"><name>saveModel</name></member>
+    <member refid="class_core_1_1_static_datastore_1add82762c175c466ef0ea269a5dd14462" kind="function"><name>createModel</name></member>
   </compound>
-  <compound refid="struct_static_datastore_storeage" kind="struct"><name>StaticDatastoreStoreage</name>
-    <member refid="struct_static_datastore_storeage_1ac5fb1f6de752ac452ba3e5171a7770e1" kind="typedef"><name>ModelPtr</name></member>
-    <member refid="struct_static_datastore_storeage_1a38c764f6e2b84d4a054240656546a4bb" kind="typedef"><name>VectorType</name></member>
-    <member refid="struct_static_datastore_storeage_1acd788a7c08ed914047ce6edb8a2767b6" kind="variable"><name>StaticDatastore</name></member>
-    <member refid="struct_static_datastore_storeage_1acef9253e0920e0e5ba92b63925e1a988" kind="variable"><name>idCounter</name></member>
-    <member refid="struct_static_datastore_storeage_1a5543a46040e5169a20bee1d7bc0e8e10" kind="variable"><name>store</name></member>
-    <member refid="struct_static_datastore_storeage_1aa98cdfa507389775dd4cdf2002aeb3d1" kind="function"><name>load</name></member>
-    <member refid="struct_static_datastore_storeage_1a6fe99cfe3ef831715b8b5bcc2e2f4b5b" kind="function"><name>save</name></member>
-    <member refid="struct_static_datastore_storeage_1a7e95ce591703ab5e1764fd55acfb1c59" kind="function"><name>create</name></member>
+  <compound refid="struct_core_1_1_static_datastore_storeage" kind="struct"><name>Core::StaticDatastoreStoreage</name>
+    <member refid="struct_core_1_1_static_datastore_storeage_1aebb6a3874e4aebc941e8b95f7b0e93ee" kind="typedef"><name>ModelPtr</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1a11f0f065f3ec742cca1cadbf4c601894" kind="typedef"><name>VectorType</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1af2ff307d009107122f97032d2992510e" kind="variable"><name>StaticDatastore</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1a5f359baeb1e035160c069d8c4ba5a08d" kind="variable"><name>idCounter</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1a39548117d04a8f19299dc9d1c88b6405" kind="variable"><name>store</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1abb77bfa171575f23ead4d8eadac18177" kind="function"><name>load</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1a7fe7bbbdb4e815c48ed2491776940330" kind="function"><name>save</name></member>
+    <member refid="struct_core_1_1_static_datastore_storeage_1a4defaabf81e9a4e3846379e93086ed28" kind="function"><name>create</name></member>
   </compound>
-  <compound refid="classtarieven_1_1_tarief" kind="class"><name>tarieven::Tarief</name>
-    <member refid="classtarieven_1_1_tarief_1a95671ddb2f61597c0dcd4741e9385ae8" kind="variable"><name>kilometersVrij</name></member>
-    <member refid="classtarieven_1_1_tarief_1a6caf4ab0a08975cb7e9893534d19ba02" kind="variable"><name>prijsPerKilometer</name></member>
-    <member refid="classtarieven_1_1_tarief_1afdcb70f147f6a8a60a9a26265077f37a" kind="variable"><name>prijzen</name></member>
-    <member refid="classtarieven_1_1_tarief_1a3fcba34b8709e8b719c660f5c9e80367" kind="variable"><name>autoType</name></member>
-    <member refid="classtarieven_1_1_tarief_1af65c305dbdf0bbe3b89eca3c1842757f" kind="variable"><name>aboType</name></member>
-    <member refid="classtarieven_1_1_tarief_1a02ea6c94a5370eb00091818f070d0f93" kind="variable"><name>DatastoreModel&lt; Tarief &gt;</name></member>
-    <member refid="classtarieven_1_1_tarief_1ac00150cf33a4eba4f0a8cadaacc4df4a" kind="function"><name>Tarief</name></member>
-    <member refid="classtarieven_1_1_tarief_1adc84eb82bd066ee33a75b8ffec33cef0" kind="function"><name>Tarief</name></member>
-    <member refid="classtarieven_1_1_tarief_1a3ccecb7dbd4a23f16d91a570f7ecc378" kind="function"><name>getTariefSoortPrijs</name></member>
-    <member refid="classtarieven_1_1_tarief_1ab9b5e090b0369aadf0e93e6bb1f1988b" kind="function"><name>~Tarief</name></member>
-    <member refid="classtarieven_1_1_tarief_1a51327c6e2748820c35939c291e615ee3" kind="function"><name>berekenKosten</name></member>
-    <member refid="classtarieven_1_1_tarief_1a0f1e38d6272679a561ca8b8b35971eb9" kind="function"><name>getKilometerPrijs</name></member>
+  <compound refid="class_tarieven_1_1_tarief" kind="class"><name>Tarieven::Tarief</name>
+    <member refid="class_tarieven_1_1_tarief_1a0826f3c3e40f464faa3494219f488d28" kind="variable"><name>kilometersVrij</name></member>
+    <member refid="class_tarieven_1_1_tarief_1abff69543cd40f80cd07e43a25391a0a6" kind="variable"><name>prijsPerKilometer</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a1c5525e416513998384efd6aaa6cd72c" kind="variable"><name>prijzen</name></member>
+    <member refid="class_tarieven_1_1_tarief_1aa4ee603ef5b963e324ad6848ff200122" kind="variable"><name>autoType</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a8aa203ea1d34a7e5c09adcbcb8ca6970" kind="variable"><name>aboType</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a99ef81a1c3ca7915a8a38f00e6f0291b" kind="variable"><name>DatastoreModel&lt; Tarief &gt;</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a8fa878241f14c0066331423bd2511a3d" kind="function"><name>Tarief</name></member>
+    <member refid="class_tarieven_1_1_tarief_1ae63985fd6d87539fa1552f12fda2f63a" kind="function"><name>Tarief</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a281500d149eabdc4b88304d896684288" kind="function"><name>getTariefSoortPrijs</name></member>
+    <member refid="class_tarieven_1_1_tarief_1ab0c2a1330c820729d06602f1fb30ba0e" kind="function"><name>~Tarief</name></member>
+    <member refid="class_tarieven_1_1_tarief_1a88a9a640f3e6f420a397cb98baf335fa" kind="function"><name>berekenKosten</name></member>
+    <member refid="class_tarieven_1_1_tarief_1ac490402fb95542639f1ea89a23145dab" kind="function"><name>getKilometerPrijs</name></member>
   </compound>
-  <compound refid="class_tarief_repo" kind="class"><name>TariefRepo</name>
-    <member refid="class_tarief_repo_1a538e807640bf468dd745d1ee6e83de1b" kind="function"><name>TariefRepo</name></member>
-    <member refid="class_tarief_repo_1a5d34123269b0babe159e7a6a4401884b" kind="function"><name>~TariefRepo</name></member>
-    <member refid="class_tarief_repo_1ac8395d114035857498de747fddb2ee8a" kind="function"><name>getTariefByTypes</name></member>
+  <compound refid="class_tarieven_1_1_tarief_repo" kind="class"><name>Tarieven::TariefRepo</name>
+    <member refid="class_tarieven_1_1_tarief_repo_1a7098f536f0eca170e26091422f5532ec" kind="function"><name>TariefRepo</name></member>
+    <member refid="class_tarieven_1_1_tarief_repo_1a3b2de50065b5883a41609a5a7e696ded" kind="function"><name>~TariefRepo</name></member>
+    <member refid="class_tarieven_1_1_tarief_repo_1ae476cfe497112ef28464050c5b52086b" kind="function"><name>getTariefByTypes</name></member>
   </compound>
-  <compound refid="classtarieven_1_1_tarief_soort" kind="class"><name>tarieven::TariefSoort</name>
-    <member refid="classtarieven_1_1_tarief_soort_1af371891b25d2d79427a1d19d56dce3d8" kind="variable"><name>naam</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1a8b0e9cd20473b8cbc9141f9bcd7e46fa" kind="variable"><name>@1</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1a4023f7687d16aea8e63a881cf31c16f7" kind="variable"><name>weekMask</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1ae4aae828656c6db7c468625f006490b1" kind="variable"><name>periode</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1a91f72be944ed32d046bbdff21ab1363f" kind="variable"><name>DatastoreModel&lt; TariefSoort &gt;</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1a0f2399a55e21bf9c5474e81fd2e0b74e" kind="function"><name>~TariefSoort</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_1abe494bbe0c79185fea1c5276f8a27bdb" kind="function"><name>TariefSoort</name></member>
+  <compound refid="class_tarieven_1_1_tarief_soort" kind="class"><name>Tarieven::TariefSoort</name>
+    <member refid="class_tarieven_1_1_tarief_soort_1a9d9a179f44fba9f4534126a85833d17a" kind="variable"><name>naam</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1a6fd6cc5def3af4d36e1a6ded32b311b7" kind="variable"><name>@1</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1aaabbbdb51d9261d20cba2b62e40607fd" kind="variable"><name>weekMask</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1adeb916bf8112d95bd60facfddc97a06d" kind="variable"><name>periode</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1a92f84bf95c86c0af2460dfa54e166e68" kind="variable"><name>DatastoreModel&lt; TariefSoort &gt;</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1a814fa8b53bee7642f533e60c24a6476b" kind="function"><name>~TariefSoort</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_1aa9573f6c608713bc3e5a45422e2c7cd9" kind="function"><name>TariefSoort</name></member>
   </compound>
-  <compound refid="classtarieven_1_1_tarief_soort_prijs" kind="class"><name>tarieven::TariefSoortPrijs</name>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1a6088e1745b44d34a5fb0336cabced465" kind="variable"><name>soort</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1ac84020719e1762aa1df99c013a529912" kind="variable"><name>prijs</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1a17e7a47f8c048de1db42e6dbe61a509f" kind="variable"><name>DatastoreModel&lt; TariefSoortPrijs &gt;</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1ace186fb612ab1a01cc4c6fc2458fa98a" kind="function"><name>~TariefSoortPrijs</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1a573e947cd87de42a07f643c26a7b9ff4" kind="function"><name>berekenKosten</name></member>
-    <member refid="classtarieven_1_1_tarief_soort_prijs_1a53d65f800182edbee31df419f8217a25" kind="function"><name>TariefSoortPrijs</name></member>
+  <compound refid="class_tarieven_1_1_tarief_soort_prijs" kind="class"><name>Tarieven::TariefSoortPrijs</name>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1a05379b7fc199d16fc3465c7858240860" kind="variable"><name>soort</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1aef331f97d4106da2a28c6a928129ebd6" kind="variable"><name>prijs</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1aa52cb094535067de7c8a4b2a0d6cdd7b" kind="variable"><name>DatastoreModel&lt; TariefSoortPrijs &gt;</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1a49967b2c1e8e61a8069017352c313350" kind="function"><name>~TariefSoortPrijs</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1a27c30d0731f49dcf2a361070fa3e7384" kind="function"><name>berekenKosten</name></member>
+    <member refid="class_tarieven_1_1_tarief_soort_prijs_1a75b4e8b224356ad507f51e38b4997c6d" kind="function"><name>TariefSoortPrijs</name></member>
   </compound>
-  <compound refid="class_verhuur" kind="class"><name>Verhuur</name>
-    <member refid="class_verhuur_1a93531303eec7ecd085618d51f471d117" kind="variable"><name>DatastoreModel&lt; Verhuur &gt;</name></member>
-    <member refid="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" kind="variable"><name>reservering</name></member>
-    <member refid="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" kind="variable"><name>incheckMoment</name></member>
-    <member refid="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" kind="variable"><name>uitcheckMoment</name></member>
-    <member refid="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" kind="variable"><name>aantalKilometers</name></member>
-    <member refid="class_verhuur_1a10502cb621b6738d6eb13de086deab6d" kind="function"><name>Verhuur</name></member>
-    <member refid="class_verhuur_1a937be3af43756bfc9a49ec12e5952f51" kind="function"><name>Verhuur</name></member>
-    <member refid="class_verhuur_1a95e6373c4d8507eec2b239700574d937" kind="function"><name>~Verhuur</name></member>
-    <member refid="class_verhuur_1a6fe17e568fcf8af56a3561461ae9534c" kind="function"><name>berekenTeLaatBoeteKosten</name></member>
-    <member refid="class_verhuur_1ac0cd6d93f0fcac91d72a4d0af2dcd195" kind="function"><name>setIncheckMoment</name></member>
-    <member refid="class_verhuur_1ad30dc350b76cb67d529a22d5d116e78a" kind="function"><name>setUitcheckMoment</name></member>
-    <member refid="class_verhuur_1a61d3282b83d0512d7005f59a6f4bd37b" kind="function"><name>voltooi</name></member>
-    <member refid="class_verhuur_1a08167eb383d5f0916f2cb5072eecc406" kind="function"><name>bekerenTeLaatBoeteKosten</name></member>
+  <compound refid="class_producten_1_1_verhuur" kind="class"><name>Producten::Verhuur</name>
+    <member refid="class_producten_1_1_verhuur_1aa322a1c8aa5fda381fcd42b3b8d15387" kind="variable"><name>DatastoreModel&lt; Verhuur &gt;</name></member>
+    <member refid="class_producten_1_1_verhuur_1a0e48ee694b59f7ce2bb60620dd249336" kind="variable"><name>reservering</name></member>
+    <member refid="class_producten_1_1_verhuur_1a89a3a39b0235ac91f92f7f1879554ea2" kind="variable"><name>incheckMoment</name></member>
+    <member refid="class_producten_1_1_verhuur_1a6bd154fe78c844fef92c23c4fad330f1" kind="variable"><name>uitcheckMoment</name></member>
+    <member refid="class_producten_1_1_verhuur_1a52cea28d67fbdfbca21199dc7632c81e" kind="variable"><name>aantalKilometers</name></member>
+    <member refid="class_producten_1_1_verhuur_1a0d05c639da1ee99497865df885dd7a82" kind="function"><name>Verhuur</name></member>
+    <member refid="class_producten_1_1_verhuur_1ac1825e632e6f0c6511703323d818dcda" kind="function"><name>Verhuur</name></member>
+    <member refid="class_producten_1_1_verhuur_1a9cc05c868c1213b48aa40f0c5813e206" kind="function"><name>~Verhuur</name></member>
+    <member refid="class_producten_1_1_verhuur_1a22779f7c01abd0d45294bbd885a8e36d" kind="function"><name>berekenTeLaatBoeteKosten</name></member>
+    <member refid="class_producten_1_1_verhuur_1a5f85bf54d41af13e67d7b75a656d38d4" kind="function"><name>setIncheckMoment</name></member>
+    <member refid="class_producten_1_1_verhuur_1a8919ef3d236ce0029aa54770952e1676" kind="function"><name>setUitcheckMoment</name></member>
+    <member refid="class_producten_1_1_verhuur_1abfe1cf606eb3f27050296ddf10b565d1" kind="function"><name>voltooi</name></member>
+    <member refid="class_producten_1_1_verhuur_1a00b974125cea3687091ff77691c805dd" kind="function"><name>bekerenTeLaatBoeteKosten</name></member>
   </compound>
-  <compound refid="class_verhuur_repo" kind="class"><name>VerhuurRepo</name>
-    <member refid="class_verhuur_repo_1acbd3378e3075fd8eebfd715f422e6f5e" kind="function"><name>VerhuurRepo</name></member>
-    <member refid="class_verhuur_repo_1a88247a61382ab0538295bb6aa282a049" kind="function"><name>~VerhuurRepo</name></member>
-    <member refid="class_verhuur_repo_1a4ef8f94a15595d8737e9bc62496f69ed" kind="function"><name>getActiefVerhuur</name></member>
-    <member refid="class_verhuur_repo_1a9c8738941e0ac1d1c7c8c19f376b5745" kind="function"><name>controleerKlantIngecheckt</name></member>
+  <compound refid="class_producten_1_1_verhuur_repo" kind="class"><name>Producten::VerhuurRepo</name>
+    <member refid="class_producten_1_1_verhuur_repo_1a635fde0e3ee73a5ee8ea2fd90655907d" kind="function"><name>VerhuurRepo</name></member>
+    <member refid="class_producten_1_1_verhuur_repo_1ab6fe39370ed16aa89892cb3b48c6da5f" kind="function"><name>~VerhuurRepo</name></member>
+    <member refid="class_producten_1_1_verhuur_repo_1ac9620c9d964f93b3a12c93d8647aee34" kind="function"><name>getActiefVerhuur</name></member>
+    <member refid="class_producten_1_1_verhuur_repo_1a6844225ac7b84d773e020ea201d3380b" kind="function"><name>controleerKlantIngecheckt</name></member>
   </compound>
-  <compound refid="namespacedetail" kind="namespace"><name>detail</name>
+  <compound refid="namespace_core" kind="namespace"><name>Core</name>
   </compound>
-  <compound refid="namespacereserveringen" kind="namespace"><name>reserveringen</name>
+  <compound refid="namespace_core_1_1detail" kind="namespace"><name>Core::detail</name>
   </compound>
-  <compound refid="namespacetarieven" kind="namespace"><name>tarieven</name>
-    <member refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kind="typedef"><name>TariefPtr</name></member>
-    <member refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kind="typedef"><name>TariefSoortPtr</name></member>
-    <member refid="namespacetarieven_1a19e986600da340fa9803529764b1dcf4" kind="typedef"><name>TariefSoortPrijsPtr</name></member>
-    <member refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kind="typedef"><name>tariefSoortenPrijsLijst</name></member>
+  <compound refid="namespace_deelautos" kind="namespace"><name>Deelautos</name>
+  </compound>
+  <compound refid="namespace_klanten" kind="namespace"><name>Klanten</name>
+    <member refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kind="typedef"><name>KlantPtr</name></member>
+  </compound>
+  <compound refid="namespace_producten" kind="namespace"><name>Producten</name>
+    <member refid="namespace_producten_1aeef4d0cb2e4403db471b5f3bdc62fcb8" kind="typedef"><name>BoetePtr</name></member>
+    <member refid="namespace_producten_1a863337b1958e14705b32592f71c29d87" kind="typedef"><name>BoeteList</name></member>
+  </compound>
+  <compound refid="namespace_redcard_module" kind="namespace"><name>RedcardModule</name>
+  </compound>
+  <compound refid="namespace_tarieven" kind="namespace"><name>Tarieven</name>
+    <member refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" kind="typedef"><name>TariefPtr</name></member>
+    <member refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kind="typedef"><name>TariefSoortPtr</name></member>
+    <member refid="namespace_tarieven_1a7c8ea53da562e8721242395eea89a746" kind="typedef"><name>TariefSoortPrijsPtr</name></member>
+    <member refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kind="typedef"><name>tariefSoortenPrijsLijst</name></member>
   </compound>
   <compound refid="_abonnement_type_8cpp" kind="file"><name>AbonnementType.cpp</name>
   </compound>
@@ -381,7 +392,6 @@
   <compound refid="_klant_8cpp" kind="file"><name>Klant.cpp</name>
   </compound>
   <compound refid="_klant_8h" kind="file"><name>Klant.h</name>
-    <member refid="_klant_8h_1af9d6e4df704cd5d4d583060ae945034c" kind="typedef"><name>KlantPtr</name></member>
   </compound>
   <compound refid="_klant_repo_8cpp" kind="file"><name>KlantRepo.cpp</name>
   </compound>
@@ -393,8 +403,6 @@
   <compound refid="_product_8cpp" kind="file"><name>Product.cpp</name>
   </compound>
   <compound refid="_product_8h" kind="file"><name>Product.h</name>
-    <member refid="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" kind="typedef"><name>BoetePtr</name></member>
-    <member refid="_product_8h_1a5669d6a05910cd4686bb899c22971351" kind="typedef"><name>BoeteList</name></member>
   </compound>
   <compound refid="_redcar_module_8cpp" kind="file"><name>RedcarModule.cpp</name>
   </compound>
@@ -419,8 +427,8 @@
   <compound refid="_signals_8cpp" kind="file"><name>Signals.cpp</name>
   </compound>
   <compound refid="_signals_8h" kind="file"><name>Signals.h</name>
-    <member refid="_signals_8h_1a21e3641232b55c08cf104f2bbf7795a4" kind="define"><name>FDW_DECLARE_SHARED_OBJECT</name></member>
-    <member refid="_signals_8h_1a12635816c980b619e724bf58e3cf6ddb" kind="function"><name>FDW_DECLARE_SHARED_OBJECT</name></member>
+    <member refid="_signals_8h_1affbb013e0f5d516547a4bab35dbc069e" kind="define"><name>FDW_DECLARE_SHARED_OBJECT</name></member>
+    <member refid="_signals_8h_1af1ede123b3be26ca660f9ecf748cb869" kind="function"><name>FDW_DECLARE_SHARED_OBJECT</name></member>
   </compound>
   <compound refid="_singleton_8h" kind="file"><name>Singleton.h</name>
   </compound>
@@ -448,7 +456,7 @@
   </compound>
   <compound refid="_tarief_soort_prijs_8h" kind="file"><name>TariefSoortPrijs.h</name>
   </compound>
-  <compound refid="time_profider_8h" kind="file"><name>timeProfider.h</name>
+  <compound refid="_time_provider_8h" kind="file"><name>TimeProvider.h</name>
   </compound>
   <compound refid="_verhuur_8cpp" kind="file"><name>Verhuur.cpp</name>
   </compound>

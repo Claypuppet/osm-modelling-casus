@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['tariefptr',['TariefPtr',['../namespacetarieven.html#a6dc04260377c527b93f961ccaa9b7761',1,'tarieven']]],
-  ['tariefsoortenprijslijst',['tariefSoortenPrijsLijst',['../namespacetarieven.html#a1d8be32d83a4abc968a6ce45281b094a',1,'tarieven']]],
-  ['tariefsoortprijsptr',['TariefSoortPrijsPtr',['../namespacetarieven.html#a19e986600da340fa9803529764b1dcf4',1,'tarieven']]],
-  ['tariefsoortptr',['TariefSoortPtr',['../namespacetarieven.html#af73e6836a04e491f0511f2a485773671',1,'tarieven']]]
+  ['tariefptr',['TariefPtr',['../namespace_tarieven.html#ab8f9beb950722deaeda8b714c33bdd2b',1,'Tarieven']]],
+  ['tariefsoortenprijslijst',['tariefSoortenPrijsLijst',['../namespace_tarieven.html#ae4fc8ab0803a23fc8a2aefeca15efff9',1,'Tarieven']]],
+  ['tariefsoortprijsptr',['TariefSoortPrijsPtr',['../namespace_tarieven.html#a7c8ea53da562e8721242395eea89a746',1,'Tarieven']]],
+  ['tariefsoortptr',['TariefSoortPtr',['../namespace_tarieven.html#a78f2f12168a13a069297d16e502b55d6',1,'Tarieven']]]
 ];

@@ -11,6 +11,7 @@
 
 namespace Producten
 {
+using Core::RedCarsContext;
 
 Geld Product::getExtraKosten()
 {

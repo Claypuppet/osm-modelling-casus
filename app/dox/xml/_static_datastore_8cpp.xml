@@ -19,344 +19,351 @@
     <includes local="no">algorithm</includes>
     <includes local="no">iostream</includes>
     <incdepgraph>
-      <node id="962">
+      <node id="1021">
         <label>atomic</label>
       </node>
-      <node id="951">
+      <node id="1010">
         <label>Singleton.h</label>
         <link refid="_singleton_8h"/>
       </node>
-      <node id="982">
+      <node id="1042">
         <label>BaseRepo.h</label>
         <link refid="_base_repo_8h"/>
-        <childnode refid="952" relation="include">
+        <childnode refid="1011" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="955">
+      <node id="1014">
         <label>functional</label>
       </node>
-      <node id="981">
+      <node id="1041">
         <label>KlantRepo.h</label>
         <link refid="_klant_repo_8h"/>
-        <childnode refid="965" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="982" relation="include">
+        <childnode refid="1042" relation="include">
         </childnode>
-        <childnode refid="968" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
       </node>
-      <node id="959">
+      <node id="1018">
         <label>ctti/type_id.hpp</label>
       </node>
-      <node id="966">
+      <node id="1025">
         <label>AbonnementType.h</label>
         <link refid="_abonnement_type_8h"/>
-        <childnode refid="967" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="968" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
-        <childnode refid="969" relation="include">
+        <childnode refid="1028" relation="include">
         </childnode>
       </node>
-      <node id="968">
+      <node id="1027">
         <label>stdint.h</label>
       </node>
-      <node id="984">
+      <node id="1044">
         <label>TariefRepo.h</label>
         <link refid="_tarief_repo_8h"/>
-        <childnode refid="952" relation="include">
+        <childnode refid="1011" relation="include">
         </childnode>
-        <childnode refid="973" relation="include">
+        <childnode refid="1032" relation="include">
         </childnode>
-        <childnode refid="976" relation="include">
+        <childnode refid="1035" relation="include">
         </childnode>
-        <childnode refid="966" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="982" relation="include">
+        <childnode refid="1042" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="974">
+      <node id="1033">
         <label>TariefSoortPrijs.h</label>
         <link refid="_tarief_soort_prijs_8h"/>
-        <childnode refid="961" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="953" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
-        <childnode refid="975" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="967" relation="include">
+        <childnode refid="1020" relation="include">
         </childnode>
       </node>
-      <node id="972">
+      <node id="1045">
+        <label>TimeProvider.h</label>
+        <link refid="_time_provider_8h"/>
+        <childnode refid="1046" relation="include">
+        </childnode>
+      </node>
+      <node id="1031">
         <label>numeric</label>
       </node>
-      <node id="983">
+      <node id="1043">
         <label>VerhuurRepo.h</label>
         <link refid="_verhuur_repo_8h"/>
-        <childnode refid="952" relation="include">
+        <childnode refid="1011" relation="include">
         </childnode>
-        <childnode refid="982" relation="include">
+        <childnode refid="1042" relation="include">
         </childnode>
-        <childnode refid="967" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="977" relation="include">
+        <childnode refid="1038" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="979">
+      <node id="1039">
         <label>Application.h</label>
         <link refid="_application_8h"/>
-        <childnode refid="951" relation="include">
+        <childnode refid="1010" relation="include">
         </childnode>
-        <childnode refid="980" relation="include">
+        <childnode refid="1040" relation="include">
         </childnode>
-        <childnode refid="950" relation="include">
+        <childnode refid="1009" relation="include">
         </childnode>
-        <childnode refid="981" relation="include">
+        <childnode refid="1041" relation="include">
         </childnode>
-        <childnode refid="983" relation="include">
+        <childnode refid="1043" relation="include">
         </childnode>
-        <childnode refid="984" relation="include">
+        <childnode refid="1044" relation="include">
         </childnode>
-        <childnode refid="985" relation="include">
+        <childnode refid="1045" relation="include">
         </childnode>
       </node>
-      <node id="969">
+      <node id="1028">
         <label>string</label>
       </node>
-      <node id="963">
+      <node id="1022">
         <label>map</label>
       </node>
-      <node id="987">
+      <node id="1047">
         <label>Standplaats.h</label>
         <link refid="_standplaats_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
       </node>
-      <node id="949">
+      <node id="1008">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
-        <childnode refid="950" relation="include">
+        <childnode refid="1009" relation="include">
         </childnode>
-        <childnode refid="965" relation="include">
+        <childnode refid="1024" relation="include">
         </childnode>
-        <childnode refid="970" relation="include">
+        <childnode refid="1029" relation="include">
         </childnode>
-        <childnode refid="977" relation="include">
+        <childnode refid="1038" relation="include">
         </childnode>
-        <childnode refid="978" relation="include">
+        <childnode refid="1036" relation="include">
         </childnode>
-        <childnode refid="976" relation="include">
+        <childnode refid="1035" relation="include">
         </childnode>
-        <childnode refid="966" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="975" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
-        <childnode refid="973" relation="include">
+        <childnode refid="1032" relation="include">
         </childnode>
-        <childnode refid="974" relation="include">
+        <childnode refid="1033" relation="include">
         </childnode>
-        <childnode refid="979" relation="include">
+        <childnode refid="1039" relation="include">
         </childnode>
-        <childnode refid="987" relation="include">
+        <childnode refid="1047" relation="include">
         </childnode>
-        <childnode refid="988" relation="include">
+        <childnode refid="1037" relation="include">
         </childnode>
-        <childnode refid="961" relation="include">
+        <childnode refid="1020" relation="include">
         </childnode>
-        <childnode refid="960" relation="include">
+        <childnode refid="1019" relation="include">
         </childnode>
-        <childnode refid="989" relation="include">
+        <childnode refid="1048" relation="include">
         </childnode>
       </node>
-      <node id="971">
+      <node id="1030">
         <label>Product.h</label>
         <link refid="_product_8h"/>
-        <childnode refid="967" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="961" relation="include">
+        <childnode refid="1020" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
-        <childnode refid="972" relation="include">
+        <childnode refid="1031" relation="include">
         </childnode>
       </node>
-      <node id="967">
+      <node id="1026">
         <label>Geld.h</label>
         <link refid="_geld_8h"/>
-        <childnode refid="968" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
-        <childnode refid="969" relation="include">
+        <childnode refid="1028" relation="include">
         </childnode>
       </node>
-      <node id="970">
+      <node id="1029">
         <label>Reservering.h</label>
         <link refid="_reservering_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="971" relation="include">
+        <childnode refid="1030" relation="include">
         </childnode>
-        <childnode refid="973" relation="include">
+        <childnode refid="1032" relation="include">
         </childnode>
-        <childnode refid="975" relation="include">
+        <childnode refid="1034" relation="include">
         </childnode>
-        <childnode refid="965" relation="include">
+        <childnode refid="1024" relation="include">
+        </childnode>
+        <childnode refid="1036" relation="include">
+        </childnode>
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="958">
+      <node id="1017">
         <label>boost/type_index/ctti_type_index.hpp</label>
       </node>
-      <node id="965">
+      <node id="1024">
         <label>Klant.h</label>
         <link refid="_klant_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="966" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
-        <childnode refid="968" relation="include">
+        <childnode refid="1027" relation="include">
         </childnode>
       </node>
-      <node id="961">
+      <node id="1020">
         <label>vector</label>
       </node>
-      <node id="950">
+      <node id="1009">
         <label>StaticDatastore.h</label>
         <link refid="_static_datastore_8h"/>
-        <childnode refid="951" relation="include">
+        <childnode refid="1010" relation="include">
         </childnode>
-        <childnode refid="952" relation="include">
+        <childnode refid="1011" relation="include">
         </childnode>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="959" relation="include">
+        <childnode refid="1018" relation="include">
         </childnode>
-        <childnode refid="955" relation="include">
+        <childnode refid="1014" relation="include">
         </childnode>
-        <childnode refid="960" relation="include">
+        <childnode refid="1019" relation="include">
         </childnode>
-        <childnode refid="961" relation="include">
+        <childnode refid="1020" relation="include">
         </childnode>
-        <childnode refid="962" relation="include">
+        <childnode refid="1021" relation="include">
         </childnode>
-        <childnode refid="956" relation="include">
+        <childnode refid="1015" relation="include">
         </childnode>
-        <childnode refid="963" relation="include">
+        <childnode refid="1022" relation="include">
         </childnode>
-        <childnode refid="964" relation="include">
+        <childnode refid="1023" relation="include">
         </childnode>
       </node>
-      <node id="952">
+      <node id="1011">
         <label>IDataStore.h</label>
         <link refid="_i_data_store_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="955" relation="include">
+        <childnode refid="1014" relation="include">
         </childnode>
-        <childnode refid="956" relation="include">
+        <childnode refid="1015" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
-        <childnode refid="957" relation="include">
+        <childnode refid="1016" relation="include">
         </childnode>
-        <childnode refid="958" relation="include">
+        <childnode refid="1017" relation="include">
         </childnode>
       </node>
-      <node id="976">
+      <node id="1035">
         <label>AutoType.h</label>
         <link refid="_auto_type_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
       </node>
-      <node id="977">
+      <node id="1038">
         <label>Verhuur.h</label>
         <link refid="_verhuur_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="970" relation="include">
+        <childnode refid="1029" relation="include">
         </childnode>
-        <childnode refid="967" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
       </node>
-      <node id="957">
+      <node id="1016">
         <label>utility</label>
       </node>
-      <node id="975">
+      <node id="1034">
         <label>TariefSoort.h</label>
         <link refid="_tarief_soort_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="988">
+      <node id="1037">
         <label>RedcarModule.h</label>
         <link refid="_redcar_module_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
       </node>
-      <node id="973">
+      <node id="1032">
         <label>Tarief.h</label>
         <link refid="_tarief_8h"/>
-        <childnode refid="967" relation="include">
+        <childnode refid="1026" relation="include">
         </childnode>
-        <childnode refid="974" relation="include">
+        <childnode refid="1033" relation="include">
         </childnode>
-        <childnode refid="976" relation="include">
+        <childnode refid="1035" relation="include">
         </childnode>
-        <childnode refid="966" relation="include">
+        <childnode refid="1025" relation="include">
         </childnode>
       </node>
-      <node id="980">
+      <node id="1040">
         <label>cui/CUI.h</label>
       </node>
-      <node id="989">
+      <node id="1048">
         <label>iostream</label>
       </node>
-      <node id="985">
-        <label>timeProfider.h</label>
-        <link refid="time_profider_8h"/>
-        <childnode refid="986" relation="include">
-        </childnode>
-      </node>
-      <node id="964">
+      <node id="1023">
         <label>unordered_map</label>
       </node>
-      <node id="986">
+      <node id="1046">
         <label>chrono</label>
       </node>
-      <node id="978">
+      <node id="1036">
         <label>Deelauto.h</label>
         <link refid="_deelauto_8h"/>
-        <childnode refid="953" relation="include">
+        <childnode refid="1012" relation="include">
         </childnode>
-        <childnode refid="969" relation="include">
+        <childnode refid="1037" relation="include">
         </childnode>
-        <childnode refid="954" relation="include">
+        <childnode refid="1028" relation="include">
+        </childnode>
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="956">
+      <node id="1015">
         <label>type_traits</label>
       </node>
-      <node id="960">
+      <node id="1019">
         <label>algorithm</label>
       </node>
-      <node id="953">
+      <node id="1012">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="954" relation="include">
+        <childnode refid="1013" relation="include">
         </childnode>
       </node>
-      <node id="954">
+      <node id="1013">
         <label>memory</label>
       </node>
     </incdepgraph>
+    <innernamespace refid="namespace_core">Core</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -387,100 +394,116 @@
 <codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><ref refid="class_static_datastore_1a3cd386fc42ac75eafb0e620fc52aab05" kindref="member">StaticDatastore::StaticDatastore</ref>()</highlight></codeline>
-<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//auto&amp;<sp/>store<sp/>=<sp/>StaticDatastoreStoreage&lt;Klant&gt;::store;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::sort(store.begin(),<sp/>store.end(),<sp/>[](auto&amp;<sp/>a,<sp/>auto&amp;<sp/>b){<sp/>return<sp/>a.id<sp/>&lt;<sp/>b.id;<sp/>});</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_static_datastore_1ac04182c19ff9d848f2ae58a90fc31cc6" kindref="member">initStaticTestData</ref>();</highlight></codeline>
-<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><ref refid="class_static_datastore_1a510ec21da2195496c1657bf94ddd5ef1" kindref="member">StaticDatastore::~StaticDatastore</ref>()</highlight></codeline>
-<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_static_datastore_1ac04182c19ff9d848f2ae58a90fc31cc6" kindref="member">StaticDatastore::initStaticTestData</ref>()</highlight></codeline>
-<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;INIT<sp/>STATIC<sp/>DATA&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"></highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AutoTypes</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>personenAuto<sp/>=<sp/>createModel&lt;AutoType&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">AutoType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Personsen<sp/>auto&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>stationWagen<sp/>=<sp/>createModel&lt;AutoType&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">AutoType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Stationwagen&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_core" kindref="compound">Core</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_auto_type" kindref="compound">Deelautos::AutoType</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelautos::Deelauto</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_standplaats" kindref="compound">Deelautos::Standplaats</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_klanten_1_1_klant" kindref="compound">Klanten::Klant</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_abonnement_type" kindref="compound">Producten::AbonnementType</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_reservering" kindref="compound">Producten::Reservering</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_tarieven_1_1_tarief_soort" kindref="compound">Tarieven::TariefSoort</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_tarieven_1_1_tarief" kindref="compound">Tarieven::Tarief</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_tarieven_1_1_tarief_soort_prijs" kindref="compound">Tarieven::TariefSoortPrijs</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">Tarieven::tariefSoortenPrijsLijst</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module" kindref="compound">RedcardModule::RedcarModule</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="class_core_1_1_static_datastore_1a6c9eae61b920d4694d7eac0baf5d524d" kindref="member">StaticDatastore::StaticDatastore</ref>()</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>constructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//auto&amp;<sp/>store<sp/>=<sp/>StaticDatastoreStoreage&lt;Klant&gt;::store;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//std::sort(store.begin(),<sp/>store.end(),<sp/>[](auto&amp;<sp/>a,<sp/>auto&amp;<sp/>b){<sp/>return<sp/>a.id<sp/>&lt;<sp/>b.id;<sp/>});</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_static_datastore_1a98d31863d338825720ac961c6acd7797" kindref="member">initStaticTestData</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Abbonomenten</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abboGratis<sp/>=<sp/>createModel&lt;AbonnementType&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">AbonnementType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Gratis&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
-<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abboBetlaad<sp/>=<sp/>createModel&lt;AbonnementType&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">AbonnementType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Betaald&quot;</highlight><highlight class="normal">,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(49,<sp/>95)));</highlight></codeline>
-<codeline lineno="54"><highlight class="normal"></highlight></codeline>
-<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tariefsoorten</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerUur<sp/>=<sp/>createModel&lt;tarieven::TariefSoort&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>uur&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600));</highlight></codeline>
-<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerDag<sp/>=<sp/>createModel&lt;tarieven::TariefSoort&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>dag&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600*24));</highlight></codeline>
-<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerWeek<sp/>=<sp/>createModel&lt;tarieven::TariefSoort&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>week&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600*24*7));</highlight></codeline>
-<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerWeekend<sp/>=<sp/>createModel&lt;tarieven::TariefSoort&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>weekend&quot;</highlight><highlight class="normal">,<sp/>(1<sp/>&lt;&lt;<sp/>6)<sp/>|<sp/>(1<sp/>&lt;&lt;<sp/>7),<sp/>3600*24*2));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><ref refid="class_core_1_1_static_datastore_1a28250fbad27d3e65ce9f5d827e16f04e" kindref="member">StaticDatastore::~StaticDatastore</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>destructor<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_static_datastore_1a98d31863d338825720ac961c6acd7797" kindref="member">StaticDatastore::initStaticTestData</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;INIT<sp/>STATIC<sp/>DATA&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"></highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tariefsoort<sp/>prijzen</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gratis<sp/>/<sp/>Personenauto</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPU<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(6,0)));</highlight></codeline>
-<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPD<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(50,0)));</highlight></codeline>
-<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPW<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(70,0)));</highlight></codeline>
-<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPWK<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(150,0)));</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Betaald<sp/>/<sp/>Personenauto</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPU<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(4,0)));</highlight></codeline>
-<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPD<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(40,0)));</highlight></codeline>
-<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPW<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(60,0)));</highlight></codeline>
-<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPWK<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(140,0)));</highlight></codeline>
-<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gratis<sp/>/<sp/>Stationwagon</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSU<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(7,50)));</highlight></codeline>
-<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSD<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(60,0)));</highlight></codeline>
-<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSW<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(90,0)));</highlight></codeline>
-<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSWK<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(180,0)));</highlight></codeline>
-<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Betaad<sp/>/<sp/>Stationwagon</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSU<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(5,50)));</highlight></codeline>
-<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSD<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(50,0)));</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSW<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(80,0)));</highlight></codeline>
-<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSWK<sp/>=<sp/>createModel&lt;tarieven::TariefSoortPrijs&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(170,0)));</highlight></codeline>
-<codeline lineno="82"><highlight class="normal"></highlight></codeline>
-<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tarieven</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tarieven::tariefSoortenPrijsLijst</ref><sp/>tarievenGP<sp/>=<sp/>{tspGPU,<sp/>tspGPD,<sp/>tspGPWK,<sp/>tspGPW};</highlight></codeline>
-<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tarieven::tariefSoortenPrijsLijst</ref><sp/>tarievenBP<sp/>=<sp/>{tspBPU,<sp/>tspBPD,<sp/>tspBPWK,<sp/>tspBPW};</highlight></codeline>
-<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tarieven::tariefSoortenPrijsLijst</ref><sp/>tarievenGS<sp/>=<sp/>{tspGSU,<sp/>tspGSD,<sp/>tspGSWK,<sp/>tspGSW};</highlight></codeline>
-<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tarieven::tariefSoortenPrijsLijst</ref><sp/>tarievenBS<sp/>=<sp/>{tspBSU,<sp/>tspBSD,<sp/>tspBSWK,<sp/>tspBSW};</highlight></codeline>
-<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefGP<sp/>=<sp/>createModel&lt;tarieven::Tarief&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::Tarief::Create</ref>(0,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(0,30),<sp/>tarievenGP,<sp/>personenAuto,<sp/>abboGratis));</highlight></codeline>
-<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefBP<sp/>=<sp/>createModel&lt;tarieven::Tarief&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::Tarief::Create</ref>(0,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(0,35),<sp/>tarievenBP,<sp/>personenAuto,<sp/>abboBetlaad));</highlight></codeline>
-<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefGS<sp/>=<sp/>createModel&lt;tarieven::Tarief&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::Tarief::Create</ref>(100,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(0,25),<sp/>tarievenGS,<sp/>stationWagen,<sp/>abboGratis));</highlight></codeline>
-<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefBS<sp/>=<sp/>createModel&lt;tarieven::Tarief&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">tarieven::Tarief::Create</ref>(100,<sp/><ref refid="class_geld" kindref="compound">Geld</ref>(0,30),<sp/>tarievenBS,<sp/>stationWagen,<sp/>abboBetlaad));</highlight></codeline>
-<codeline lineno="92"><highlight class="normal"></highlight></codeline>
-<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Klanten</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klant1<sp/>=<sp/>createModel&lt;Klant&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Klant::Create</ref>(</highlight><highlight class="stringliteral">&quot;Jelle<sp/>Bouwhuis&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;jelle@email.nl&quot;</highlight><highlight class="normal">,<sp/>12345678,<sp/>abboGratis));</highlight></codeline>
-<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klant2<sp/>=<sp/>createModel&lt;Klant&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Klant::Create</ref>(</highlight><highlight class="stringliteral">&quot;Michel<sp/>Peters&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;michel@email.nl&quot;</highlight><highlight class="normal">,<sp/>87654321,<sp/>abboBetlaad));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>AutoTypes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>personenAuto<sp/>=<sp/>createModel&lt;AutoType&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">AutoType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Personsen<sp/>auto&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>stationWagen<sp/>=<sp/>createModel&lt;AutoType&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">AutoType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Stationwagen&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Abbonomenten</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abboGratis<sp/>=<sp/>createModel&lt;AbonnementType&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">AbonnementType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Gratis&quot;</highlight><highlight class="normal">,<sp/>0));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>abboBetlaad<sp/>=<sp/>createModel&lt;AbonnementType&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">AbonnementType::Create</ref>(</highlight><highlight class="stringliteral">&quot;Betaald&quot;</highlight><highlight class="normal">,<sp/>Geld(49,<sp/>95)));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tariefsoorten</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerUur<sp/>=<sp/>createModel&lt;TariefSoort&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>uur&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerDag<sp/>=<sp/>createModel&lt;TariefSoort&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>dag&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600*24));</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerWeek<sp/>=<sp/>createModel&lt;TariefSoort&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>week&quot;</highlight><highlight class="normal">,<sp/>0,<sp/>3600*24*7));</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefPerWeekend<sp/>=<sp/>createModel&lt;TariefSoort&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoort::Create</ref>(</highlight><highlight class="stringliteral">&quot;Per<sp/>weekend&quot;</highlight><highlight class="normal">,<sp/>(1<sp/>&lt;&lt;<sp/>6)<sp/>|<sp/>(1<sp/>&lt;&lt;<sp/>7),<sp/>3600*24*2));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tariefsoort<sp/>prijzen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gratis<sp/>/<sp/>Personenauto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPU<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/>Geld(6,0)));</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPD<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/>Geld(50,0)));</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPW<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/>Geld(70,0)));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGPWK<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/>Geld(150,0)));</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Betaald<sp/>/<sp/>Personenauto</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPU<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/>Geld(4,0)));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPD<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/>Geld(40,0)));</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPW<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/>Geld(60,0)));</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBPWK<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/>Geld(140,0)));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Gratis<sp/>/<sp/>Stationwagon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSU<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/>Geld(7,50)));</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSD<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/>Geld(60,0)));</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSW<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/>Geld(90,0)));</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspGSWK<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/>Geld(180,0)));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Betaad<sp/>/<sp/>Stationwagon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSU<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerUur,<sp/>Geld(5,50)));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSD<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerDag,<sp/>Geld(50,0)));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSW<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeekend,<sp/>Geld(80,0)));</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tspBSWK<sp/>=<sp/>createModel&lt;TariefSoortPrijs&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">TariefSoortPrijs::Create</ref>(tariefPerWeek,<sp/>Geld(170,0)));</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>RedCarModules</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>moduleVoorDeelauto1<sp/>=<sp/>createModel&lt;RedcarModule&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">RedcarModule::Create</ref>());</highlight></codeline>
-<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>moduleVoorDeelauto2<sp/>=<sp/>createModel&lt;RedcarModule&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">RedcarModule::Create</ref>());</highlight></codeline>
-<codeline lineno="100"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Standplaatsen</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>standPlaatsVoorDeelauto1<sp/>=<sp/>createModel&lt;Standplaats&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Standplaats::Create</ref>(23432,<sp/></highlight><highlight class="stringliteral">&quot;Arnhem&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>standPlaatsVoorDeelauto2<sp/>=<sp/>createModel&lt;Standplaats&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Standplaats::Create</ref>(52342,<sp/></highlight><highlight class="stringliteral">&quot;Arnhem&quot;</highlight><highlight class="normal">));</highlight></codeline>
-<codeline lineno="104"><highlight class="normal"></highlight></codeline>
-<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Deelautos</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deelAuto1<sp/>=<sp/>createModel&lt;Deelauto&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Deelauto::Create</ref>(</highlight><highlight class="stringliteral">&quot;AB-04-20&quot;</highlight><highlight class="normal">,<sp/>standPlaatsVoorDeelauto1,<sp/>moduleVoorDeelauto1));</highlight></codeline>
-<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deelAuto2<sp/>=<sp/>createModel&lt;Deelauto&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Deelauto::Create</ref>(</highlight><highlight class="stringliteral">&quot;AB-04-21&quot;</highlight><highlight class="normal">,<sp/>standPlaatsVoorDeelauto2,<sp/>moduleVoorDeelauto2));</highlight></codeline>
-<codeline lineno="108"><highlight class="normal"></highlight></codeline>
-<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reserveringen</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509444000<sp/>=<sp/>Tuesday,<sp/>October<sp/>31,<sp/>2017<sp/>10:00:00</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509472800<sp/>=<sp/>Tuesday,<sp/>October<sp/>31,<sp/>2017<sp/>18:00:00</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509616800<sp/>=<sp/>Thursday,<sp/>November<sp/>2,<sp/>2017<sp/>10:00:00</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reservering1<sp/>=<sp/>createModel&lt;Reservering&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Reservering::Create</ref>(0,<sp/>1509472800,<sp/>klant1,<sp/>deelAuto1,<sp/>tariefPerUur));</highlight></codeline>
-<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reservering2<sp/>=<sp/>createModel&lt;Reservering&gt;(<ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Reservering::Create</ref>(1509444000,<sp/>1509616800,<sp/>klant2,<sp/>deelAuto2,<sp/>tariefPerDag));</highlight></codeline>
-<codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>boete<sp/>tariefsoort</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>Application::getInstance().setBoeteTariefSoort(tariefPerUur);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Tarieven</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/>tarievenGP<sp/>=<sp/>{tspGPU,<sp/>tspGPD,<sp/>tspGPWK,<sp/>tspGPW};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/>tarievenBP<sp/>=<sp/>{tspBPU,<sp/>tspBPD,<sp/>tspBPWK,<sp/>tspBPW};</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/>tarievenGS<sp/>=<sp/>{tspGSU,<sp/>tspGSD,<sp/>tspGSWK,<sp/>tspGSW};</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/>tarievenBS<sp/>=<sp/>{tspBSU,<sp/>tspBSD,<sp/>tspBSWK,<sp/>tspBSW};</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefGP<sp/>=<sp/>createModel&lt;Tarief&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Tarief::Create</ref>(0,<sp/>Geld(0,30),<sp/>tarievenGP,<sp/>personenAuto,<sp/>abboGratis));</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefBP<sp/>=<sp/>createModel&lt;Tarief&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Tarief::Create</ref>(0,<sp/>Geld(0,35),<sp/>tarievenBP,<sp/>personenAuto,<sp/>abboBetlaad));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefGS<sp/>=<sp/>createModel&lt;Tarief&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Tarief::Create</ref>(100,<sp/>Geld(0,25),<sp/>tarievenGS,<sp/>stationWagen,<sp/>abboGratis));</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tariefBS<sp/>=<sp/>createModel&lt;Tarief&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Tarief::Create</ref>(100,<sp/>Geld(0,30),<sp/>tarievenBS,<sp/>stationWagen,<sp/>abboBetlaad));</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Klanten</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klant1<sp/>=<sp/>createModel&lt;Klant&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Klant::Create</ref>(</highlight><highlight class="stringliteral">&quot;Jelle<sp/>Bouwhuis&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;jelle@email.nl&quot;</highlight><highlight class="normal">,<sp/>12345678,<sp/>abboGratis));</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>klant2<sp/>=<sp/>createModel&lt;Klant&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Klant::Create</ref>(</highlight><highlight class="stringliteral">&quot;Michel<sp/>Peters&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;michel@email.nl&quot;</highlight><highlight class="normal">,<sp/>87654321,<sp/>abboBetlaad));</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>RedCarModules</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>moduleVoorDeelauto1<sp/>=<sp/>createModel&lt;RedcarModule&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">RedcarModule::Create</ref>());</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>moduleVoorDeelauto2<sp/>=<sp/>createModel&lt;RedcarModule&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">RedcarModule::Create</ref>());</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Standplaatsen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>standPlaatsVoorDeelauto1<sp/>=<sp/>createModel&lt;Standplaats&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Standplaats::Create</ref>(23432,<sp/></highlight><highlight class="stringliteral">&quot;Arnhem&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>standPlaatsVoorDeelauto2<sp/>=<sp/>createModel&lt;Standplaats&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Standplaats::Create</ref>(52342,<sp/></highlight><highlight class="stringliteral">&quot;Arnhem&quot;</highlight><highlight class="normal">));</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Deelautos</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deelAuto1<sp/>=<sp/>createModel&lt;Deelauto&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Deelauto::Create</ref>(</highlight><highlight class="stringliteral">&quot;AB-04-20&quot;</highlight><highlight class="normal">,<sp/>personenAuto,<sp/>standPlaatsVoorDeelauto1,<sp/>moduleVoorDeelauto1));</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>deelAuto2<sp/>=<sp/>createModel&lt;Deelauto&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Deelauto::Create</ref>(</highlight><highlight class="stringliteral">&quot;AB-04-21&quot;</highlight><highlight class="normal">,<sp/>stationWagen,<sp/>standPlaatsVoorDeelauto2,<sp/>moduleVoorDeelauto2));</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reserveringen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509444000<sp/>=<sp/>Tuesday,<sp/>October<sp/>31,<sp/>2017<sp/>10:00:00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509472800<sp/>=<sp/>Tuesday,<sp/>October<sp/>31,<sp/>2017<sp/>18:00:00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>1509616800<sp/>=<sp/>Thursday,<sp/>November<sp/>2,<sp/>2017<sp/>10:00:00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reservering1<sp/>=<sp/>createModel&lt;Reservering&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Reservering::Create</ref>(0,<sp/>60*60*7,<sp/>klant1,<sp/>deelAuto1,<sp/>tariefPerUur));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>reservering2<sp/>=<sp/>createModel&lt;Reservering&gt;(<ref refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" kindref="member">Reservering::Create</ref>(1509444000,<sp/>1509616800,<sp/>klant2,<sp/>deelAuto2,<sp/>tariefPerDag));</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>boete<sp/>tariefsoort</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>Application::getInstance().setBoeteTariefSoort(tariefPerUur);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="StaticDatastore.cpp"/>
   </compounddef>

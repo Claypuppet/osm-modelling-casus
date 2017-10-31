@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_deelautos_1_1_standplaats" kind="class" language="C++" prot="public">
+    <compoundname>Deelautos::Standplaats</compoundname>
+    <basecompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Standplaats &gt;</basecompoundref>
+    <includes refid="_standplaats_8h" local="no">Standplaats.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deelautos_1_1_standplaats_1ab55173d86c01a7e2a79881e385968ea2" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Deelautos::Standplaats::DatastoreModel&lt; Standplaats &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Standplaats &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="19" column="1" bodyfile="Standplaats.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_deelautos_1_1_standplaats_1a8353cfdf7b7a888596300437203f6674" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Deelautos::Standplaats::locatie</definition>
+        <argsstring></argsstring>
+        <name>locatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="29" column="1" bodyfile="Standplaats.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deelautos_1_1_standplaats_1aaa070429b431dee35e5f57f2bcfb4ae5" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Deelautos::Standplaats::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="30" column="1" bodyfile="Standplaats.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_deelautos_1_1_standplaats_1a165c832fbd59fde5232d4d4bfb004ab2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelautos::Standplaats::Standplaats</definition>
+        <argsstring>()</argsstring>
+        <name>Standplaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="20" column="1" bodyfile="Standplaats.cpp" bodystart="12" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelautos_1_1_standplaats_1a1ad17512bcdbd773890d0b3e96abacca" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelautos::Standplaats::Standplaats</definition>
+        <argsstring>(uint32_t locatie, const std::string &amp;naam)</argsstring>
+        <name>Standplaats</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>locatie</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>naam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="21" column="1" bodyfile="Standplaats.cpp" bodystart="19" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deelautos_1_1_standplaats_1a75783ce6fdd4bb07bede1fb8a99545c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelautos::Standplaats::~Standplaats</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Standplaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelautos_1_1_standplaats_1a096f8ac0f5ec872573555e2d0dae500b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Deelautos::Standplaats::controlleerLocatie</definition>
+        <argsstring>(uint32_t locatie)</argsstring>
+        <name>controlleerLocatie</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>locatie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="26" column="1" bodyfile="Standplaats.cpp" bodystart="25" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="188">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="186">
+        <label>Deelautos::Standplaats</label>
+        <link refid="class_deelautos_1_1_standplaats"/>
+        <childnode refid="187" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="187">
+        <label>Core::DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="188" relation="public-inheritance">
+        </childnode>
+        <childnode refid="189" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="192">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="190">
+        <label>Deelautos::Standplaats</label>
+        <link refid="class_deelautos_1_1_standplaats"/>
+        <childnode refid="191" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="191">
+        <label>Core::DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="192" relation="public-inheritance">
+        </childnode>
+        <childnode refid="193" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Standplaats.h" line="18" column="1" bodyfile="Standplaats.h" bodystart="17" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_deelautos_1_1_standplaats_1a096f8ac0f5ec872573555e2d0dae500b" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>controlleerLocatie</name></member>
+      <member refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>Create</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1ab55173d86c01a7e2a79881e385968ea2" prot="private" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>DatastoreModel&lt; Standplaats &gt;</name></member>
+      <member refid="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>id</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1a8353cfdf7b7a888596300437203f6674" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>locatie</name></member>
+      <member refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>ModelPtr</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1aaa070429b431dee35e5f57f2bcfb4ae5" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>naam</name></member>
+      <member refid="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>ptr</name></member>
+      <member refid="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>shared_from_this</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1a165c832fbd59fde5232d4d4bfb004ab2" prot="private" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>Standplaats</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1a1ad17512bcdbd773890d0b3e96abacca" prot="private" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>Standplaats</name></member>
+      <member refid="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" prot="public" virt="virtual"><scope>Deelautos::Standplaats</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" virt="virtual"><scope>Deelautos::Standplaats</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_deelautos_1_1_standplaats_1a75783ce6fdd4bb07bede1fb8a99545c6" prot="public" virt="non-virtual"><scope>Deelautos::Standplaats</scope><name>~Standplaats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

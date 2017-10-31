@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_producten_1_1_reservering_controller" kind="class" language="C++" prot="public">
+    <compoundname>Producten::ReserveringController</compoundname>
+    <includes refid="_reservering_controller_8h" local="no">ReserveringController.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_producten_1_1_reservering_controller_1ae5929676979ef84bdde0b338946f304e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Producten::ReserveringController::ReserveringController</definition>
+        <argsstring>()</argsstring>
+        <name>ReserveringController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringController.h" line="20" column="1" bodyfile="ReserveringController.cpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_controller_1a9ae1a5c45abda2a674939843a419c3ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Producten::ReserveringController::~ReserveringController</definition>
+        <argsstring>()</argsstring>
+        <name>~ReserveringController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringController.h" line="21" column="1" bodyfile="ReserveringController.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_controller_1a4da24dd58c39aecd792851e6504cf2e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Producten::ReserveringController::verzilverReservering</definition>
+        <argsstring>(uint32_t pasnummer)</argsstring>
+        <name>verzilverReservering</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasnummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringController.h" line="23" column="1" bodyfile="ReserveringController.cpp" bodystart="29" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_controller_1ad78d5dcd26d96ef1f731fddc8875b0f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Producten::ReserveringController::voltooiVerhuur</definition>
+        <argsstring>(uint32_t pasnummer)</argsstring>
+        <name>voltooiVerhuur</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasnummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringController.h" line="24" column="1" bodyfile="ReserveringController.cpp" bodystart="48" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ReserveringController.h" line="18" column="1" bodyfile="ReserveringController.h" bodystart="17" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_producten_1_1_reservering_controller_1ae5929676979ef84bdde0b338946f304e" prot="public" virt="non-virtual"><scope>Producten::ReserveringController</scope><name>ReserveringController</name></member>
+      <member refid="class_producten_1_1_reservering_controller_1a4da24dd58c39aecd792851e6504cf2e1" prot="public" virt="non-virtual"><scope>Producten::ReserveringController</scope><name>verzilverReservering</name></member>
+      <member refid="class_producten_1_1_reservering_controller_1ad78d5dcd26d96ef1f731fddc8875b0f6" prot="public" virt="non-virtual"><scope>Producten::ReserveringController</scope><name>voltooiVerhuur</name></member>
+      <member refid="class_producten_1_1_reservering_controller_1a9ae1a5c45abda2a674939843a419c3ed" prot="public" virt="virtual"><scope>Producten::ReserveringController</scope><name>~ReserveringController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

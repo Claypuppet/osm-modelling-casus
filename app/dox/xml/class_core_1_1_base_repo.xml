@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_base_repo" kind="class" language="C++" prot="public">
+    <compoundname>Core::BaseRepo</compoundname>
+    <derivedcompoundref refid="class_klanten_1_1_klant_repo" prot="public" virt="non-virtual">Klanten::KlantRepo&lt; DataStoreType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_klanten_1_1_klant_repo" prot="public" virt="non-virtual">Klanten::KlantRepo&lt; StaticDatastore &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_reservering_repo" prot="public" virt="non-virtual">Producten::ReserveringRepo&lt; DataStoreType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_verhuur_repo" prot="public" virt="non-virtual">Producten::VerhuurRepo&lt; DataStoreType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_reservering_repo" prot="public" virt="non-virtual">Producten::ReserveringRepo&lt; StaticDatastore &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_tarieven_1_1_tarief_repo" prot="public" virt="non-virtual">Tarieven::TariefRepo&lt; StaticDatastore &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_tarieven_1_1_tarief_repo" prot="public" virt="non-virtual">Tarieven::TariefRepo&lt; DataStoreType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_producten_1_1_verhuur_repo" prot="public" virt="non-virtual">Producten::VerhuurRepo&lt; StaticDatastore &gt;</derivedcompoundref>
+    <includes refid="_base_repo_8h" local="no">BaseRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>ModelType</declname>
+        <defname>ModelType</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>IDataStore&lt;DataStoreType&gt;&amp; Core::BaseRepo&lt; ModelType, DataStoreType &gt;::mDataStore</definition>
+        <argsstring></argsstring>
+        <name>mDataStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="21" column="1" bodyfile="BaseRepo.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Core::BaseRepo&lt; ModelType, DataStoreType &gt;::BaseRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>BaseRepo</name>
+        <param>
+          <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="24" column="1" bodyfile="BaseRepo.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::BaseRepo&lt; ModelType, DataStoreType &gt;::~BaseRepo</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BaseRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::BaseRepo&lt; ModelType, DataStoreType &gt;::save</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>save</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="29" column="1" bodyfile="BaseRepo.h" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::BaseRepo&lt; ModelType, DataStoreType &gt;::create</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>create</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="35" column="1" bodyfile="BaseRepo.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::BaseRepo&lt; ModelType, DataStoreType &gt;::getById</definition>
+        <argsstring>(uint32_t id)</argsstring>
+        <name>getById</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="38" column="1" bodyfile="BaseRepo.h" bodystart="38" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>ReserveringRepo&lt; StaticDatastore &gt;</label>
+        <link refid="class_producten_1_1_reservering_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Tarieven::TariefRepo&lt; Tarief, DataStoreType &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>KlantRepo&lt; StaticDatastore &gt;</label>
+        <link refid="class_klanten_1_1_klant_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Producten::ReserveringRepo&lt; Reservering, DataStoreType &gt;</label>
+        <link refid="class_producten_1_1_reservering_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>Core::BaseRepo&lt; ModelType, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+      </node>
+      <node id="27">
+        <label>Producten::VerhuurRepo&lt; Verhuur, DataStoreType &gt;</label>
+        <link refid="class_producten_1_1_verhuur_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>VerhuurRepo&lt; StaticDatastore &gt;</label>
+        <link refid="class_producten_1_1_verhuur_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>Klanten::KlantRepo&lt; Klant, DataStoreType &gt;</label>
+        <link refid="class_klanten_1_1_klant_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>TariefRepo&lt; StaticDatastore &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_repo"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="33">
+        <label>Core::IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="32">
+        <label>Core::BaseRepo&lt; ModelType, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+        <childnode refid="33" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="BaseRepo.h" line="19" column="1" bodyfile="BaseRepo.h" bodystart="18" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" prot="public" virt="non-virtual"><scope>Core::BaseRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" prot="public" virt="non-virtual"><scope>Core::BaseRepo</scope><name>create</name></member>
+      <member refid="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" prot="public" virt="non-virtual"><scope>Core::BaseRepo</scope><name>getById</name></member>
+      <member refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" prot="protected" virt="non-virtual"><scope>Core::BaseRepo</scope><name>mDataStore</name></member>
+      <member refid="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" prot="public" virt="non-virtual"><scope>Core::BaseRepo</scope><name>save</name></member>
+      <member refid="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" prot="public" virt="non-virtual"><scope>Core::BaseRepo</scope><name>~BaseRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

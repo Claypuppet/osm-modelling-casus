@@ -10,6 +10,10 @@
 
 #include "DatastoreModel.h"
 
+namespace Deelautos {
+
+using Core::DatastoreModel;
+
 class Standplaats : public DatastoreModel<Standplaats>
 {
 	friend DatastoreModel<Standplaats>;
@@ -25,5 +29,7 @@ public:
 	uint32_t locatie;
 	std::string naam;
 };
+
+}
 
 #endif /* STANDPLAATS_H_ */

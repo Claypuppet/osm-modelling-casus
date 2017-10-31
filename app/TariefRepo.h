@@ -16,28 +16,33 @@
 #include "BaseRepo.h"
 #include <memory>
 
+namespace Tarieven {
+	using Core::BaseRepo;
+	using Core::IDataStore;
 
 template <typename DataStoreType>
-class TariefRepo : public BaseRepo<Tarieven::Tarief, DataStoreType>
+class TariefRepo : public BaseRepo<Tarief, DataStoreType>
 {
 public:
 	TariefRepo(IDataStore<DataStoreType>& dataStore)
-	:	BaseRepo<Tarieven::Tarief, DataStoreType>(dataStore)
+	:	BaseRepo<Tarief, DataStoreType>(dataStore)
 	{}
 	~TariefRepo() = default;
 
-	Tarieven::TariefPtr getTariefByTypes(std::shared_ptr<AutoType> aut, std::shared_ptr<AbonnementType> abt)
+	TariefPtr getTariefByTypes(std::shared_ptr<AutoType> aut, std::shared_ptr<AbonnementType> abt)
 	{
-		auto tL = [aut, abt](Tarieven::TariefPtr t)
+		auto tL = [aut, abt](TariefPtr t)
 		{
 			return (t->autoType->id == aut->id && t->aboType->id == abt->id);
 		};
-		auto tp = Tarieven::TariefPtr();
-		Tarieven::TariefPtr tarief = this->mDataStore.loadModel(tp, tL);
+		auto tp = TariefPtr();
+		TariefPtr tarief = this->mDataStore.loadModel(tp, tL);
 		return tarief;
 	}
 
 };
+
+}
 
 
 #endif /* TARIEFREPO_H_ */

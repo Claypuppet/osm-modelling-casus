@@ -8,5 +8,5 @@ var searchData=
   ['tariefsoort_2eh',['TariefSoort.h',['../_tarief_soort_8h.html',1,'']]],
   ['tariefsoortprijs_2ecpp',['TariefSoortPrijs.cpp',['../_tarief_soort_prijs_8cpp.html',1,'']]],
   ['tariefsoortprijs_2eh',['TariefSoortPrijs.h',['../_tarief_soort_prijs_8h.html',1,'']]],
-  ['timeprofider_2eh',['timeProfider.h',['../time_profider_8h.html',1,'']]]
+  ['timeprovider_2eh',['TimeProvider.h',['../_time_provider_8h.html',1,'']]]
 ];

@@ -12,6 +12,8 @@
 
 namespace Deelautos {
 
+using Core::DatastoreModel;
+
 class AutoType : public DatastoreModel<AutoType>
 {
 	friend  DatastoreModel<AutoType>;

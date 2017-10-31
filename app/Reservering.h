@@ -13,13 +13,20 @@
 #include "Tarief.h"
 #include "TariefSoort.h"
 #include "Klant.h"
+#include "Deelauto.h"
+
+#include <memory>
 
 
 namespace Producten
 {
+	using Deelautos::Deelauto;
+	using Core::DatastoreModel;
+	using Klanten::Klant;
+	using Klanten::KlantPtr;
+	using Tarieven::TariefSoortPtr;
 
-class Verhuur;
-class Deelauto;
+	class Verhuur;
 
 class Reservering : public DatastoreModel<Reservering>, public Product
 {
@@ -34,13 +41,13 @@ public:
 	uint32_t					eindMoment;
 	KlantPtr					klant;
 	std::shared_ptr<Deelauto>	deelauto;
-	Tarieven::TariefSoortPtr 	tariefSoort;
+	TariefSoortPtr 				tariefSoort;
 	std::shared_ptr<Verhuur>	verhuur;
 
 public:
 	Reservering();
 	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant,
-			std::shared_ptr<Deelauto>& deelauto, Tarieven::TariefSoortPtr tariefSoort);
+			std::shared_ptr<Deelauto>& deelauto, TariefSoortPtr tariefSoort);
 	virtual ~Reservering();
 
 	Tarieven::TariefPtr getTarief();

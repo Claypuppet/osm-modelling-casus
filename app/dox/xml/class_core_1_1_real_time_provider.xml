@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_real_time_provider" kind="class" language="C++" prot="public">
+    <compoundname>Core::RealTimeProvider</compoundname>
+    <basecompoundref refid="class_core_1_1_i_time_provider" prot="public" virt="non-virtual">Core::ITimeProvider</basecompoundref>
+    <includes refid="_time_provider_8h" local="no">TimeProvider.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_real_time_provider_1a41237e4850e50ca37ab834753adf1bec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::RealTimeProvider::RealTimeProvider</definition>
+        <argsstring>()=default</argsstring>
+        <name>RealTimeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TimeProvider.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_real_time_provider_1a0a37a6867c2acf06629718f4d47ebf92" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Core::RealTimeProvider::~RealTimeProvider</definition>
+        <argsstring>()=default</argsstring>
+        <name>~RealTimeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TimeProvider.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_real_time_provider_1aab6e941cfe27b728a74f129b20e82a6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t Core::RealTimeProvider::getTime</definition>
+        <argsstring>() const override</argsstring>
+        <name>getTime</name>
+        <reimplements refid="class_core_1_1_i_time_provider_1acf921d9a8e87991498b3a885048f0479">getTime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TimeProvider.h" line="29" column="1" bodyfile="TimeProvider.h" bodystart="29" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="137">
+        <label>Core::RealTimeProvider</label>
+        <link refid="class_core_1_1_real_time_provider"/>
+        <childnode refid="138" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="138">
+        <label>Core::ITimeProvider</label>
+        <link refid="class_core_1_1_i_time_provider"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="139">
+        <label>Core::RealTimeProvider</label>
+        <link refid="class_core_1_1_real_time_provider"/>
+        <childnode refid="140" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="140">
+        <label>Core::ITimeProvider</label>
+        <link refid="class_core_1_1_i_time_provider"/>
+      </node>
+    </collaborationgraph>
+    <location file="TimeProvider.h" line="25" column="1" bodyfile="TimeProvider.h" bodystart="24" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_real_time_provider_1aab6e941cfe27b728a74f129b20e82a6e" prot="public" virt="virtual"><scope>Core::RealTimeProvider</scope><name>getTime</name></member>
+      <member refid="class_core_1_1_i_time_provider_1a9ad4b5f7fe14f80ef4af5e7cb7b47588" prot="protected" virt="non-virtual"><scope>Core::RealTimeProvider</scope><name>ITimeProvider</name></member>
+      <member refid="class_core_1_1_real_time_provider_1a41237e4850e50ca37ab834753adf1bec" prot="public" virt="non-virtual"><scope>Core::RealTimeProvider</scope><name>RealTimeProvider</name></member>
+      <member refid="class_core_1_1_i_time_provider_1a69b65fac2cdd7cfe32e1a9c1547f6287" prot="public" virt="virtual"><scope>Core::RealTimeProvider</scope><name>~ITimeProvider</name></member>
+      <member refid="class_core_1_1_real_time_provider_1a0a37a6867c2acf06629718f4d47ebf92" prot="public" virt="virtual"><scope>Core::RealTimeProvider</scope><name>~RealTimeProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

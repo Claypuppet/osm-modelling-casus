@@ -262,7 +262,8 @@
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_abonnement_type" prot="public">AbonnementType</innerclass>
+    <innerclass refid="class_producten_1_1_abonnement_type" prot="public">Producten::AbonnementType</innerclass>
+    <innernamespace refid="namespace_producten">Producten</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -286,21 +287,27 @@
 <codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="class_abonnement_type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;AbonnementType&gt;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;AbonnementType&gt;</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref>();</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" kindref="member">naam</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_geld" kindref="compound">Geld</ref>&amp;<sp/><ref refid="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" kindref="member">kosten</ref>);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_abonnement_type_1af9b69c7f28d7ade3d204fe9d899f13bb" kindref="member">~AbonnementType</ref>();</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" kindref="member">naam</ref>;</highlight></codeline>
-<codeline lineno="30" refid="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" kindref="member">kosten</ref>;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_producten" kindref="compound">Producten</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_geld" kindref="compound">Core::Geld</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_producten_1_1_abonnement_type" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_producten_1_1_abonnement_type" kindref="compound">AbonnementType</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;AbonnementType&gt;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;AbonnementType&gt;</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_abonnement_type" kindref="compound">AbonnementType</ref>();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_abonnement_type" kindref="compound">AbonnementType</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_producten_1_1_abonnement_type_1acfb29ef66e0277ee1006f181b07b730e" kindref="member">naam</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref>&amp;<sp/><ref refid="class_producten_1_1_abonnement_type_1aff9786b76e7450b982cd465d0483d187" kindref="member">kosten</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_abonnement_type_1a8e9eeaf6524297e5305fb24eae1fca6b" kindref="member">~AbonnementType</ref>();</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ABBONOMENTTYPE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="33" refid="class_producten_1_1_abonnement_type_1acfb29ef66e0277ee1006f181b07b730e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_producten_1_1_abonnement_type_1acfb29ef66e0277ee1006f181b07b730e" kindref="member">naam</ref>;</highlight></codeline>
+<codeline lineno="34" refid="class_producten_1_1_abonnement_type_1aff9786b76e7450b982cd465d0483d187" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_producten_1_1_abonnement_type_1aff9786b76e7450b982cd465d0483d187" kindref="member">kosten</ref>;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ABBONOMENTTYPE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="AbonnementType.h"/>
   </compounddef>

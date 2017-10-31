@@ -9,75 +9,80 @@
     <includedby refid="_signals_8cpp" local="yes">Signals.cpp</includedby>
     <includedby refid="_verhuur_8cpp" local="yes">Verhuur.cpp</includedby>
     <incdepgraph>
-      <node id="912">
+      <node id="971">
         <label>Singleton.h</label>
         <link refid="_singleton_8h"/>
       </node>
-      <node id="913">
+      <node id="972">
         <label>boost/signals2.hpp</label>
       </node>
-      <node id="914">
+      <node id="973">
         <label>memory</label>
       </node>
-      <node id="911">
+      <node id="970">
         <label>Signals.h</label>
         <link refid="_signals_8h"/>
-        <childnode refid="912" relation="include">
+        <childnode refid="971" relation="include">
         </childnode>
-        <childnode refid="913" relation="include">
+        <childnode refid="972" relation="include">
         </childnode>
-        <childnode refid="914" relation="include">
+        <childnode refid="973" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="916">
+      <node id="975">
         <label>Reservering.cpp</label>
         <link refid="_reservering_8cpp"/>
       </node>
-      <node id="918">
+      <node id="977">
         <label>Verhuur.cpp</label>
         <link refid="_verhuur_8cpp"/>
       </node>
-      <node id="917">
+      <node id="976">
         <label>Signals.cpp</label>
         <link refid="_signals_8cpp"/>
       </node>
-      <node id="915">
+      <node id="974">
         <label>Signals.h</label>
         <link refid="_signals_8h"/>
-        <childnode refid="916" relation="include">
+        <childnode refid="975" relation="include">
         </childnode>
-        <childnode refid="917" relation="include">
+        <childnode refid="976" relation="include">
         </childnode>
-        <childnode refid="918" relation="include">
+        <childnode refid="977" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_signals" prot="public">Signals</innerclass>
+    <innerclass refid="class_core_1_1_signals" prot="public">Core::Signals</innerclass>
+    <innernamespace refid="namespace_core">Core</innernamespace>
       <sectiondef kind="define">
-      <memberdef kind="define" id="_signals_8h_1a21e3641232b55c08cf104f2bbf7795a4" prot="public" static="no">
+      <memberdef kind="define" id="_signals_8h_1affbb013e0f5d516547a4bab35dbc069e" prot="public" static="no">
         <name>FDW_DECLARE_SHARED_OBJECT</name>
+        <param><defname>namespaze</defname></param>
         <param><defname>className</defname></param>
-        <initializer>class className; \
-typedef std::shared_ptr&lt;className&gt; className##Ptr</initializer>
+        <initializer>namespace namespaze { class className; } \
+typedef std::shared_ptr&lt;namespaze::className&gt; className##Ptr</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Signals.h" line="16" column="9" bodyfile="Signals.h" bodystart="16" bodyend="-1"/>
+        <location file="Signals.h" line="15" column="9" bodyfile="Signals.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="func">
-      <memberdef kind="function" id="_signals_8h_1a12635816c980b619e724bf58e3cf6ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="_signals_8h_1af1ede123b3be26ca660f9ecf748cb869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
         <definition>FDW_DECLARE_SHARED_OBJECT</definition>
-        <argsstring>(Verhuur)</argsstring>
+        <argsstring>(Producten, Verhuur)</argsstring>
         <name>FDW_DECLARE_SHARED_OBJECT</name>
         <param>
-          <type><ref refid="class_verhuur" kindref="compound">Verhuur</ref></type>
+          <type>Producten</type>
+        </param>
+        <param>
+          <type>Verhuur</type>
         </param>
         <briefdescription>
         </briefdescription>
@@ -85,7 +90,7 @@ typedef std::shared_ptr&lt;className&gt; className##Ptr</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="Signals.h" line="21" column="1"/>
+        <location file="Signals.h" line="19" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -107,37 +112,41 @@ typedef std::shared_ptr&lt;className&gt; className##Ptr</initializer>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/signals2.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16" refid="_signals_8h_1a21e3641232b55c08cf104f2bbf7795a4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FDW_DECLARE_SHARED_OBJECT(className)<sp/>\</highlight></codeline>
-<codeline lineno="17"><highlight class="preprocessor">class<sp/>className;<sp/>\</highlight></codeline>
-<codeline lineno="18"><highlight class="preprocessor">typedef<sp/>std::shared_ptr&lt;className&gt;<sp/>className##Ptr</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="_signals_8h_1affbb013e0f5d516547a4bab35dbc069e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FDW_DECLARE_SHARED_OBJECT(namespaze,<sp/>className)<sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">namespace<sp/>namespaze<sp/>{<sp/>class<sp/>className;<sp/>}<sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor">typedef<sp/>std::shared_ptr&lt;namespaze::className&gt;<sp/>className##Ptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="_signals_8h_1affbb013e0f5d516547a4bab35dbc069e" kindref="member">FDW_DECLARE_SHARED_OBJECT</ref>(<ref refid="namespace_producten" kindref="compound">Producten</ref>,<sp/>Verhuur);</highlight></codeline>
 <codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><ref refid="_signals_8h_1a21e3641232b55c08cf104f2bbf7795a4" kindref="member">FDW_DECLARE_SHARED_OBJECT</ref>(<ref refid="class_verhuur" kindref="compound">Verhuur</ref>);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>FDW_DECLARE_SHARED_OBJECT</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>FDW_DECLARE_SHARED_OBJECT</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight></codeline>
-<codeline lineno="26" refid="class_signals" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_signals" kindref="compound">Signals</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_singleton" kindref="compound">Singleton</ref>&lt;Signals&gt;<sp/>{</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_singleton" kindref="compound">Singleton&lt;Signals&gt;</ref>;</highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_signals" kindref="compound">Signals</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_signals" kindref="compound">Signals</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_core" kindref="compound">Core</ref><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_core_1_1_signals" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_core_1_1_signals" kindref="compound">Signals</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_singleton" kindref="compound">Singleton</ref>&lt;Signals&gt;<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_singleton" kindref="compound">Singleton&lt;Signals&gt;</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_signals" kindref="compound">Signals</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>~<ref refid="class_core_1_1_signals" kindref="compound">Signals</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
-<codeline lineno="34" refid="class_signals_1ad0411fae18711190311cfad11154b4f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s</ref><sp/>=<sp/>boost::signals2::signal&lt;Args...&gt;;</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36" refid="class_signals_1af876cd4f710c1a80ad16e0038fa41167" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_signals_1af876cd4f710c1a80ad16e0038fa41167" kindref="member">VehuurIngecheckt</ref>;</highlight></codeline>
-<codeline lineno="37" refid="class_signals_1a86f79381d295cf235c2b4c37b1da921e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_signals_1a86f79381d295cf235c2b4c37b1da921e" kindref="member">VehuurWasAlIngecheckt</ref>;</highlight></codeline>
-<codeline lineno="38" refid="class_signals_1a70f4351d47ea2e0fbc67b9141fe78ca6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_signals_1a70f4351d47ea2e0fbc67b9141fe78ca6" kindref="member">VehuurUitgeckect</ref>;</highlight></codeline>
-<codeline lineno="39" refid="class_signals_1ac1395f3e8434bbbce3fecd5acd6947de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_signals_1ac1395f3e8434bbbce3fecd5acd6947de" kindref="member">VehuurUitcheckAutoNietOpLocatie</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">...<sp/>Args&gt;</highlight></codeline>
+<codeline lineno="36" refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s</ref><sp/>=<sp/>boost::signals2::signal&lt;Args...&gt;;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="class_core_1_1_signals_1a5c44931e548d7ba5fa6c67b71164af8b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_core_1_1_signals_1a5c44931e548d7ba5fa6c67b71164af8b" kindref="member">VehuurIngecheckt</ref>;</highlight></codeline>
+<codeline lineno="39" refid="class_core_1_1_signals_1a71cb4e721c84b20153181f1ace73d333" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_core_1_1_signals_1a71cb4e721c84b20153181f1ace73d333" kindref="member">VehuurWasAlIngecheckt</ref>;</highlight></codeline>
+<codeline lineno="40" refid="class_core_1_1_signals_1a24d8900c003a6aea66bd0d8f9ccc6c59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_core_1_1_signals_1a24d8900c003a6aea66bd0d8f9ccc6c59" kindref="member">VehuurUitgeckect</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_core_1_1_signals_1a9c8ec8014ab3ef21a68d0884daa95a53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s&lt;void(VerhuurPtr verhuur)&gt;</ref><sp/><ref refid="class_core_1_1_signals_1a9c8ec8014ab3ef21a68d0884daa95a53" kindref="member">VehuurUitcheckAutoNietOpLocatie</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>SIGNALS_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>SIGNALS_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="Signals.h"/>
   </compounddef>

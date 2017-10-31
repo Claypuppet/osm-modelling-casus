@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_static_datastore" kind="class" language="C++" prot="public">
+    <compoundname>Core::StaticDatastore</compoundname>
+    <basecompoundref refid="class_core_1_1_i_data_store" prot="public" virt="non-virtual">Core::IDataStore&lt; StaticDatastore &gt;</basecompoundref>
+    <includes refid="_static_datastore_8h" local="no">StaticDatastore.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_core_1_1_static_datastore_1a76661f0fc2fa1b1907f8148a54ce1bed" prot="public" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Core::StaticDatastore::IDataStore&lt; StaticDatastore &gt;</definition>
+        <argsstring></argsstring>
+        <name>IDataStore&lt; StaticDatastore &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="83" column="1" bodyfile="StaticDatastore.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1a6c9eae61b920d4694d7eac0baf5d524d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::StaticDatastore::StaticDatastore</definition>
+        <argsstring>()</argsstring>
+        <name>StaticDatastore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="80" column="1" bodyfile="StaticDatastore.cpp" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1a28250fbad27d3e65ce9f5d827e16f04e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::StaticDatastore::~StaticDatastore</definition>
+        <argsstring>()</argsstring>
+        <name>~StaticDatastore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="81" column="1" bodyfile="StaticDatastore.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1a98d31863d338825720ac961c6acd7797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::StaticDatastore::initStaticTestData</definition>
+        <argsstring>()</argsstring>
+        <name>initStaticTestData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="85" column="1" bodyfile="StaticDatastore.cpp" bodystart="57" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1a7c6f6c0ba9db170b5b61f7fd0aa6e152" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+          <param>
+            <type>typename SelectPredicate</type>
+            <defval><ref refid="struct_core_1_1_model_by_id" kindref="compound">ModelById</ref>&lt;ModelType&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::StaticDatastore::loadModel</definition>
+        <argsstring>(const std::shared_ptr&lt; ModelType &gt; &amp;out, const SelectPredicate &amp;predicate)</argsstring>
+        <name>loadModel</name>
+        <param>
+          <type>const std::shared_ptr&lt; ModelType &gt; &amp;</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="91" column="1" bodyfile="StaticDatastore.h" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1a00a47d9befa7373041a6f46a377d8714" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+          <param>
+            <type>typename SelectPredicate</type>
+            <defval><ref refid="struct_core_1_1_model_by_id" kindref="compound">ModelById</ref>&lt;ModelType&gt;</defval>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::StaticDatastore::saveModel</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; &amp;model, const SelectPredicate &amp;predicate)</argsstring>
+        <name>saveModel</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt; &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>predicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="97" column="1" bodyfile="StaticDatastore.h" bodystart="97" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_static_datastore_1add82762c175c466ef0ea269a5dd14462" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ModelType</type>
+          </param>
+        </templateparamlist>
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; Core::StaticDatastore::createModel</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>createModel</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="104" column="1" bodyfile="StaticDatastore.h" bodystart="104" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="195">
+        <label>Core::IDataStore&lt; StaticDatastore &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="194">
+        <label>Core::StaticDatastore</label>
+        <link refid="class_core_1_1_static_datastore"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="197">
+        <label>Core::IDataStore&lt; StaticDatastore &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="196">
+        <label>Core::StaticDatastore</label>
+        <link refid="class_core_1_1_static_datastore"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="StaticDatastore.h" line="78" column="1" bodyfile="StaticDatastore.h" bodystart="77" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_static_datastore_1add82762c175c466ef0ea269a5dd14462" prot="protected" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>createModel</name></member>
+      <member refid="class_core_1_1_i_data_store_1ae31b416da536fa67ae59a18942019ed2" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>IDataStore</name></member>
+      <member refid="class_core_1_1_static_datastore_1a76661f0fc2fa1b1907f8148a54ce1bed" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>IDataStore&lt; StaticDatastore &gt;</name></member>
+      <member refid="class_core_1_1_static_datastore_1a98d31863d338825720ac961c6acd7797" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>initStaticTestData</name></member>
+      <member refid="class_core_1_1_i_data_store_1acf41fbcfc53e02d2bbef9adc82d3f5ff" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>IsValidModelType</name></member>
+      <member refid="class_core_1_1_static_datastore_1a7c6f6c0ba9db170b5b61f7fd0aa6e152" prot="protected" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>loadModel</name></member>
+      <member refid="class_core_1_1_static_datastore_1a00a47d9befa7373041a6f46a377d8714" prot="protected" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>saveModel</name></member>
+      <member refid="class_core_1_1_i_data_store_1a0515b13f9c31faf054d3d0265f63dc50" prot="public" virt="non-virtual" ambiguityscope="Core::IDataStore::"><scope>Core::StaticDatastore</scope><name>saveModel</name></member>
+      <member refid="class_core_1_1_static_datastore_1a6c9eae61b920d4694d7eac0baf5d524d" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>StaticDatastore</name></member>
+      <member refid="class_core_1_1_i_data_store_1a1f1a7edf2447cf606cff275b8a060065" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>ValidModelType</name></member>
+      <member refid="class_core_1_1_i_data_store_1a71a98ef1ebcbc9ddd7b4f9fabac75db6" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>~IDataStore</name></member>
+      <member refid="class_core_1_1_static_datastore_1a28250fbad27d3e65ce9f5d827e16f04e" prot="public" virt="non-virtual"><scope>Core::StaticDatastore</scope><name>~StaticDatastore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

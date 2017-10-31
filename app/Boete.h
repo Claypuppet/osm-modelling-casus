@@ -15,6 +15,9 @@
 namespace Producten
 {
 
+using Core::DatastoreModel;
+using Core::Geld;
+
 class Boete : public DatastoreModel<Boete>, public Product
 {
 	friend DatastoreModel<Boete>;

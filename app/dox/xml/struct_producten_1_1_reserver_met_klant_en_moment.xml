@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_producten_1_1_reserver_met_klant_en_moment" kind="struct" language="C++" prot="public">
+    <compoundname>Producten::ReserverMetKlantEnMoment</compoundname>
+    <includes refid="_reservering_repo_8h" local="no">ReserveringRepo.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_producten_1_1_reserver_met_klant_en_moment_1a82ec304b6f13a087ecfa0505b93a6fb3" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+        <definition>std::shared_ptr&lt;Klant&gt;&amp; Producten::ReserverMetKlantEnMoment::klant</definition>
+        <argsstring></argsstring>
+        <name>klant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="47" column="1" bodyfile="ReserveringRepo.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_producten_1_1_reserver_met_klant_en_moment_1ad6375a6869d8c6715ad4e351375fd5e1" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Producten::ReserverMetKlantEnMoment::moment</definition>
+        <argsstring></argsstring>
+        <name>moment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="48" column="1" bodyfile="ReserveringRepo.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_producten_1_1_reserver_met_klant_en_moment_1a41b4eee2a88ccd41786c0e563fb89e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Producten::ReserverMetKlantEnMoment::ReserverMetKlantEnMoment</definition>
+        <argsstring>(std::shared_ptr&lt; Klant &gt; &amp;klant, uint32_t moment)</argsstring>
+        <name>ReserverMetKlantEnMoment</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+          <declname>klant</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>moment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="29" column="1" bodyfile="ReserveringRepo.h" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_producten_1_1_reserver_met_klant_en_moment_1a14186718078aee289b4e2b063d4aa3cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Producten::ReserverMetKlantEnMoment::operator()</definition>
+        <argsstring>(const std::shared_ptr&lt; Reservering &gt; &amp;reservering)</argsstring>
+        <name>operator()</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_producten_1_1_reservering" kindref="compound">Reservering</ref> &gt; &amp;</type>
+          <declname>reservering</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="35" column="1" bodyfile="ReserveringRepo.h" bodystart="35" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ReserveringRepo.h" line="28" column="1" bodyfile="ReserveringRepo.h" bodystart="27" bodyend="49"/>
+    <listofallmembers>
+      <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a82ec304b6f13a087ecfa0505b93a6fb3" prot="private" virt="non-virtual"><scope>Producten::ReserverMetKlantEnMoment</scope><name>klant</name></member>
+      <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1ad6375a6869d8c6715ad4e351375fd5e1" prot="private" virt="non-virtual"><scope>Producten::ReserverMetKlantEnMoment</scope><name>moment</name></member>
+      <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a14186718078aee289b4e2b063d4aa3cb" prot="public" virt="non-virtual"><scope>Producten::ReserverMetKlantEnMoment</scope><name>operator()</name></member>
+      <member refid="struct_producten_1_1_reserver_met_klant_en_moment_1a41b4eee2a88ccd41786c0e563fb89e73" prot="public" virt="non-virtual"><scope>Producten::ReserverMetKlantEnMoment</scope><name>ReserverMetKlantEnMoment</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_signals" kind="class" language="C++" prot="public">
+    <compoundname>Core::Signals</compoundname>
+    <basecompoundref refid="class_singleton" prot="public" virt="non-virtual">Singleton&lt; Signals &gt;</basecompoundref>
+    <includes refid="_signals_8h" local="no">Signals.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" prot="public" static="no">
+        <type>boost::signals2::signal&lt; Args... &gt;</type>
+        <definition>using Core::Signals::s =  boost::signals2::signal&lt;Args...&gt;</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="36" column="1" bodyfile="Signals.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_1_1_signals_1a915f916b59a44f99b07f4d6f6baed65e" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Core::Signals::Singleton&lt; Signals &gt;</definition>
+        <argsstring></argsstring>
+        <name>Singleton&lt; Signals &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="29" column="1" bodyfile="Signals.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_core_1_1_signals_1a5c44931e548d7ba5fa6c67b71164af8b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Core::Signals::VehuurIngecheckt</definition>
+        <argsstring></argsstring>
+        <name>VehuurIngecheckt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="38" column="1" bodyfile="Signals.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_signals_1a71cb4e721c84b20153181f1ace73d333" prot="public" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Core::Signals::VehuurWasAlIngecheckt</definition>
+        <argsstring></argsstring>
+        <name>VehuurWasAlIngecheckt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="39" column="1" bodyfile="Signals.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_signals_1a24d8900c003a6aea66bd0d8f9ccc6c59" prot="public" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Core::Signals::VehuurUitgeckect</definition>
+        <argsstring></argsstring>
+        <name>VehuurUitgeckect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="40" column="1" bodyfile="Signals.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_signals_1a9c8ec8014ab3ef21a68d0884daa95a53" prot="public" static="no" mutable="no">
+        <type><ref refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Core::Signals::VehuurUitcheckAutoNietOpLocatie</definition>
+        <argsstring></argsstring>
+        <name>VehuurUitcheckAutoNietOpLocatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="41" column="1" bodyfile="Signals.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_1_1_signals_1ae865d82e08f4a4e31c77386a31eed9a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::Signals::Signals</definition>
+        <argsstring>()=default</argsstring>
+        <name>Signals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_signals_1a8040bef2aa5fbf12aef396c8137ea639" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::Signals::~Signals</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Signals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="31" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="180">
+        <label>Core::Signals</label>
+        <link refid="class_core_1_1_signals"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>Singleton&lt; Signals &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="182">
+        <label>Core::Signals</label>
+        <link refid="class_core_1_1_signals"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>Singleton&lt; Signals &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </collaborationgraph>
+    <location file="Signals.h" line="28" column="1" bodyfile="Signals.h" bodystart="28" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_signals_1a90f5b566ad24f767a49fc9ab325a7fe0" prot="public" virt="non-virtual"><scope>Core::Signals</scope><name>s</name></member>
+      <member refid="class_core_1_1_signals_1ae865d82e08f4a4e31c77386a31eed9a6" prot="private" virt="non-virtual"><scope>Core::Signals</scope><name>Signals</name></member>
+      <member refid="class_core_1_1_signals_1a915f916b59a44f99b07f4d6f6baed65e" prot="private" virt="non-virtual"><scope>Core::Signals</scope><name>Singleton&lt; Signals &gt;</name></member>
+      <member refid="class_core_1_1_signals_1a5c44931e548d7ba5fa6c67b71164af8b" prot="public" virt="non-virtual"><scope>Core::Signals</scope><name>VehuurIngecheckt</name></member>
+      <member refid="class_core_1_1_signals_1a9c8ec8014ab3ef21a68d0884daa95a53" prot="public" virt="non-virtual"><scope>Core::Signals</scope><name>VehuurUitcheckAutoNietOpLocatie</name></member>
+      <member refid="class_core_1_1_signals_1a24d8900c003a6aea66bd0d8f9ccc6c59" prot="public" virt="non-virtual"><scope>Core::Signals</scope><name>VehuurUitgeckect</name></member>
+      <member refid="class_core_1_1_signals_1a71cb4e721c84b20153181f1ace73d333" prot="public" virt="non-virtual"><scope>Core::Signals</scope><name>VehuurWasAlIngecheckt</name></member>
+      <member refid="class_core_1_1_signals_1a8040bef2aa5fbf12aef396c8137ea639" prot="private" virt="non-virtual"><scope>Core::Signals</scope><name>~Signals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

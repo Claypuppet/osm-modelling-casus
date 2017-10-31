@@ -15,7 +15,10 @@
 #include "KlantRepo.h"
 #include "VerhuurRepo.h"
 #include "TariefRepo.h"
-#include "timeProfider.h"
+#include "TimeProvider.h"
+
+namespace Core {
+using Tarieven::TariefSoortPtr;
 
 class Application : public Singleton<Application>
 {
@@ -38,16 +41,18 @@ public:
 		timeProvider = aTimeProvider;
 	}
 
-	Tarieven::TariefSoortPtr getBoeteTariefSoort() const;
-	void setBoeteTariefSoort(Tarieven::TariefSoortPtr boeteTariefSoort);
+	TariefSoortPtr getBoeteTariefSoort() const;
+	void setBoeteTariefSoort(TariefSoortPtr boeteTariefSoort);
 
 private:
 
 	bool	mQuit;
 	cui::CUI mCUI;
-	Tarieven::TariefSoortPtr boeteTariefSoort;
+	TariefSoortPtr boeteTariefSoort;
 	std::shared_ptr<ITimeProvider> timeProvider;
 
 };
+
+}
 
 #endif /* APPLICATION_H_ */

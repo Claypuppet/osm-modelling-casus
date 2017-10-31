@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_producten_1_1_verhuur_repo" kind="class" language="C++" prot="public">
+    <compoundname>Producten::VerhuurRepo</compoundname>
+    <basecompoundref refid="class_core_1_1_base_repo" prot="public" virt="non-virtual">Core::BaseRepo&lt; Verhuur, DataStoreType &gt;</basecompoundref>
+    <includes refid="_verhuur_repo_8h" local="no">VerhuurRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_producten_1_1_verhuur_repo_1a635fde0e3ee73a5ee8ea2fd90655907d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Producten::VerhuurRepo&lt; DataStoreType &gt;::VerhuurRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>VerhuurRepo</name>
+        <param>
+          <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerhuurRepo.h" line="28" column="1" bodyfile="VerhuurRepo.h" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_verhuur_repo_1ab6fe39370ed16aa89892cb3b48c6da5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Producten::VerhuurRepo&lt; DataStoreType &gt;::~VerhuurRepo</definition>
+        <argsstring>()=default</argsstring>
+        <name>~VerhuurRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerhuurRepo.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_verhuur_repo_1ac9620c9d964f93b3a12c93d8647aee34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Verhuur &gt; Producten::VerhuurRepo&lt; DataStoreType &gt;::getActiefVerhuur</definition>
+        <argsstring>(const std::shared_ptr&lt; Klant &gt; &amp;klant)</argsstring>
+        <name>getActiefVerhuur</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+          <declname>klant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerhuurRepo.h" line="34" column="1" bodyfile="VerhuurRepo.h" bodystart="62" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_verhuur_repo_1a6844225ac7b84d773e020ea201d3380b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Producten::VerhuurRepo&lt; DataStoreType &gt;::controleerKlantIngecheckt</definition>
+        <argsstring>(const std::shared_ptr&lt; Klant &gt; &amp;klant)</argsstring>
+        <name>controleerKlantIngecheckt</name>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+          <declname>klant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="VerhuurRepo.h" line="36" column="1" bodyfile="VerhuurRepo.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="241">
+        <label>Producten::VerhuurRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_producten_1_1_verhuur_repo"/>
+        <childnode refid="242" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>Core::BaseRepo&lt; Verhuur, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="243">
+        <label>Producten::VerhuurRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_producten_1_1_verhuur_repo"/>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>Core::IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="244">
+        <label>Core::BaseRepo&lt; Verhuur, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+        <childnode refid="245" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="VerhuurRepo.h" line="26" column="1" bodyfile="VerhuurRepo.h" bodystart="25" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_producten_1_1_verhuur_repo_1a6844225ac7b84d773e020ea201d3380b" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>controleerKlantIngecheckt</name></member>
+      <member refid="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>create</name></member>
+      <member refid="class_producten_1_1_verhuur_repo_1ac9620c9d964f93b3a12c93d8647aee34" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>getActiefVerhuur</name></member>
+      <member refid="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>getById</name></member>
+      <member refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" prot="protected" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>mDataStore</name></member>
+      <member refid="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>save</name></member>
+      <member refid="class_producten_1_1_verhuur_repo_1a635fde0e3ee73a5ee8ea2fd90655907d" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>VerhuurRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>~BaseRepo</name></member>
+      <member refid="class_producten_1_1_verhuur_repo_1ab6fe39370ed16aa89892cb3b48c6da5f" prot="public" virt="non-virtual"><scope>Producten::VerhuurRepo</scope><name>~VerhuurRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

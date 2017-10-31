@@ -15,7 +15,8 @@
 
 namespace Producten
 {
-
+	using Core::Geld;
+	using Core::DatastoreModel;
 
 class Verhuur : public DatastoreModel<Verhuur>
 {

@@ -7,259 +7,284 @@
     <includes refid="_tarief_8h" local="yes">Tarief.h</includes>
     <includes refid="_tarief_soort_8h" local="yes">TariefSoort.h</includes>
     <includes refid="_klant_8h" local="yes">Klant.h</includes>
+    <includes refid="_deelauto_8h" local="yes">Deelauto.h</includes>
+    <includes local="no">memory</includes>
     <includedby refid="_verhuur_8h" local="yes">Verhuur.h</includedby>
     <includedby refid="_reservering_repo_8h" local="yes">ReserveringRepo.h</includedby>
     <includedby refid="_reservering_controller_8h" local="yes">ReserveringController.h</includedby>
     <includedby refid="_reservering_8cpp" local="yes">Reservering.cpp</includedby>
     <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
     <incdepgraph>
-      <node id="740">
+      <node id="789">
         <label>AbonnementType.h</label>
         <link refid="_abonnement_type_8h"/>
-        <childnode refid="731" relation="include">
+        <childnode refid="780" relation="include">
         </childnode>
-        <childnode refid="728" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
-        <childnode refid="732" relation="include">
+        <childnode refid="781" relation="include">
         </childnode>
-        <childnode refid="733" relation="include">
+        <childnode refid="782" relation="include">
         </childnode>
       </node>
-      <node id="732">
+      <node id="781">
         <label>stdint.h</label>
       </node>
-      <node id="737">
+      <node id="786">
         <label>TariefSoortPrijs.h</label>
         <link refid="_tarief_soort_prijs_8h"/>
-        <childnode refid="734" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
-        <childnode refid="728" relation="include">
+        <childnode refid="787" relation="include">
         </childnode>
-        <childnode refid="738" relation="include">
+        <childnode refid="780" relation="include">
         </childnode>
-        <childnode refid="731" relation="include">
+        <childnode refid="783" relation="include">
         </childnode>
       </node>
-      <node id="735">
+      <node id="784">
         <label>numeric</label>
       </node>
-      <node id="733">
+      <node id="782">
         <label>string</label>
       </node>
-      <node id="730">
+      <node id="779">
         <label>Product.h</label>
         <link refid="_product_8h"/>
-        <childnode refid="731" relation="include">
+        <childnode refid="780" relation="include">
         </childnode>
-        <childnode refid="734" relation="include">
+        <childnode refid="783" relation="include">
         </childnode>
-        <childnode refid="729" relation="include">
+        <childnode refid="778" relation="include">
         </childnode>
-        <childnode refid="735" relation="include">
+        <childnode refid="784" relation="include">
         </childnode>
       </node>
-      <node id="731">
+      <node id="780">
         <label>Geld.h</label>
         <link refid="_geld_8h"/>
-        <childnode refid="732" relation="include">
+        <childnode refid="781" relation="include">
         </childnode>
-        <childnode refid="733" relation="include">
+        <childnode refid="782" relation="include">
         </childnode>
       </node>
-      <node id="727">
+      <node id="776">
         <label>Reservering.h</label>
         <link refid="_reservering_8h"/>
-        <childnode refid="728" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
-        <childnode refid="730" relation="include">
+        <childnode refid="779" relation="include">
         </childnode>
-        <childnode refid="736" relation="include">
+        <childnode refid="785" relation="include">
         </childnode>
-        <childnode refid="738" relation="include">
+        <childnode refid="787" relation="include">
         </childnode>
-        <childnode refid="741" relation="include">
+        <childnode refid="790" relation="include">
+        </childnode>
+        <childnode refid="791" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
         </childnode>
       </node>
-      <node id="741">
+      <node id="790">
         <label>Klant.h</label>
         <link refid="_klant_8h"/>
-        <childnode refid="728" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
-        <childnode refid="740" relation="include">
+        <childnode refid="789" relation="include">
         </childnode>
-        <childnode refid="732" relation="include">
+        <childnode refid="781" relation="include">
         </childnode>
       </node>
-      <node id="734">
+      <node id="783">
         <label>vector</label>
       </node>
-      <node id="739">
+      <node id="788">
         <label>AutoType.h</label>
         <link refid="_auto_type_8h"/>
-        <childnode refid="728" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
       </node>
-      <node id="738">
+      <node id="787">
         <label>TariefSoort.h</label>
         <link refid="_tarief_soort_8h"/>
-        <childnode refid="728" relation="include">
+        <childnode refid="777" relation="include">
         </childnode>
-        <childnode refid="729" relation="include">
+        <childnode refid="778" relation="include">
         </childnode>
       </node>
-      <node id="736">
+      <node id="792">
+        <label>RedcarModule.h</label>
+        <link refid="_redcar_module_8h"/>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="785">
         <label>Tarief.h</label>
         <link refid="_tarief_8h"/>
-        <childnode refid="731" relation="include">
+        <childnode refid="780" relation="include">
         </childnode>
-        <childnode refid="737" relation="include">
+        <childnode refid="786" relation="include">
         </childnode>
-        <childnode refid="739" relation="include">
+        <childnode refid="788" relation="include">
         </childnode>
-        <childnode refid="740" relation="include">
+        <childnode refid="789" relation="include">
         </childnode>
       </node>
-      <node id="728">
+      <node id="791">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="777" relation="include">
+        </childnode>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+      </node>
+      <node id="777">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="729" relation="include">
+        <childnode refid="778" relation="include">
         </childnode>
       </node>
-      <node id="729">
+      <node id="778">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="751">
+      <node id="802">
         <label>Reservering.cpp</label>
         <link refid="_reservering_8cpp"/>
       </node>
-      <node id="749">
+      <node id="800">
         <label>Product.cpp</label>
         <link refid="_product_8cpp"/>
       </node>
-      <node id="755">
+      <node id="806">
         <label>main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
-      <node id="744">
+      <node id="795">
         <label>VerhuurRepo.h</label>
         <link refid="_verhuur_repo_8h"/>
-        <childnode refid="745" relation="include">
+        <childnode refid="796" relation="include">
         </childnode>
-        <childnode refid="748" relation="include">
+        <childnode refid="799" relation="include">
         </childnode>
-        <childnode refid="758" relation="include">
+        <childnode refid="809" relation="include">
         </childnode>
       </node>
-      <node id="752">
+      <node id="803">
         <label>ReserveringController.cpp</label>
         <link refid="_reservering_controller_8cpp"/>
       </node>
-      <node id="745">
+      <node id="796">
         <label>Application.h</label>
         <link refid="_application_8h"/>
-        <childnode refid="746" relation="include">
+        <childnode refid="797" relation="include">
         </childnode>
-        <childnode refid="747" relation="include">
+        <childnode refid="798" relation="include">
         </childnode>
-        <childnode refid="754" relation="include">
+        <childnode refid="805" relation="include">
         </childnode>
-        <childnode refid="755" relation="include">
+        <childnode refid="806" relation="include">
         </childnode>
-        <childnode refid="756" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="757" relation="include">
+        <childnode refid="808" relation="include">
         </childnode>
       </node>
-      <node id="750">
+      <node id="801">
         <label>RedCarsContext.cpp</label>
         <link refid="_red_cars_context_8cpp"/>
       </node>
-      <node id="746">
+      <node id="797">
         <label>Application.cpp</label>
         <link refid="_application_8cpp"/>
       </node>
-      <node id="747">
+      <node id="798">
         <label>ReserveringRepo.h</label>
         <link refid="_reservering_repo_8h"/>
-        <childnode refid="748" relation="include">
+        <childnode refid="799" relation="include">
         </childnode>
-        <childnode refid="751" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="753" relation="include">
+        <childnode refid="804" relation="include">
         </childnode>
       </node>
-      <node id="756">
+      <node id="807">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
       </node>
-      <node id="758">
+      <node id="809">
         <label>VerhuurRepo.cpp</label>
         <link refid="_verhuur_repo_8cpp"/>
       </node>
-      <node id="757">
+      <node id="808">
         <label>Verhuur.cpp</label>
         <link refid="_verhuur_8cpp"/>
       </node>
-      <node id="742">
+      <node id="793">
         <label>Reservering.h</label>
         <link refid="_reservering_8h"/>
-        <childnode refid="743" relation="include">
+        <childnode refid="794" relation="include">
         </childnode>
-        <childnode refid="747" relation="include">
+        <childnode refid="798" relation="include">
         </childnode>
-        <childnode refid="759" relation="include">
+        <childnode refid="810" relation="include">
         </childnode>
-        <childnode refid="751" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="756" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
       </node>
-      <node id="743">
+      <node id="794">
         <label>Verhuur.h</label>
         <link refid="_verhuur_8h"/>
-        <childnode refid="744" relation="include">
+        <childnode refid="795" relation="include">
         </childnode>
-        <childnode refid="751" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="756" relation="include">
+        <childnode refid="807" relation="include">
         </childnode>
-        <childnode refid="757" relation="include">
+        <childnode refid="808" relation="include">
         </childnode>
       </node>
-      <node id="753">
+      <node id="804">
         <label>ReserveringRepo.cpp</label>
         <link refid="_reservering_repo_8cpp"/>
       </node>
-      <node id="759">
+      <node id="810">
         <label>ReserveringController.h</label>
         <link refid="_reservering_controller_8h"/>
-        <childnode refid="746" relation="include">
+        <childnode refid="797" relation="include">
         </childnode>
-        <childnode refid="752" relation="include">
+        <childnode refid="803" relation="include">
         </childnode>
       </node>
-      <node id="754">
+      <node id="805">
         <label>Boete.cpp</label>
         <link refid="_boete_8cpp"/>
       </node>
-      <node id="748">
+      <node id="799">
         <label>RedCarsContext.h</label>
         <link refid="_red_cars_context_8h"/>
-        <childnode refid="746" relation="include">
+        <childnode refid="797" relation="include">
         </childnode>
-        <childnode refid="749" relation="include">
+        <childnode refid="800" relation="include">
         </childnode>
-        <childnode refid="750" relation="include">
+        <childnode refid="801" relation="include">
         </childnode>
-        <childnode refid="751" relation="include">
+        <childnode refid="802" relation="include">
         </childnode>
-        <childnode refid="752" relation="include">
+        <childnode refid="803" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_reservering" prot="public">Reservering</innerclass>
+    <innerclass refid="class_producten_1_1_reservering" prot="public">Producten::Reservering</innerclass>
+    <innernamespace refid="namespace_producten">Producten</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -280,42 +305,55 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_tarief_8h" kindref="compound">Tarief.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_tarief_soort_8h" kindref="compound">TariefSoort.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_klant_8h" kindref="compound">Klant.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_verhuur" kindref="compound">Verhuur</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_deelauto" kindref="compound">Deelauto</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_deelauto_8h" kindref="compound">Deelauto.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20" refid="class_reservering" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_reservering" kindref="compound">Reservering</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Reservering&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_product" kindref="compound">Product</ref></highlight></codeline>
-<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;Klant&gt;</ref>;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_verhuur" kindref="compound">Verhuur</ref>;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_producten" kindref="compound">Producten</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelautos::Deelauto</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_klanten_1_1_klant" kindref="compound">Klanten::Klant</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">Klanten::KlantPtr</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">Tarieven::TariefSoortPtr</ref>;</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29" refid="class_reservering_1a94067270270d9a82a2cac9be256c8402" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reservering_1a94067270270d9a82a2cac9be256c8402" kindref="member">beginMoment</ref>;</highlight></codeline>
-<codeline lineno="30" refid="class_reservering_1a1aad46b288366c852e2aa94489806347" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reservering_1a1aad46b288366c852e2aa94489806347" kindref="member">eindMoment</ref>;</highlight></codeline>
-<codeline lineno="31" refid="class_reservering_1a23849bb01ce045281e9f04220d038f45" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_klant_8h_1af9d6e4df704cd5d4d583060ae945034c" kindref="member">KlantPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_reservering_1a23849bb01ce045281e9f04220d038f45" kindref="member">klant</ref>;</highlight></codeline>
-<codeline lineno="32" refid="class_reservering_1a3ad73f685d41464e4c82fdbcf744e5f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Deelauto&gt;<sp/><sp/><sp/><ref refid="class_reservering_1a3ad73f685d41464e4c82fdbcf744e5f3" kindref="member">deelauto</ref>;</highlight></codeline>
-<codeline lineno="33" refid="class_reservering_1ac4209052b83e77bc1b72558fcd57ea33" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">tarieven::TariefSoortPtr</ref><sp/><sp/><sp/><sp/><ref refid="class_reservering_1ac4209052b83e77bc1b72558fcd57ea33" kindref="member">tariefSoort</ref>;</highlight></codeline>
-<codeline lineno="34" refid="class_reservering_1a8648c354605a6196cb082b26d67a0dca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><sp/><sp/><sp/><ref refid="class_reservering_1a8648c354605a6196cb082b26d67a0dca" kindref="member">verhuur</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Verhuur;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="class_producten_1_1_reservering" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_producten_1_1_reservering" kindref="compound">Reservering</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Reservering&gt;,<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_product" kindref="compound">Product</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;Klant&gt;</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref>;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
 <codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_reservering_1ad81ad37ab56781537c77c29a468c9a4d" kindref="member">Reservering</ref>();</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_reservering_1ad81ad37ab56781537c77c29a468c9a4d" kindref="member">Reservering</ref>(uint32_t<sp/>beginMoment<sp/>,<sp/>uint32_t<sp/>eindMoment,<sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant,</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Deelauto&gt;&amp;<sp/>deelauto,<sp/><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">tarieven::TariefSoortPtr</ref><sp/>tariefSoort);</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_reservering_1a0bb30c182d47cefebaca366085f96525" kindref="member">~Reservering</ref>();</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/><ref refid="class_reservering_1aff8b9556abe036abd438aabef57f8804" kindref="member">getTarief</ref>();</highlight></codeline>
-<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_reservering_1a27fd6336ff5ffad0fa6f4dcb9ba71299" kindref="member">getKosten</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><ref refid="class_reservering_1a86d16f96fb4f66582c4ed689816f0755" kindref="member">verzilveren</ref>();</highlight></codeline>
-<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_reservering_1afc6da2cf16c896d88e0eeed82d84036a" kindref="member">isIngecheckt</ref>();</highlight></codeline>
-<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_reservering_1acd271f74f8a546e66cc254a408af2bef" kindref="member">getTariefSoortPeriodeAantal</ref>();</highlight></codeline>
-<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_reservering_1a6b5401c15d6d9b341af9040b6528c9dc" kindref="member">asString</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="48"><highlight class="normal"></highlight></codeline>
-<codeline lineno="49"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"></highlight></codeline>
-<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>RESERVERING_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_producten_1_1_reservering_1a66ee44a06d885d771113e1654e57886a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a66ee44a06d885d771113e1654e57886a" kindref="member">beginMoment</ref>;</highlight></codeline>
+<codeline lineno="41" refid="class_producten_1_1_reservering_1a429245a309c8a2c031100b2613968f29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a429245a309c8a2c031100b2613968f29" kindref="member">eindMoment</ref>;</highlight></codeline>
+<codeline lineno="42" refid="class_producten_1_1_reservering_1a2861853474dc0c95cdb8a81b17a7e683" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">KlantPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a2861853474dc0c95cdb8a81b17a7e683" kindref="member">klant</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_producten_1_1_reservering_1ab7238473f0cf1d3464510691a40092af" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Deelauto&gt;<sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1ab7238473f0cf1d3464510691a40092af" kindref="member">deelauto</ref>;</highlight></codeline>
+<codeline lineno="44" refid="class_producten_1_1_reservering_1a2e03bd49d89417fe9e5ee1a5e41f2c37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a2e03bd49d89417fe9e5ee1a5e41f2c37" kindref="member">tariefSoort</ref>;</highlight></codeline>
+<codeline lineno="45" refid="class_producten_1_1_reservering_1a8a0babc48f5e187eb3861483f2acfde8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a8a0babc48f5e187eb3861483f2acfde8" kindref="member">verhuur</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a118aae96b4c460213a6b098523702103" kindref="member">Reservering</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_reservering_1a118aae96b4c460213a6b098523702103" kindref="member">Reservering</ref>(uint32_t<sp/>beginMoment<sp/>,<sp/>uint32_t<sp/>eindMoment,<sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Deelauto&gt;&amp;<sp/>deelauto,<sp/><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref><sp/>tariefSoort);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_reservering_1a2abc14c859df61e0b1d3dc8e51793df8" kindref="member">~Reservering</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" kindref="member">Tarieven::TariefPtr</ref><sp/><ref refid="class_producten_1_1_reservering_1a98a7f8ace4673cd21c50c7e010344e83" kindref="member">getTarief</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_producten_1_1_reservering_1abe1a68953a3fbaf95120c4bdc9e226a8" kindref="member">getKosten</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><ref refid="class_producten_1_1_reservering_1abbacd086238500f8111ee1da026b8fc5" kindref="member">verzilveren</ref>();</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_reservering_1a13022fa2fe85fb3a3e199d9c80e65c33" kindref="member">isIngecheckt</ref>();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_producten_1_1_reservering_1ae34a0e9c1ec2a8503f60c8bc14d8e1dd" kindref="member">getTariefSoortPeriodeAantal</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_producten_1_1_reservering_1a25bacff6ec0e8fbbbc484e7dcb7a203b" kindref="member">asString</ref>()<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>RESERVERING_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="Reservering.h"/>
   </compounddef>

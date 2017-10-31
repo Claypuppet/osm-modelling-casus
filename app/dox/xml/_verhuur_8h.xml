@@ -10,241 +10,264 @@
     <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
     <includedby refid="_verhuur_8cpp" local="yes">Verhuur.cpp</includedby>
     <incdepgraph>
-      <node id="1268">
+      <node id="1328">
         <label>AbonnementType.h</label>
         <link refid="_abonnement_type_8h"/>
-        <childnode refid="1259" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1260" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
-        <childnode refid="1261" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
       </node>
-      <node id="1260">
+      <node id="1320">
         <label>stdint.h</label>
       </node>
-      <node id="1265">
+      <node id="1325">
         <label>TariefSoortPrijs.h</label>
         <link refid="_tarief_soort_prijs_8h"/>
-        <childnode refid="1262" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1326" relation="include">
         </childnode>
-        <childnode refid="1266" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1259" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
       </node>
-      <node id="1263">
+      <node id="1323">
         <label>numeric</label>
       </node>
-      <node id="1261">
+      <node id="1321">
         <label>string</label>
       </node>
-      <node id="1258">
+      <node id="1318">
         <label>Product.h</label>
         <link refid="_product_8h"/>
-        <childnode refid="1259" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1262" relation="include">
+        <childnode refid="1322" relation="include">
         </childnode>
-        <childnode refid="1256" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
-        <childnode refid="1263" relation="include">
+        <childnode refid="1323" relation="include">
         </childnode>
       </node>
-      <node id="1259">
+      <node id="1319">
         <label>Geld.h</label>
         <link refid="_geld_8h"/>
-        <childnode refid="1260" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
-        <childnode refid="1261" relation="include">
+        <childnode refid="1321" relation="include">
         </childnode>
       </node>
-      <node id="1257">
+      <node id="1317">
         <label>Reservering.h</label>
         <link refid="_reservering_8h"/>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1258" relation="include">
+        <childnode refid="1318" relation="include">
         </childnode>
-        <childnode refid="1264" relation="include">
+        <childnode refid="1324" relation="include">
         </childnode>
-        <childnode refid="1266" relation="include">
+        <childnode refid="1326" relation="include">
         </childnode>
-        <childnode refid="1269" relation="include">
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
         </childnode>
       </node>
-      <node id="1269">
+      <node id="1329">
         <label>Klant.h</label>
         <link refid="_klant_8h"/>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1268" relation="include">
+        <childnode refid="1328" relation="include">
         </childnode>
-        <childnode refid="1260" relation="include">
+        <childnode refid="1320" relation="include">
         </childnode>
       </node>
-      <node id="1262">
+      <node id="1322">
         <label>vector</label>
       </node>
-      <node id="1267">
+      <node id="1327">
         <label>AutoType.h</label>
         <link refid="_auto_type_8h"/>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
       </node>
-      <node id="1254">
+      <node id="1314">
         <label>Verhuur.h</label>
         <link refid="_verhuur_8h"/>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1257" relation="include">
+        <childnode refid="1317" relation="include">
         </childnode>
-        <childnode refid="1259" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
       </node>
-      <node id="1266">
+      <node id="1326">
         <label>TariefSoort.h</label>
         <link refid="_tarief_soort_8h"/>
-        <childnode refid="1255" relation="include">
+        <childnode refid="1315" relation="include">
         </childnode>
-        <childnode refid="1256" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
       </node>
-      <node id="1264">
+      <node id="1331">
+        <label>RedcarModule.h</label>
+        <link refid="_redcar_module_8h"/>
+        <childnode refid="1315" relation="include">
+        </childnode>
+      </node>
+      <node id="1324">
         <label>Tarief.h</label>
         <link refid="_tarief_8h"/>
-        <childnode refid="1259" relation="include">
+        <childnode refid="1319" relation="include">
         </childnode>
-        <childnode refid="1265" relation="include">
+        <childnode refid="1325" relation="include">
         </childnode>
-        <childnode refid="1267" relation="include">
+        <childnode refid="1327" relation="include">
         </childnode>
-        <childnode refid="1268" relation="include">
+        <childnode refid="1328" relation="include">
         </childnode>
       </node>
-      <node id="1255">
+      <node id="1330">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1331" relation="include">
+        </childnode>
+        <childnode refid="1321" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+      </node>
+      <node id="1315">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="1256" relation="include">
+        <childnode refid="1316" relation="include">
         </childnode>
       </node>
-      <node id="1256">
+      <node id="1316">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1278">
+      <node id="1340">
         <label>Reservering.cpp</label>
         <link refid="_reservering_8cpp"/>
       </node>
-      <node id="1276">
+      <node id="1338">
         <label>Product.cpp</label>
         <link refid="_product_8cpp"/>
       </node>
-      <node id="1282">
+      <node id="1344">
         <label>main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
-      <node id="1271">
+      <node id="1333">
         <label>VerhuurRepo.h</label>
         <link refid="_verhuur_repo_8h"/>
-        <childnode refid="1272" relation="include">
+        <childnode refid="1334" relation="include">
         </childnode>
-        <childnode refid="1275" relation="include">
+        <childnode refid="1337" relation="include">
         </childnode>
-        <childnode refid="1285" relation="include">
+        <childnode refid="1347" relation="include">
         </childnode>
       </node>
-      <node id="1279">
+      <node id="1341">
         <label>ReserveringController.cpp</label>
         <link refid="_reservering_controller_8cpp"/>
       </node>
-      <node id="1272">
+      <node id="1334">
         <label>Application.h</label>
         <link refid="_application_8h"/>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1335" relation="include">
         </childnode>
-        <childnode refid="1274" relation="include">
+        <childnode refid="1336" relation="include">
         </childnode>
-        <childnode refid="1281" relation="include">
+        <childnode refid="1343" relation="include">
         </childnode>
-        <childnode refid="1282" relation="include">
+        <childnode refid="1344" relation="include">
         </childnode>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1345" relation="include">
         </childnode>
-        <childnode refid="1284" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
       </node>
-      <node id="1277">
+      <node id="1339">
         <label>RedCarsContext.cpp</label>
         <link refid="_red_cars_context_8cpp"/>
       </node>
-      <node id="1273">
+      <node id="1335">
         <label>Application.cpp</label>
         <link refid="_application_8cpp"/>
       </node>
-      <node id="1274">
+      <node id="1336">
         <label>ReserveringRepo.h</label>
         <link refid="_reservering_repo_8h"/>
-        <childnode refid="1275" relation="include">
+        <childnode refid="1337" relation="include">
         </childnode>
-        <childnode refid="1278" relation="include">
+        <childnode refid="1340" relation="include">
         </childnode>
-        <childnode refid="1280" relation="include">
+        <childnode refid="1342" relation="include">
         </childnode>
       </node>
-      <node id="1283">
+      <node id="1345">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
       </node>
-      <node id="1285">
+      <node id="1347">
         <label>VerhuurRepo.cpp</label>
         <link refid="_verhuur_repo_8cpp"/>
       </node>
-      <node id="1284">
+      <node id="1346">
         <label>Verhuur.cpp</label>
         <link refid="_verhuur_8cpp"/>
       </node>
-      <node id="1270">
+      <node id="1332">
         <label>Verhuur.h</label>
         <link refid="_verhuur_8h"/>
-        <childnode refid="1271" relation="include">
+        <childnode refid="1333" relation="include">
         </childnode>
-        <childnode refid="1278" relation="include">
+        <childnode refid="1340" relation="include">
         </childnode>
-        <childnode refid="1283" relation="include">
+        <childnode refid="1345" relation="include">
         </childnode>
-        <childnode refid="1284" relation="include">
+        <childnode refid="1346" relation="include">
         </childnode>
       </node>
-      <node id="1280">
+      <node id="1342">
         <label>ReserveringRepo.cpp</label>
         <link refid="_reservering_repo_8cpp"/>
       </node>
-      <node id="1281">
+      <node id="1343">
         <label>Boete.cpp</label>
         <link refid="_boete_8cpp"/>
       </node>
-      <node id="1275">
+      <node id="1337">
         <label>RedCarsContext.h</label>
         <link refid="_red_cars_context_8h"/>
-        <childnode refid="1273" relation="include">
+        <childnode refid="1335" relation="include">
         </childnode>
-        <childnode refid="1276" relation="include">
+        <childnode refid="1338" relation="include">
         </childnode>
-        <childnode refid="1277" relation="include">
+        <childnode refid="1339" relation="include">
         </childnode>
-        <childnode refid="1278" relation="include">
+        <childnode refid="1340" relation="include">
         </childnode>
-        <childnode refid="1279" relation="include">
+        <childnode refid="1341" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="class_verhuur" prot="public">Verhuur</innerclass>
+    <innerclass refid="class_producten_1_1_verhuur" prot="public">Producten::Verhuur</innerclass>
+    <innernamespace refid="namespace_producten">Producten</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -265,36 +288,42 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_geld_8h" kindref="compound">Geld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight></codeline>
-<codeline lineno="17" refid="class_verhuur" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_verhuur" kindref="compound">Verhuur</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Verhuur&gt;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;Verhuur&gt;</ref>;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_verhuur" kindref="compound">Verhuur</ref>();</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_verhuur" kindref="compound">Verhuur</ref>(std::shared_ptr&lt;Reservering&gt;<sp/><ref refid="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" kindref="member">reservering</ref>,<sp/>uint32_t<sp/><ref refid="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" kindref="member">incheckMoment</ref>,<sp/>uint32_t<sp/><ref refid="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" kindref="member">uitcheckMoment</ref><sp/>=<sp/>0,<sp/>uint32_t<sp/><ref refid="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" kindref="member">aantalKilometers</ref><sp/>=<sp/>0);</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"></highlight></codeline>
-<codeline lineno="23"><highlight class="normal"></highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_verhuur_1a95e6373c4d8507eec2b239700574d937" kindref="member">~Verhuur</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_producten" kindref="compound">Producten</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_geld" kindref="compound">Core::Geld</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_producten_1_1_verhuur" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Verhuur&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;Verhuur&gt;</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref>(std::shared_ptr&lt;Reservering&gt;<sp/><ref refid="class_producten_1_1_verhuur_1a0e48ee694b59f7ce2bb60620dd249336" kindref="member">reservering</ref>,<sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a89a3a39b0235ac91f92f7f1879554ea2" kindref="member">incheckMoment</ref>,<sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a6bd154fe78c844fef92c23c4fad330f1" kindref="member">uitcheckMoment</ref><sp/>=<sp/>0,<sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a52cea28d67fbdfbca21199dc7632c81e" kindref="member">aantalKilometers</ref><sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_verhuur_1a6fe17e568fcf8af56a3561461ae9534c" kindref="member">berekenTeLaatBoeteKosten</ref>();</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_verhuur_1ac0cd6d93f0fcac91d72a4d0af2dcd195" kindref="member">setIncheckMoment</ref>(uint32_t<sp/>moment);</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_verhuur_1ad30dc350b76cb67d529a22d5d116e78a" kindref="member">setUitcheckMoment</ref>(uint32_t<sp/>moment);</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_verhuur_1a61d3282b83d0512d7005f59a6f4bd37b" kindref="member">voltooi</ref>();</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_verhuur_1a08167eb383d5f0916f2cb5072eecc406" kindref="member">bekerenTeLaatBoeteKosten</ref>();</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"></highlight></codeline>
-<codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="38" refid="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Reservering&gt;<sp/><ref refid="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" kindref="member">reservering</ref>;</highlight></codeline>
-<codeline lineno="39" refid="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" kindref="member">incheckMoment</ref>;</highlight></codeline>
-<codeline lineno="40" refid="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" kindref="member">uitcheckMoment</ref>;</highlight></codeline>
-<codeline lineno="41" refid="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" kindref="member">aantalKilometers</ref>;</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>VERHUUR_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_producten_1_1_verhuur_1a9cc05c868c1213b48aa40f0c5813e206" kindref="member">~Verhuur</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_producten_1_1_verhuur_1a22779f7c01abd0d45294bbd885a8e36d" kindref="member">berekenTeLaatBoeteKosten</ref>();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_verhuur_1a5f85bf54d41af13e67d7b75a656d38d4" kindref="member">setIncheckMoment</ref>(uint32_t<sp/>moment);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_verhuur_1a8919ef3d236ce0029aa54770952e1676" kindref="member">setUitcheckMoment</ref>(uint32_t<sp/>moment);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_verhuur_1abfe1cf606eb3f27050296ddf10b565d1" kindref="member">voltooi</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_producten_1_1_verhuur_1a00b974125cea3687091ff77691c805dd" kindref="member">bekerenTeLaatBoeteKosten</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="class_producten_1_1_verhuur_1a0e48ee694b59f7ce2bb60620dd249336" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Reservering&gt;<sp/><ref refid="class_producten_1_1_verhuur_1a0e48ee694b59f7ce2bb60620dd249336" kindref="member">reservering</ref>;</highlight></codeline>
+<codeline lineno="43" refid="class_producten_1_1_verhuur_1a89a3a39b0235ac91f92f7f1879554ea2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a89a3a39b0235ac91f92f7f1879554ea2" kindref="member">incheckMoment</ref>;</highlight></codeline>
+<codeline lineno="44" refid="class_producten_1_1_verhuur_1a6bd154fe78c844fef92c23c4fad330f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a6bd154fe78c844fef92c23c4fad330f1" kindref="member">uitcheckMoment</ref>;</highlight></codeline>
+<codeline lineno="45" refid="class_producten_1_1_verhuur_1a52cea28d67fbdfbca21199dc7632c81e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_producten_1_1_verhuur_1a52cea28d67fbdfbca21199dc7632c81e" kindref="member">aantalKilometers</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>VERHUUR_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="Verhuur.h"/>
   </compounddef>

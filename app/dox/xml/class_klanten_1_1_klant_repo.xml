@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_klanten_1_1_klant_repo" kind="class" language="C++" prot="public">
+    <compoundname>Klanten::KlantRepo</compoundname>
+    <basecompoundref refid="class_core_1_1_base_repo" prot="public" virt="non-virtual">Core::BaseRepo&lt; Klant, DataStoreType &gt;</basecompoundref>
+    <includes refid="_klant_repo_8h" local="no">KlantRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_klanten_1_1_klant_repo_1a5af09644b9594c07430600ef28235de2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Klanten::KlantRepo&lt; DataStoreType &gt;::KlantRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>KlantRepo</name>
+        <param>
+          <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KlantRepo.h" line="24" column="1" bodyfile="KlantRepo.h" bodystart="24" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_klanten_1_1_klant_repo_1af1041205dbef901a2ca3f844533898b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Klanten::KlantRepo&lt; DataStoreType &gt;::~KlantRepo</definition>
+        <argsstring>()</argsstring>
+        <name>~KlantRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KlantRepo.h" line="28" column="1" bodyfile="KlantRepo.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_klanten_1_1_klant_repo_1a0bb7b9c2b6cdf22cd0ebbadd0631be7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_klanten_1ac3d7ad5ea7f57c35425c049f42a8fb23" kindref="member">KlantPtr</ref></type>
+        <definition>KlantPtr Klanten::KlantRepo&lt; DataStoreType &gt;::getKlantByPasNummer</definition>
+        <argsstring>(uint32_t pasNummer)</argsstring>
+        <name>getKlantByPasNummer</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="KlantRepo.h" line="30" column="1" bodyfile="KlantRepo.h" bodystart="30" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>Klanten::KlantRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_klanten_1_1_klant_repo"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>Core::BaseRepo&lt; Klant, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="128">
+        <label>Klanten::KlantRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_klanten_1_1_klant_repo"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>Core::BaseRepo&lt; Klant, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+        <childnode refid="130" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>Core::IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="KlantRepo.h" line="22" column="1" bodyfile="KlantRepo.h" bodystart="21" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>create</name></member>
+      <member refid="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>getById</name></member>
+      <member refid="class_klanten_1_1_klant_repo_1a0bb7b9c2b6cdf22cd0ebbadd0631be7a" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>getKlantByPasNummer</name></member>
+      <member refid="class_klanten_1_1_klant_repo_1a5af09644b9594c07430600ef28235de2" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>KlantRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" prot="protected" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>mDataStore</name></member>
+      <member refid="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>save</name></member>
+      <member refid="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>~BaseRepo</name></member>
+      <member refid="class_klanten_1_1_klant_repo_1af1041205dbef901a2ca3f844533898b2" prot="public" virt="non-virtual"><scope>Klanten::KlantRepo</scope><name>~KlantRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_producten" kind="namespace" language="C++">
+    <compoundname>Producten</compoundname>
+    <innerclass refid="class_producten_1_1_abonnement_type" prot="public">Producten::AbonnementType</innerclass>
+    <innerclass refid="struct_producten_1_1_actief_verhuur_van_klant" prot="public">Producten::ActiefVerhuurVanKlant</innerclass>
+    <innerclass refid="class_producten_1_1_boete" prot="public">Producten::Boete</innerclass>
+    <innerclass refid="class_producten_1_1_product" prot="public">Producten::Product</innerclass>
+    <innerclass refid="class_producten_1_1_reservering" prot="public">Producten::Reservering</innerclass>
+    <innerclass refid="class_producten_1_1_reservering_controller" prot="public">Producten::ReserveringController</innerclass>
+    <innerclass refid="class_producten_1_1_reservering_repo" prot="public">Producten::ReserveringRepo</innerclass>
+    <innerclass refid="struct_producten_1_1_reserver_met_klant_en_moment" prot="public">Producten::ReserverMetKlantEnMoment</innerclass>
+    <innerclass refid="class_producten_1_1_verhuur" prot="public">Producten::Verhuur</innerclass>
+    <innerclass refid="class_producten_1_1_verhuur_repo" prot="public">Producten::VerhuurRepo</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_producten_1aeef4d0cb2e4403db471b5f3bdc62fcb8" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="class_producten_1_1_boete" kindref="compound">Boete</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Boete&gt; Producten::BoetePtr</definition>
+        <argsstring></argsstring>
+        <name>BoetePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="22" column="1" bodyfile="Product.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespace_producten_1a863337b1958e14705b32592f71c29d87" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespace_producten_1aeef4d0cb2e4403db471b5f3bdc62fcb8" kindref="member">BoetePtr</ref> &gt;</type>
+        <definition>typedef std::vector&lt;BoetePtr&gt; Producten::BoeteList</definition>
+        <argsstring></argsstring>
+        <name>BoeteList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="23" column="1" bodyfile="Product.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="AbonnementType.cpp" line="11" column="1"/>
+  </compounddef>
+</doxygen>

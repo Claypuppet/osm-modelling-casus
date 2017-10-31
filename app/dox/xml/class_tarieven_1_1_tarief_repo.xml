@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_tarieven_1_1_tarief_repo" kind="class" language="C++" prot="public">
+    <compoundname>Tarieven::TariefRepo</compoundname>
+    <basecompoundref refid="class_core_1_1_base_repo" prot="public" virt="non-virtual">Core::BaseRepo&lt; Tarief, DataStoreType &gt;</basecompoundref>
+    <includes refid="_tarief_repo_8h" local="no">TariefRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_repo_1a7098f536f0eca170e26091422f5532ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Tarieven::TariefRepo&lt; DataStoreType &gt;::TariefRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>TariefRepo</name>
+        <param>
+          <type><ref refid="class_core_1_1_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefRepo.h" line="27" column="1" bodyfile="TariefRepo.h" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_repo_1a3b2de50065b5883a41609a5a7e696ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Tarieven::TariefRepo&lt; DataStoreType &gt;::~TariefRepo</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TariefRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefRepo.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_tarieven_1_1_tarief_repo_1ae476cfe497112ef28464050c5b52086b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" kindref="member">TariefPtr</ref></type>
+        <definition>TariefPtr Tarieven::TariefRepo&lt; DataStoreType &gt;::getTariefByTypes</definition>
+        <argsstring>(std::shared_ptr&lt; AutoType &gt; aut, std::shared_ptr&lt; AbonnementType &gt; abt)</argsstring>
+        <name>getTariefByTypes</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_deelautos_1_1_auto_type" kindref="compound">AutoType</ref> &gt;</type>
+          <declname>aut</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_producten_1_1_abonnement_type" kindref="compound">AbonnementType</ref> &gt;</type>
+          <declname>abt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefRepo.h" line="32" column="1" bodyfile="TariefRepo.h" bodystart="32" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="212">
+        <label>Core::BaseRepo&lt; Tarief, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+      </node>
+      <node id="211">
+        <label>Tarieven::TariefRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_repo"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="214">
+        <label>Core::BaseRepo&lt; Tarief, DataStoreType &gt;</label>
+        <link refid="class_core_1_1_base_repo"/>
+        <childnode refid="215" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="215">
+        <label>Core::IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_core_1_1_i_data_store"/>
+      </node>
+      <node id="213">
+        <label>Tarieven::TariefRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_repo"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="TariefRepo.h" line="25" column="1" bodyfile="TariefRepo.h" bodystart="24" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_base_repo_1a94c99f4ef8b6e09875976a437f6698fe" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1a225f56e77d83cf88744259c8aebe8113" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>create</name></member>
+      <member refid="class_core_1_1_base_repo_1adb8ff25b8906d889b1f4341c9da6015b" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>getById</name></member>
+      <member refid="class_tarieven_1_1_tarief_repo_1ae476cfe497112ef28464050c5b52086b" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>getTariefByTypes</name></member>
+      <member refid="class_core_1_1_base_repo_1a650ee139339d164fb51b36b4f9c5e7b6" prot="protected" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>mDataStore</name></member>
+      <member refid="class_core_1_1_base_repo_1aa56619ee083c7b5a9aea656f96f45ae3" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>save</name></member>
+      <member refid="class_tarieven_1_1_tarief_repo_1a7098f536f0eca170e26091422f5532ec" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>TariefRepo</name></member>
+      <member refid="class_core_1_1_base_repo_1ac0dcf9340c87375fb0823973f6740570" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>~BaseRepo</name></member>
+      <member refid="class_tarieven_1_1_tarief_repo_1a3b2de50065b5883a41609a5a7e696ded" prot="public" virt="non-virtual"><scope>Tarieven::TariefRepo</scope><name>~TariefRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

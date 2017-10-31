@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_core_1_1_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4" kind="struct" language="C++" prot="public">
+    <compoundname>Core::IDataStore::HasId&lt; T, decltype((void) T::x, 0)&gt;</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">true_type</basecompoundref>
+    <includes refid="_i_data_store_8h" local="no">IDataStore.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>Core::IDataStore&lt; Derrived &gt;::HasId&lt; T, decltype((void) T::x, 0)&gt;</label>
+        <link refid="struct_core_1_1_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>true_type</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>Core::IDataStore&lt; Derrived &gt;::HasId&lt; T, decltype((void) T::x, 0)&gt;</label>
+        <link refid="struct_core_1_1_i_data_store_1_1_has_id_3_01_t_00_01decltype_07_07void_08_01_t_1_1x_00_010_08_4"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>true_type</label>
+      </node>
+    </collaborationgraph>
+    <location file="IDataStore.h" line="56" column="1" bodyfile="IDataStore.h" bodystart="56" bodyend="56"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

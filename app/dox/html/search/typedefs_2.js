@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['klantptr',['KlantPtr',['../_klant_8h.html#af9d6e4df704cd5d4d583060ae945034c',1,'Klant.h']]]
+  ['klantptr',['KlantPtr',['../namespace_klanten.html#ac3d7ad5ea7f57c35425c049f42a8fb23',1,'Klanten']]]
 ];

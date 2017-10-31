@@ -3,51 +3,193 @@
   <compounddef id="_redcar_module_8h" kind="file" language="C++">
     <compoundname>RedcarModule.h</compoundname>
     <includes refid="_datastore_model_8h" local="yes">DatastoreModel.h</includes>
+    <includedby refid="_deelauto_8h" local="yes">Deelauto.h</includedby>
     <includedby refid="_deelauto_8cpp" local="yes">Deelauto.cpp</includedby>
     <includedby refid="_redcar_module_8cpp" local="yes">RedcarModule.cpp</includedby>
     <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
     <incdepgraph>
-      <node id="592">
+      <node id="618">
         <label>RedcarModule.h</label>
         <link refid="_redcar_module_8h"/>
-        <childnode refid="593" relation="include">
+        <childnode refid="619" relation="include">
         </childnode>
       </node>
-      <node id="593">
+      <node id="619">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="594" relation="include">
+        <childnode refid="620" relation="include">
         </childnode>
       </node>
-      <node id="594">
+      <node id="620">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="596">
+      <node id="632">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="630">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="636">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="625">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="626" relation="include">
+        </childnode>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="639" relation="include">
+        </childnode>
+      </node>
+      <node id="633">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="626">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="628" relation="include">
+        </childnode>
+        <childnode refid="635" relation="include">
+        </childnode>
+        <childnode refid="636" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="641">
         <label>Deelauto.cpp</label>
         <link refid="_deelauto_8cpp"/>
       </node>
-      <node id="598">
+      <node id="631">
+        <label>RedCarsContext.cpp</label>
+        <link refid="_red_cars_context_8cpp"/>
+      </node>
+      <node id="627">
+        <label>Application.cpp</label>
+        <link refid="_application_8cpp"/>
+      </node>
+      <node id="628">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="629" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="634" relation="include">
+        </childnode>
+      </node>
+      <node id="637">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
       </node>
-      <node id="595">
-        <label>RedcarModule.h</label>
-        <link refid="_redcar_module_8h"/>
-        <childnode refid="596" relation="include">
+      <node id="639">
+        <label>VerhuurRepo.cpp</label>
+        <link refid="_verhuur_repo_8cpp"/>
+      </node>
+      <node id="638">
+        <label>Verhuur.cpp</label>
+        <link refid="_verhuur_8cpp"/>
+      </node>
+      <node id="623">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="624" relation="include">
         </childnode>
-        <childnode refid="597" relation="include">
+        <childnode refid="628" relation="include">
         </childnode>
-        <childnode refid="598" relation="include">
+        <childnode refid="640" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
         </childnode>
       </node>
-      <node id="597">
+      <node id="624">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="625" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="621">
+        <label>RedcarModule.h</label>
+        <link refid="_redcar_module_8h"/>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="642" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+      </node>
+      <node id="642">
         <label>RedcarModule.cpp</label>
         <link refid="_redcar_module_8cpp"/>
       </node>
+      <node id="634">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+      </node>
+      <node id="640">
+        <label>ReserveringController.h</label>
+        <link refid="_reservering_controller_8h"/>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+      </node>
+      <node id="622">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="623" relation="include">
+        </childnode>
+        <childnode refid="641" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="637" relation="include">
+        </childnode>
+        <childnode refid="638" relation="include">
+        </childnode>
+      </node>
+      <node id="635">
+        <label>Boete.cpp</label>
+        <link refid="_boete_8cpp"/>
+      </node>
+      <node id="629">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="627" relation="include">
+        </childnode>
+        <childnode refid="630" relation="include">
+        </childnode>
+        <childnode refid="631" relation="include">
+        </childnode>
+        <childnode refid="632" relation="include">
+        </childnode>
+        <childnode refid="633" relation="include">
+        </childnode>
+      </node>
     </invincdepgraph>
-    <innerclass refid="class_redcar_module" prot="public">RedcarModule</innerclass>
+    <innerclass refid="class_redcard_module_1_1_redcar_module" prot="public">RedcardModule::RedcarModule</innerclass>
+    <innernamespace refid="namespace_redcard_module">RedcardModule</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -65,26 +207,32 @@
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_datastore_model_8h" kindref="compound">DatastoreModel.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight></codeline>
-<codeline lineno="13" refid="class_redcar_module" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_redcar_module" kindref="compound">RedcarModule</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;RedcarModule&gt;</highlight></codeline>
-<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;RedcarModule&gt;</ref>;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcar_module" kindref="compound">RedcarModule</ref>();</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcar_module" kindref="compound">RedcarModule</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" kindref="member">aantalKilometers</ref>,<sp/>uint32_t<sp/><ref refid="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" kindref="member">pasNummer</ref>);</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcar_module_1ad21e63c47532df17429940d7f6c9f47a" kindref="member">~RedcarModule</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_redcar_module_1a9a46508cd9b0c4d4343cab27b8012aec" kindref="member">getLocatie</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_redcar_module_1a610e38f55874087231fbf5f1ea5fffa2" kindref="member">reset</ref>();</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_redcar_module_1ad204aaaa745ced3dd0b7b38d4c8dee8e" kindref="member">getPasNummer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_redcar_module_1ae05872f0f87a0e0a62569c3d5b833f0b" kindref="member">setPasNummer</ref>(uint32_t<sp/>pasNummer);</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_redcar_module_1a5b960d6671bfae3757d28151d997d543" kindref="member">getAantalKilometers</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"></highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="28" refid="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><ref refid="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" kindref="member">aantalKilometers</ref>;</highlight></codeline>
-<codeline lineno="29" refid="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><ref refid="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" kindref="member">pasNummer</ref>;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>REDCARMODULE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_redcard_module" kindref="compound">RedcardModule</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_redcard_module_1_1_redcar_module" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_redcard_module_1_1_redcar_module" kindref="compound">RedcarModule</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;RedcarModule&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;RedcarModule&gt;</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcard_module_1_1_redcar_module" kindref="compound">RedcarModule</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcard_module_1_1_redcar_module" kindref="compound">RedcarModule</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a0df3c4750bb61f758e235bbdda2496de" kindref="member">aantalKilometers</ref>,<sp/>uint32_t<sp/><ref refid="class_redcard_module_1_1_redcar_module_1a0a29cda2fa3fe169e6a7b4c1250b4845" kindref="member">pasNummer</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a32bae5a89b698293fc6c4ccdf2d71d20" kindref="member">~RedcarModule</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_redcard_module_1_1_redcar_module_1a539ae4f09384714b7b4cfa85e0a0f21a" kindref="member">getLocatie</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a39343907c5e03f305bcdfc98f8c9fa98" kindref="member">reset</ref>();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_redcard_module_1_1_redcar_module_1a91a5fd059e416f523de3a4a210f410b6" kindref="member">getPasNummer</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a77b3303f33d25b7856a7e91dacc11297" kindref="member">setPasNummer</ref>(uint32_t<sp/>pasNummer);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a76708838c2a3667415433a96e324fe72" kindref="member">getAantalKilometers</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32" refid="class_redcard_module_1_1_redcar_module_1a0df3c4750bb61f758e235bbdda2496de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a0df3c4750bb61f758e235bbdda2496de" kindref="member">aantalKilometers</ref>;</highlight></codeline>
+<codeline lineno="33" refid="class_redcard_module_1_1_redcar_module_1a0a29cda2fa3fe169e6a7b4c1250b4845" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><ref refid="class_redcard_module_1_1_redcar_module_1a0a29cda2fa3fe169e6a7b4c1250b4845" kindref="member">pasNummer</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>REDCARMODULE_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="RedcarModule.h"/>
   </compounddef>

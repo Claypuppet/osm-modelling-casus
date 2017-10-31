@@ -12,16 +12,18 @@
 #include <boost/signals2.hpp>
 #include <memory>
 
+#define FDW_DECLARE_SHARED_OBJECT(namespaze, className) \
+namespace namespaze { class className; } \
+typedef std::shared_ptr<namespaze::className> className##Ptr
 
-#define FDW_DECLARE_SHARED_OBJECT(className) \
-class className; \
-typedef std::shared_ptr<className> className##Ptr
-
-
-FDW_DECLARE_SHARED_OBJECT(Verhuur);
+FDW_DECLARE_SHARED_OBJECT(Producten, Verhuur);
 
 
 #undef FDW_DECLARE_SHARED_OBJECT
+
+
+namespace Core {
+
 
 class Signals : public Singleton<Signals> {
 	friend Singleton<Signals>;
@@ -38,6 +40,8 @@ public:
 	s<void(VerhuurPtr verhuur)> VehuurUitgeckect;
 	s<void(VerhuurPtr verhuur)> VehuurUitcheckAutoNietOpLocatie;
 };
+
+}
 
 
 

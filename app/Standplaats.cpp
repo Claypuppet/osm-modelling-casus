@@ -7,6 +7,8 @@
 
 #include "Standplaats.h"
 
+namespace Deelautos {
+
 Standplaats::Standplaats()
 : locatie(0)
 {
@@ -23,4 +25,6 @@ Standplaats::Standplaats(uint32_t locatie, const std::string& naam)
 bool Standplaats::controlleerLocatie(uint32_t locatie)
 {
 	return this->locatie == locatie;
+}
+
 }

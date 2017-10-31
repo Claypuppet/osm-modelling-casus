@@ -21,13 +21,9 @@
 #include <map>
 #include <unordered_map>
 
+namespace Core {
 
 class StaticDatastore;
-//class Klant;S
-//class Deelauto;
-
-//template <typename ModelType, typename Enable = void>
-//struct StaticDatastoreStoreage : public std::false_type {};
 
 
 template <typename ModelType>
@@ -112,5 +108,7 @@ protected:
 	}
 
 };
+
+}
 
 #endif /* STATICDATASTORE_H_ */

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_core_1_1_i_datastore_model" kind="struct" language="C++" prot="public">
+    <compoundname>Core::IDatastoreModel</compoundname>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; ModelType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; AbonnementType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; AutoType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Boete &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Deelauto &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Klant &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; RedcarModule &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Reservering &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Standplaats &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Tarief &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; TariefSoort &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; TariefSoortPrijs &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Verhuur &gt;</derivedcompoundref>
+    <includes refid="_datastore_model_8h" local="no">DatastoreModel.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Core::IDatastoreModel::~IDatastoreModel</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IDatastoreModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="97">
+        <label>RedcardModule::RedcarModule&lt; RedcarModule &gt;</label>
+        <link refid="class_redcard_module_1_1_redcar_module"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="94">
+        <label>Producten::Boete&lt; Boete &gt;</label>
+        <link refid="class_producten_1_1_boete"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>Deelautos::Standplaats&lt; Standplaats &gt;</label>
+        <link refid="class_deelautos_1_1_standplaats"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="98">
+        <label>Tarieven::Tarief&lt; Tarief &gt;</label>
+        <link refid="class_tarieven_1_1_tarief"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>Tarieven::TariefSoort&lt; TariefSoort &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_soort"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>Core::DatastoreModel&lt; RedcarModule &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>Tarieven::TariefSoortPrijs&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_tarieven_1_1_tarief_soort_prijs"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>Deelautos::Deelauto&lt; Deelauto &gt;</label>
+        <link refid="class_deelautos_1_1_deelauto"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>Deelautos::AutoType&lt; AutoType &gt;</label>
+        <link refid="class_deelautos_1_1_auto_type"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>Core::DatastoreModel&lt; Deelauto &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="110">
+        <label>Core::DatastoreModel&lt; TariefSoort &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>Core::DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Core::DatastoreModel&lt; AutoType &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>Core::DatastoreModel&lt; Klant &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Core::DatastoreModel&lt; Tarief &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>Core::DatastoreModel&lt; ModelType &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="101">
+        <label>Core::DatastoreModel&lt; AbonnementType &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>Producten::Reservering&lt; Reservering &gt;</label>
+        <link refid="class_producten_1_1_reservering"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>Klanten::Klant&lt; Klant &gt;</label>
+        <link refid="class_klanten_1_1_klant"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>Producten::AbonnementType&lt; AbonnementType &gt;</label>
+        <link refid="class_producten_1_1_abonnement_type"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Core::DatastoreModel&lt; Boete &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>Producten::Verhuur&lt; Verhuur &gt;</label>
+        <link refid="class_producten_1_1_verhuur"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="112">
+        <label>Core::DatastoreModel&lt; Verhuur &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>Core::DatastoreModel&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>Core::DatastoreModel&lt; Reservering &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="87" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="DatastoreModel.h" line="16" column="1" bodyfile="DatastoreModel.h" bodystart="16" bodyend="18"/>
+    <listofallmembers>
+      <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" virt="virtual"><scope>Core::IDatastoreModel</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

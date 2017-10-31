@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mdatastore',['mDataStore',['../class_base_repo.html#a97bd5b2a2929872470c053e249f71940',1,'BaseRepo']]]
+  ['mdatastore',['mDataStore',['../class_core_1_1_base_repo.html#a650ee139339d164fb51b36b4f9c5e7b6',1,'Core::BaseRepo']]]
 ];

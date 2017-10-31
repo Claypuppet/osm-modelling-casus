@@ -15,6 +15,8 @@
 #include <thread>
 #include <chrono>
 
+namespace Core {
+
 Application::Application()
 : mQuit(false)
 {
@@ -66,4 +68,6 @@ Tarieven::TariefSoortPtr Application::getBoeteTariefSoort() const
 void Application::setBoeteTariefSoort(Tarieven::TariefSoortPtr boeteTariefSoort)
 {
 	this->boeteTariefSoort = boeteTariefSoort;
+}
+
 }

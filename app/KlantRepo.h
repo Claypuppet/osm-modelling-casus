@@ -14,7 +14,8 @@
 
 namespace Klanten {
 
-using core::BaseRepo;
+using Core::BaseRepo;
+using Core::IDataStore;
 
 template <typename DataStoreType>
 class KlantRepo : public BaseRepo<Klant, DataStoreType>

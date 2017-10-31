@@ -19,6 +19,12 @@
 
 namespace Producten
 {
+	using Core::Signals;
+	using Core::Application;
+	using Core::RedCarsContext;
+	using Tarieven::TariefSoortPtr;
+	using Klanten::Klant;
+	using Deelautos::AutoType;
 
 Reservering::Reservering()
 : beginMoment(0)
@@ -33,7 +39,7 @@ Reservering::~Reservering()
 }
 
 Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant,
-		std::shared_ptr<Deelauto>& deelauto, Tarieven::TariefSoortPtr tariefSoort)
+		std::shared_ptr<Deelauto>& deelauto, TariefSoortPtr tariefSoort)
 : beginMoment(beginMoment)
 , eindMoment(eindMoment)
 , klant(klant)
@@ -57,7 +63,7 @@ std::shared_ptr<Verhuur> Reservering::verzilveren()
 	}
 
 
-	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::getInstance().getNowMoment());
+	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::i().getNowMoment());
 
 	return verhuur;
 }
@@ -72,7 +78,7 @@ Tarieven::TariefPtr Reservering::getTarief()
 	std::shared_ptr<AutoType> autoType = deelauto->type;
 	std::shared_ptr<AbonnementType> aboType = klant->abbonomentType;
 
-	auto repo = RedCarsContext::getInstance().getTariefRepo();
+	auto repo = RedCarsContext::i().getTariefRepo();
 
 	Tarieven::TariefPtr tarief = repo.getTariefByTypes(autoType, aboType);
 

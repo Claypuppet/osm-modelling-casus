@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_producten_1_1_reservering" kind="class" language="C++" prot="public">
+    <compoundname>Producten::Reservering</compoundname>
+    <basecompoundref refid="class_core_1_1_datastore_model" prot="public" virt="non-virtual">Core::DatastoreModel&lt; Reservering &gt;</basecompoundref>
+    <basecompoundref refid="class_producten_1_1_product" prot="public" virt="non-virtual">Producten::Product</basecompoundref>
+    <includes refid="_reservering_8h" local="no">Reservering.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a49d3e6cc5073a1a1852ee7219d2283ee" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Producten::Reservering::DatastoreModel&lt; Klant &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Klant &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="33" column="1" bodyfile="Reservering.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1aa09b70957adfbee16450ffe624083937" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Producten::Reservering::Verhuur</definition>
+        <argsstring></argsstring>
+        <name>Verhuur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="34" column="1" bodyfile="Reservering.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a66ee44a06d885d771113e1654e57886a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Producten::Reservering::beginMoment</definition>
+        <argsstring></argsstring>
+        <name>beginMoment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="40" column="1" bodyfile="Reservering.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a429245a309c8a2c031100b2613968f29" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Producten::Reservering::eindMoment</definition>
+        <argsstring></argsstring>
+        <name>eindMoment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="41" column="1" bodyfile="Reservering.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a2861853474dc0c95cdb8a81b17a7e683" prot="public" static="no" mutable="no">
+        <type>KlantPtr</type>
+        <definition>KlantPtr Producten::Reservering::klant</definition>
+        <argsstring></argsstring>
+        <name>klant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="42" column="1" bodyfile="Reservering.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1ab7238473f0cf1d3464510691a40092af" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelauto</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Deelauto&gt; Producten::Reservering::deelauto</definition>
+        <argsstring></argsstring>
+        <name>deelauto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="43" column="1" bodyfile="Reservering.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a2e03bd49d89417fe9e5ee1a5e41f2c37" prot="public" static="no" mutable="no">
+        <type>TariefSoortPtr</type>
+        <definition>TariefSoortPtr Producten::Reservering::tariefSoort</definition>
+        <argsstring></argsstring>
+        <name>tariefSoort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="44" column="1" bodyfile="Reservering.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_producten_1_1_reservering_1a8a0babc48f5e187eb3861483f2acfde8" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Verhuur&gt; Producten::Reservering::verhuur</definition>
+        <argsstring></argsstring>
+        <name>verhuur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="45" column="1" bodyfile="Reservering.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_producten_1_1_reservering_1a118aae96b4c460213a6b098523702103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Producten::Reservering::Reservering</definition>
+        <argsstring>()</argsstring>
+        <name>Reservering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="48" column="1" bodyfile="Reservering.cpp" bodystart="29" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1aa102b51527ec09dc8138c523f0de4860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Producten::Reservering::Reservering</definition>
+        <argsstring>(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr&lt; Klant &gt; &amp;klant, std::shared_ptr&lt; Deelauto &gt; &amp;deelauto, TariefSoortPtr tariefSoort)</argsstring>
+        <name>Reservering</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>beginMoment</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>eindMoment</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_klanten_1_1_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+          <declname>klant</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelauto</ref> &gt; &amp;</type>
+          <declname>deelauto</declname>
+        </param>
+        <param>
+          <type>TariefSoortPtr</type>
+          <declname>tariefSoort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="49" column="1" bodyfile="Reservering.cpp" bodystart="41" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1a2abc14c859df61e0b1d3dc8e51793df8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Producten::Reservering::~Reservering</definition>
+        <argsstring>()</argsstring>
+        <name>~Reservering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="51" column="1" bodyfile="Reservering.cpp" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1a98a7f8ace4673cd21c50c7e010344e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" kindref="member">Tarieven::TariefPtr</ref></type>
+        <definition>Tarieven::TariefPtr Producten::Reservering::getTarief</definition>
+        <argsstring>()</argsstring>
+        <name>getTarief</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="53" column="1" bodyfile="Reservering.cpp" bodystart="76" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1abe1a68953a3fbaf95120c4bdc9e226a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Producten::Reservering::getKosten</definition>
+        <argsstring>() override</argsstring>
+        <name>getKosten</name>
+        <reimplements refid="class_producten_1_1_product_1a42f02ea9745c49de96d0112fc8440331">getKosten</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="54" column="1" bodyfile="Reservering.cpp" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1abbacd086238500f8111ee1da026b8fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_producten_1_1_verhuur" kindref="compound">Verhuur</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Verhuur &gt; Producten::Reservering::verzilveren</definition>
+        <argsstring>()</argsstring>
+        <name>verzilveren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="55" column="1" bodyfile="Reservering.cpp" bodystart="58" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1a13022fa2fe85fb3a3e199d9c80e65c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Producten::Reservering::isIngecheckt</definition>
+        <argsstring>()</argsstring>
+        <name>isIngecheckt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="56" column="1" bodyfile="Reservering.cpp" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1ae34a0e9c1ec2a8503f60c8bc14d8e1dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t Producten::Reservering::getTariefSoortPeriodeAantal</definition>
+        <argsstring>()</argsstring>
+        <name>getTariefSoortPeriodeAantal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="57" column="1" bodyfile="Reservering.cpp" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_producten_1_1_reservering_1a25bacff6ec0e8fbbbc484e7dcb7a203b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Producten::Reservering::asString</definition>
+        <argsstring>() override</argsstring>
+        <name>asString</name>
+        <reimplements refid="class_producten_1_1_product_1ab03e9b20265b86f021af1a1416ec9fba">asString</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Reservering.h" line="58" column="1" bodyfile="Reservering.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="163">
+        <label>Producten::Product</label>
+        <link refid="class_producten_1_1_product"/>
+      </node>
+      <node id="159">
+        <label>Producten::Reservering</label>
+        <link refid="class_producten_1_1_reservering"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="161">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="162">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="160">
+        <label>Core::DatastoreModel&lt; Reservering &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="161" relation="public-inheritance">
+        </childnode>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>Producten::Product</label>
+        <link refid="class_producten_1_1_product"/>
+      </node>
+      <node id="164">
+        <label>Producten::Reservering</label>
+        <link refid="class_producten_1_1_reservering"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>tariefSoort</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>klant</edgelabel>
+        </childnode>
+      </node>
+      <node id="166">
+        <label>Core::IDatastoreModel</label>
+        <link refid="struct_core_1_1_i_datastore_model"/>
+      </node>
+      <node id="167">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; ModelType &gt; &gt;</label>
+      </node>
+      <node id="169">
+        <label>TariefSoortPtr</label>
+      </node>
+      <node id="170">
+        <label>KlantPtr</label>
+      </node>
+      <node id="165">
+        <label>Core::DatastoreModel&lt; Reservering &gt;</label>
+        <link refid="class_core_1_1_datastore_model"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Reservering.h" line="32" column="1" bodyfile="Reservering.h" bodystart="31" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_producten_1_1_product_1aabac8db92098047c7c60cba3b4682286" prot="protected" virt="non-virtual"><scope>Producten::Reservering</scope><name>addBoete</name></member>
+      <member refid="class_producten_1_1_reservering_1a25bacff6ec0e8fbbbc484e7dcb7a203b" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>asString</name></member>
+      <member refid="class_producten_1_1_reservering_1a66ee44a06d885d771113e1654e57886a" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>beginMoment</name></member>
+      <member refid="class_producten_1_1_product_1a56892a895b84046b3c26c15122ae1ff8" prot="protected" virt="non-virtual"><scope>Producten::Reservering</scope><name>boetes</name></member>
+      <member refid="class_core_1_1_datastore_model_1ad4eba0f01be4a56f8be91c019dcf24d3" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>Create</name></member>
+      <member refid="class_producten_1_1_reservering_1a49d3e6cc5073a1a1852ee7219d2283ee" prot="private" virt="non-virtual"><scope>Producten::Reservering</scope><name>DatastoreModel&lt; Klant &gt;</name></member>
+      <member refid="class_producten_1_1_reservering_1ab7238473f0cf1d3464510691a40092af" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>deelauto</name></member>
+      <member refid="class_producten_1_1_reservering_1a429245a309c8a2c031100b2613968f29" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>eindMoment</name></member>
+      <member refid="class_producten_1_1_product_1aae2d928dad8e6de569a2c537302f1666" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>getExtraKosten</name></member>
+      <member refid="class_producten_1_1_reservering_1abe1a68953a3fbaf95120c4bdc9e226a8" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>getKosten</name></member>
+      <member refid="class_producten_1_1_reservering_1a98a7f8ace4673cd21c50c7e010344e83" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>getTarief</name></member>
+      <member refid="class_producten_1_1_reservering_1ae34a0e9c1ec2a8503f60c8bc14d8e1dd" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>getTariefSoortPeriodeAantal</name></member>
+      <member refid="class_producten_1_1_product_1ab222b6ebdde88726f73d5a66195a2351" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>getTotaalKosten</name></member>
+      <member refid="class_core_1_1_datastore_model_1a9e73318e213eb093068f167649fd09b5" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>id</name></member>
+      <member refid="class_producten_1_1_reservering_1a13022fa2fe85fb3a3e199d9c80e65c33" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>isIngecheckt</name></member>
+      <member refid="class_producten_1_1_reservering_1a2861853474dc0c95cdb8a81b17a7e683" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>klant</name></member>
+      <member refid="class_producten_1_1_product_1a802a8a8290df2dd2497bdd85dc614f08" prot="protected" virt="non-virtual"><scope>Producten::Reservering</scope><name>maakFactuur</name></member>
+      <member refid="class_core_1_1_datastore_model_1a91838240652dfc5e9fc5502ba053f479" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>ModelPtr</name></member>
+      <member refid="class_producten_1_1_product_1a7ae9d1c078e42e604e062124484543ca" prot="protected" virt="non-virtual"><scope>Producten::Reservering</scope><name>Product</name></member>
+      <member refid="class_producten_1_1_product_1a531790125c6af44b2b5f436c3a9d2ed8" prot="protected" virt="non-virtual"><scope>Producten::Reservering</scope><name>Product</name></member>
+      <member refid="class_core_1_1_datastore_model_1a380c51eb84c1071d5bb8e9322b3277c6" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>ptr</name></member>
+      <member refid="class_producten_1_1_reservering_1a118aae96b4c460213a6b098523702103" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>Reservering</name></member>
+      <member refid="class_producten_1_1_reservering_1aa102b51527ec09dc8138c523f0de4860" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>Reservering</name></member>
+      <member refid="class_core_1_1_datastore_model_1a7c4d3e93dcfd3bddddee7ed65ea540a8" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>shared_from_this</name></member>
+      <member refid="class_producten_1_1_reservering_1a2e03bd49d89417fe9e5ee1a5e41f2c37" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>tariefSoort</name></member>
+      <member refid="class_producten_1_1_reservering_1aa09b70957adfbee16450ffe624083937" prot="private" virt="non-virtual"><scope>Producten::Reservering</scope><name>Verhuur</name></member>
+      <member refid="class_producten_1_1_reservering_1a8a0babc48f5e187eb3861483f2acfde8" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>verhuur</name></member>
+      <member refid="class_producten_1_1_reservering_1abbacd086238500f8111ee1da026b8fc5" prot="public" virt="non-virtual"><scope>Producten::Reservering</scope><name>verzilveren</name></member>
+      <member refid="class_core_1_1_datastore_model_1a767f259178392a59346964c2544e3711" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_core_1_1_i_datastore_model_1aaed75e1798addf6083eaebe155ba1fd4" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_producten_1_1_product_1a84490e62e33c8b07ea9eeb7206256161" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>~Product</name></member>
+      <member refid="class_producten_1_1_reservering_1a2abc14c859df61e0b1d3dc8e51793df8" prot="public" virt="virtual"><scope>Producten::Reservering</scope><name>~Reservering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

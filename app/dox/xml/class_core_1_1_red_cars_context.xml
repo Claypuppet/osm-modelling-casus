@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_red_cars_context" kind="class" language="C++" prot="public">
+    <compoundname>Core::RedCarsContext</compoundname>
+    <basecompoundref refid="class_core_1_1detail_1_1_red_cars_context_impl" prot="public" virt="non-virtual">Core::detail::RedCarsContextImpl&lt; StaticDatastore &gt;</basecompoundref>
+    <includes refid="_red_cars_context_8h" local="no">RedCarsContext.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="class_core_1_1_red_cars_context_1a4f45db64869ed961ef15b50e7dd79b8a" prot="private" static="no">
+        <type>RedCarsContextImpl&lt; <ref refid="class_core_1_1_static_datastore" kindref="compound">StaticDatastore</ref> &gt;</type>
+        <definition>using Core::RedCarsContext::super =  RedCarsContextImpl&lt;StaticDatastore&gt;</definition>
+        <argsstring></argsstring>
+        <name>super</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="61" column="1" bodyfile="RedCarsContext.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_1_1_red_cars_context_1a56a093f6d274081208f40a4f5ea4ea68" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_core_1_1_red_cars_context" kindref="compound">RedCarsContext</ref> &amp;</type>
+        <definition>static RedCarsContext&amp; Core::RedCarsContext::getInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedCarsContext.h" line="63" column="1" bodyfile="RedCarsContext.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="150">
+        <label>Core::detail::RedCarsContextImpl&lt; StaticDatastore &gt;</label>
+        <link refid="class_core_1_1detail_1_1_red_cars_context_impl"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>Singleton&lt; RedCarsContextImpl&lt; StaticDatastore &gt; &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+      <node id="149">
+        <label>Core::RedCarsContext</label>
+        <link refid="class_core_1_1_red_cars_context"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="153">
+        <label>Core::detail::RedCarsContextImpl&lt; StaticDatastore &gt;</label>
+        <link refid="class_core_1_1detail_1_1_red_cars_context_impl"/>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>Singleton&lt; RedCarsContextImpl&lt; StaticDatastore &gt; &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+      <node id="152">
+        <label>Core::RedCarsContext</label>
+        <link refid="class_core_1_1_red_cars_context"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="RedCarsContext.h" line="60" column="1" bodyfile="RedCarsContext.h" bodystart="60" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ace2c54ee9a85636f01f6e94909e7b766" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getDataStore</name></member>
+      <member refid="class_core_1_1_red_cars_context_1a56a093f6d274081208f40a4f5ea4ea68" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getInstance</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a0fd4e163371ccebc49052ff2e0109c41" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getKlantRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ae457b48fe90c3bfecfb33a74e8117658" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getReserveringRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1ac55ade2318c0579601a5b0b6e97e02d4" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getTariefRepo</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a4c6c523ee840ed83d476a9f3c39325be" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>getVehuurRepo</name></member>
+      <member refid="class_core_1_1_red_cars_context_1a4f45db64869ed961ef15b50e7dd79b8a" prot="private" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>super</name></member>
+      <member refid="class_core_1_1detail_1_1_red_cars_context_impl_1a23ec5485a61b94a6d401093f1a1bc71b" prot="public" virt="non-virtual"><scope>Core::RedCarsContext</scope><name>~RedCarsContextImpl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

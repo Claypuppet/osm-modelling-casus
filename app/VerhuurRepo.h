@@ -17,9 +17,9 @@
 
 namespace Producten
 {
-
-class Klant;
-class Verhuur;
+	using Core::BaseRepo;
+	using Core::IDataStore;
+	using Klanten::Klant;
 
 template <typename DataStoreType>
 class VerhuurRepo : public BaseRepo<Verhuur, DataStoreType>

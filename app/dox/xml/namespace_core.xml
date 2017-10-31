@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespace_core" kind="namespace" language="C++">
+    <compoundname>Core</compoundname>
+    <innerclass refid="class_core_1_1_application" prot="public">Core::Application</innerclass>
+    <innerclass refid="class_core_1_1_base_repo" prot="public">Core::BaseRepo</innerclass>
+    <innerclass refid="class_core_1_1_datastore_model" prot="public">Core::DatastoreModel</innerclass>
+    <innerclass refid="class_core_1_1_fake_time_provider" prot="public">Core::FakeTimeProvider</innerclass>
+    <innerclass refid="class_core_1_1_geld" prot="public">Core::Geld</innerclass>
+    <innerclass refid="class_core_1_1_i_data_store" prot="public">Core::IDataStore</innerclass>
+    <innerclass refid="struct_core_1_1_i_datastore_model" prot="public">Core::IDatastoreModel</innerclass>
+    <innerclass refid="class_core_1_1_i_time_provider" prot="public">Core::ITimeProvider</innerclass>
+    <innerclass refid="struct_core_1_1_model_by_id" prot="public">Core::ModelById</innerclass>
+    <innerclass refid="class_core_1_1_real_time_provider" prot="public">Core::RealTimeProvider</innerclass>
+    <innerclass refid="class_core_1_1_red_cars_context" prot="public">Core::RedCarsContext</innerclass>
+    <innerclass refid="class_core_1_1_signals" prot="public">Core::Signals</innerclass>
+    <innerclass refid="class_core_1_1_static_datastore" prot="public">Core::StaticDatastore</innerclass>
+    <innerclass refid="struct_core_1_1_static_datastore_storeage" prot="public">Core::StaticDatastoreStoreage</innerclass>
+    <innernamespace refid="namespace_core_1_1detail">Core::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Application.cpp" line="18" column="1"/>
+  </compounddef>
+</doxygen>

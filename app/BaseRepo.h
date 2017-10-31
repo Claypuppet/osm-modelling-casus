@@ -11,6 +11,8 @@
 #include "IDataStore.h"
 #include <memory>
 
+namespace Core {
+
 
 template <typename ModelType, typename DataStoreType>
 class BaseRepo
@@ -38,6 +40,8 @@ public:
 	}
 
 };
+
+}
 
 
 #endif /* BASEREPO_H_ */

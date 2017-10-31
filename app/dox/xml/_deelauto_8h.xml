@@ -3,67 +3,196 @@
   <compounddef id="_deelauto_8h" kind="file" language="C++">
     <compoundname>Deelauto.h</compoundname>
     <includes refid="_datastore_model_8h" local="yes">DatastoreModel.h</includes>
+    <includes refid="_redcar_module_8h" local="yes">RedcarModule.h</includes>
     <includes local="no">string</includes>
     <includes local="no">memory</includes>
+    <includedby refid="_reservering_8h" local="yes">Reservering.h</includedby>
     <includedby refid="_deelauto_8cpp" local="yes">Deelauto.cpp</includedby>
     <includedby refid="_reservering_8cpp" local="yes">Reservering.cpp</includedby>
     <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
     <includedby refid="_verhuur_8cpp" local="yes">Verhuur.cpp</includedby>
     <incdepgraph>
-      <node id="311">
+      <node id="318">
         <label>string</label>
       </node>
-      <node id="308">
-        <label>Deelauto.h</label>
-        <link refid="_deelauto_8h"/>
-        <childnode refid="309" relation="include">
-        </childnode>
-        <childnode refid="311" relation="include">
-        </childnode>
-        <childnode refid="310" relation="include">
-        </childnode>
-      </node>
-      <node id="309">
-        <label>DatastoreModel.h</label>
-        <link refid="_datastore_model_8h"/>
-        <childnode refid="310" relation="include">
-        </childnode>
-      </node>
-      <node id="310">
-        <label>memory</label>
-      </node>
-    </incdepgraph>
-    <invincdepgraph>
-      <node id="314">
-        <label>Reservering.cpp</label>
-        <link refid="_reservering_8cpp"/>
-      </node>
-      <node id="313">
-        <label>Deelauto.cpp</label>
-        <link refid="_deelauto_8cpp"/>
-      </node>
-      <node id="315">
-        <label>StaticDatastore.cpp</label>
-        <link refid="_static_datastore_8cpp"/>
-      </node>
-      <node id="316">
-        <label>Verhuur.cpp</label>
-        <link refid="_verhuur_8cpp"/>
-      </node>
-      <node id="312">
-        <label>Deelauto.h</label>
-        <link refid="_deelauto_8h"/>
-        <childnode refid="313" relation="include">
-        </childnode>
-        <childnode refid="314" relation="include">
-        </childnode>
+      <node id="317">
+        <label>RedcarModule.h</label>
+        <link refid="_redcar_module_8h"/>
         <childnode refid="315" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
         </childnode>
         <childnode refid="316" relation="include">
         </childnode>
       </node>
+      <node id="315">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="329">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="327">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="333">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="322">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="323">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="338">
+        <label>Deelauto.cpp</label>
+        <link refid="_deelauto_8cpp"/>
+      </node>
+      <node id="328">
+        <label>RedCarsContext.cpp</label>
+        <link refid="_red_cars_context_8cpp"/>
+      </node>
+      <node id="324">
+        <label>Application.cpp</label>
+        <link refid="_application_8cpp"/>
+      </node>
+      <node id="325">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>StaticDatastore.cpp</label>
+        <link refid="_static_datastore_8cpp"/>
+      </node>
+      <node id="336">
+        <label>VerhuurRepo.cpp</label>
+        <link refid="_verhuur_repo_8cpp"/>
+      </node>
+      <node id="335">
+        <label>Verhuur.cpp</label>
+        <link refid="_verhuur_8cpp"/>
+      </node>
+      <node id="320">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+      </node>
+      <node id="337">
+        <label>ReserveringController.h</label>
+        <link refid="_reservering_controller_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>Boete.cpp</label>
+        <link refid="_boete_8cpp"/>
+      </node>
+      <node id="326">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
     </invincdepgraph>
-    <innerclass refid="class_deelauto" prot="public">Deelauto</innerclass>
+    <innerclass refid="class_deelautos_1_1_deelauto" prot="public">Deelautos::Deelauto</innerclass>
+    <innernamespace refid="namespace_deelautos">Deelautos</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -80,39 +209,49 @@
 <codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEELAUTO_H_</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="10"><highlight class="normal"></highlight></codeline>
 <codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_datastore_model_8h" kindref="compound">DatastoreModel.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="14"><highlight class="normal"></highlight></codeline>
-<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_standplaats" kindref="compound">Standplaats</ref>;</highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_redcar_module" kindref="compound">RedcarModule</ref>;</highlight></codeline>
-<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_auto_type" kindref="compound">AutoType</ref>;</highlight></codeline>
-<codeline lineno="18"><highlight class="normal"></highlight></codeline>
-<codeline lineno="19" refid="class_deelauto" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_deelauto" kindref="compound">Deelauto</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Deelauto&gt;</highlight></codeline>
-<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;Deelauto&gt;</ref>;</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelauto" kindref="compound">Deelauto</ref>();</highlight></codeline>
-<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelauto" kindref="compound">Deelauto</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" kindref="member">kenteken</ref>,<sp/>std::shared_ptr&lt;Standplaats&gt;&amp;<sp/><ref refid="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" kindref="member">standplaats</ref>,<sp/>std::shared_ptr&lt;RedcarModule&gt;&amp;<sp/><ref refid="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" kindref="member">redcardModule</ref>);</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight></codeline>
-<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelauto_1a18f784bc15dea06fc748dbd03af06805" kindref="member">~Deelauto</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="27"><highlight class="normal"></highlight></codeline>
-<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Standplaats&gt;<sp/><ref refid="class_deelauto_1a1b9cfb16a8619673c6a43c3127fb872a" kindref="member">getStandPlaats</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;RedcarModule&gt;<sp/><ref refid="class_deelauto_1a9891421f62aeda3260ae58eea5ded031" kindref="member">getRedcarModule</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_deelauto_1a147354557bd5ca7bda8d45debb9fb090" kindref="member">getAutoType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_deelauto_1a39d5e228746821cdac75194be2493bbe" kindref="member">verhuurActief</ref>(uint32_t<sp/>pasNummer);</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_deelauto_1ab359f821f58d16f35ec8e8bce8282020" kindref="member">checkOpLocatie</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_deelauto_1a2e7c9595453e9fb20881344b469fc285" kindref="member">verhuurVoltooid</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_redcar_module_8h" kindref="compound">RedcarModule.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_deelautos" kindref="compound">Deelautos</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_redcard_module_1_1_redcar_module" kindref="compound">RedcardModule::RedcarModule</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">AutoType;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Standplaats;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_deelautos_1_1_deelauto" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelauto</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Deelauto&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;Deelauto&gt;</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelauto</ref>();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelautos_1_1_deelauto" kindref="compound">Deelauto</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_deelautos_1_1_deelauto_1a6eb5a3066223a5b075223e2915c9edd2" kindref="member">kenteken</ref>,<sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a8f219b43d3c056b92ce4324329853437" kindref="member">type</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Standplaats&gt;&amp;<sp/><ref refid="class_deelautos_1_1_deelauto_1ada75153fc4a88e80d6e3c2482336ceef" kindref="member">standplaats</ref>,<sp/>std::shared_ptr&lt;RedcarModule&gt;&amp;<sp/><ref refid="class_deelautos_1_1_deelauto_1a2bac9f276cb0e732497d943352c003b6" kindref="member">redcardModule</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_deelautos_1_1_deelauto_1a8d13e8c117445e89170b19b880cd44d4" kindref="member">~Deelauto</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"></highlight></codeline>
-<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="37" refid="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" kindref="member">kenteken</ref>;</highlight></codeline>
-<codeline lineno="38" refid="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Standplaats&gt;<sp/><ref refid="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" kindref="member">standplaats</ref>;</highlight></codeline>
-<codeline lineno="39" refid="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;RedcarModule&gt;<sp/><ref refid="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" kindref="member">redcardModule</ref>;</highlight></codeline>
-<codeline lineno="40" refid="class_deelauto_1aef1ef7a4ba9568f6320359b5985941df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_deelauto_1aef1ef7a4ba9568f6320359b5985941df" kindref="member">type</ref>;</highlight></codeline>
-<codeline lineno="41"><highlight class="normal"></highlight></codeline>
-<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Standplaats&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a1fd6044d658b3bcddf972148708da7d7" kindref="member">getStandPlaats</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;RedcarModule&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a9aff4be795ddcba8c44dbd2adbe4f53a" kindref="member">getRedcarModule</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a9e400fc6bf40f0d97dd97833f6547345" kindref="member">getAutoType</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_deelauto_1a24d41d27dbb11c852dc1728522f5c8a6" kindref="member">verhuurActief</ref>(uint32_t<sp/>pasNummer);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_deelauto_1a9592aad177c1ca9a0c0f54cb2b2d4ab3" kindref="member">checkOpLocatie</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_deelauto_1a8512b3816e853c894f79341835973cb1" kindref="member">verhuurVoltooid</ref>();</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>DEELAUTO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="class_deelautos_1_1_deelauto_1a6eb5a3066223a5b075223e2915c9edd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_deelautos_1_1_deelauto_1a6eb5a3066223a5b075223e2915c9edd2" kindref="member">kenteken</ref>;</highlight></codeline>
+<codeline lineno="46" refid="class_deelautos_1_1_deelauto_1a8f219b43d3c056b92ce4324329853437" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a8f219b43d3c056b92ce4324329853437" kindref="member">type</ref>;</highlight></codeline>
+<codeline lineno="47" refid="class_deelautos_1_1_deelauto_1ada75153fc4a88e80d6e3c2482336ceef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Standplaats&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1ada75153fc4a88e80d6e3c2482336ceef" kindref="member">standplaats</ref>;</highlight></codeline>
+<codeline lineno="48" refid="class_deelautos_1_1_deelauto_1a2bac9f276cb0e732497d943352c003b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;RedcarModule&gt;<sp/><ref refid="class_deelautos_1_1_deelauto_1a2bac9f276cb0e732497d943352c003b6" kindref="member">redcardModule</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>DEELAUTO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="Deelauto.h"/>
   </compounddef>

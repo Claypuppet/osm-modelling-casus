@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['tarief',['Tarief',['../classtarieven_1_1_tarief.html#ac00150cf33a4eba4f0a8cadaacc4df4a',1,'tarieven::Tarief::Tarief()'],['../classtarieven_1_1_tarief.html#adc84eb82bd066ee33a75b8ffec33cef0',1,'tarieven::Tarief::Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr&lt; AutoType &gt; autoType, std::shared_ptr&lt; AbonnementType &gt; aboType)']]],
-  ['tariefrepo',['TariefRepo',['../class_tarief_repo.html#a538e807640bf468dd745d1ee6e83de1b',1,'TariefRepo']]],
-  ['tostring',['toString',['../class_geld.html#a8da3212a4162a4764b24d5498eb4937f',1,'Geld']]]
+  ['tarief',['Tarief',['../class_tarieven_1_1_tarief.html#a8fa878241f14c0066331423bd2511a3d',1,'Tarieven::Tarief::Tarief()'],['../class_tarieven_1_1_tarief.html#ae63985fd6d87539fa1552f12fda2f63a',1,'Tarieven::Tarief::Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr&lt; AutoType &gt; autoType, std::shared_ptr&lt; AbonnementType &gt; aboType)']]],
+  ['tariefrepo',['TariefRepo',['../class_tarieven_1_1_tarief_repo.html#a7098f536f0eca170e26091422f5532ec',1,'Tarieven::TariefRepo']]],
+  ['tostring',['toString',['../class_core_1_1_geld.html#a4307f01b2b1a814431331d3f0a58c960',1,'Core::Geld']]]
 ];

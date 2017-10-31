@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['realtimeprovider',['RealTimeProvider',['../class_real_time_provider.html#af6436a01980c31ba650a2bacfd5620dd',1,'RealTimeProvider']]],
-  ['reservering',['Reservering',['../class_reservering.html#ad81ad37ab56781537c77c29a468c9a4d',1,'Reservering::Reservering()'],['../class_reservering.html#a16f8001bbe18c09159d3009ad1eeb46f',1,'Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr&lt; Klant &gt; &amp;klant, std::shared_ptr&lt; Deelauto &gt; &amp;deelauto, tarieven::TariefSoortPtr tariefSoort)']]],
-  ['reserveringcontroller',['ReserveringController',['../classreserveringen_1_1_reservering_controller.html#a25e5e764683e8d83ebec7c2d30be535b',1,'reserveringen::ReserveringController']]],
-  ['reserveringrepo',['ReserveringRepo',['../class_reservering_repo.html#aae3522a2303489eaf3ff285b0db977fe',1,'ReserveringRepo']]],
-  ['reservermetklantenmoment',['ReserverMetKlantEnMoment',['../struct_reserver_met_klant_en_moment.html#af27049fe38d044c7d49d6b722c8e1884',1,'ReserverMetKlantEnMoment']]],
-  ['reset',['reset',['../class_redcar_module.html#a610e38f55874087231fbf5f1ea5fffa2',1,'RedcarModule']]]
+  ['realtimeprovider',['RealTimeProvider',['../class_core_1_1_real_time_provider.html#a41237e4850e50ca37ab834753adf1bec',1,'Core::RealTimeProvider']]],
+  ['reservering',['Reservering',['../class_producten_1_1_reservering.html#a118aae96b4c460213a6b098523702103',1,'Producten::Reservering::Reservering()'],['../class_producten_1_1_reservering.html#aa102b51527ec09dc8138c523f0de4860',1,'Producten::Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr&lt; Klant &gt; &amp;klant, std::shared_ptr&lt; Deelauto &gt; &amp;deelauto, TariefSoortPtr tariefSoort)']]],
+  ['reserveringcontroller',['ReserveringController',['../class_producten_1_1_reservering_controller.html#ae5929676979ef84bdde0b338946f304e',1,'Producten::ReserveringController']]],
+  ['reserveringrepo',['ReserveringRepo',['../class_producten_1_1_reservering_repo.html#a71beb2666e67f0acf12131f4a3b4be81',1,'Producten::ReserveringRepo']]],
+  ['reservermetklantenmoment',['ReserverMetKlantEnMoment',['../struct_producten_1_1_reserver_met_klant_en_moment.html#a41b4eee2a88ccd41786c0e563fb89e73',1,'Producten::ReserverMetKlantEnMoment']]],
+  ['reset',['reset',['../class_redcard_module_1_1_redcar_module.html#a39343907c5e03f305bcdfc98f8c9fa98',1,'RedcardModule::RedcarModule']]]
 ];

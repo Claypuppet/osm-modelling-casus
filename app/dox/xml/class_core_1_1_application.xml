@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_core_1_1_application" kind="class" language="C++" prot="public">
+    <compoundname>Core::Application</compoundname>
+    <basecompoundref refid="class_singleton" prot="public" virt="non-virtual">Singleton&lt; Application &gt;</basecompoundref>
+    <includes refid="_application_8h" local="no">Application.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_1_1_application_1a71631cff585e507c57234c19b870965d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Core::Application::mQuit</definition>
+        <argsstring></argsstring>
+        <name>mQuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="49" column="1" bodyfile="Application.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_application_1aa2a712af5d85189a08a6435016f1ac61" prot="private" static="no" mutable="no">
+        <type>cui::CUI</type>
+        <definition>cui::CUI Core::Application::mCUI</definition>
+        <argsstring></argsstring>
+        <name>mCUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="50" column="1" bodyfile="Application.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_application_1ae1ea07b5aa6890c8e05fd298e2d3ec8c" prot="private" static="no" mutable="no">
+        <type>TariefSoortPtr</type>
+        <definition>TariefSoortPtr Core::Application::boeteTariefSoort</definition>
+        <argsstring></argsstring>
+        <name>boeteTariefSoort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="51" column="1" bodyfile="Application.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_1_1_application_1a30e8aeed1508b683009aeca70da456db" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_core_1_1_i_time_provider" kindref="compound">ITimeProvider</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ITimeProvider&gt; Core::Application::timeProvider</definition>
+        <argsstring></argsstring>
+        <name>timeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="52" column="1" bodyfile="Application.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_1_1_application_1a14ac652e4e0960d1e92e9ee400ffcb0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::Application::Application</definition>
+        <argsstring>()</argsstring>
+        <name>Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="26" column="1" bodyfile="Application.cpp" bodystart="20" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1abf898bbfb37196662e56bbc144875ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Core::Application::~Application</definition>
+        <argsstring>()</argsstring>
+        <name>~Application</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="27" column="1" bodyfile="Application.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1a99b17e92c48af4ef617f9fd42cc14898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::Application::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="30" column="1" bodyfile="Application.cpp" bodystart="36" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1ab459228620f1af34bdfee220bbf68c81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::Application::initUI</definition>
+        <argsstring>()</argsstring>
+        <name>initUI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="31" column="1" bodyfile="Application.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1aee5fedc73e15d4cc27c1fc3fd1362878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Core::Application::main</definition>
+        <argsstring>(int argc, char *argv[])</argsstring>
+        <name>main</name>
+        <param>
+          <type>int</type>
+          <declname>argc</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>argv</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="33" column="1" bodyfile="Application.cpp" bodystart="53" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1afc5331eeb0cf059c425052f75bc99169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t Core::Application::getNowMoment</definition>
+        <argsstring>()</argsstring>
+        <name>getNowMoment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="35" column="1" bodyfile="Application.h" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1aebf62f8ce09efe7f55aaa5824ea2d199" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::Application::setTimeProvider</definition>
+        <argsstring>(std::shared_ptr&lt; ITimeProvider &gt; aTimeProvider)</argsstring>
+        <name>setTimeProvider</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_core_1_1_i_time_provider" kindref="compound">ITimeProvider</ref> &gt;</type>
+          <declname>aTimeProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="40" column="1" bodyfile="Application.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1a2143733d47f1d8fb3bd31e690dee954d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>TariefSoortPtr</type>
+        <definition>Tarieven::TariefSoortPtr Core::Application::getBoeteTariefSoort</definition>
+        <argsstring>() const</argsstring>
+        <name>getBoeteTariefSoort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="44" column="1" bodyfile="Application.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_1_1_application_1ad98fbc704e0eb5d4f97b369791878b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Core::Application::setBoeteTariefSoort</definition>
+        <argsstring>(TariefSoortPtr boeteTariefSoort)</argsstring>
+        <name>setBoeteTariefSoort</name>
+        <param>
+          <type>TariefSoortPtr</type>
+          <declname>boeteTariefSoort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Application.h" line="45" column="1" bodyfile="Application.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>Singleton&lt; Application &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+      <node id="11">
+        <label>Core::Application</label>
+        <link refid="class_core_1_1_application"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>Singleton&lt; Application &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+      <node id="13">
+        <label>Core::Application</label>
+        <link refid="class_core_1_1_application"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Application.h" line="24" column="1" bodyfile="Application.h" bodystart="23" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_core_1_1_application_1a14ac652e4e0960d1e92e9ee400ffcb0a" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>Application</name></member>
+      <member refid="class_core_1_1_application_1ae1ea07b5aa6890c8e05fd298e2d3ec8c" prot="private" virt="non-virtual"><scope>Core::Application</scope><name>boeteTariefSoort</name></member>
+      <member refid="class_core_1_1_application_1a2143733d47f1d8fb3bd31e690dee954d" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>getBoeteTariefSoort</name></member>
+      <member refid="class_core_1_1_application_1afc5331eeb0cf059c425052f75bc99169" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>getNowMoment</name></member>
+      <member refid="class_core_1_1_application_1a99b17e92c48af4ef617f9fd42cc14898" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>init</name></member>
+      <member refid="class_core_1_1_application_1ab459228620f1af34bdfee220bbf68c81" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>initUI</name></member>
+      <member refid="class_core_1_1_application_1aee5fedc73e15d4cc27c1fc3fd1362878" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>main</name></member>
+      <member refid="class_core_1_1_application_1aa2a712af5d85189a08a6435016f1ac61" prot="private" virt="non-virtual"><scope>Core::Application</scope><name>mCUI</name></member>
+      <member refid="class_core_1_1_application_1a71631cff585e507c57234c19b870965d" prot="private" virt="non-virtual"><scope>Core::Application</scope><name>mQuit</name></member>
+      <member refid="class_core_1_1_application_1ad98fbc704e0eb5d4f97b369791878b31" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>setBoeteTariefSoort</name></member>
+      <member refid="class_core_1_1_application_1aebf62f8ce09efe7f55aaa5824ea2d199" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>setTimeProvider</name></member>
+      <member refid="class_core_1_1_application_1a30e8aeed1508b683009aeca70da456db" prot="private" virt="non-virtual"><scope>Core::Application</scope><name>timeProvider</name></member>
+      <member refid="class_core_1_1_application_1abf898bbfb37196662e56bbc144875ac2" prot="public" virt="non-virtual"><scope>Core::Application</scope><name>~Application</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

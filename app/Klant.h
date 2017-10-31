@@ -16,7 +16,8 @@
 
 namespace Klanten {
 
-using core::DatastoreModel;
+using Core::DatastoreModel;
+using Producten::AbonnementType;
 
 class Klant : public DatastoreModel<Klant>
 {

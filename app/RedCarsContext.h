@@ -17,6 +17,10 @@
 
 namespace Core {
 
+	using Klanten::KlantRepo;
+	using Producten::VerhuurRepo;
+	using Producten::ReserveringRepo;
+	using Tarieven::TariefRepo;
 
 namespace detail {
 	template <typename DataStoreType>

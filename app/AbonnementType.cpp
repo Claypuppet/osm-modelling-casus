@@ -9,6 +9,7 @@
 
 namespace Producten
 {
+using Core::Geld;
 
 AbonnementType::AbonnementType()
 {

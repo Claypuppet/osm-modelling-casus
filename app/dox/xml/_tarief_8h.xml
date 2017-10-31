@@ -12,247 +12,247 @@
     <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
     <includedby refid="_tarief_8cpp" local="yes">Tarief.cpp</includedby>
     <incdepgraph>
-      <node id="1044">
+      <node id="1103">
         <label>AbonnementType.h</label>
         <link refid="_abonnement_type_8h"/>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1094" relation="include">
         </childnode>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1098" relation="include">
         </childnode>
-        <childnode refid="1036" relation="include">
+        <childnode refid="1095" relation="include">
         </childnode>
-        <childnode refid="1037" relation="include">
+        <childnode refid="1096" relation="include">
         </childnode>
       </node>
-      <node id="1036">
+      <node id="1095">
         <label>stdint.h</label>
       </node>
-      <node id="1038">
+      <node id="1097">
         <label>TariefSoortPrijs.h</label>
         <link refid="_tarief_soort_prijs_8h"/>
-        <childnode refid="1039" relation="include">
+        <childnode refid="1098" relation="include">
         </childnode>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1100" relation="include">
         </childnode>
-        <childnode refid="1042" relation="include">
+        <childnode refid="1094" relation="include">
         </childnode>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1101" relation="include">
         </childnode>
       </node>
-      <node id="1037">
+      <node id="1096">
         <label>string</label>
       </node>
-      <node id="1035">
+      <node id="1094">
         <label>Geld.h</label>
         <link refid="_geld_8h"/>
-        <childnode refid="1036" relation="include">
+        <childnode refid="1095" relation="include">
         </childnode>
-        <childnode refid="1037" relation="include">
+        <childnode refid="1096" relation="include">
         </childnode>
       </node>
-      <node id="1039">
+      <node id="1101">
         <label>vector</label>
       </node>
-      <node id="1043">
+      <node id="1102">
         <label>AutoType.h</label>
         <link refid="_auto_type_8h"/>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1098" relation="include">
         </childnode>
       </node>
-      <node id="1042">
+      <node id="1100">
         <label>TariefSoort.h</label>
         <link refid="_tarief_soort_8h"/>
-        <childnode refid="1040" relation="include">
+        <childnode refid="1098" relation="include">
         </childnode>
-        <childnode refid="1041" relation="include">
+        <childnode refid="1099" relation="include">
         </childnode>
       </node>
-      <node id="1034">
+      <node id="1093">
         <label>Tarief.h</label>
         <link refid="_tarief_8h"/>
-        <childnode refid="1035" relation="include">
+        <childnode refid="1094" relation="include">
         </childnode>
-        <childnode refid="1038" relation="include">
+        <childnode refid="1097" relation="include">
         </childnode>
-        <childnode refid="1043" relation="include">
+        <childnode refid="1102" relation="include">
         </childnode>
-        <childnode refid="1044" relation="include">
+        <childnode refid="1103" relation="include">
         </childnode>
       </node>
-      <node id="1040">
+      <node id="1098">
         <label>DatastoreModel.h</label>
         <link refid="_datastore_model_8h"/>
-        <childnode refid="1041" relation="include">
+        <childnode refid="1099" relation="include">
         </childnode>
       </node>
-      <node id="1041">
+      <node id="1099">
         <label>memory</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1055">
+      <node id="1114">
         <label>Reservering.cpp</label>
         <link refid="_reservering_8cpp"/>
       </node>
-      <node id="1053">
+      <node id="1112">
         <label>Product.cpp</label>
         <link refid="_product_8cpp"/>
       </node>
-      <node id="1059">
+      <node id="1118">
         <label>main.cpp</label>
         <link refid="main_8cpp"/>
       </node>
-      <node id="1064">
+      <node id="1123">
         <label>TariefRepo.h</label>
         <link refid="_tarief_repo_8h"/>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1108" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1111" relation="include">
         </childnode>
-        <childnode refid="1065" relation="include">
+        <childnode refid="1124" relation="include">
         </childnode>
       </node>
-      <node id="1048">
+      <node id="1107">
         <label>VerhuurRepo.h</label>
         <link refid="_verhuur_repo_8h"/>
-        <childnode refid="1049" relation="include">
+        <childnode refid="1108" relation="include">
         </childnode>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1111" relation="include">
         </childnode>
-        <childnode refid="1062" relation="include">
+        <childnode refid="1121" relation="include">
         </childnode>
       </node>
-      <node id="1056">
+      <node id="1115">
         <label>ReserveringController.cpp</label>
         <link refid="_reservering_controller_8cpp"/>
       </node>
-      <node id="1049">
+      <node id="1108">
         <label>Application.h</label>
         <link refid="_application_8h"/>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1109" relation="include">
         </childnode>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1110" relation="include">
         </childnode>
-        <childnode refid="1058" relation="include">
+        <childnode refid="1117" relation="include">
         </childnode>
-        <childnode refid="1059" relation="include">
+        <childnode refid="1118" relation="include">
         </childnode>
-        <childnode refid="1060" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1061" relation="include">
+        <childnode refid="1120" relation="include">
         </childnode>
       </node>
-      <node id="1054">
+      <node id="1113">
         <label>RedCarsContext.cpp</label>
         <link refid="_red_cars_context_8cpp"/>
       </node>
-      <node id="1050">
+      <node id="1109">
         <label>Application.cpp</label>
         <link refid="_application_8cpp"/>
       </node>
-      <node id="1051">
+      <node id="1110">
         <label>ReserveringRepo.h</label>
         <link refid="_reservering_repo_8h"/>
-        <childnode refid="1052" relation="include">
+        <childnode refid="1111" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1114" relation="include">
         </childnode>
-        <childnode refid="1057" relation="include">
+        <childnode refid="1116" relation="include">
         </childnode>
       </node>
-      <node id="1060">
+      <node id="1119">
         <label>StaticDatastore.cpp</label>
         <link refid="_static_datastore_8cpp"/>
       </node>
-      <node id="1062">
+      <node id="1121">
         <label>VerhuurRepo.cpp</label>
         <link refid="_verhuur_repo_8cpp"/>
       </node>
-      <node id="1061">
+      <node id="1120">
         <label>Verhuur.cpp</label>
         <link refid="_verhuur_8cpp"/>
       </node>
-      <node id="1046">
+      <node id="1105">
         <label>Reservering.h</label>
         <link refid="_reservering_8h"/>
-        <childnode refid="1047" relation="include">
+        <childnode refid="1106" relation="include">
         </childnode>
-        <childnode refid="1051" relation="include">
+        <childnode refid="1110" relation="include">
         </childnode>
-        <childnode refid="1063" relation="include">
+        <childnode refid="1122" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1114" relation="include">
         </childnode>
-        <childnode refid="1060" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
       </node>
-      <node id="1047">
+      <node id="1106">
         <label>Verhuur.h</label>
         <link refid="_verhuur_8h"/>
-        <childnode refid="1048" relation="include">
+        <childnode refid="1107" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1114" relation="include">
         </childnode>
-        <childnode refid="1060" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1061" relation="include">
+        <childnode refid="1120" relation="include">
         </childnode>
       </node>
-      <node id="1045">
+      <node id="1104">
         <label>Tarief.h</label>
         <link refid="_tarief_8h"/>
-        <childnode refid="1046" relation="include">
+        <childnode refid="1105" relation="include">
         </childnode>
-        <childnode refid="1064" relation="include">
+        <childnode refid="1123" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1114" relation="include">
         </childnode>
-        <childnode refid="1060" relation="include">
+        <childnode refid="1119" relation="include">
         </childnode>
-        <childnode refid="1066" relation="include">
+        <childnode refid="1125" relation="include">
         </childnode>
       </node>
-      <node id="1066">
+      <node id="1125">
         <label>Tarief.cpp</label>
         <link refid="_tarief_8cpp"/>
       </node>
-      <node id="1057">
+      <node id="1116">
         <label>ReserveringRepo.cpp</label>
         <link refid="_reservering_repo_8cpp"/>
       </node>
-      <node id="1063">
+      <node id="1122">
         <label>ReserveringController.h</label>
         <link refid="_reservering_controller_8h"/>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1109" relation="include">
         </childnode>
-        <childnode refid="1056" relation="include">
+        <childnode refid="1115" relation="include">
         </childnode>
       </node>
-      <node id="1065">
+      <node id="1124">
         <label>TariefRepo.cpp</label>
         <link refid="_tarief_repo_8cpp"/>
       </node>
-      <node id="1058">
+      <node id="1117">
         <label>Boete.cpp</label>
         <link refid="_boete_8cpp"/>
       </node>
-      <node id="1052">
+      <node id="1111">
         <label>RedCarsContext.h</label>
         <link refid="_red_cars_context_8h"/>
-        <childnode refid="1050" relation="include">
+        <childnode refid="1109" relation="include">
         </childnode>
-        <childnode refid="1053" relation="include">
+        <childnode refid="1112" relation="include">
         </childnode>
-        <childnode refid="1054" relation="include">
+        <childnode refid="1113" relation="include">
         </childnode>
-        <childnode refid="1055" relation="include">
+        <childnode refid="1114" relation="include">
         </childnode>
-        <childnode refid="1056" relation="include">
+        <childnode refid="1115" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
-    <innerclass refid="classtarieven_1_1_tarief" prot="public">tarieven::Tarief</innerclass>
-    <innernamespace refid="namespacetarieven">tarieven</innernamespace>
+    <innerclass refid="class_tarieven_1_1_tarief" prot="public">Tarieven::Tarief</innerclass>
+    <innernamespace refid="namespace_tarieven">Tarieven</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
@@ -273,36 +273,40 @@
 <codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_auto_type_8h" kindref="compound">AutoType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_abonnement_type_8h" kindref="compound">AbonnementType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight></codeline>
-<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacetarieven" kindref="compound">tarieven</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_tarieven" kindref="compound">Tarieven</ref></highlight></codeline>
 <codeline lineno="17"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="18" refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtarieven_1_1_tarief" kindref="compound">Tarief</ref>;</highlight></codeline>
-<codeline lineno="19"><highlight class="normal"></highlight></codeline>
-<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Tarief&gt;<sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">TariefPtr</ref>;</highlight></codeline>
-<codeline lineno="21"><highlight class="normal"></highlight></codeline>
-<codeline lineno="22" refid="classtarieven_1_1_tarief" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtarieven_1_1_tarief" kindref="compound">Tarief</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Tarief&gt;</highlight></codeline>
-<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="25" refid="classtarieven_1_1_tarief_1a95671ddb2f61597c0dcd4741e9385ae8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="classtarieven_1_1_tarief_1a95671ddb2f61597c0dcd4741e9385ae8" kindref="member">kilometersVrij</ref>;</highlight></codeline>
-<codeline lineno="26" refid="classtarieven_1_1_tarief_1a6caf4ab0a08975cb7e9893534d19ba02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="classtarieven_1_1_tarief_1a6caf4ab0a08975cb7e9893534d19ba02" kindref="member">prijsPerKilometer</ref>;</highlight></codeline>
-<codeline lineno="27" refid="classtarieven_1_1_tarief_1afdcb70f147f6a8a60a9a26265077f37a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tariefSoortenPrijsLijst</ref><sp/><ref refid="classtarieven_1_1_tarief_1afdcb70f147f6a8a60a9a26265077f37a" kindref="member">prijzen</ref>;</highlight></codeline>
-<codeline lineno="28" refid="classtarieven_1_1_tarief_1a3fcba34b8709e8b719c660f5c9e80367" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="classtarieven_1_1_tarief_1a3fcba34b8709e8b719c660f5c9e80367" kindref="member">autoType</ref>;</highlight></codeline>
-<codeline lineno="29" refid="classtarieven_1_1_tarief_1af65c305dbdf0bbe3b89eca3c1842757f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/><ref refid="classtarieven_1_1_tarief_1af65c305dbdf0bbe3b89eca3c1842757f" kindref="member">aboType</ref>;</highlight></codeline>
-<codeline lineno="30"><highlight class="normal"></highlight></codeline>
-<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtarieven_1_1_tarief_1ac00150cf33a4eba4f0a8cadaacc4df4a" kindref="member">Tarief</ref>();</highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classtarieven_1_1_tarief_1ac00150cf33a4eba4f0a8cadaacc4df4a" kindref="member">Tarief</ref>(uint32_t<sp/>kilometersVrij,<sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/>PrijsPerKilometer,<sp/><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tariefSoortenPrijsLijst</ref><sp/>prijzen,<sp/>std::shared_ptr&lt;AutoType&gt;<sp/>autoType,<sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/>aboType);</highlight></codeline>
-<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a19e986600da340fa9803529764b1dcf4" kindref="member">TariefSoortPrijsPtr</ref><sp/><ref refid="classtarieven_1_1_tarief_1a3ccecb7dbd4a23f16d91a570f7ecc378" kindref="member">getTariefSoortPrijs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">TariefSoortPtr</ref>&amp;<sp/>soort);</highlight></codeline>
-<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classtarieven_1_1_tarief_1ab9b5e090b0369aadf0e93e6bb1f1988b" kindref="member">~Tarief</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
-<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="classtarieven_1_1_tarief_1a51327c6e2748820c35939c291e615ee3" kindref="member">berekenKosten</ref>(uint32_t<sp/>aantalKilometers,<sp/><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">TariefSoortPtr</ref><sp/>soort,<sp/>uint32_t<sp/>aantal);</highlight></codeline>
-<codeline lineno="37"><highlight class="normal"></highlight></codeline>
-<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
-<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;Tarief&gt;</ref>;</highlight></codeline>
-<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/>getKilometerPrijs(uint32_t<sp/>aantalKilometers);</highlight></codeline>
-<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"></highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tarieven<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
-<codeline lineno="44"><highlight class="normal"></highlight></codeline>
-<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>APP_TARIEF_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Tarief;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_geld" kindref="compound">Core::Geld</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">Core::DatastoreModel</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_deelautos_1_1_auto_type" kindref="compound">Deelautos::AutoType</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="class_producten_1_1_abonnement_type" kindref="compound">Producten::AbonnementType</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Tarief&gt;<sp/><ref refid="namespace_tarieven_1ab8f9beb950722deaeda8b714c33bdd2b" kindref="member">TariefPtr</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="class_tarieven_1_1_tarief" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tarieven_1_1_tarief" kindref="compound">Tarief</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Tarief&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="29" refid="class_tarieven_1_1_tarief_1a0826f3c3e40f464faa3494219f488d28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_tarieven_1_1_tarief_1a0826f3c3e40f464faa3494219f488d28" kindref="member">kilometersVrij</ref>;</highlight></codeline>
+<codeline lineno="30" refid="class_tarieven_1_1_tarief_1abff69543cd40f80cd07e43a25391a0a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_tarieven_1_1_tarief_1abff69543cd40f80cd07e43a25391a0a6" kindref="member">prijsPerKilometer</ref>;</highlight></codeline>
+<codeline lineno="31" refid="class_tarieven_1_1_tarief_1a1c5525e416513998384efd6aaa6cd72c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/><ref refid="class_tarieven_1_1_tarief_1a1c5525e416513998384efd6aaa6cd72c" kindref="member">prijzen</ref>;</highlight></codeline>
+<codeline lineno="32" refid="class_tarieven_1_1_tarief_1aa4ee603ef5b963e324ad6848ff200122" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/><ref refid="class_tarieven_1_1_tarief_1aa4ee603ef5b963e324ad6848ff200122" kindref="member">autoType</ref>;</highlight></codeline>
+<codeline lineno="33" refid="class_tarieven_1_1_tarief_1a8aa203ea1d34a7e5c09adcbcb8ca6970" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/><ref refid="class_tarieven_1_1_tarief_1a8aa203ea1d34a7e5c09adcbcb8ca6970" kindref="member">aboType</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tarieven_1_1_tarief_1a8fa878241f14c0066331423bd2511a3d" kindref="member">Tarief</ref>();</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tarieven_1_1_tarief_1a8fa878241f14c0066331423bd2511a3d" kindref="member">Tarief</ref>(uint32_t<sp/>kilometersVrij,<sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/>PrijsPerKilometer,<sp/><ref refid="namespace_tarieven_1ae4fc8ab0803a23fc8a2aefeca15efff9" kindref="member">tariefSoortenPrijsLijst</ref><sp/>prijzen,<sp/>std::shared_ptr&lt;AutoType&gt;<sp/>autoType,<sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/>aboType);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespace_tarieven_1a7c8ea53da562e8721242395eea89a746" kindref="member">TariefSoortPrijsPtr</ref><sp/><ref refid="class_tarieven_1_1_tarief_1a281500d149eabdc4b88304d896684288" kindref="member">getTariefSoortPrijs</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref>&amp;<sp/>soort);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_tarieven_1_1_tarief_1ab0c2a1330c820729d06602f1fb30ba0e" kindref="member">~Tarief</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/><ref refid="class_tarieven_1_1_tarief_1a88a9a640f3e6f420a397cb98baf335fa" kindref="member">berekenKosten</ref>(uint32_t<sp/>aantalKilometers,<sp/><ref refid="namespace_tarieven_1a78f2f12168a13a069297d16e502b55d6" kindref="member">TariefSoortPtr</ref><sp/>soort,<sp/>uint32_t<sp/>aantal);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_core_1_1_datastore_model" kindref="compound">DatastoreModel&lt;Tarief&gt;</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_core_1_1_geld" kindref="compound">Geld</ref><sp/>getKilometerPrijs(uint32_t<sp/>aantalKilometers);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/></highlight><highlight class="comment">/*<sp/>namespace<sp/>tarieven<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>APP_TARIEF_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
     </programlisting>
     <location file="Tarief.h"/>
   </compounddef>
