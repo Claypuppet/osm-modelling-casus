@@ -26,8 +26,8 @@ public:
 
 	~Klant();
 
-	std::string email;
 	std::string naam;
+	std::string email;
 	uint32_t pasNummmer;
 	std::shared_ptr<AbonnementType> abbonomentType;
 };

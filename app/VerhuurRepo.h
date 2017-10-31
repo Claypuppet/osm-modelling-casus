@@ -59,7 +59,7 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 		const std::shared_ptr<Klant>& klant)
 {
 	std::shared_ptr<Verhuur> result;
-	return mDataStore.loadModel(result, ActiefVerhuurVanKlant(klant));
+	return this->mDataStore.loadModel(result, ActiefVerhuurVanKlant(klant));
 }
 
 

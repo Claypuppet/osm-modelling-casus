@@ -27,7 +27,7 @@ public:
 		auto klantByPasNummer = [pasNummer](const KlantPtr& k){
 			return k->pasNummmer == pasNummer; };
 		KlantPtr klant;
-		return mDataStore.loadModel(klant, klantByPasNummer);
+		return this->mDataStore.loadModel(klant, klantByPasNummer);
 	}
 };
 

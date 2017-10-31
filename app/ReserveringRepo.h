@@ -54,7 +54,8 @@ public:
 
 	std::shared_ptr<Reservering> getBeschikbareReservering(std::shared_ptr<Klant>& klant)
 	{
-		return mDataStore.loadModel(ReserverMetKlantEnMoment(klant, Application::getNowMoment()));
+		std::shared_ptr<Reservering> r;
+		return this->mDataStore.loadModel(r, ReserverMetKlantEnMoment(klant, Application::getNowMoment()));
 	}
 
 };
