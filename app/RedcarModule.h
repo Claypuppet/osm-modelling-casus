@@ -12,6 +12,7 @@
 
 class RedcarModule : public DatastoreModel<RedcarModule>
 {
+	friend DatastoreModel<RedcarModule>;
 	RedcarModule();
 	RedcarModule(float aantalKilometers, uint32_t pasNummer);
 public:

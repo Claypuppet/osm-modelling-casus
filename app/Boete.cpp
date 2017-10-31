@@ -16,6 +16,11 @@ Boete::Boete(Geld kosten, std::string reden, uint32_t timeStamp)
 {
 }
 
+std::string Boete::asString()
+{
+	return "hier komt boete string";
+}
+
 Boete::Boete(Geld kosten, std::string reden)
 : kosten(kosten), reden(reden), timeStamp(Application::getNowMoment())
 {

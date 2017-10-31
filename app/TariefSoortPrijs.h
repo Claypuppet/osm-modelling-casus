@@ -27,6 +27,7 @@ public:
 	Geld prijs;
 
 private:
+	friend DatastoreModel<TariefSoortPrijs>;
 	TariefSoortPrijs(TariefSoortPtr soort, Geld prijs);
 };
 

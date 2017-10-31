@@ -12,8 +12,10 @@ Klant::Klant()
 {
 }
 
-Klant::Klant(uint32_t pasNummer, std::shared_ptr<AbonnementType>& abbonomentType)
-: pasNummmer(pasNummer)
+Klant::Klant(std::string naam, std::string email, uint32_t pasNummer, std::shared_ptr<AbonnementType>& abbonomentType)
+: naam(naam)
+, email(email)
+, pasNummmer(pasNummer)
 , abbonomentType(abbonomentType)
 {
 }

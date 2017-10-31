@@ -26,6 +26,7 @@ public:
 	virtual Geld getKosten() = 0;
 	virtual Geld getExtraKosten() final;
 	virtual Geld getTotaalKosten() final;
+	virtual std::string asString() = 0;
 
 protected:
 	BoeteList boetes;
