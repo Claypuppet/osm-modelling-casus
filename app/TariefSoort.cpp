@@ -7,7 +7,7 @@
 
 #include "TariefSoort.h"
 
-namespace tarieven
+namespace Tarieven
 {
 
 TariefSoort::TariefSoort(std::string naam, uint8_t weekMask, uint32_t periode)

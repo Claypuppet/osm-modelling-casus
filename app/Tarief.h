@@ -13,7 +13,7 @@
 #include "AutoType.h"
 #include "AbonnementType.h"
 
-namespace tarieven
+namespace Tarieven
 {
 class Tarief;
 

@@ -18,22 +18,22 @@
 
 
 template <typename DataStoreType>
-class TariefRepo : public BaseRepo<tarieven::Tarief, DataStoreType>
+class TariefRepo : public BaseRepo<Tarieven::Tarief, DataStoreType>
 {
 public:
 	TariefRepo(IDataStore<DataStoreType>& dataStore)
-	:	BaseRepo<tarieven::Tarief, DataStoreType>(dataStore)
+	:	BaseRepo<Tarieven::Tarief, DataStoreType>(dataStore)
 	{}
 	~TariefRepo() = default;
 
-	tarieven::TariefPtr getTariefByTypes(std::shared_ptr<AutoType> aut, std::shared_ptr<AbonnementType> abt)
+	Tarieven::TariefPtr getTariefByTypes(std::shared_ptr<AutoType> aut, std::shared_ptr<AbonnementType> abt)
 	{
-		auto tL = [aut, abt](tarieven::TariefPtr t)
+		auto tL = [aut, abt](Tarieven::TariefPtr t)
 		{
 			return (t->autoType->id == aut->id && t->aboType->id == abt->id);
 		};
-		auto tp = tarieven::TariefPtr();
-		tarieven::TariefPtr tarief = this->mDataStore.loadModel(tp, tL);
+		auto tp = Tarieven::TariefPtr();
+		Tarieven::TariefPtr tarief = this->mDataStore.loadModel(tp, tL);
 		return tarief;
 	}
 

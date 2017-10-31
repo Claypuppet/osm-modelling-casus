@@ -13,6 +13,10 @@
 #include <memory>
 #include <numeric>
 
+namespace Producten
+{
+
+
 class Boete;
 
 typedef std::shared_ptr<Boete> BoetePtr;
@@ -39,6 +43,6 @@ protected:
 
 };
 
-
+}
 
 #endif /* PRODUCTEN_H_ */

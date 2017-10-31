@@ -9,6 +9,9 @@
 #include "Boete.h"
 #include "RedCarsContext.h"
 
+namespace Producten
+{
+
 Geld Product::getExtraKosten()
 {
 	return std::accumulate(boetes.begin(), boetes.end(), Geld(0), [](Geld& g, const BoetePtr& b)
@@ -31,4 +34,6 @@ void Product::addBoete(const BoetePtr boete)
 
 void Product::maakFactuur()
 {
+}
+
 }

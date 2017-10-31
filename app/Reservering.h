@@ -14,6 +14,10 @@
 #include "TariefSoort.h"
 #include "Klant.h"
 
+
+namespace Producten
+{
+
 class Verhuur;
 class Deelauto;
 
@@ -30,16 +34,16 @@ public:
 	uint32_t					eindMoment;
 	KlantPtr					klant;
 	std::shared_ptr<Deelauto>	deelauto;
-	tarieven::TariefSoortPtr 	tariefSoort;
+	Tarieven::TariefSoortPtr 	tariefSoort;
 	std::shared_ptr<Verhuur>	verhuur;
 
 public:
 	Reservering();
 	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant,
-			std::shared_ptr<Deelauto>& deelauto, tarieven::TariefSoortPtr tariefSoort);
+			std::shared_ptr<Deelauto>& deelauto, Tarieven::TariefSoortPtr tariefSoort);
 	virtual ~Reservering();
 
-	tarieven::TariefPtr getTarief();
+	Tarieven::TariefPtr getTarief();
 	Geld getKosten() override;
 	std::shared_ptr<Verhuur> verzilveren();
 	bool isIngecheckt();
@@ -47,5 +51,7 @@ public:
 	virtual std::string asString() override;
 
 };
+
+}
 
 #endif /* RESERVERING_H_ */

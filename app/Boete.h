@@ -11,8 +11,9 @@
 #include "DatastoreModel.h"
 #include "Product.h"
 
-//namespace producten
-//{
+
+namespace Producten
+{
 
 class Boete : public DatastoreModel<Boete>, public Product
 {
@@ -33,6 +34,6 @@ private:
 	uint32_t timeStamp;
 };
 
-//} /* namespace producten */
+}
 
 #endif /* APP_BOETE_H_ */

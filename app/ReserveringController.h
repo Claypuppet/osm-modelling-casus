@@ -11,7 +11,7 @@
 #include "Reservering.h"
 #include <stdint.h>
 
-namespace reserveringen
+namespace Producten
 {
 
 class ReserveringController

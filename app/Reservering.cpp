@@ -17,6 +17,9 @@
 
 #include <stdexcept>
 
+namespace Producten
+{
+
 Reservering::Reservering()
 : beginMoment(0)
 , eindMoment(0)
@@ -30,7 +33,7 @@ Reservering::~Reservering()
 }
 
 Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant,
-		std::shared_ptr<Deelauto>& deelauto, tarieven::TariefSoortPtr tariefSoort)
+		std::shared_ptr<Deelauto>& deelauto, Tarieven::TariefSoortPtr tariefSoort)
 : beginMoment(beginMoment)
 , eindMoment(eindMoment)
 , klant(klant)
@@ -64,14 +67,14 @@ bool Reservering::isIngecheckt()
 	return verhuur != nullptr;
 }
 
-tarieven::TariefPtr Reservering::getTarief()
+Tarieven::TariefPtr Reservering::getTarief()
 {
 	std::shared_ptr<AutoType> autoType = deelauto->type;
 	std::shared_ptr<AbonnementType> aboType = klant->abbonomentType;
 
 	auto repo = RedCarsContext::getInstance().getTariefRepo();
 
-	tarieven::TariefPtr tarief = repo.getTariefByTypes(autoType, aboType);
+	Tarieven::TariefPtr tarief = repo.getTariefByTypes(autoType, aboType);
 
 	if(!tarief)
 		throw std::logic_error("Geen tarief voor deze combinatie!");
@@ -88,7 +91,7 @@ uint32_t Reservering::getTariefSoortPeriodeAantal()
 
 Geld Reservering::getKosten()
 {
-	tarieven::TariefPtr t = getTarief();
+	Tarieven::TariefPtr t = getTarief();
 	uint32_t aantal = getTariefSoortPeriodeAantal();
 	uint32_t kilometers = verhuur  ? verhuur->aantalKilometers : 0;
 	return t->berekenKosten(kilometers, tariefSoort, aantal);
@@ -97,4 +100,6 @@ Geld Reservering::getKosten()
 std::string Reservering::asString()
 {
 	return "Kosten reservering: " + getKosten().toString() + "\nKosten Boetes: " + getExtraKosten().toString() + "\nTotaal kosten: " + getTotaalKosten().toString();
+}
+
 }
