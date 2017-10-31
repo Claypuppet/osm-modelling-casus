@@ -64,7 +64,10 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 template<typename DataStoreType>
 inline void VerhuurRepo<DataStoreType>::save(std::shared_ptr<Verhuur> verhuur)
 {
-	mDataStore.saveModel(verhuur, ModelById<Verhuur>(verhuur->id));
+	if(verhuur->id)
+		mDataStore.saveModel(verhuur, ModelById<Verhuur>(verhuur->id));
+	else
+		mDataStore.createModel(verhuur);
 }
 
 #endif /* VERHUURREPO_H_ */

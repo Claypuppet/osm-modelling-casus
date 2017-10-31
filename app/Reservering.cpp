@@ -12,6 +12,8 @@
 #include "AutoType.h"
 #include "Deelauto.h"
 #include "Tarief.h"
+#include "RedCarsContext.h"
+#include "Signals.h"
 
 #include <stdexcept>
 
@@ -37,17 +39,21 @@ Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_
 	if(!klant)
 		throw std::logic_error("Reservering moet tot een klant behoren");
 	if(!deelauto)
-		throw std::logic_error("Reservering moet tot een deelauto behoren");
+		throw std::logic_error("Reservering moet aan deelauto gekoppelt zijn");
 }
 
 std::shared_ptr<Verhuur> Reservering::verzilveren()
 {
-	if(verhuur)
-		throw std::logic_error("Reservering is al verzilvert");
+	if(verhuur) {
+		Signals::i().VehuurWasAlIngecheckt(verhuur);
+		return nullptr;
+	}
 
 
 	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::getNowMoment());
-	Application::getInstance().getVehuurRepo().save(verhuur);
+	RedCarsContext::getInstance().getVehuurRepo().save(verhuur);
+
+	Signals::i().VehuurIngecheckt(verhuur);
 
 	return verhuur;
 }
@@ -62,11 +68,11 @@ tarieven::TariefPtr Reservering::getTarief()
 	std::shared_ptr<AutoType> autoType = deelauto->type;
 	std::shared_ptr<AbonnementType> aboType = klant->abbonomentType;
 
-	auto repo = Application::getInstance().getTariefRepo();
+	auto repo = RedCarsContext::getInstance().getTariefRepo();
 
 	tarieven::TariefPtr tarief = repo.getTariefByTypes(autoType, aboType);
 
-	if(tarief == NULL)
+	if(!tarief)
 		throw std::logic_error("Geen tarief voor deze combinatie!");
 
 	return tarief;
@@ -83,6 +89,6 @@ Geld Reservering::getKosten()
 {
 	tarieven::TariefPtr t = getTarief();
 	uint32_t aantal = getTariefSoortPeriodeAantal();
-	uint32_t kilometers = verhuur != NULL ? verhuur->aantalKilometers : 0;
+	uint32_t kilometers = verhuur  ? verhuur->aantalKilometers : 0;
 	return t->berekenKosten(kilometers, tariefSoort, aantal);
 }

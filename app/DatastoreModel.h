@@ -8,7 +8,9 @@
 #ifndef DATASTOREMODEL_H_
 #define DATASTOREMODEL_H_
 
+
 #include <memory>
+
 
 struct IDatastoreModel {
 	virtual ~IDatastoreModel() = default;
@@ -24,11 +26,19 @@ public:
 
 	virtual ~DatastoreModel() = default;
 
+
+	ModelPtr shared_from_this()
+	{
+		auto ptr = std::enable_shared_from_this<DatastoreModel<ModelType>>::shared_from_this();
+		return std::static_pointer_cast<ModelType>(ptr);
+	}
+
 	template <typename... Args>
 	static ModelPtr Create(Args&&... args)
 	{
 		return ModelPtr(new ModelType(std::forward<Args>(args)...));
 	}
+
 
 public:
 

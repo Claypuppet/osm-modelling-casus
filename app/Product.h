@@ -16,7 +16,7 @@
 class Boete;
 
 typedef std::shared_ptr<Boete> BoetePtr;
-typedef std::vector<BoetePtr> boeteList;
+typedef std::vector<BoetePtr> BoeteList;
 
 class Product
 {
@@ -28,11 +28,11 @@ public:
 	virtual Geld getTotaalKosten() final;
 
 protected:
-	boeteList boetes;
+	BoeteList boetes;
 
 protected:
 	Product() = default;
-	Product(boeteList boetes) : boetes(boetes){};
+	Product(BoeteList boetes) : boetes(boetes){};
 	void addBoete(const BoetePtr b);
 	void maakFactuur();
 

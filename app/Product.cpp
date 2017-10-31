@@ -7,6 +7,7 @@
 
 #include "Product.h"
 #include "Boete.h"
+#include "RedCarsContext.h"
 
 Geld Product::getExtraKosten()
 {
@@ -23,10 +24,10 @@ Geld Product::getTotaalKosten()
 	return getKosten() + getExtraKosten();
 }
 
-void Product::addBoete(const BoetePtr b)
+void Product::addBoete(const BoetePtr boete)
 {
-	boetes.push_back(b);
-	// TODO: BoeteRepo.save boete, niet voor static repo voorlopig
+	boetes.push_back(boete);
+	RedCarsContext::i().getDataStore().createModel(boete);
 }
 
 void Product::maakFactuur()

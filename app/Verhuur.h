@@ -12,6 +12,8 @@
 #include "Reservering.h"
 #include "Geld.h"
 
+
+
 class Verhuur : public DatastoreModel<Verhuur>
 {
 	friend DatastoreModel<Verhuur>;

@@ -9,6 +9,7 @@
 #define APP_TARIEFSOORTPRIJS_H_
 
 #include <vector>
+#include "DatastoreModel.h"
 #include "TariefSoort.h"
 #include "Geld.h"
 

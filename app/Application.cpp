@@ -7,6 +7,7 @@
 
 #include "Application.h"
 
+#include "RedCarsContext.h"
 #include "StaticDatastore.h"
 #include "Klant.h"
 
@@ -16,9 +17,6 @@
 
 Application::Application()
 : mQuit(false)
-, mKlantRepo(mDatastore)
-, mVehuurRepo(mDatastore)
-, mTariefRepo(mDatastore)
 {
 	// TODO Auto-generated constructor stub
 
@@ -36,6 +34,9 @@ void Application::initUI()
 
 void Application::init()
 {
+	// initialize the context
+	RedCarsContext::getInstance();
+
 	initUI();
 
 }
@@ -48,26 +49,6 @@ int Application::main(int argc, char* argv[])
 		std::this_thread::sleep_for(std::chrono::milliseconds(100));
 	}
 	return 0;
-}
-
-StaticDatastore& Application::getDataStore()
-{
-	return mDatastore;
-}
-
-KlantRepo<StaticDatastore>& Application::getKlantRepo()
-{
-	return mKlantRepo;
-}
-
-VerhuurRepo<StaticDatastore>& Application::getVehuurRepo()
-{
-	return mVehuurRepo;
-}
-
-TariefRepo<StaticDatastore>& Application::getTariefRepo()
-{
-	return mTariefRepo;
 }
 
 tarieven::TariefSoortPtr Application::getBoeteTariefSoort() const

@@ -8,9 +8,10 @@
 #ifndef KLANTREPO_H_
 #define KLANTREPO_H_
 
+#include "Klant.h"
 #include <stdint.h>
 
-class Klant;
+
 template <typename T> class IDataStore;
 
 template <typename DataStoreType>
@@ -20,7 +21,7 @@ public:
 	KlantRepo(IDataStore<DataStoreType>& dataStore);
 	~KlantRepo() {}
 
-	bool getKlantByPasNummer(uint32_t pasNummer, Klant& klant);
+	KlantPtr getKlantByPasNummer(uint32_t pasNummer);
 
 private:
 	IDataStore<DataStoreType>& mDataStore;
@@ -30,6 +31,16 @@ template<typename DataStoreType>
 inline KlantRepo<DataStoreType>::KlantRepo(IDataStore<DataStoreType>& dataStore)
 : mDataStore(dataStore)
 {
+}
+
+
+template <typename DataStoreType>
+KlantPtr KlantRepo<DataStoreType>::getKlantByPasNummer(uint32_t pasNummer)
+{
+	auto klantByPasNummer = [pasNummer](const KlantPtr& k){
+		return k->pasNummmer == pasNummer; };
+	KlantPtr klant;
+	return mDataStore.loadModel(klant, klantByPasNummer);
 }
 
 #endif /* KLANTREPO_H_ */

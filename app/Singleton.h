@@ -21,10 +21,12 @@ public:
 
 #if __cplusplus >= 201103L
 	static T& getInstance() { static T instance; return instance; }
+	static T& i() { return getInstance(); }
 #else
 	// https://en.wikipedia.org/wiki/Double-checked_locking#Usage_in_C++11
 # error "TODO: implement a double checked locking version for C++ versions < C++11"
 #endif
+
 };
 
 

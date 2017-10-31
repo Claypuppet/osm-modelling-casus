@@ -8,8 +8,10 @@
 #include "Verhuur.h"
 #include "Product.h"
 #include "Deelauto.h"
-#include "Application.h"
 #include "Boete.h"
+#include "Signals.h"
+#include "Application.h"
+
 
 Verhuur::Verhuur()
 : incheckMoment(0)
@@ -58,13 +60,14 @@ void Verhuur::voltooi()
 		setUitcheckMoment(Application::getNowMoment());
 		if(uitcheckMoment > reservering->eindMoment){
 			Geld kosten = berekenTeLaatBoeteKosten();
-			std::shared_ptr<Boete> boete = Boete::Create(kosten, "TE LAAT TERUG GEBRACHT!! :((");
+			auto boete = Boete::Create(kosten, "TE LAAT TERUG GEBRACHT!! :((");
 			reservering->addBoete(boete);
 		}
 		reservering->maakFactuur();
+		Signals::i().VehuurUitgeckect(shared_from_this());
 	}
 	else {
-
+		Signals::i().VehuurUitcheckAutoNietOpLocatie(shared_from_this());
 	}
 }
 

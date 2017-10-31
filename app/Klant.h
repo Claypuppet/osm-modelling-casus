@@ -10,8 +10,9 @@
 
 
 #include "DatastoreModel.h"
-#include <stdint.h>
 #include "AbonnementType.h"
+
+#include <stdint.h>
 
 class Klant : public DatastoreModel<Klant>
 {
