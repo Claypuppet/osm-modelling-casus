@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_reservering_repo_8cpp" kind="file" language="C++">
+    <compoundname>ReserveringRepo.cpp</compoundname>
+    <includes refid="_reservering_repo_8h" local="yes">ReserveringRepo.h</includes>
+    <incdepgraph>
+      <node id="850">
+        <label>atomic</label>
+      </node>
+      <node id="845">
+        <label>Singleton.h</label>
+        <link refid="_singleton_8h"/>
+      </node>
+      <node id="838">
+        <label>BaseRepo.h</label>
+        <link refid="_base_repo_8h"/>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="840">
+        <label>functional</label>
+      </node>
+      <node id="853">
+        <label>KlantRepo.h</label>
+        <link refid="_klant_repo_8h"/>
+        <childnode refid="837" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+      </node>
+      <node id="848">
+        <label>ctti/type_id.hpp</label>
+      </node>
+      <node id="836">
+        <label>AbonnementType.h</label>
+        <link refid="_abonnement_type_8h"/>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="828">
+        <label>stdint.h</label>
+      </node>
+      <node id="856">
+        <label>TariefRepo.h</label>
+        <link refid="_tarief_repo_8h"/>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="833">
+        <label>TariefSoortPrijs.h</label>
+        <link refid="_tarief_soort_prijs_8h"/>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+      </node>
+      <node id="831">
+        <label>numeric</label>
+      </node>
+      <node id="854">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="855" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="844">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="845" relation="include">
+        </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
+        <childnode refid="847" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="856" relation="include">
+        </childnode>
+        <childnode refid="857" relation="include">
+        </childnode>
+      </node>
+      <node id="829">
+        <label>string</label>
+      </node>
+      <node id="851">
+        <label>map</label>
+      </node>
+      <node id="822">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+        <childnode refid="838" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="858" relation="include">
+        </childnode>
+      </node>
+      <node id="826">
+        <label>Product.h</label>
+        <link refid="_product_8h"/>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="831" relation="include">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="829" relation="include">
+        </childnode>
+      </node>
+      <node id="823">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>boost/type_index/ctti_type_index.hpp</label>
+      </node>
+      <node id="837">
+        <label>Klant.h</label>
+        <link refid="_klant_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+        <childnode refid="828" relation="include">
+        </childnode>
+      </node>
+      <node id="830">
+        <label>vector</label>
+      </node>
+      <node id="847">
+        <label>StaticDatastore.h</label>
+        <link refid="_static_datastore_8h"/>
+        <childnode refid="845" relation="include">
+        </childnode>
+        <childnode refid="839" relation="include">
+        </childnode>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="848" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="830" relation="include">
+        </childnode>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="852" relation="include">
+        </childnode>
+      </node>
+      <node id="839">
+        <label>IDataStore.h</label>
+        <link refid="_i_data_store_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="842" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="835">
+        <label>AutoType.h</label>
+        <link refid="_auto_type_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+      </node>
+      <node id="855">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="823" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+      </node>
+      <node id="842">
+        <label>utility</label>
+      </node>
+      <node id="834">
+        <label>TariefSoort.h</label>
+        <link refid="_tarief_soort_8h"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="832">
+        <label>Tarief.h</label>
+        <link refid="_tarief_8h"/>
+        <childnode refid="827" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
+        </childnode>
+        <childnode refid="835" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>cui/CUI.h</label>
+      </node>
+      <node id="821">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+        <childnode refid="822" relation="include">
+        </childnode>
+      </node>
+      <node id="857">
+        <label>timeProfider.h</label>
+        <link refid="time_profider_8h"/>
+        <childnode refid="858" relation="include">
+        </childnode>
+      </node>
+      <node id="852">
+        <label>unordered_map</label>
+      </node>
+      <node id="858">
+        <label>chrono</label>
+      </node>
+      <node id="841">
+        <label>type_traits</label>
+      </node>
+      <node id="849">
+        <label>algorithm</label>
+      </node>
+      <node id="824">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>ReserveringRepo.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>24<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reservering_repo_8h" kindref="compound">ReserveringRepo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="ReserveringRepo.cpp"/>
+  </compounddef>
+</doxygen>

@@ -10,6 +10,10 @@
 
 #include "DatastoreModel.h"
 
+namespace RedcardModule {
+
+using core::DatastoreModel;
+
 class RedcarModule : public DatastoreModel<RedcarModule>
 {
 	friend DatastoreModel<RedcarModule>;
@@ -28,5 +32,7 @@ public:
 	uint32_t	aantalKilometers;
 	uint32_t	pasNummer;
 };
+
+}
 
 #endif /* REDCARMODULE_H_ */

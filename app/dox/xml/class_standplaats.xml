@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_standplaats" kind="class" language="C++" prot="public">
+    <compoundname>Standplaats</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Standplaats &gt;</basecompoundref>
+    <includes refid="_standplaats_8h" local="no">Standplaats.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_standplaats_1a4404f27ad2ed454c29bedabbcd02dd36" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Standplaats::DatastoreModel&lt; Standplaats &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Standplaats &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="15" column="1" bodyfile="Standplaats.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Standplaats::locatie</definition>
+        <argsstring></argsstring>
+        <name>locatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="25" column="1" bodyfile="Standplaats.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Standplaats::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="26" column="1" bodyfile="Standplaats.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_standplaats_1ad9e8389c3c1a221a32802a419e3d0f73" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Standplaats::Standplaats</definition>
+        <argsstring>()</argsstring>
+        <name>Standplaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="16" column="1" bodyfile="Standplaats.cpp" bodystart="10" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_standplaats_1ab52b98b67ada7811e04bc1f5752ae3d9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Standplaats::Standplaats</definition>
+        <argsstring>(uint32_t locatie, const std::string &amp;naam)</argsstring>
+        <name>Standplaats</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>locatie</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>naam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="17" column="1" bodyfile="Standplaats.cpp" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_standplaats_1a386ae97c1b99cfca1391b393e40dc9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Standplaats::~Standplaats</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Standplaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_standplaats_1abd239e4fec2735fb2acc09689c6b37b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Standplaats::controlleerLocatie</definition>
+        <argsstring>(uint32_t locatie)</argsstring>
+        <name>controlleerLocatie</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>locatie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Standplaats.h" line="22" column="1" bodyfile="Standplaats.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="164">
+        <label>DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Standplaats &gt; &gt;</label>
+      </node>
+      <node id="165">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="163">
+        <label>Standplaats</label>
+        <link refid="class_standplaats"/>
+        <childnode refid="164" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="168">
+        <label>DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="169" relation="public-inheritance">
+        </childnode>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Standplaats &gt; &gt;</label>
+      </node>
+      <node id="169">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="167">
+        <label>Standplaats</label>
+        <link refid="class_standplaats"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Standplaats.h" line="14" column="1" bodyfile="Standplaats.h" bodystart="13" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_standplaats_1abd239e4fec2735fb2acc09689c6b37b7" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>controlleerLocatie</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>Create</name></member>
+      <member refid="class_standplaats_1a4404f27ad2ed454c29bedabbcd02dd36" prot="private" virt="non-virtual"><scope>Standplaats</scope><name>DatastoreModel&lt; Standplaats &gt;</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>id</name></member>
+      <member refid="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>locatie</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>ModelPtr</name></member>
+      <member refid="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>naam</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>shared_from_this</name></member>
+      <member refid="class_standplaats_1ad9e8389c3c1a221a32802a419e3d0f73" prot="private" virt="non-virtual"><scope>Standplaats</scope><name>Standplaats</name></member>
+      <member refid="class_standplaats_1ab52b98b67ada7811e04bc1f5752ae3d9" prot="private" virt="non-virtual"><scope>Standplaats</scope><name>Standplaats</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>Standplaats</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>Standplaats</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_standplaats_1a386ae97c1b99cfca1391b393e40dc9e6" prot="public" virt="non-virtual"><scope>Standplaats</scope><name>~Standplaats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

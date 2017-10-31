@@ -7,3 +7,6 @@
 
 #include "DatastoreModel.h"
 
+namespace Core {
+
+}

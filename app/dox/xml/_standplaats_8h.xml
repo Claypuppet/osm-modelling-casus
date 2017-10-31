@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_standplaats_8h" kind="file" language="C++">
+    <compoundname>Standplaats.h</compoundname>
+    <includes refid="_datastore_model_8h" local="yes">DatastoreModel.h</includes>
+    <includedby refid="_deelauto_8cpp" local="yes">Deelauto.cpp</includedby>
+    <includedby refid="_standplaats_8cpp" local="yes">Standplaats.cpp</includedby>
+    <includedby refid="_static_datastore_8cpp" local="yes">StaticDatastore.cpp</includedby>
+    <incdepgraph>
+      <node id="942">
+        <label>Standplaats.h</label>
+        <link refid="_standplaats_8h"/>
+        <childnode refid="943" relation="include">
+        </childnode>
+      </node>
+      <node id="943">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="944" relation="include">
+        </childnode>
+      </node>
+      <node id="944">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="946">
+        <label>Deelauto.cpp</label>
+        <link refid="_deelauto_8cpp"/>
+      </node>
+      <node id="945">
+        <label>Standplaats.h</label>
+        <link refid="_standplaats_8h"/>
+        <childnode refid="946" relation="include">
+        </childnode>
+        <childnode refid="947" relation="include">
+        </childnode>
+        <childnode refid="948" relation="include">
+        </childnode>
+      </node>
+      <node id="948">
+        <label>StaticDatastore.cpp</label>
+        <link refid="_static_datastore_8cpp"/>
+      </node>
+      <node id="947">
+        <label>Standplaats.cpp</label>
+        <link refid="_standplaats_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_standplaats" prot="public">Standplaats</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Standplaats.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>26<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STANDPLAATS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STANDPLAATS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_datastore_model_8h" kindref="compound">DatastoreModel.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_standplaats" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_standplaats" kindref="compound">Standplaats</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel</ref>&lt;Standplaats&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/><ref refid="class_datastore_model" kindref="compound">DatastoreModel&lt;Standplaats&gt;</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_standplaats" kindref="compound">Standplaats</ref>();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_standplaats" kindref="compound">Standplaats</ref>(uint32_t<sp/><ref refid="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" kindref="member">locatie</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" kindref="member">naam</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_standplaats_1a386ae97c1b99cfca1391b393e40dc9e6" kindref="member">~Standplaats</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_standplaats_1abd239e4fec2735fb2acc09689c6b37b7" kindref="member">controlleerLocatie</ref>(uint32_t<sp/>locatie);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25" refid="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><ref refid="class_standplaats_1a4bb081541aa641b8f906b3cfcec1c0ac" kindref="member">locatie</ref>;</highlight></codeline>
+<codeline lineno="26" refid="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="class_standplaats_1a02a9c4ac1168787976397c1bab0645a2" kindref="member">naam</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>STANDPLAATS_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="Standplaats.h"/>
+  </compounddef>
+</doxygen>

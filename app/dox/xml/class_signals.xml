@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_signals" kind="class" language="C++" prot="public">
+    <compoundname>Signals</compoundname>
+    <basecompoundref refid="class_singleton" prot="public" virt="non-virtual">Singleton&lt; Signals &gt;</basecompoundref>
+    <includes refid="_signals_8h" local="no">Signals.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_signals_1ad0411fae18711190311cfad11154b4f3" prot="public" static="no">
+        <type>boost::signals2::signal&lt; Args... &gt;</type>
+        <definition>using Signals::s =  boost::signals2::signal&lt;Args...&gt;</definition>
+        <argsstring></argsstring>
+        <name>s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="34" column="1" bodyfile="Signals.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_signals_1abce6ff595af29558c355531fb70725a1" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Signals::Singleton&lt; Signals &gt;</definition>
+        <argsstring></argsstring>
+        <name>Singleton&lt; Signals &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="27" column="1" bodyfile="Signals.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_signals_1af876cd4f710c1a80ad16e0038fa41167" prot="public" static="no" mutable="no">
+        <type><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Signals::VehuurIngecheckt</definition>
+        <argsstring></argsstring>
+        <name>VehuurIngecheckt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="36" column="1" bodyfile="Signals.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_signals_1a86f79381d295cf235c2b4c37b1da921e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Signals::VehuurWasAlIngecheckt</definition>
+        <argsstring></argsstring>
+        <name>VehuurWasAlIngecheckt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="37" column="1" bodyfile="Signals.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_signals_1a70f4351d47ea2e0fbc67b9141fe78ca6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Signals::VehuurUitgeckect</definition>
+        <argsstring></argsstring>
+        <name>VehuurUitgeckect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="38" column="1" bodyfile="Signals.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_signals_1ac1395f3e8434bbbce3fecd5acd6947de" prot="public" static="no" mutable="no">
+        <type><ref refid="class_signals_1ad0411fae18711190311cfad11154b4f3" kindref="member">s</ref>&lt; void(VerhuurPtr verhuur)&gt;</type>
+        <definition>s&lt;void(VerhuurPtr verhuur)&gt; Signals::VehuurUitcheckAutoNietOpLocatie</definition>
+        <argsstring></argsstring>
+        <name>VehuurUitcheckAutoNietOpLocatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="39" column="1" bodyfile="Signals.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_signals_1ae5d45dd99e1813096a114498f7a5d20b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Signals::Signals</definition>
+        <argsstring>()=default</argsstring>
+        <name>Signals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_signals_1a462098da50c67701acb407bdcc3ab03c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Signals::~Signals</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Signals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Signals.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="157">
+        <label>Signals</label>
+        <link refid="class_signals"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="158">
+        <label>Singleton&lt; Signals &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="159">
+        <label>Signals</label>
+        <link refid="class_signals"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>Singleton&lt; Signals &gt;</label>
+        <link refid="class_singleton"/>
+      </node>
+    </collaborationgraph>
+    <location file="Signals.h" line="26" column="1" bodyfile="Signals.h" bodystart="26" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_signals_1ad0411fae18711190311cfad11154b4f3" prot="public" virt="non-virtual"><scope>Signals</scope><name>s</name></member>
+      <member refid="class_signals_1ae5d45dd99e1813096a114498f7a5d20b" prot="private" virt="non-virtual"><scope>Signals</scope><name>Signals</name></member>
+      <member refid="class_signals_1abce6ff595af29558c355531fb70725a1" prot="private" virt="non-virtual"><scope>Signals</scope><name>Singleton&lt; Signals &gt;</name></member>
+      <member refid="class_signals_1af876cd4f710c1a80ad16e0038fa41167" prot="public" virt="non-virtual"><scope>Signals</scope><name>VehuurIngecheckt</name></member>
+      <member refid="class_signals_1ac1395f3e8434bbbce3fecd5acd6947de" prot="public" virt="non-virtual"><scope>Signals</scope><name>VehuurUitcheckAutoNietOpLocatie</name></member>
+      <member refid="class_signals_1a70f4351d47ea2e0fbc67b9141fe78ca6" prot="public" virt="non-virtual"><scope>Signals</scope><name>VehuurUitgeckect</name></member>
+      <member refid="class_signals_1a86f79381d295cf235c2b4c37b1da921e" prot="public" virt="non-virtual"><scope>Signals</scope><name>VehuurWasAlIngecheckt</name></member>
+      <member refid="class_signals_1a462098da50c67701acb407bdcc3ab03c" prot="private" virt="non-virtual"><scope>Signals</scope><name>~Signals</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

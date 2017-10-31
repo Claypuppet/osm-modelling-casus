@@ -10,6 +10,8 @@
 
 #include "DatastoreModel.h"
 
+namespace Deelautos {
+
 class AutoType : public DatastoreModel<AutoType>
 {
 	friend  DatastoreModel<AutoType>;
@@ -22,5 +24,7 @@ public:
 
 	std::string naam;
 };
+
+}
 
 #endif /* AUTOTYPE_H_ */

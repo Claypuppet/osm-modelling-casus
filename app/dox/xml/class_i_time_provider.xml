@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_i_time_provider" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>ITimeProvider</compoundname>
+    <derivedcompoundref refid="class_fake_time_provider" prot="public" virt="non-virtual">FakeTimeProvider</derivedcompoundref>
+    <derivedcompoundref refid="class_real_time_provider" prot="public" virt="non-virtual">RealTimeProvider</derivedcompoundref>
+    <includes refid="time_profider_8h" local="no">timeProfider.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_i_time_provider_1aee17cd245c6c4a552ce62ab9c796c1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual ITimeProvider::~ITimeProvider</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ITimeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_i_time_provider_1ac04614c0b8650d18832759654040780f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t ITimeProvider::getTime</definition>
+        <argsstring>() const =0</argsstring>
+        <name>getTime</name>
+        <reimplementedby refid="class_real_time_provider_1ad57d78aa6ad8d152f09ca77ab4c906a2">getTime</reimplementedby>
+        <reimplementedby refid="class_fake_time_provider_1a0c9f32a4e2f5d531d02f10faac480e15">getTime</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_i_time_provider_1a7efca2fd640d20135aefbb9e51edad1c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ITimeProvider::ITimeProvider</definition>
+        <argsstring>()=default</argsstring>
+        <name>ITimeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="95">
+        <label>RealTimeProvider</label>
+        <link refid="class_real_time_provider"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="93">
+        <label>ITimeProvider</label>
+        <link refid="class_i_time_provider"/>
+      </node>
+      <node id="94">
+        <label>FakeTimeProvider</label>
+        <link refid="class_fake_time_provider"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="timeProfider.h" line="14" column="1" bodyfile="timeProfider.h" bodystart="13" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_i_time_provider_1ac04614c0b8650d18832759654040780f" prot="public" virt="pure-virtual"><scope>ITimeProvider</scope><name>getTime</name></member>
+      <member refid="class_i_time_provider_1a7efca2fd640d20135aefbb9e51edad1c" prot="protected" virt="non-virtual"><scope>ITimeProvider</scope><name>ITimeProvider</name></member>
+      <member refid="class_i_time_provider_1aee17cd245c6c4a552ce62ab9c796c1f3" prot="public" virt="virtual"><scope>ITimeProvider</scope><name>~ITimeProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

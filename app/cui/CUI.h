@@ -89,6 +89,12 @@ namespace cui
 
 		void release();
 
+		void clear();
+		void erase();
+
+		//void attributeOn(chtype attr);
+		//void attributeOff(chtype attr);
+
 
 
 	private:

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classtarieven_1_1_tarief" kind="class" language="C++" prot="public">
+    <compoundname>tarieven::Tarief</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Tarief &gt;</basecompoundref>
+    <includes refid="_tarief_8h" local="no">Tarief.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1a95671ddb2f61597c0dcd4741e9385ae8" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tarieven::Tarief::kilometersVrij</definition>
+        <argsstring></argsstring>
+        <name>kilometersVrij</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="25" column="1" bodyfile="Tarief.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1a6caf4ab0a08975cb7e9893534d19ba02" prot="public" static="no" mutable="no">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld tarieven::Tarief::prijsPerKilometer</definition>
+        <argsstring></argsstring>
+        <name>prijsPerKilometer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="26" column="1" bodyfile="Tarief.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1afdcb70f147f6a8a60a9a26265077f37a" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tariefSoortenPrijsLijst</ref></type>
+        <definition>tariefSoortenPrijsLijst tarieven::Tarief::prijzen</definition>
+        <argsstring></argsstring>
+        <name>prijzen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="27" column="1" bodyfile="Tarief.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1a3fcba34b8709e8b719c660f5c9e80367" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_auto_type" kindref="compound">AutoType</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AutoType&gt; tarieven::Tarief::autoType</definition>
+        <argsstring></argsstring>
+        <name>autoType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="28" column="1" bodyfile="Tarief.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1af65c305dbdf0bbe3b89eca3c1842757f" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AbonnementType&gt; tarieven::Tarief::aboType</definition>
+        <argsstring></argsstring>
+        <name>aboType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="29" column="1" bodyfile="Tarief.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_1a02ea6c94a5370eb00091818f070d0f93" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend tarieven::Tarief::DatastoreModel&lt; Tarief &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Tarief &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="39" column="1" bodyfile="Tarief.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1ac00150cf33a4eba4f0a8cadaacc4df4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tarieven::Tarief::Tarief</definition>
+        <argsstring>()</argsstring>
+        <name>Tarief</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="32" column="1" bodyfile="Tarief.cpp" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1adc84eb82bd066ee33a75b8ffec33cef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tarieven::Tarief::Tarief</definition>
+        <argsstring>(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr&lt; AutoType &gt; autoType, std::shared_ptr&lt; AbonnementType &gt; aboType)</argsstring>
+        <name>Tarief</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>kilometersVrij</declname>
+        </param>
+        <param>
+          <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+          <declname>PrijsPerKilometer</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" kindref="member">tariefSoortenPrijsLijst</ref></type>
+          <declname>prijzen</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_auto_type" kindref="compound">AutoType</ref> &gt;</type>
+          <declname>autoType</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref> &gt;</type>
+          <declname>aboType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="33" column="1" bodyfile="Tarief.cpp" bodystart="14" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1a3ccecb7dbd4a23f16d91a570f7ecc378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespacetarieven_1a19e986600da340fa9803529764b1dcf4" kindref="member">TariefSoortPrijsPtr</ref></type>
+        <definition>TariefSoortPrijsPtr tarieven::Tarief::getTariefSoortPrijs</definition>
+        <argsstring>(const TariefSoortPtr &amp;soort)</argsstring>
+        <name>getTariefSoortPrijs</name>
+        <param>
+          <type>const <ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">TariefSoortPtr</ref> &amp;</type>
+          <declname>soort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="34" column="1" bodyfile="Tarief.cpp" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1ab9b5e090b0369aadf0e93e6bb1f1988b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual tarieven::Tarief::~Tarief</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Tarief</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1a51327c6e2748820c35939c291e615ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld tarieven::Tarief::berekenKosten</definition>
+        <argsstring>(uint32_t aantalKilometers, TariefSoortPtr soort, uint32_t aantal)</argsstring>
+        <name>berekenKosten</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>aantalKilometers</declname>
+        </param>
+        <param>
+          <type><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">TariefSoortPtr</ref></type>
+          <declname>soort</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>aantal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="36" column="1" bodyfile="Tarief.cpp" bodystart="25" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtarieven_1_1_tarief_1a0f1e38d6272679a561ca8b8b35971eb9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld tarieven::Tarief::getKilometerPrijs</definition>
+        <argsstring>(uint32_t aantalKilometers)</argsstring>
+        <name>getKilometerPrijs</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>aantalKilometers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="40" column="1" bodyfile="Tarief.cpp" bodystart="49" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="180">
+        <label>DatastoreModel&lt; Tarief &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+        <childnode refid="182" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Tarief &gt; &gt;</label>
+      </node>
+      <node id="179">
+        <label>tarieven::Tarief</label>
+        <link refid="classtarieven_1_1_tarief"/>
+        <childnode refid="180" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="181">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="184">
+        <label>DatastoreModel&lt; Tarief &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="185" relation="public-inheritance">
+        </childnode>
+        <childnode refid="186" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="186">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Tarief &gt; &gt;</label>
+      </node>
+      <node id="183">
+        <label>tarieven::Tarief</label>
+        <link refid="classtarieven_1_1_tarief"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+        <childnode refid="187" relation="usage">
+          <edgelabel>prijsPerKilometer</edgelabel>
+        </childnode>
+      </node>
+      <node id="185">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="187">
+        <label>Geld</label>
+        <link refid="class_geld"/>
+      </node>
+    </collaborationgraph>
+    <location file="Tarief.h" line="23" column="1" bodyfile="Tarief.h" bodystart="22" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classtarieven_1_1_tarief_1af65c305dbdf0bbe3b89eca3c1842757f" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>aboType</name></member>
+      <member refid="classtarieven_1_1_tarief_1a3fcba34b8709e8b719c660f5c9e80367" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>autoType</name></member>
+      <member refid="classtarieven_1_1_tarief_1a51327c6e2748820c35939c291e615ee3" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>berekenKosten</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>Create</name></member>
+      <member refid="classtarieven_1_1_tarief_1a02ea6c94a5370eb00091818f070d0f93" prot="private" virt="non-virtual"><scope>tarieven::Tarief</scope><name>DatastoreModel&lt; Tarief &gt;</name></member>
+      <member refid="classtarieven_1_1_tarief_1a0f1e38d6272679a561ca8b8b35971eb9" prot="private" virt="non-virtual"><scope>tarieven::Tarief</scope><name>getKilometerPrijs</name></member>
+      <member refid="classtarieven_1_1_tarief_1a3ccecb7dbd4a23f16d91a570f7ecc378" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>getTariefSoortPrijs</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>id</name></member>
+      <member refid="classtarieven_1_1_tarief_1a95671ddb2f61597c0dcd4741e9385ae8" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>kilometersVrij</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>ModelPtr</name></member>
+      <member refid="classtarieven_1_1_tarief_1a6caf4ab0a08975cb7e9893534d19ba02" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>prijsPerKilometer</name></member>
+      <member refid="classtarieven_1_1_tarief_1afdcb70f147f6a8a60a9a26265077f37a" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>prijzen</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>shared_from_this</name></member>
+      <member refid="classtarieven_1_1_tarief_1ac00150cf33a4eba4f0a8cadaacc4df4a" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>Tarief</name></member>
+      <member refid="classtarieven_1_1_tarief_1adc84eb82bd066ee33a75b8ffec33cef0" prot="public" virt="non-virtual"><scope>tarieven::Tarief</scope><name>Tarief</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>tarieven::Tarief</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>tarieven::Tarief</scope><name>~IDatastoreModel</name></member>
+      <member refid="classtarieven_1_1_tarief_1ab9b5e090b0369aadf0e93e6bb1f1988b" prot="public" virt="virtual"><scope>tarieven::Tarief</scope><name>~Tarief</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

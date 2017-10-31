@@ -7,4 +7,6 @@
 
 #include "Geld.h"
 
+namespace Core {
 
+}

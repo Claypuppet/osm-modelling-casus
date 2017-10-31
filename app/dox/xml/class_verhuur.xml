@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_verhuur" kind="class" language="C++" prot="public">
+    <compoundname>Verhuur</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Verhuur &gt;</basecompoundref>
+    <includes refid="_verhuur_8h" local="no">Verhuur.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_verhuur_1a93531303eec7ecd085618d51f471d117" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Verhuur::DatastoreModel&lt; Verhuur &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Verhuur &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="19" column="1" bodyfile="Verhuur.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_reservering" kindref="compound">Reservering</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Reservering&gt; Verhuur::reservering</definition>
+        <argsstring></argsstring>
+        <name>reservering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="38" column="1" bodyfile="Verhuur.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Verhuur::incheckMoment</definition>
+        <argsstring></argsstring>
+        <name>incheckMoment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="39" column="1" bodyfile="Verhuur.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Verhuur::uitcheckMoment</definition>
+        <argsstring></argsstring>
+        <name>uitcheckMoment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="40" column="1" bodyfile="Verhuur.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Verhuur::aantalKilometers</definition>
+        <argsstring></argsstring>
+        <name>aantalKilometers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="41" column="1" bodyfile="Verhuur.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_verhuur_1a10502cb621b6738d6eb13de086deab6d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Verhuur::Verhuur</definition>
+        <argsstring>()</argsstring>
+        <name>Verhuur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="20" column="1" bodyfile="Verhuur.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1a937be3af43756bfc9a49ec12e5952f51" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Verhuur::Verhuur</definition>
+        <argsstring>(std::shared_ptr&lt; Reservering &gt; reservering, uint32_t incheckMoment, uint32_t uitcheckMoment=0, uint32_t aantalKilometers=0)</argsstring>
+        <name>Verhuur</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_reservering" kindref="compound">Reservering</ref> &gt;</type>
+          <declname>reservering</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>incheckMoment</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>uitcheckMoment</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>aantalKilometers</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="21" column="1" bodyfile="Verhuur.cpp" bodystart="23" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_verhuur_1a95e6373c4d8507eec2b239700574d937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Verhuur::~Verhuur</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Verhuur</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1a6fe17e568fcf8af56a3561461ae9534c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Verhuur::berekenTeLaatBoeteKosten</definition>
+        <argsstring>()</argsstring>
+        <name>berekenTeLaatBoeteKosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="28" column="1" bodyfile="Verhuur.cpp" bodystart="32" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1ac0cd6d93f0fcac91d72a4d0af2dcd195" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Verhuur::setIncheckMoment</definition>
+        <argsstring>(uint32_t moment)</argsstring>
+        <name>setIncheckMoment</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>moment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="30" column="1" bodyfile="Verhuur.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1ad30dc350b76cb67d529a22d5d116e78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Verhuur::setUitcheckMoment</definition>
+        <argsstring>(uint32_t moment)</argsstring>
+        <name>setUitcheckMoment</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>moment</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="31" column="1" bodyfile="Verhuur.cpp" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1a61d3282b83d0512d7005f59a6f4bd37b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Verhuur::voltooi</definition>
+        <argsstring>()</argsstring>
+        <name>voltooi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="32" column="1" bodyfile="Verhuur.cpp" bodystart="56" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_verhuur_1a08167eb383d5f0916f2cb5072eecc406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Verhuur::bekerenTeLaatBoeteKosten</definition>
+        <argsstring>()</argsstring>
+        <name>bekerenTeLaatBoeteKosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Verhuur.h" line="33" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="210">
+        <label>Verhuur</label>
+        <link refid="class_verhuur"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="213">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Verhuur &gt; &gt;</label>
+      </node>
+      <node id="211">
+        <label>DatastoreModel&lt; Verhuur &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="214">
+        <label>Verhuur</label>
+        <link refid="class_verhuur"/>
+        <childnode refid="215" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Verhuur &gt; &gt;</label>
+      </node>
+      <node id="215">
+        <label>DatastoreModel&lt; Verhuur &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="216">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="Verhuur.h" line="18" column="1" bodyfile="Verhuur.h" bodystart="17" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_verhuur_1adcec1ea32f7640c3f68f0cb74ae0713f" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>aantalKilometers</name></member>
+      <member refid="class_verhuur_1a08167eb383d5f0916f2cb5072eecc406" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>bekerenTeLaatBoeteKosten</name></member>
+      <member refid="class_verhuur_1a6fe17e568fcf8af56a3561461ae9534c" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>berekenTeLaatBoeteKosten</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>Create</name></member>
+      <member refid="class_verhuur_1a93531303eec7ecd085618d51f471d117" prot="private" virt="non-virtual"><scope>Verhuur</scope><name>DatastoreModel&lt; Verhuur &gt;</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>id</name></member>
+      <member refid="class_verhuur_1a4552ff3f493c9d0d1665bce3502c71d4" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>incheckMoment</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>ModelPtr</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>ptr</name></member>
+      <member refid="class_verhuur_1aec017cd3e2bf910033d83a7cdc6f3ef1" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>reservering</name></member>
+      <member refid="class_verhuur_1ac0cd6d93f0fcac91d72a4d0af2dcd195" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>setIncheckMoment</name></member>
+      <member refid="class_verhuur_1ad30dc350b76cb67d529a22d5d116e78a" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>setUitcheckMoment</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>shared_from_this</name></member>
+      <member refid="class_verhuur_1a3fa06c79e33f320a2318466119061ed6" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>uitcheckMoment</name></member>
+      <member refid="class_verhuur_1a10502cb621b6738d6eb13de086deab6d" prot="private" virt="non-virtual"><scope>Verhuur</scope><name>Verhuur</name></member>
+      <member refid="class_verhuur_1a937be3af43756bfc9a49ec12e5952f51" prot="private" virt="non-virtual"><scope>Verhuur</scope><name>Verhuur</name></member>
+      <member refid="class_verhuur_1a61d3282b83d0512d7005f59a6f4bd37b" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>voltooi</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>Verhuur</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>Verhuur</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_verhuur_1a95e6373c4d8507eec2b239700574d937" prot="public" virt="non-virtual"><scope>Verhuur</scope><name>~Verhuur</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

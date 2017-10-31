@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_geld" kind="class" language="C++" prot="public">
+    <compoundname>Geld</compoundname>
+    <includes refid="_geld_8h" local="no">Geld.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_geld_1a9cba09dc10e3209a3c0663e34c78e903" prot="private" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t Geld::waarde</definition>
+        <argsstring></argsstring>
+        <name>waarde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="121" column="1" bodyfile="Geld.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_geld_1a80e1ab33d177b6d7f70e1610dffae19a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Geld::Geld</definition>
+        <argsstring>()</argsstring>
+        <name>Geld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="18" column="1" bodyfile="Geld.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a2a8fdbab571a74c1a06df62e70a1a850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Geld::Geld</definition>
+        <argsstring>(int32_t centen)</argsstring>
+        <name>Geld</name>
+        <param>
+          <type>int32_t</type>
+          <declname>centen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="23" column="1" bodyfile="Geld.h" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1ad2b157fb040fff6da979e80a783e35bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Geld::Geld</definition>
+        <argsstring>(int32_t euros, int32_t centen)</argsstring>
+        <name>Geld</name>
+        <param>
+          <type>int32_t</type>
+          <declname>euros</declname>
+        </param>
+        <param>
+          <type>int32_t</type>
+          <declname>centen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="28" column="1" bodyfile="Geld.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a8df5e7e9fda6454ff28a2ce79c0edeea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Geld::Geld</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>Geld</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="33" column="1" bodyfile="Geld.h" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a995e367b24dcd1ee229fd2452a651c05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Geld::~Geld</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Geld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1ae49ffd3c78e3d287f704232eec9cb6a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+        <definition>Geld&amp; Geld::operator=</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="40" column="1" bodyfile="Geld.h" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a3c48c8bc5f3a2e9d65584d0cb9ae7a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Geld::operator+</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="47" column="1" bodyfile="Geld.h" bodystart="47" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a98935b89ec79cc50b9bfbf8aabd9356d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+        <definition>Geld&amp; Geld::operator+=</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>operator+=</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="54" column="1" bodyfile="Geld.h" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1ad1f83073d1f681c6ef5ca3ebe151b53c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Geld::operator-</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>operator-</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="60" column="1" bodyfile="Geld.h" bodystart="60" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1aefe916604a61e04f55b146b20eb8c680" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+        <definition>Geld&amp; Geld::operator-=</definition>
+        <argsstring>(const Geld &amp;other)</argsstring>
+        <name>operator-=</name>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="67" column="1" bodyfile="Geld.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a7a385684ce851a0cc22e9d430cb94891" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Geld::operator*</definition>
+        <argsstring>(int32_t i)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type>int32_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="74" column="1" bodyfile="Geld.h" bodystart="74" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a3f8ec1a877ef7111c563dcb20c4aec9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+        <definition>Geld&amp; Geld::operator*=</definition>
+        <argsstring>(int32_t i)</argsstring>
+        <name>operator*=</name>
+        <param>
+          <type>int32_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="81" column="1" bodyfile="Geld.h" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a1b25c6a0c4ed2170d4eddef340c5f262" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Geld::operator/</definition>
+        <argsstring>(int32_t i)</argsstring>
+        <name>operator/</name>
+        <param>
+          <type>int32_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="87" column="1" bodyfile="Geld.h" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a0dfeee0055a33f2c4b5fa8da91961d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+        <definition>Geld&amp; Geld::operator/=</definition>
+        <argsstring>(int32_t i)</argsstring>
+        <name>operator/=</name>
+        <param>
+          <type>int32_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="94" column="1" bodyfile="Geld.h" bodystart="94" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a46540828ebcba69e949886faeb903858" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Geld::getEuros</definition>
+        <argsstring>()</argsstring>
+        <name>getEuros</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="100" column="1" bodyfile="Geld.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1ab209a6106085b97956ff97b84cd14e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int32_t</type>
+        <definition>int32_t Geld::getCenten</definition>
+        <argsstring>()</argsstring>
+        <name>getCenten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="105" column="1" bodyfile="Geld.h" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1a8da3212a4162a4764b24d5498eb4937f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Geld::toString</definition>
+        <argsstring>(char seperator=&apos;,&apos;)</argsstring>
+        <name>toString</name>
+        <param>
+          <type>char</type>
+          <declname>seperator</declname>
+          <defval>&apos;,&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="110" column="1" bodyfile="Geld.h" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_geld_1aff6c913aca08b53f32a30f6a6fd0acba" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Geld::operator bool</definition>
+        <argsstring>()</argsstring>
+        <name>operator bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Geld.h" line="115" column="1" bodyfile="Geld.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Geld.h" line="15" column="1" bodyfile="Geld.h" bodystart="14" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_geld_1a80e1ab33d177b6d7f70e1610dffae19a" prot="public" virt="non-virtual"><scope>Geld</scope><name>Geld</name></member>
+      <member refid="class_geld_1a2a8fdbab571a74c1a06df62e70a1a850" prot="public" virt="non-virtual"><scope>Geld</scope><name>Geld</name></member>
+      <member refid="class_geld_1ad2b157fb040fff6da979e80a783e35bd" prot="public" virt="non-virtual"><scope>Geld</scope><name>Geld</name></member>
+      <member refid="class_geld_1a8df5e7e9fda6454ff28a2ce79c0edeea" prot="public" virt="non-virtual"><scope>Geld</scope><name>Geld</name></member>
+      <member refid="class_geld_1ab209a6106085b97956ff97b84cd14e8c" prot="public" virt="non-virtual"><scope>Geld</scope><name>getCenten</name></member>
+      <member refid="class_geld_1a46540828ebcba69e949886faeb903858" prot="public" virt="non-virtual"><scope>Geld</scope><name>getEuros</name></member>
+      <member refid="class_geld_1aff6c913aca08b53f32a30f6a6fd0acba" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator bool</name></member>
+      <member refid="class_geld_1a7a385684ce851a0cc22e9d430cb94891" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator*</name></member>
+      <member refid="class_geld_1a3f8ec1a877ef7111c563dcb20c4aec9b" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator*=</name></member>
+      <member refid="class_geld_1a3c48c8bc5f3a2e9d65584d0cb9ae7a75" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator+</name></member>
+      <member refid="class_geld_1a98935b89ec79cc50b9bfbf8aabd9356d" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator+=</name></member>
+      <member refid="class_geld_1ad1f83073d1f681c6ef5ca3ebe151b53c" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator-</name></member>
+      <member refid="class_geld_1aefe916604a61e04f55b146b20eb8c680" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator-=</name></member>
+      <member refid="class_geld_1a1b25c6a0c4ed2170d4eddef340c5f262" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator/</name></member>
+      <member refid="class_geld_1a0dfeee0055a33f2c4b5fa8da91961d4d" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator/=</name></member>
+      <member refid="class_geld_1ae49ffd3c78e3d287f704232eec9cb6a7" prot="public" virt="non-virtual"><scope>Geld</scope><name>operator=</name></member>
+      <member refid="class_geld_1a8da3212a4162a4764b24d5498eb4937f" prot="public" virt="non-virtual"><scope>Geld</scope><name>toString</name></member>
+      <member refid="class_geld_1a9cba09dc10e3209a3c0663e34c78e903" prot="private" virt="non-virtual"><scope>Geld</scope><name>waarde</name></member>
+      <member refid="class_geld_1a995e367b24dcd1ee229fd2452a651c05" prot="public" virt="non-virtual"><scope>Geld</scope><name>~Geld</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

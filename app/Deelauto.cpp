@@ -9,6 +9,8 @@
 #include "RedcarModule.h"
 #include "Standplaats.h"
 
+namespace Deelautos {
+
 Deelauto::Deelauto()
 {
 }
@@ -48,4 +50,6 @@ bool Deelauto::checkOpLocatie() const
 void Deelauto::verhuurVoltooid()
 {
 	redcardModule->reset();
+}
+
 }

@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_verhuur_repo_8h" kind="file" language="C++">
+    <compoundname>VerhuurRepo.h</compoundname>
+    <includes refid="_i_data_store_8h" local="yes">IDataStore.h</includes>
+    <includes refid="_base_repo_8h" local="yes">BaseRepo.h</includes>
+    <includes refid="_geld_8h" local="yes">Geld.h</includes>
+    <includes refid="_verhuur_8h" local="yes">Verhuur.h</includes>
+    <includes local="no">memory</includes>
+    <includedby refid="_application_8h" local="yes">Application.h</includedby>
+    <includedby refid="_red_cars_context_8h" local="yes">RedCarsContext.h</includedby>
+    <includedby refid="_verhuur_repo_8cpp" local="yes">VerhuurRepo.cpp</includedby>
+    <incdepgraph>
+      <node id="1319">
+        <label>BaseRepo.h</label>
+        <link refid="_base_repo_8h"/>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+      </node>
+      <node id="1315">
+        <label>functional</label>
+      </node>
+      <node id="1332">
+        <label>AbonnementType.h</label>
+        <link refid="_abonnement_type_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1321" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+      </node>
+      <node id="1321">
+        <label>stdint.h</label>
+      </node>
+      <node id="1329">
+        <label>TariefSoortPrijs.h</label>
+        <link refid="_tarief_soort_prijs_8h"/>
+        <childnode refid="1326" relation="include">
+        </childnode>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+      </node>
+      <node id="1327">
+        <label>numeric</label>
+      </node>
+      <node id="1311">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="1312" relation="include">
+        </childnode>
+        <childnode refid="1319" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1323" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+      </node>
+      <node id="1322">
+        <label>string</label>
+      </node>
+      <node id="1325">
+        <label>Product.h</label>
+        <link refid="_product_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1326" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1327" relation="include">
+        </childnode>
+      </node>
+      <node id="1320">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="1321" relation="include">
+        </childnode>
+        <childnode refid="1322" relation="include">
+        </childnode>
+      </node>
+      <node id="1324">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1325" relation="include">
+        </childnode>
+        <childnode refid="1328" relation="include">
+        </childnode>
+        <childnode refid="1330" relation="include">
+        </childnode>
+        <childnode refid="1333" relation="include">
+        </childnode>
+      </node>
+      <node id="1318">
+        <label>boost/type_index/ctti_type_index.hpp</label>
+      </node>
+      <node id="1333">
+        <label>Klant.h</label>
+        <link refid="_klant_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+        <childnode refid="1321" relation="include">
+        </childnode>
+      </node>
+      <node id="1326">
+        <label>vector</label>
+      </node>
+      <node id="1312">
+        <label>IDataStore.h</label>
+        <link refid="_i_data_store_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1315" relation="include">
+        </childnode>
+        <childnode refid="1316" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+        <childnode refid="1317" relation="include">
+        </childnode>
+        <childnode refid="1318" relation="include">
+        </childnode>
+      </node>
+      <node id="1331">
+        <label>AutoType.h</label>
+        <link refid="_auto_type_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+      </node>
+      <node id="1323">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1324" relation="include">
+        </childnode>
+        <childnode refid="1320" relation="include">
+        </childnode>
+      </node>
+      <node id="1317">
+        <label>utility</label>
+      </node>
+      <node id="1330">
+        <label>TariefSoort.h</label>
+        <link refid="_tarief_soort_8h"/>
+        <childnode refid="1313" relation="include">
+        </childnode>
+        <childnode refid="1314" relation="include">
+        </childnode>
+      </node>
+      <node id="1328">
+        <label>Tarief.h</label>
+        <link refid="_tarief_8h"/>
+        <childnode refid="1320" relation="include">
+        </childnode>
+        <childnode refid="1329" relation="include">
+        </childnode>
+        <childnode refid="1331" relation="include">
+        </childnode>
+        <childnode refid="1332" relation="include">
+        </childnode>
+      </node>
+      <node id="1316">
+        <label>type_traits</label>
+      </node>
+      <node id="1313">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="1314" relation="include">
+        </childnode>
+      </node>
+      <node id="1314">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1341">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="1339">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="1345">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1334">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="1335" relation="include">
+        </childnode>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1348" relation="include">
+        </childnode>
+      </node>
+      <node id="1342">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="1335">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="1336" relation="include">
+        </childnode>
+        <childnode refid="1337" relation="include">
+        </childnode>
+        <childnode refid="1344" relation="include">
+        </childnode>
+        <childnode refid="1345" relation="include">
+        </childnode>
+        <childnode refid="1346" relation="include">
+        </childnode>
+        <childnode refid="1347" relation="include">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>RedCarsContext.cpp</label>
+        <link refid="_red_cars_context_8cpp"/>
+      </node>
+      <node id="1336">
+        <label>Application.cpp</label>
+        <link refid="_application_8cpp"/>
+      </node>
+      <node id="1337">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="1338" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1343" relation="include">
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>StaticDatastore.cpp</label>
+        <link refid="_static_datastore_8cpp"/>
+      </node>
+      <node id="1348">
+        <label>VerhuurRepo.cpp</label>
+        <link refid="_verhuur_repo_8cpp"/>
+      </node>
+      <node id="1347">
+        <label>Verhuur.cpp</label>
+        <link refid="_verhuur_8cpp"/>
+      </node>
+      <node id="1343">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+      </node>
+      <node id="1344">
+        <label>Boete.cpp</label>
+        <link refid="_boete_8cpp"/>
+      </node>
+      <node id="1338">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="1336" relation="include">
+        </childnode>
+        <childnode refid="1339" relation="include">
+        </childnode>
+        <childnode refid="1340" relation="include">
+        </childnode>
+        <childnode refid="1341" relation="include">
+        </childnode>
+        <childnode refid="1342" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_verhuur_repo" prot="public">VerhuurRepo</innerclass>
+    <innerclass refid="struct_actief_verhuur_van_klant" prot="public">ActiefVerhuurVanKlant</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>VerhuurRepo.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>26<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>VERHUURREPO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERHUURREPO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_i_data_store_8h" kindref="compound">IDataStore.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_base_repo_8h" kindref="compound">BaseRepo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_geld_8h" kindref="compound">Geld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_verhuur_8h" kindref="compound">Verhuur.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_klant" kindref="compound">Klant</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_verhuur" kindref="compound">Verhuur</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="21" refid="class_verhuur_repo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_verhuur_repo" kindref="compound">VerhuurRepo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;Verhuur,<sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_verhuur_repo_1acbd3378e3075fd8eebfd715f422e6f5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_verhuur_repo_1acbd3378e3075fd8eebfd715f422e6f5e" kindref="member">VerhuurRepo</ref>(<ref refid="class_i_data_store" kindref="compound">IDataStore&lt;DataStoreType&gt;</ref>&amp;<sp/>dataStore)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><sp/><sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;<ref refid="class_verhuur" kindref="compound">Verhuur</ref>,<sp/>DataStoreType&gt;(dataStore)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_verhuur_repo_1a88247a61382ab0538295bb6aa282a049" kindref="member">~VerhuurRepo</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><ref refid="class_verhuur_repo_1a4ef8f94a15595d8737e9bc62496f69ed" kindref="member">getActiefVerhuur</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_verhuur_repo_1a9c8738941e0ac1d1c7c8c19f376b5745" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_verhuur_repo_1a9c8738941e0ac1d1c7c8c19f376b5745" kindref="member">controleerKlantIngecheckt</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!!<ref refid="class_verhuur_repo_1a4ef8f94a15595d8737e9bc62496f69ed" kindref="member">getActiefVerhuur</ref>(klant);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="struct_actief_verhuur_van_klant" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_actief_verhuur_van_klant" kindref="compound">ActiefVerhuurVanKlant</ref><sp/>{</highlight></codeline>
+<codeline lineno="41" refid="struct_actief_verhuur_van_klant_1a7f31994d186bff2e013c5f720d342098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_actief_verhuur_van_klant_1a7f31994d186bff2e013c5f720d342098" kindref="member">ActiefVerhuurVanKlant</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>klant(klant)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="struct_actief_verhuur_van_klant_1a577acab6729be34b8039e0fb8d8b3fdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="struct_actief_verhuur_van_klant_1a577acab6729be34b8039e0fb8d8b3fdc" kindref="member">operator()</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Verhuur&gt;&amp;<sp/>verhuur)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(verhuur-&gt;reservering-&gt;klant-&gt;id<sp/>!=<sp/>klant-&gt;id)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>verhuur-&gt;uitcheckMoment<sp/>==<sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="struct_actief_verhuur_van_klant_1a5577bbe4782d7bab02ba18395d97875a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/><ref refid="struct_actief_verhuur_van_klant_1a5577bbe4782d7bab02ba18395d97875a" kindref="member">klant</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="58" refid="class_verhuur_repo_1a4ef8f94a15595d8737e9bc62496f69ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/><ref refid="class_verhuur_repo_1a4ef8f94a15595d8737e9bc62496f69ed" kindref="member">VerhuurRepo&lt;DataStoreType&gt;::getActiefVerhuur</ref>(</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant)</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Verhuur&gt;<sp/>result;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;<ref refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" kindref="member">mDataStore</ref>.<ref refid="class_i_data_store_1a484c3e1a854147995ab7d519640acdb1" kindref="member">loadModel</ref>(result,<sp/><ref refid="struct_actief_verhuur_van_klant" kindref="compound">ActiefVerhuurVanKlant</ref>(klant));</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>VERHUURREPO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="VerhuurRepo.h"/>
+  </compounddef>
+</doxygen>

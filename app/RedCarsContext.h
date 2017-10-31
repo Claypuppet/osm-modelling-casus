@@ -15,6 +15,8 @@
 #include "ReserveringRepo.h"
 #include "StaticDatastore.h"
 
+namespace Core {
+
 
 namespace detail {
 	template <typename DataStoreType>
@@ -56,6 +58,8 @@ class RedCarsContext : public detail::RedCarsContextImpl<StaticDatastore> {
 public:
 	static RedCarsContext& getInstance() { return static_cast<RedCarsContext&>(super::getInstance()); }
 };
+
+}
 
 
 

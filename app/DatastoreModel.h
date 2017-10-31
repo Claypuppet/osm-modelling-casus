@@ -11,6 +11,7 @@
 
 #include <memory>
 
+namespace Core {
 
 struct IDatastoreModel {
 	virtual ~IDatastoreModel() = default;
@@ -49,5 +50,7 @@ private:
 	DatastoreModel() : id(0) {}
 	DatastoreModel(uint32_t id) : id(id) {}
 };
+
+}
 
 #endif /* DATASTOREMODEL_H_ */

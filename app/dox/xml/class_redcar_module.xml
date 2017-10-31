@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_redcar_module" kind="class" language="C++" prot="public">
+    <compoundname>RedcarModule</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; RedcarModule &gt;</basecompoundref>
+    <includes refid="_redcar_module_8h" local="no">RedcarModule.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_redcar_module_1a804a42c22e82911db36c62101505fb57" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend RedcarModule::DatastoreModel&lt; RedcarModule &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; RedcarModule &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="15" column="1" bodyfile="RedcarModule.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RedcarModule::aantalKilometers</definition>
+        <argsstring></argsstring>
+        <name>aantalKilometers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="28" column="1" bodyfile="RedcarModule.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t RedcarModule::pasNummer</definition>
+        <argsstring></argsstring>
+        <name>pasNummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="29" column="1" bodyfile="RedcarModule.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_redcar_module_1afa0c2303d2367344909b4c6b8d322582" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RedcarModule::RedcarModule</definition>
+        <argsstring>()</argsstring>
+        <name>RedcarModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="16" column="1" bodyfile="RedcarModule.cpp" bodystart="10" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1a1c92265ddfe3d2892b90e3b9a090c489" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RedcarModule::RedcarModule</definition>
+        <argsstring>(float aantalKilometers, uint32_t pasNummer)</argsstring>
+        <name>RedcarModule</name>
+        <param>
+          <type>float</type>
+          <declname>aantalKilometers</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="17" column="1" bodyfile="RedcarModule.cpp" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_redcar_module_1ad21e63c47532df17429940d7f6c9f47a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>RedcarModule::~RedcarModule</definition>
+        <argsstring>()=default</argsstring>
+        <name>~RedcarModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1a9a46508cd9b0c4d4343cab27b8012aec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t RedcarModule::getLocatie</definition>
+        <argsstring>() const</argsstring>
+        <name>getLocatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="21" column="1" bodyfile="RedcarModule.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1a610e38f55874087231fbf5f1ea5fffa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RedcarModule::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="22" column="1" bodyfile="RedcarModule.cpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1ad204aaaa745ced3dd0b7b38d4c8dee8e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t RedcarModule::getPasNummer</definition>
+        <argsstring>() const</argsstring>
+        <name>getPasNummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="23" column="1" bodyfile="RedcarModule.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1ae05872f0f87a0e0a62569c3d5b833f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void RedcarModule::setPasNummer</definition>
+        <argsstring>(uint32_t pasNummer)</argsstring>
+        <name>setPasNummer</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="24" column="1" bodyfile="RedcarModule.cpp" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_redcar_module_1a5b960d6671bfae3757d28151d997d543" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float RedcarModule::getAantalKilometers</definition>
+        <argsstring>() const</argsstring>
+        <name>getAantalKilometers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="RedcarModule.h" line="25" column="1" bodyfile="RedcarModule.cpp" bodystart="41" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="120">
+        <label>RedcarModule</label>
+        <link refid="class_redcar_module"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; RedcarModule &gt; &gt;</label>
+      </node>
+      <node id="122">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="121">
+        <label>DatastoreModel&lt; RedcarModule &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="124">
+        <label>RedcarModule</label>
+        <link refid="class_redcar_module"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="127">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; RedcarModule &gt; &gt;</label>
+      </node>
+      <node id="126">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="125">
+        <label>DatastoreModel&lt; RedcarModule &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="RedcarModule.h" line="14" column="1" bodyfile="RedcarModule.h" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_redcar_module_1ab9182f71391470e3b5f82d2a09740767" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>aantalKilometers</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>Create</name></member>
+      <member refid="class_redcar_module_1a804a42c22e82911db36c62101505fb57" prot="private" virt="non-virtual"><scope>RedcarModule</scope><name>DatastoreModel&lt; RedcarModule &gt;</name></member>
+      <member refid="class_redcar_module_1a5b960d6671bfae3757d28151d997d543" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>getAantalKilometers</name></member>
+      <member refid="class_redcar_module_1a9a46508cd9b0c4d4343cab27b8012aec" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>getLocatie</name></member>
+      <member refid="class_redcar_module_1ad204aaaa745ced3dd0b7b38d4c8dee8e" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>getPasNummer</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>id</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>ModelPtr</name></member>
+      <member refid="class_redcar_module_1a44e4f7f659cfbed6d8c27de5aedca88c" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>pasNummer</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>ptr</name></member>
+      <member refid="class_redcar_module_1afa0c2303d2367344909b4c6b8d322582" prot="private" virt="non-virtual"><scope>RedcarModule</scope><name>RedcarModule</name></member>
+      <member refid="class_redcar_module_1a1c92265ddfe3d2892b90e3b9a090c489" prot="private" virt="non-virtual"><scope>RedcarModule</scope><name>RedcarModule</name></member>
+      <member refid="class_redcar_module_1a610e38f55874087231fbf5f1ea5fffa2" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>reset</name></member>
+      <member refid="class_redcar_module_1ae05872f0f87a0e0a62569c3d5b833f0b" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>setPasNummer</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>shared_from_this</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>RedcarModule</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>RedcarModule</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_redcar_module_1ad21e63c47532df17429940d7f6c9f47a" prot="public" virt="non-virtual"><scope>RedcarModule</scope><name>~RedcarModule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

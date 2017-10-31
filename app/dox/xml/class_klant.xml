@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_klant" kind="class" language="C++" prot="public">
+    <compoundname>Klant</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Klant &gt;</basecompoundref>
+    <includes refid="_klant_8h" local="no">Klant.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_klant_1a9764ab4091a269471ac75af318e3d80a" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Klant::DatastoreModel&lt; Klant &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Klant &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="19" column="1" bodyfile="Klant.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_klant_1a9614730ae8e800fee4b077046ef9b38d" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Klant::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="29" column="1" bodyfile="Klant.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_klant_1aebc5faf471fe6a59598f9d0c082056fd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Klant::email</definition>
+        <argsstring></argsstring>
+        <name>email</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="30" column="1" bodyfile="Klant.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_klant_1a4c24f7febe32dbe6f68042848ec893d7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Klant::pasNummmer</definition>
+        <argsstring></argsstring>
+        <name>pasNummmer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="31" column="1" bodyfile="Klant.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_klant_1a09b4811cf5e2fc0ecc91e5500cf7ef2a" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AbonnementType&gt; Klant::abbonomentType</definition>
+        <argsstring></argsstring>
+        <name>abbonomentType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="32" column="1" bodyfile="Klant.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_klant_1a6244137a189ec7d8af734ebc8537f3d4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Klant::Klant</definition>
+        <argsstring>()</argsstring>
+        <name>Klant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="21" column="1" bodyfile="Klant.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_klant_1a09ceabad455ac4d88ab7d3972811d02d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Klant::Klant</definition>
+        <argsstring>(std::string naam, std::string email, uint32_t pasNummer, std::shared_ptr&lt; AbonnementType &gt; &amp;abbonomentType)</argsstring>
+        <name>Klant</name>
+        <param>
+          <type>std::string</type>
+          <declname>naam</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasNummer</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_abonnement_type" kindref="compound">AbonnementType</ref> &gt; &amp;</type>
+          <declname>abbonomentType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="22" column="1" bodyfile="Klant.cpp" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_klant_1a8880dca337bf647fa9dab0e10c37fae5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Klant::~Klant</definition>
+        <argsstring>()</argsstring>
+        <name>~Klant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Klant.h" line="27" column="1" bodyfile="Klant.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="100">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Klant &gt; &gt;</label>
+      </node>
+      <node id="97">
+        <label>Klant</label>
+        <link refid="class_klant"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="99">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="98">
+        <label>DatastoreModel&lt; Klant &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="99" relation="public-inheritance">
+        </childnode>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="104">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Klant &gt; &gt;</label>
+      </node>
+      <node id="101">
+        <label>Klant</label>
+        <link refid="class_klant"/>
+        <childnode refid="102" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="103">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="102">
+        <label>DatastoreModel&lt; Klant &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="103" relation="public-inheritance">
+        </childnode>
+        <childnode refid="104" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Klant.h" line="18" column="1" bodyfile="Klant.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_klant_1a09b4811cf5e2fc0ecc91e5500cf7ef2a" prot="public" virt="non-virtual"><scope>Klant</scope><name>abbonomentType</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>Klant</scope><name>Create</name></member>
+      <member refid="class_klant_1a9764ab4091a269471ac75af318e3d80a" prot="private" virt="non-virtual"><scope>Klant</scope><name>DatastoreModel&lt; Klant &gt;</name></member>
+      <member refid="class_klant_1aebc5faf471fe6a59598f9d0c082056fd" prot="public" virt="non-virtual"><scope>Klant</scope><name>email</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>Klant</scope><name>id</name></member>
+      <member refid="class_klant_1a6244137a189ec7d8af734ebc8537f3d4" prot="private" virt="non-virtual"><scope>Klant</scope><name>Klant</name></member>
+      <member refid="class_klant_1a09ceabad455ac4d88ab7d3972811d02d" prot="private" virt="non-virtual"><scope>Klant</scope><name>Klant</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>Klant</scope><name>ModelPtr</name></member>
+      <member refid="class_klant_1a9614730ae8e800fee4b077046ef9b38d" prot="public" virt="non-virtual"><scope>Klant</scope><name>naam</name></member>
+      <member refid="class_klant_1a4c24f7febe32dbe6f68042848ec893d7" prot="public" virt="non-virtual"><scope>Klant</scope><name>pasNummmer</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>Klant</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>Klant</scope><name>shared_from_this</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>Klant</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>Klant</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_klant_1a8880dca337bf647fa9dab0e10c37fae5" prot="public" virt="non-virtual"><scope>Klant</scope><name>~Klant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

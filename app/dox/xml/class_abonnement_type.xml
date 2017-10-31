@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_abonnement_type" kind="class" language="C++" prot="public">
+    <compoundname>AbonnementType</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; AbonnementType &gt;</basecompoundref>
+    <includes refid="_abonnement_type_8h" local="no">AbonnementType.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_abonnement_type_1ade13b37943529ed72789aaed16013b1a" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend AbonnementType::DatastoreModel&lt; AbonnementType &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; AbonnementType &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="22" column="1" bodyfile="AbonnementType.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string AbonnementType::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="29" column="1" bodyfile="AbonnementType.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld AbonnementType::kosten</definition>
+        <argsstring></argsstring>
+        <name>kosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="30" column="1" bodyfile="AbonnementType.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_abonnement_type_1ad5293c6ce913997acc1a1a57c3e9b678" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AbonnementType::AbonnementType</definition>
+        <argsstring>()</argsstring>
+        <name>AbonnementType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="23" column="1" bodyfile="AbonnementType.cpp" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_abonnement_type_1afbbfede844d819aff74f9d5d418b46b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AbonnementType::AbonnementType</definition>
+        <argsstring>(const std::string &amp;naam, const Geld &amp;kosten)</argsstring>
+        <name>AbonnementType</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>naam</declname>
+        </param>
+        <param>
+          <type>const <ref refid="class_geld" kindref="compound">Geld</ref> &amp;</type>
+          <declname>kosten</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="24" column="1" bodyfile="AbonnementType.cpp" bodystart="14" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_abonnement_type_1af9b69c7f28d7ade3d204fe9d899f13bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AbonnementType::~AbonnementType</definition>
+        <argsstring>()</argsstring>
+        <name>~AbonnementType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbonnementType.h" line="27" column="1" bodyfile="AbonnementType.cpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DatastoreModel&lt; AbonnementType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="0">
+        <label>AbonnementType</label>
+        <link refid="class_abonnement_type"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; AbonnementType &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>DatastoreModel&lt; AbonnementType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="8">
+        <label>Geld</label>
+        <link refid="class_geld"/>
+      </node>
+      <node id="4">
+        <label>AbonnementType</label>
+        <link refid="class_abonnement_type"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>kosten</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; AbonnementType &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="AbonnementType.h" line="21" column="1" bodyfile="AbonnementType.h" bodystart="20" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_abonnement_type_1ad5293c6ce913997acc1a1a57c3e9b678" prot="private" virt="non-virtual"><scope>AbonnementType</scope><name>AbonnementType</name></member>
+      <member refid="class_abonnement_type_1afbbfede844d819aff74f9d5d418b46b9" prot="private" virt="non-virtual"><scope>AbonnementType</scope><name>AbonnementType</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>Create</name></member>
+      <member refid="class_abonnement_type_1ade13b37943529ed72789aaed16013b1a" prot="private" virt="non-virtual"><scope>AbonnementType</scope><name>DatastoreModel&lt; AbonnementType &gt;</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>id</name></member>
+      <member refid="class_abonnement_type_1afbf22abdbefb7de3dae04804b71ba8fa" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>kosten</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>ModelPtr</name></member>
+      <member refid="class_abonnement_type_1afd4d73ef0e03986503487dcaee47cd02" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>naam</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>shared_from_this</name></member>
+      <member refid="class_abonnement_type_1af9b69c7f28d7ade3d204fe9d899f13bb" prot="public" virt="non-virtual"><scope>AbonnementType</scope><name>~AbonnementType</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>AbonnementType</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>AbonnementType</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

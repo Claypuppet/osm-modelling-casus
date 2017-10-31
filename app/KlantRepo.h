@@ -12,6 +12,9 @@
 #include "BaseRepo.h"
 #include <stdint.h>
 
+namespace Klanten {
+
+using core::BaseRepo;
 
 template <typename DataStoreType>
 class KlantRepo : public BaseRepo<Klant, DataStoreType>
@@ -30,6 +33,8 @@ public:
 		return this->mDataStore.loadModel(klant, klantByPasNummer);
 	}
 };
+
+}
 
 
 #endif /* KLANTREPO_H_ */

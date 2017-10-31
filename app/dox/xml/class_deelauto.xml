@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_deelauto" kind="class" language="C++" prot="public">
+    <compoundname>Deelauto</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Deelauto &gt;</basecompoundref>
+    <includes refid="_deelauto_8h" local="no">Deelauto.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_deelauto_1ad851b5f6557f98e060bffbd9441c9a52" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Deelauto::DatastoreModel&lt; Deelauto &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Deelauto &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="21" column="1" bodyfile="Deelauto.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Deelauto::kenteken</definition>
+        <argsstring></argsstring>
+        <name>kenteken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="37" column="1" bodyfile="Deelauto.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_standplaats" kindref="compound">Standplaats</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Standplaats&gt; Deelauto::standplaats</definition>
+        <argsstring></argsstring>
+        <name>standplaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="38" column="1" bodyfile="Deelauto.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_redcar_module" kindref="compound">RedcarModule</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;RedcarModule&gt; Deelauto::redcardModule</definition>
+        <argsstring></argsstring>
+        <name>redcardModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="39" column="1" bodyfile="Deelauto.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_deelauto_1aef1ef7a4ba9568f6320359b5985941df" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="class_auto_type" kindref="compound">AutoType</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;AutoType&gt; Deelauto::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="40" column="1" bodyfile="Deelauto.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_deelauto_1a1c5595e1b8531f174ca27a0f0ca3ea31" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelauto::Deelauto</definition>
+        <argsstring>()</argsstring>
+        <name>Deelauto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="22" column="1" bodyfile="Deelauto.cpp" bodystart="12" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a1a95e1cab51e8990163bde107a6b343d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelauto::Deelauto</definition>
+        <argsstring>(const std::string &amp;kenteken, std::shared_ptr&lt; Standplaats &gt; &amp;standplaats, std::shared_ptr&lt; RedcarModule &gt; &amp;redcardModule)</argsstring>
+        <name>Deelauto</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>kenteken</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_standplaats" kindref="compound">Standplaats</ref> &gt; &amp;</type>
+          <declname>standplaats</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_redcar_module" kindref="compound">RedcarModule</ref> &gt; &amp;</type>
+          <declname>redcardModule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="23" column="1" bodyfile="Deelauto.cpp" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_deelauto_1a18f784bc15dea06fc748dbd03af06805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Deelauto::~Deelauto</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Deelauto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a1b9cfb16a8619673c6a43c3127fb872a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_standplaats" kindref="compound">Standplaats</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; Standplaats &gt; Deelauto::getStandPlaats</definition>
+        <argsstring>() const</argsstring>
+        <name>getStandPlaats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="28" column="1" bodyfile="Deelauto.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a9891421f62aeda3260ae58eea5ded031" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_redcar_module" kindref="compound">RedcarModule</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; RedcarModule &gt; Deelauto::getRedcarModule</definition>
+        <argsstring>() const</argsstring>
+        <name>getRedcarModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="29" column="1" bodyfile="Deelauto.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a147354557bd5ca7bda8d45debb9fb090" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_auto_type" kindref="compound">AutoType</ref> &gt;</type>
+        <definition>std::shared_ptr&lt; AutoType &gt; Deelauto::getAutoType</definition>
+        <argsstring>() const</argsstring>
+        <name>getAutoType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="30" column="1" bodyfile="Deelauto.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a39d5e228746821cdac75194be2493bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Deelauto::verhuurActief</definition>
+        <argsstring>(uint32_t pasNummer)</argsstring>
+        <name>verhuurActief</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>pasNummer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="32" column="1" bodyfile="Deelauto.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1ab359f821f58d16f35ec8e8bce8282020" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Deelauto::checkOpLocatie</definition>
+        <argsstring>() const</argsstring>
+        <name>checkOpLocatie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="33" column="1" bodyfile="Deelauto.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_deelauto_1a2e7c9595453e9fb20881344b469fc285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Deelauto::verhuurVoltooid</definition>
+        <argsstring>()</argsstring>
+        <name>verhuurVoltooid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Deelauto.h" line="34" column="1" bodyfile="Deelauto.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>Deelauto</label>
+        <link refid="class_deelauto"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Deelauto &gt; &gt;</label>
+      </node>
+      <node id="44">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="43">
+        <label>DatastoreModel&lt; Deelauto &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>Deelauto</label>
+        <link refid="class_deelauto"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Deelauto &gt; &gt;</label>
+      </node>
+      <node id="48">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="47">
+        <label>DatastoreModel&lt; Deelauto &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Deelauto.h" line="20" column="1" bodyfile="Deelauto.h" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_deelauto_1ab359f821f58d16f35ec8e8bce8282020" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>checkOpLocatie</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>Create</name></member>
+      <member refid="class_deelauto_1ad851b5f6557f98e060bffbd9441c9a52" prot="private" virt="non-virtual"><scope>Deelauto</scope><name>DatastoreModel&lt; Deelauto &gt;</name></member>
+      <member refid="class_deelauto_1a1c5595e1b8531f174ca27a0f0ca3ea31" prot="private" virt="non-virtual"><scope>Deelauto</scope><name>Deelauto</name></member>
+      <member refid="class_deelauto_1a1a95e1cab51e8990163bde107a6b343d" prot="private" virt="non-virtual"><scope>Deelauto</scope><name>Deelauto</name></member>
+      <member refid="class_deelauto_1a147354557bd5ca7bda8d45debb9fb090" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>getAutoType</name></member>
+      <member refid="class_deelauto_1a9891421f62aeda3260ae58eea5ded031" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>getRedcarModule</name></member>
+      <member refid="class_deelauto_1a1b9cfb16a8619673c6a43c3127fb872a" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>getStandPlaats</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>id</name></member>
+      <member refid="class_deelauto_1a72012b318621d6511c24015c5ec14a4a" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>kenteken</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>ModelPtr</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>ptr</name></member>
+      <member refid="class_deelauto_1a1ab8408c117a33b90055037b8a51b1eb" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>redcardModule</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>shared_from_this</name></member>
+      <member refid="class_deelauto_1adbc1cefaba69d24274d1bfea07032216" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>standplaats</name></member>
+      <member refid="class_deelauto_1aef1ef7a4ba9568f6320359b5985941df" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>type</name></member>
+      <member refid="class_deelauto_1a39d5e228746821cdac75194be2493bbe" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>verhuurActief</name></member>
+      <member refid="class_deelauto_1a2e7c9595453e9fb20881344b469fc285" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>verhuurVoltooid</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>Deelauto</scope><name>~DatastoreModel</name></member>
+      <member refid="class_deelauto_1a18f784bc15dea06fc748dbd03af06805" prot="public" virt="non-virtual"><scope>Deelauto</scope><name>~Deelauto</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>Deelauto</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

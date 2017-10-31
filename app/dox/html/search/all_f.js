@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['realtimeprovider',['RealTimeProvider',['../class_real_time_provider.html',1,'RealTimeProvider'],['../class_real_time_provider.html#af6436a01980c31ba650a2bacfd5620dd',1,'RealTimeProvider::RealTimeProvider()']]],
+  ['redcardmodule',['redcardModule',['../class_deelauto.html#a1ab8408c117a33b90055037b8a51b1eb',1,'Deelauto']]],
+  ['redcarmodule',['RedcarModule',['../class_redcar_module.html',1,'']]],
+  ['redcarmodule_2ecpp',['RedcarModule.cpp',['../_redcar_module_8cpp.html',1,'']]],
+  ['redcarmodule_2eh',['RedcarModule.h',['../_redcar_module_8h.html',1,'']]],
+  ['redcarscontext',['RedCarsContext',['../class_red_cars_context.html',1,'']]],
+  ['redcarscontext_2ecpp',['RedCarsContext.cpp',['../_red_cars_context_8cpp.html',1,'']]],
+  ['redcarscontext_2eh',['RedCarsContext.h',['../_red_cars_context_8h.html',1,'']]],
+  ['redcarscontextimpl',['RedCarsContextImpl',['../classdetail_1_1_red_cars_context_impl.html',1,'detail']]],
+  ['redcarscontextimpl_3c_20staticdatastore_20_3e',['RedCarsContextImpl&lt; StaticDatastore &gt;',['../classdetail_1_1_red_cars_context_impl.html',1,'detail']]],
+  ['reservering',['Reservering',['../class_reservering.html',1,'Reservering'],['../class_verhuur.html#aec017cd3e2bf910033d83a7cdc6f3ef1',1,'Verhuur::reservering()'],['../class_reservering.html#ad81ad37ab56781537c77c29a468c9a4d',1,'Reservering::Reservering()'],['../class_reservering.html#a16f8001bbe18c09159d3009ad1eeb46f',1,'Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr&lt; Klant &gt; &amp;klant, std::shared_ptr&lt; Deelauto &gt; &amp;deelauto, tarieven::TariefSoortPtr tariefSoort)']]],
+  ['reservering_2ecpp',['Reservering.cpp',['../_reservering_8cpp.html',1,'']]],
+  ['reservering_2eh',['Reservering.h',['../_reservering_8h.html',1,'']]],
+  ['reserveringcontroller',['ReserveringController',['../classreserveringen_1_1_reservering_controller.html',1,'reserveringen::ReserveringController'],['../classreserveringen_1_1_reservering_controller.html#a25e5e764683e8d83ebec7c2d30be535b',1,'reserveringen::ReserveringController::ReserveringController()']]],
+  ['reserveringcontroller_2ecpp',['ReserveringController.cpp',['../_reservering_controller_8cpp.html',1,'']]],
+  ['reserveringcontroller_2eh',['ReserveringController.h',['../_reservering_controller_8h.html',1,'']]],
+  ['reserveringen',['reserveringen',['../namespacereserveringen.html',1,'']]],
+  ['reserveringrepo',['ReserveringRepo',['../class_reservering_repo.html',1,'ReserveringRepo&lt; DataStoreType &gt;'],['../class_reservering_repo.html#aae3522a2303489eaf3ff285b0db977fe',1,'ReserveringRepo::ReserveringRepo()']]],
+  ['reserveringrepo_2ecpp',['ReserveringRepo.cpp',['../_reservering_repo_8cpp.html',1,'']]],
+  ['reserveringrepo_2eh',['ReserveringRepo.h',['../_reservering_repo_8h.html',1,'']]],
+  ['reserveringrepo_3c_20staticdatastore_20_3e',['ReserveringRepo&lt; StaticDatastore &gt;',['../class_reservering_repo.html',1,'']]],
+  ['reservermetklantenmoment',['ReserverMetKlantEnMoment',['../struct_reserver_met_klant_en_moment.html',1,'ReserverMetKlantEnMoment'],['../struct_reserver_met_klant_en_moment.html#af27049fe38d044c7d49d6b722c8e1884',1,'ReserverMetKlantEnMoment::ReserverMetKlantEnMoment()']]],
+  ['reset',['reset',['../class_redcar_module.html#a610e38f55874087231fbf5f1ea5fffa2',1,'RedcarModule']]]
+];

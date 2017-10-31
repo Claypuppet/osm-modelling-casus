@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_tarief_repo_8h" kind="file" language="C++">
+    <compoundname>TariefRepo.h</compoundname>
+    <includes refid="_i_data_store_8h" local="yes">IDataStore.h</includes>
+    <includes refid="_tarief_8h" local="yes">Tarief.h</includes>
+    <includes refid="_auto_type_8h" local="yes">AutoType.h</includes>
+    <includes refid="_abonnement_type_8h" local="yes">AbonnementType.h</includes>
+    <includes refid="_base_repo_8h" local="yes">BaseRepo.h</includes>
+    <includes local="no">memory</includes>
+    <includedby refid="_application_8h" local="yes">Application.h</includedby>
+    <includedby refid="_red_cars_context_8h" local="yes">RedCarsContext.h</includedby>
+    <includedby refid="_tarief_repo_8cpp" local="yes">TariefRepo.cpp</includedby>
+    <incdepgraph>
+      <node id="1104">
+        <label>BaseRepo.h</label>
+        <link refid="_base_repo_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1091">
+        <label>functional</label>
+      </node>
+      <node id="1103">
+        <label>AbonnementType.h</label>
+        <link refid="_abonnement_type_8h"/>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>stdint.h</label>
+      </node>
+      <node id="1087">
+        <label>TariefRepo.h</label>
+        <link refid="_tarief_repo_8h"/>
+        <childnode refid="1088" relation="include">
+        </childnode>
+        <childnode refid="1095" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+        <childnode refid="1104" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1099">
+        <label>TariefSoortPrijs.h</label>
+        <link refid="_tarief_soort_prijs_8h"/>
+        <childnode refid="1100" relation="include">
+        </childnode>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1101" relation="include">
+        </childnode>
+        <childnode refid="1096" relation="include">
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>string</label>
+      </node>
+      <node id="1096">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="1097" relation="include">
+        </childnode>
+        <childnode refid="1098" relation="include">
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>boost/type_index/ctti_type_index.hpp</label>
+      </node>
+      <node id="1100">
+        <label>vector</label>
+      </node>
+      <node id="1088">
+        <label>IDataStore.h</label>
+        <link refid="_i_data_store_8h"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1091" relation="include">
+        </childnode>
+        <childnode refid="1092" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+        <childnode refid="1093" relation="include">
+        </childnode>
+        <childnode refid="1094" relation="include">
+        </childnode>
+      </node>
+      <node id="1102">
+        <label>AutoType.h</label>
+        <link refid="_auto_type_8h"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+      </node>
+      <node id="1093">
+        <label>utility</label>
+      </node>
+      <node id="1101">
+        <label>TariefSoort.h</label>
+        <link refid="_tarief_soort_8h"/>
+        <childnode refid="1089" relation="include">
+        </childnode>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1095">
+        <label>Tarief.h</label>
+        <link refid="_tarief_8h"/>
+        <childnode refid="1096" relation="include">
+        </childnode>
+        <childnode refid="1099" relation="include">
+        </childnode>
+        <childnode refid="1102" relation="include">
+        </childnode>
+        <childnode refid="1103" relation="include">
+        </childnode>
+      </node>
+      <node id="1092">
+        <label>type_traits</label>
+      </node>
+      <node id="1089">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="1090" relation="include">
+        </childnode>
+      </node>
+      <node id="1090">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1112">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="1110">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="1116">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="1105">
+        <label>TariefRepo.h</label>
+        <link refid="_tarief_repo_8h"/>
+        <childnode refid="1106" relation="include">
+        </childnode>
+        <childnode refid="1109" relation="include">
+        </childnode>
+        <childnode refid="1119" relation="include">
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="1106">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="1107" relation="include">
+        </childnode>
+        <childnode refid="1108" relation="include">
+        </childnode>
+        <childnode refid="1115" relation="include">
+        </childnode>
+        <childnode refid="1116" relation="include">
+        </childnode>
+        <childnode refid="1117" relation="include">
+        </childnode>
+        <childnode refid="1118" relation="include">
+        </childnode>
+      </node>
+      <node id="1111">
+        <label>RedCarsContext.cpp</label>
+        <link refid="_red_cars_context_8cpp"/>
+      </node>
+      <node id="1107">
+        <label>Application.cpp</label>
+        <link refid="_application_8cpp"/>
+      </node>
+      <node id="1108">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="1109" relation="include">
+        </childnode>
+        <childnode refid="1112" relation="include">
+        </childnode>
+        <childnode refid="1114" relation="include">
+        </childnode>
+      </node>
+      <node id="1117">
+        <label>StaticDatastore.cpp</label>
+        <link refid="_static_datastore_8cpp"/>
+      </node>
+      <node id="1118">
+        <label>Verhuur.cpp</label>
+        <link refid="_verhuur_8cpp"/>
+      </node>
+      <node id="1114">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+      </node>
+      <node id="1119">
+        <label>TariefRepo.cpp</label>
+        <link refid="_tarief_repo_8cpp"/>
+      </node>
+      <node id="1115">
+        <label>Boete.cpp</label>
+        <link refid="_boete_8cpp"/>
+      </node>
+      <node id="1109">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="1107" relation="include">
+        </childnode>
+        <childnode refid="1110" relation="include">
+        </childnode>
+        <childnode refid="1111" relation="include">
+        </childnode>
+        <childnode refid="1112" relation="include">
+        </childnode>
+        <childnode refid="1113" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_tarief_repo" prot="public">TariefRepo</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>TariefRepo.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>26<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>TARIEFREPO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TARIEFREPO_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_i_data_store_8h" kindref="compound">IDataStore.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_tarief_8h" kindref="compound">Tarief.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_auto_type_8h" kindref="compound">AutoType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_abonnement_type_8h" kindref="compound">AbonnementType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_base_repo_8h" kindref="compound">BaseRepo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="21" refid="class_tarief_repo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_tarief_repo" kindref="compound">TariefRepo</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;tarieven::Tarief,<sp/>DataStoreType&gt;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="24" refid="class_tarief_repo_1a538e807640bf468dd745d1ee6e83de1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tarief_repo_1a538e807640bf468dd745d1ee6e83de1b" kindref="member">TariefRepo</ref>(<ref refid="class_i_data_store" kindref="compound">IDataStore&lt;DataStoreType&gt;</ref>&amp;<sp/>dataStore)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><sp/><sp/><ref refid="class_base_repo" kindref="compound">BaseRepo</ref>&lt;<ref refid="namespacetarieven" kindref="compound">tarieven</ref>::Tarief,<sp/>DataStoreType&gt;(dataStore)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_tarief_repo_1a5d34123269b0babe159e7a6a4401884b" kindref="member">~TariefRepo</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_tarief_repo_1ac8395d114035857498de747fddb2ee8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/><ref refid="class_tarief_repo_1ac8395d114035857498de747fddb2ee8a" kindref="member">getTariefByTypes</ref>(std::shared_ptr&lt;AutoType&gt;<sp/>aut,<sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/>abt)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tL<sp/>=<sp/>[aut,<sp/>abt](<ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/>t)</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(t-&gt;autoType-&gt;id<sp/>==<sp/>aut-&gt;id<sp/>&amp;&amp;<sp/>t-&gt;aboType-&gt;id<sp/>==<sp/>abt-&gt;id);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>tp<sp/>=<sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/>tarief<sp/>=<sp/>this-&gt;<ref refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" kindref="member">mDataStore</ref>.<ref refid="class_i_data_store_1a484c3e1a854147995ab7d519640acdb1" kindref="member">loadModel</ref>(tp,<sp/>tL);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tarief;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>TARIEFREPO_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="TariefRepo.h"/>
+  </compounddef>
+</doxygen>

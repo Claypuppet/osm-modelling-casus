@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_base_repo" kind="class" language="C++" prot="public">
+    <compoundname>BaseRepo</compoundname>
+    <includes refid="_base_repo_8h" local="no">BaseRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>ModelType</declname>
+        <defname>ModelType</defname>
+      </param>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_base_repo_1a97bd5b2a2929872470c053e249f71940" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+        <definition>IDataStore&lt;DataStoreType&gt;&amp; BaseRepo&lt; ModelType, DataStoreType &gt;::mDataStore</definition>
+        <argsstring></argsstring>
+        <name>mDataStore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="19" column="1" bodyfile="BaseRepo.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_base_repo_1ad15627fcbaa43e486c20386d48b28a49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>BaseRepo&lt; ModelType, DataStoreType &gt;::BaseRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>BaseRepo</name>
+        <param>
+          <type><ref refid="class_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="22" column="1" bodyfile="BaseRepo.h" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_repo_1af2168f49ca27644b1f3d362e1913e8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BaseRepo&lt; ModelType, DataStoreType &gt;::~BaseRepo</definition>
+        <argsstring>()=default</argsstring>
+        <name>~BaseRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_repo_1a2466ad8a9c91a45a365777c8b3dc9a85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseRepo&lt; ModelType, DataStoreType &gt;::save</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>save</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="27" column="1" bodyfile="BaseRepo.h" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_repo_1a8aabaca29cee66eb9ca5dad568cba7a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void BaseRepo&lt; ModelType, DataStoreType &gt;::create</definition>
+        <argsstring>(std::shared_ptr&lt; ModelType &gt; model)</argsstring>
+        <name>create</name>
+        <param>
+          <type>std::shared_ptr&lt; ModelType &gt;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="33" column="1" bodyfile="BaseRepo.h" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_base_repo_1acead0908baa6af29577487e3a9bcf1ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; ModelType &gt;</type>
+        <definition>std::shared_ptr&lt;ModelType&gt; BaseRepo&lt; ModelType, DataStoreType &gt;::getById</definition>
+        <argsstring>(uint32_t id)</argsstring>
+        <name>getById</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="BaseRepo.h" line="36" column="1" bodyfile="BaseRepo.h" bodystart="36" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="24">
+        <label>BaseRepo&lt; ModelType, DataStoreType &gt;</label>
+        <link refid="class_base_repo"/>
+        <childnode refid="25" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="25">
+        <label>IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_i_data_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="BaseRepo.h" line="17" column="1" bodyfile="BaseRepo.h" bodystart="16" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_base_repo_1ad15627fcbaa43e486c20386d48b28a49" prot="public" virt="non-virtual"><scope>BaseRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_base_repo_1a8aabaca29cee66eb9ca5dad568cba7a0" prot="public" virt="non-virtual"><scope>BaseRepo</scope><name>create</name></member>
+      <member refid="class_base_repo_1acead0908baa6af29577487e3a9bcf1ca" prot="public" virt="non-virtual"><scope>BaseRepo</scope><name>getById</name></member>
+      <member refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" prot="protected" virt="non-virtual"><scope>BaseRepo</scope><name>mDataStore</name></member>
+      <member refid="class_base_repo_1a2466ad8a9c91a45a365777c8b3dc9a85" prot="public" virt="non-virtual"><scope>BaseRepo</scope><name>save</name></member>
+      <member refid="class_base_repo_1af2168f49ca27644b1f3d362e1913e8e6" prot="public" virt="non-virtual"><scope>BaseRepo</scope><name>~BaseRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -13,8 +13,13 @@
 #include <memory>
 
 class Standplaats;
-class RedcarModule;
-class AutoType;
+
+namespace Deelautos {
+
+	using core::DatastoreModel;
+
+	class RedcarModule;
+	class AutoType;
 
 class Deelauto : public DatastoreModel<Deelauto>
 {
@@ -40,5 +45,7 @@ public:
 	std::shared_ptr<AutoType> type;
 
 };
+
+}
 
 #endif /* DEELAUTO_H_ */

@@ -7,6 +7,7 @@
 
 #include "KlantRepo.h"
 
-
+namespace Klanten {
+}
 
 

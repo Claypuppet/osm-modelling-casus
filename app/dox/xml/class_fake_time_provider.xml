@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_fake_time_provider" kind="class" language="C++" prot="public">
+    <compoundname>FakeTimeProvider</compoundname>
+    <basecompoundref refid="class_i_time_provider" prot="public" virt="non-virtual">ITimeProvider</basecompoundref>
+    <includes refid="time_profider_8h" local="no">timeProfider.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_fake_time_provider_1a3545be40c96512bb0c125c7c0c155b24" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t FakeTimeProvider::fakeTime</definition>
+        <argsstring></argsstring>
+        <name>fakeTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="43" column="1" bodyfile="timeProfider.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_fake_time_provider_1a6419726d6f0c02fa2ba73333e7b7b6dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FakeTimeProvider::FakeTimeProvider</definition>
+        <argsstring>(uint32_t fakeTime)</argsstring>
+        <name>FakeTimeProvider</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>fakeTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="36" column="1" bodyfile="timeProfider.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fake_time_provider_1ae67f62fb064117e0b9644c1e774de0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual FakeTimeProvider::~FakeTimeProvider</definition>
+        <argsstring>()=default</argsstring>
+        <name>~FakeTimeProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_fake_time_provider_1a0c9f32a4e2f5d531d02f10faac480e15" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>uint32_t</type>
+        <definition>virtual uint32_t FakeTimeProvider::getTime</definition>
+        <argsstring>() const override</argsstring>
+        <name>getTime</name>
+        <reimplements refid="class_i_time_provider_1ac04614c0b8650d18832759654040780f">getTime</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="timeProfider.h" line="38" column="1" bodyfile="timeProfider.h" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>ITimeProvider</label>
+        <link refid="class_i_time_provider"/>
+      </node>
+      <node id="50">
+        <label>FakeTimeProvider</label>
+        <link refid="class_fake_time_provider"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>ITimeProvider</label>
+        <link refid="class_i_time_provider"/>
+      </node>
+      <node id="52">
+        <label>FakeTimeProvider</label>
+        <link refid="class_fake_time_provider"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="timeProfider.h" line="34" column="1" bodyfile="timeProfider.h" bodystart="33" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_fake_time_provider_1a3545be40c96512bb0c125c7c0c155b24" prot="private" virt="non-virtual"><scope>FakeTimeProvider</scope><name>fakeTime</name></member>
+      <member refid="class_fake_time_provider_1a6419726d6f0c02fa2ba73333e7b7b6dc" prot="public" virt="non-virtual"><scope>FakeTimeProvider</scope><name>FakeTimeProvider</name></member>
+      <member refid="class_fake_time_provider_1a0c9f32a4e2f5d531d02f10faac480e15" prot="public" virt="virtual"><scope>FakeTimeProvider</scope><name>getTime</name></member>
+      <member refid="class_i_time_provider_1a7efca2fd640d20135aefbb9e51edad1c" prot="protected" virt="non-virtual"><scope>FakeTimeProvider</scope><name>ITimeProvider</name></member>
+      <member refid="class_fake_time_provider_1ae67f62fb064117e0b9644c1e774de0d0" prot="public" virt="virtual"><scope>FakeTimeProvider</scope><name>~FakeTimeProvider</name></member>
+      <member refid="class_i_time_provider_1aee17cd245c6c4a552ce62ab9c796c1f3" prot="public" virt="virtual"><scope>FakeTimeProvider</scope><name>~ITimeProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

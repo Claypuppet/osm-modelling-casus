@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_reservering_8cpp" kind="file" language="C++">
+    <compoundname>Reservering.cpp</compoundname>
+    <includes refid="_reservering_8h" local="yes">Reservering.h</includes>
+    <includes refid="_verhuur_8h" local="yes">Verhuur.h</includes>
+    <includes refid="_klant_8h" local="yes">Klant.h</includes>
+    <includes refid="_reservering_repo_8h" local="yes">ReserveringRepo.h</includes>
+    <includes refid="_auto_type_8h" local="yes">AutoType.h</includes>
+    <includes refid="_deelauto_8h" local="yes">Deelauto.h</includes>
+    <includes refid="_tarief_8h" local="yes">Tarief.h</includes>
+    <includes refid="_red_cars_context_8h" local="yes">RedCarsContext.h</includes>
+    <includes refid="_signals_8h" local="yes">Signals.h</includes>
+    <includes local="no">stdexcept</includes>
+    <incdepgraph>
+      <node id="683">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+        <childnode refid="722" relation="include">
+        </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
+        <childnode refid="725" relation="include">
+        </childnode>
+      </node>
+      <node id="713">
+        <label>atomic</label>
+      </node>
+      <node id="708">
+        <label>Singleton.h</label>
+        <link refid="_singleton_8h"/>
+      </node>
+      <node id="701">
+        <label>BaseRepo.h</label>
+        <link refid="_base_repo_8h"/>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>functional</label>
+      </node>
+      <node id="716">
+        <label>KlantRepo.h</label>
+        <link refid="_klant_repo_8h"/>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+      </node>
+      <node id="711">
+        <label>ctti/type_id.hpp</label>
+      </node>
+      <node id="697">
+        <label>AbonnementType.h</label>
+        <link refid="_abonnement_type_8h"/>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+      </node>
+      <node id="689">
+        <label>stdint.h</label>
+      </node>
+      <node id="724">
+        <label>boost/signals2.hpp</label>
+      </node>
+      <node id="718">
+        <label>TariefRepo.h</label>
+        <link refid="_tarief_repo_8h"/>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="694">
+        <label>TariefSoortPrijs.h</label>
+        <link refid="_tarief_soort_prijs_8h"/>
+        <childnode refid="691" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+      </node>
+      <node id="725">
+        <label>stdexcept</label>
+      </node>
+      <node id="692">
+        <label>numeric</label>
+      </node>
+      <node id="717">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="707">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="709" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="719" relation="include">
+        </childnode>
+      </node>
+      <node id="690">
+        <label>string</label>
+      </node>
+      <node id="714">
+        <label>map</label>
+      </node>
+      <node id="700">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="707" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="687">
+        <label>Product.h</label>
+        <link refid="_product_8h"/>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+      </node>
+      <node id="688">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="689" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+      </node>
+      <node id="684">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="693" relation="include">
+        </childnode>
+        <childnode refid="695" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+      </node>
+      <node id="706">
+        <label>boost/type_index/ctti_type_index.hpp</label>
+      </node>
+      <node id="698">
+        <label>Klant.h</label>
+        <link refid="_klant_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="689" relation="include">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>vector</label>
+      </node>
+      <node id="710">
+        <label>StaticDatastore.h</label>
+        <link refid="_static_datastore_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="711" relation="include">
+        </childnode>
+        <childnode refid="703" relation="include">
+        </childnode>
+        <childnode refid="712" relation="include">
+        </childnode>
+        <childnode refid="691" relation="include">
+        </childnode>
+        <childnode refid="713" relation="include">
+        </childnode>
+        <childnode refid="704" relation="include">
+        </childnode>
+        <childnode refid="714" relation="include">
+        </childnode>
+        <childnode refid="715" relation="include">
+        </childnode>
+      </node>
+      <node id="702">
+        <label>IDataStore.h</label>
+        <link refid="_i_data_store_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="703" relation="include">
+        </childnode>
+        <childnode refid="704" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+        <childnode refid="705" relation="include">
+        </childnode>
+        <childnode refid="706" relation="include">
+        </childnode>
+      </node>
+      <node id="696">
+        <label>AutoType.h</label>
+        <link refid="_auto_type_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+      </node>
+      <node id="705">
+        <label>utility</label>
+      </node>
+      <node id="695">
+        <label>TariefSoort.h</label>
+        <link refid="_tarief_soort_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="693">
+        <label>Tarief.h</label>
+        <link refid="_tarief_8h"/>
+        <childnode refid="688" relation="include">
+        </childnode>
+        <childnode refid="694" relation="include">
+        </childnode>
+        <childnode refid="696" relation="include">
+        </childnode>
+        <childnode refid="697" relation="include">
+        </childnode>
+      </node>
+      <node id="709">
+        <label>cui/CUI.h</label>
+      </node>
+      <node id="719">
+        <label>timeProfider.h</label>
+        <link refid="time_profider_8h"/>
+        <childnode refid="720" relation="include">
+        </childnode>
+      </node>
+      <node id="715">
+        <label>unordered_map</label>
+      </node>
+      <node id="720">
+        <label>chrono</label>
+      </node>
+      <node id="721">
+        <label>Deelauto.h</label>
+        <link refid="_deelauto_8h"/>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="690" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="704">
+        <label>type_traits</label>
+      </node>
+      <node id="712">
+        <label>algorithm</label>
+      </node>
+      <node id="685">
+        <label>DatastoreModel.h</label>
+        <link refid="_datastore_model_8h"/>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="686">
+        <label>memory</label>
+      </node>
+      <node id="723">
+        <label>Signals.h</label>
+        <link refid="_signals_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="724" relation="include">
+        </childnode>
+        <childnode refid="686" relation="include">
+        </childnode>
+      </node>
+      <node id="722">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="708" relation="include">
+        </childnode>
+        <childnode refid="716" relation="include">
+        </childnode>
+        <childnode refid="718" relation="include">
+        </childnode>
+        <childnode refid="717" relation="include">
+        </childnode>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="710" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Reservering.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>24<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reservering_8h" kindref="compound">Reservering.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_verhuur_8h" kindref="compound">Verhuur.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_klant_8h" kindref="compound">Klant.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_reservering_repo_8h" kindref="compound">ReserveringRepo.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_auto_type_8h" kindref="compound">AutoType.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_deelauto_8h" kindref="compound">Deelauto.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_tarief_8h" kindref="compound">Tarief.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_red_cars_context_8h" kindref="compound">RedCarsContext.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_signals_8h" kindref="compound">Signals.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdexcept&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="class_reservering_1ad81ad37ab56781537c77c29a468c9a4d" kindref="member">Reservering::Reservering</ref>()</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">:<sp/>beginMoment(0)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">,<sp/>eindMoment(0)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">,<sp/>klant(nullptr)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">,<sp/>verhuur(nullptr)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><ref refid="class_reservering_1a0bb30c182d47cefebaca366085f96525" kindref="member">Reservering::~Reservering</ref>()</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="class_reservering_1ad81ad37ab56781537c77c29a468c9a4d" kindref="member">Reservering::Reservering</ref>(uint32_t<sp/>beginMoment,<sp/>uint32_t<sp/>eindMoment,<sp/>std::shared_ptr&lt;Klant&gt;&amp;<sp/>klant,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::shared_ptr&lt;Deelauto&gt;&amp;<sp/>deelauto,<sp/><ref refid="namespacetarieven_1af73e6836a04e491f0511f2a485773671" kindref="member">tarieven::TariefSoortPtr</ref><sp/>tariefSoort)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">:<sp/>beginMoment(beginMoment)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">,<sp/>eindMoment(eindMoment)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">,<sp/>klant(klant)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">,<sp/>deelauto(deelauto)</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">,<sp/>tariefSoort(tariefSoort)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">,<sp/>verhuur(nullptr)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!klant)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::logic_error(</highlight><highlight class="stringliteral">&quot;Reservering<sp/>moet<sp/>tot<sp/>een<sp/>klant<sp/>behoren&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!deelauto)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::logic_error(</highlight><highlight class="stringliteral">&quot;Reservering<sp/>moet<sp/>aan<sp/>deelauto<sp/>gekoppelt<sp/>zijn&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!tariefSoort)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::logic_error(</highlight><highlight class="stringliteral">&quot;Reservering<sp/>moet<sp/>een<sp/>tariefsoort<sp/>bevatten&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">std::shared_ptr&lt;Verhuur&gt;<sp/><ref refid="class_reservering_1a86d16f96fb4f66582c4ed689816f0755" kindref="member">Reservering::verzilveren</ref>()</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(verhuur)<sp/>{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Signals::i().VehuurWasAlIngecheckt(verhuur);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>verhuur<sp/>=<sp/><ref refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" kindref="member">Verhuur::Create</ref>(std::static_pointer_cast&lt;Reservering&gt;(shared_from_this()),<sp/>Application::getInstance().getNowMoment());</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>verhuur;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_reservering_1afc6da2cf16c896d88e0eeed82d84036a" kindref="member">Reservering::isIngecheckt</ref>()</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>verhuur<sp/>!=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/><ref refid="class_reservering_1aff8b9556abe036abd438aabef57f8804" kindref="member">Reservering::getTarief</ref>()</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AutoType&gt;<sp/>autoType<sp/>=<sp/>deelauto-&gt;type;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;AbonnementType&gt;<sp/>aboType<sp/>=<sp/>klant-&gt;abbonomentType;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>repo<sp/>=<sp/><ref refid="class_red_cars_context_1a41bd2f15fbbc869a8d8716db3e023a77" kindref="member">RedCarsContext::getInstance</ref>().<ref refid="classdetail_1_1_red_cars_context_impl_1a2fa99997b3a1f63c50a4d951399b4375" kindref="member">getTariefRepo</ref>();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/>tarief<sp/>=<sp/>repo.<ref refid="class_tarief_repo_1ac8395d114035857498de747fddb2ee8a" kindref="member">getTariefByTypes</ref>(autoType,<sp/>aboType);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!tarief)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::logic_error(</highlight><highlight class="stringliteral">&quot;Geen<sp/>tarief<sp/>voor<sp/>deze<sp/>combinatie!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tarief;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">uint32_t<sp/><ref refid="class_reservering_1acd271f74f8a546e66cc254a408af2bef" kindref="member">Reservering::getTariefSoortPeriodeAantal</ref>()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>timeDelta<sp/>=<sp/>eindMoment<sp/>-<sp/>beginMoment;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>betalingPer<sp/>=<sp/>tariefSoort-&gt;periode;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(timeDelta<sp/>/<sp/>betalingPer)<sp/>+<sp/>(timeDelta<sp/>%<sp/>betalingPer<sp/>?<sp/>1<sp/>:<sp/>0);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_reservering_1a27fd6336ff5ffad0fa6f4dcb9ba71299" kindref="member">Reservering::getKosten</ref>()</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" kindref="member">tarieven::TariefPtr</ref><sp/>t<sp/>=<sp/>getTarief();</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>aantal<sp/>=<sp/>getTariefSoortPeriodeAantal();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>kilometers<sp/>=<sp/>verhuur<sp/><sp/>?<sp/>verhuur-&gt;aantalKilometers<sp/>:<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>t-&gt;berekenKosten(kilometers,<sp/>tariefSoort,<sp/>aantal);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">std::string<sp/><ref refid="class_reservering_1a6b5401c15d6d9b341af9040b6528c9dc" kindref="member">Reservering::asString</ref>()</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;hier<sp/>komt<sp/>reservering<sp/>string&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Reservering.cpp"/>
+  </compounddef>
+</doxygen>

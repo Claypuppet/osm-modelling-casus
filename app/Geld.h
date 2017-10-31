@@ -11,6 +11,8 @@
 #include <stdint.h>
 #include <string>
 
+namespace Core {
+
 class Geld
 {
 public:
@@ -120,5 +122,7 @@ public:
 private:
 	int32_t waarde;
 };
+
+}
 
 #endif /* GELD_H_ */

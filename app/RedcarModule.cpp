@@ -7,6 +7,8 @@
 
 #include "RedcarModule.h"
 
+namespace RedcardModule {
+
 RedcarModule::RedcarModule()
 : aantalKilometers(0)
 , pasNummer(0)
@@ -46,4 +48,6 @@ float RedcarModule::getAantalKilometers() const
 void RedcarModule::setPasNummer(uint32_t pasNummer)
 {
 	this->pasNummer = pasNummer;
+}
+
 }

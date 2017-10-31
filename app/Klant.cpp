@@ -7,6 +7,8 @@
 
 #include "Klant.h"
 
+namespace Klanten {
+
 Klant::Klant()
 : pasNummmer(0)
 {
@@ -26,3 +28,4 @@ Klant::~Klant()
 	// TODO Auto-generated destructor stub
 }
 
+}

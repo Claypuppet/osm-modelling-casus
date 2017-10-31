@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_product_8h" kind="file" language="C++">
+    <compoundname>Product.h</compoundname>
+    <includes refid="_geld_8h" local="yes">Geld.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">numeric</includes>
+    <includedby refid="_reservering_8h" local="yes">Reservering.h</includedby>
+    <includedby refid="_boete_8h" local="yes">Boete.h</includedby>
+    <includedby refid="_product_8cpp" local="yes">Product.cpp</includedby>
+    <includedby refid="_verhuur_8cpp" local="yes">Verhuur.cpp</includedby>
+    <incdepgraph>
+      <node id="562">
+        <label>stdint.h</label>
+      </node>
+      <node id="566">
+        <label>numeric</label>
+      </node>
+      <node id="563">
+        <label>string</label>
+      </node>
+      <node id="560">
+        <label>Product.h</label>
+        <link refid="_product_8h"/>
+        <childnode refid="561" relation="include">
+        </childnode>
+        <childnode refid="564" relation="include">
+        </childnode>
+        <childnode refid="565" relation="include">
+        </childnode>
+        <childnode refid="566" relation="include">
+        </childnode>
+      </node>
+      <node id="561">
+        <label>Geld.h</label>
+        <link refid="_geld_8h"/>
+        <childnode refid="562" relation="include">
+        </childnode>
+        <childnode refid="563" relation="include">
+        </childnode>
+      </node>
+      <node id="564">
+        <label>vector</label>
+      </node>
+      <node id="565">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="577">
+        <label>Reservering.cpp</label>
+        <link refid="_reservering_8cpp"/>
+      </node>
+      <node id="575">
+        <label>Product.cpp</label>
+        <link refid="_product_8cpp"/>
+      </node>
+      <node id="581">
+        <label>main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="570">
+        <label>VerhuurRepo.h</label>
+        <link refid="_verhuur_repo_8h"/>
+        <childnode refid="571" relation="include">
+        </childnode>
+        <childnode refid="574" relation="include">
+        </childnode>
+        <childnode refid="584" relation="include">
+        </childnode>
+      </node>
+      <node id="578">
+        <label>ReserveringController.cpp</label>
+        <link refid="_reservering_controller_8cpp"/>
+      </node>
+      <node id="571">
+        <label>Application.h</label>
+        <link refid="_application_8h"/>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+        <childnode refid="580" relation="include">
+        </childnode>
+        <childnode refid="581" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+      <node id="576">
+        <label>RedCarsContext.cpp</label>
+        <link refid="_red_cars_context_8cpp"/>
+      </node>
+      <node id="572">
+        <label>Application.cpp</label>
+        <link refid="_application_8cpp"/>
+      </node>
+      <node id="573">
+        <label>ReserveringRepo.h</label>
+        <link refid="_reservering_repo_8h"/>
+        <childnode refid="574" relation="include">
+        </childnode>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="579" relation="include">
+        </childnode>
+      </node>
+      <node id="582">
+        <label>StaticDatastore.cpp</label>
+        <link refid="_static_datastore_8cpp"/>
+      </node>
+      <node id="567">
+        <label>Product.h</label>
+        <link refid="_product_8h"/>
+        <childnode refid="568" relation="include">
+        </childnode>
+        <childnode refid="586" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+      <node id="584">
+        <label>VerhuurRepo.cpp</label>
+        <link refid="_verhuur_repo_8cpp"/>
+      </node>
+      <node id="583">
+        <label>Verhuur.cpp</label>
+        <link refid="_verhuur_8cpp"/>
+      </node>
+      <node id="568">
+        <label>Reservering.h</label>
+        <link refid="_reservering_8h"/>
+        <childnode refid="569" relation="include">
+        </childnode>
+        <childnode refid="573" relation="include">
+        </childnode>
+        <childnode refid="585" relation="include">
+        </childnode>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+      </node>
+      <node id="569">
+        <label>Verhuur.h</label>
+        <link refid="_verhuur_8h"/>
+        <childnode refid="570" relation="include">
+        </childnode>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="582" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+      <node id="579">
+        <label>ReserveringRepo.cpp</label>
+        <link refid="_reservering_repo_8cpp"/>
+      </node>
+      <node id="585">
+        <label>ReserveringController.h</label>
+        <link refid="_reservering_controller_8h"/>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="578" relation="include">
+        </childnode>
+      </node>
+      <node id="586">
+        <label>Boete.h</label>
+        <link refid="_boete_8h"/>
+        <childnode refid="580" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+        <childnode refid="583" relation="include">
+        </childnode>
+      </node>
+      <node id="580">
+        <label>Boete.cpp</label>
+        <link refid="_boete_8cpp"/>
+      </node>
+      <node id="574">
+        <label>RedCarsContext.h</label>
+        <link refid="_red_cars_context_8h"/>
+        <childnode refid="572" relation="include">
+        </childnode>
+        <childnode refid="575" relation="include">
+        </childnode>
+        <childnode refid="576" relation="include">
+        </childnode>
+        <childnode refid="577" relation="include">
+        </childnode>
+        <childnode refid="578" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_product" prot="public">Product</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="class_boete" kindref="compound">Boete</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Boete&gt; BoetePtr</definition>
+        <argsstring></argsstring>
+        <name>BoetePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="18" column="1" bodyfile="Product.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_product_8h_1a5669d6a05910cd4686bb899c22971351" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" kindref="member">BoetePtr</ref> &gt;</type>
+        <definition>typedef std::vector&lt;BoetePtr&gt; BoeteList</definition>
+        <argsstring></argsstring>
+        <name>BoeteList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Product.h" line="19" column="1" bodyfile="Product.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Producten.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>25<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PRODUCT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRODUCT_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_geld_8h" kindref="compound">Geld.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;numeric&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_boete" kindref="compound">Boete</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;Boete&gt;<sp/><ref refid="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" kindref="member">BoetePtr</ref>;</highlight></codeline>
+<codeline lineno="19" refid="_product_8h_1a5669d6a05910cd4686bb899c22971351" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>std::vector&lt;BoetePtr&gt;<sp/><ref refid="_product_8h_1a5669d6a05910cd4686bb899c22971351" kindref="member">BoeteList</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_product" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_product" kindref="compound">Product</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_product_1a8b28088bf44ce0b2a1548fb1d48709ca" kindref="member">~Product</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_product_1a522cada24747c261256fb2a2f84c3df7" kindref="member">getKosten</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_product_1a909fc12b80f4638775084397a3ec9d7a" kindref="member">getExtraKosten</ref>()<sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_geld" kindref="compound">Geld</ref><sp/><ref refid="class_product_1a4ab8cc7ecfe96cb54df437ce6b993ec4" kindref="member">getTotaalKosten</ref>()<sp/></highlight><highlight class="keyword">final</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="class_product_1a37f12dba000da49e91741915b0326448" kindref="member">asString</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32" refid="class_product_1adca84a4ec80bb8f905d1e60d01c268b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_product_8h_1a5669d6a05910cd4686bb899c22971351" kindref="member">BoeteList</ref><sp/><ref refid="class_product_1adca84a4ec80bb8f905d1e60d01c268b5" kindref="member">boetes</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_product_1a0b641a5eadb6ff3488c09329acd6d1ef" kindref="member">Product</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36" refid="class_product_1a24c9842e7a076d4da5c106010c3481b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_product_1a24c9842e7a076d4da5c106010c3481b9" kindref="member">Product</ref>(<ref refid="_product_8h_1a5669d6a05910cd4686bb899c22971351" kindref="member">BoeteList</ref><sp/>boetes)<sp/>:<sp/>boetes(boetes){};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_product_1ab77f17e6bbbb5f686330af1b04b6ee01" kindref="member">addBoete</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="_product_8h_1a41a482f12e7fa484ce98429cf302e4d7" kindref="member">BoetePtr</ref><sp/>b);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_product_1a4d36a87cd6e9bb55496c3a19a45fcf51" kindref="member">maakFactuur</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>PRODUCTEN_H_<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="Product.h"/>
+  </compounddef>
+</doxygen>

@@ -18,6 +18,8 @@
 
 #include <boost/type_index/ctti_type_index.hpp>
 
+namespace Core {
+
 using boost::typeindex::ctti_type_index;
 
 template<typename ModelType, typename ModelIdFieldType=uint32_t>
@@ -103,6 +105,6 @@ public:
 
 };
 
-
+}
 
 #endif /* IDATASTORE_H_ */

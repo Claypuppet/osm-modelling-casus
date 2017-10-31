@@ -7,6 +7,9 @@
 
 #include "AutoType.h"
 
+namespace Deelautos {
+
+}
 AutoType::AutoType()
 {
 
@@ -17,3 +20,4 @@ AutoType::AutoType(const std::string& naam)
 {
 }
 
+}

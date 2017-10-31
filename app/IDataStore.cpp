@@ -7,3 +7,6 @@
 
 #include "IDataStore.h"
 
+namespace Core {
+
+}

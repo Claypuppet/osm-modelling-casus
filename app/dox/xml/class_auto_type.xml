@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_auto_type" kind="class" language="C++" prot="public">
+    <compoundname>AutoType</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; AutoType &gt;</basecompoundref>
+    <includes refid="_auto_type_8h" local="no">AutoType.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_auto_type_1ae2a8555d7ae69db79eb922568b449e17" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend AutoType::DatastoreModel&lt; AutoType &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; AutoType &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AutoType.h" line="15" column="1" bodyfile="AutoType.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_auto_type_1aa821fcbc9018e0264e189175c9cafaa9" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string AutoType::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AutoType.h" line="23" column="1" bodyfile="AutoType.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_auto_type_1a6687fe7aaf559f0bb2690b9af45c1be7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AutoType::AutoType</definition>
+        <argsstring>()</argsstring>
+        <name>AutoType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AutoType.h" line="16" column="1" bodyfile="AutoType.cpp" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_auto_type_1a58ee8c600e720e9c69641d73f93c5d41" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AutoType::AutoType</definition>
+        <argsstring>(const std::string &amp;naam)</argsstring>
+        <name>AutoType</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>naam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AutoType.h" line="17" column="1" bodyfile="AutoType.cpp" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_auto_type_1a03a766960e5001c1460f656bfe9b3afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AutoType::~AutoType</definition>
+        <argsstring>()=default</argsstring>
+        <name>~AutoType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AutoType.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>AutoType</label>
+        <link refid="class_auto_type"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>DatastoreModel&lt; AutoType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; AutoType &gt; &gt;</label>
+      </node>
+      <node id="17">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>AutoType</label>
+        <link refid="class_auto_type"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>DatastoreModel&lt; AutoType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; AutoType &gt; &gt;</label>
+      </node>
+      <node id="21">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+    </collaborationgraph>
+    <location file="AutoType.h" line="14" column="1" bodyfile="AutoType.h" bodystart="13" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_auto_type_1a6687fe7aaf559f0bb2690b9af45c1be7" prot="private" virt="non-virtual"><scope>AutoType</scope><name>AutoType</name></member>
+      <member refid="class_auto_type_1a58ee8c600e720e9c69641d73f93c5d41" prot="private" virt="non-virtual"><scope>AutoType</scope><name>AutoType</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>AutoType</scope><name>Create</name></member>
+      <member refid="class_auto_type_1ae2a8555d7ae69db79eb922568b449e17" prot="private" virt="non-virtual"><scope>AutoType</scope><name>DatastoreModel&lt; AutoType &gt;</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>AutoType</scope><name>id</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>AutoType</scope><name>ModelPtr</name></member>
+      <member refid="class_auto_type_1aa821fcbc9018e0264e189175c9cafaa9" prot="public" virt="non-virtual"><scope>AutoType</scope><name>naam</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>AutoType</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>AutoType</scope><name>shared_from_this</name></member>
+      <member refid="class_auto_type_1a03a766960e5001c1460f656bfe9b3afc" prot="public" virt="non-virtual"><scope>AutoType</scope><name>~AutoType</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>AutoType</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>AutoType</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

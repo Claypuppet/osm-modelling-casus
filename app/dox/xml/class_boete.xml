@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_boete" kind="class" language="C++" prot="public">
+    <compoundname>Boete</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Boete &gt;</basecompoundref>
+    <basecompoundref refid="class_product" prot="public" virt="non-virtual">Product</basecompoundref>
+    <includes refid="_boete_8h" local="no">Boete.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_boete_1a926b4c0277b1c31f1d69c2ae0aaff219" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend Boete::DatastoreModel&lt; Boete &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; Boete &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="19" column="1" bodyfile="Boete.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boete_1aea709b74c085ddd4b3fec93827a9f4ed" prot="private" static="no" mutable="no">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Boete::kosten</definition>
+        <argsstring></argsstring>
+        <name>kosten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="31" column="1" bodyfile="Boete.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boete_1a1336f073956262da7f134aca4b1f6f51" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Boete::reden</definition>
+        <argsstring></argsstring>
+        <name>reden</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="32" column="1" bodyfile="Boete.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_boete_1a2b7fc3791f523596493f337f03f2b19d" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Boete::timeStamp</definition>
+        <argsstring></argsstring>
+        <name>timeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="33" column="1" bodyfile="Boete.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_boete_1ab302f78468da3e1e10d1df96f0cc3e9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+        <definition>Geld Boete::getKosten</definition>
+        <argsstring>()</argsstring>
+        <name>getKosten</name>
+        <reimplements refid="class_product_1a522cada24747c261256fb2a2f84c3df7">getKosten</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="22" column="1" bodyfile="Boete.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boete_1a8861be9c6f438179b631cc99d5e658a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual Boete::~Boete</definition>
+        <argsstring>()=default</argsstring>
+        <name>~Boete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boete_1a47349453a610fd573ddd8e3e7bf3328c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Boete::asString</definition>
+        <argsstring>() override</argsstring>
+        <name>asString</name>
+        <reimplements refid="class_product_1a37f12dba000da49e91741915b0326448">asString</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="24" column="1" bodyfile="Boete.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_boete_1adad75b9bc81ef740e3d43abe1ce83397" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Boete::Boete</definition>
+        <argsstring>(Geld kosten, std::string reden, uint32_t timeStamp)</argsstring>
+        <name>Boete</name>
+        <param>
+          <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+          <declname>kosten</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>reden</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>timeStamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="27" column="1" bodyfile="Boete.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_boete_1aea6ef3d75e432a94154b35383dc0abee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Boete::Boete</definition>
+        <argsstring>(Geld kosten, std::string reden)</argsstring>
+        <name>Boete</name>
+        <param>
+          <type><ref refid="class_geld" kindref="compound">Geld</ref></type>
+          <declname>kosten</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>reden</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Boete.h" line="28" column="1" bodyfile="Boete.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="30">
+        <label>Product</label>
+        <link refid="class_product"/>
+      </node>
+      <node id="29">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Boete &gt; &gt;</label>
+      </node>
+      <node id="28">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="27">
+        <label>DatastoreModel&lt; Boete &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>Boete</label>
+        <link refid="class_boete"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>Product</label>
+        <link refid="class_product"/>
+      </node>
+      <node id="34">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; Boete &gt; &gt;</label>
+      </node>
+      <node id="33">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="32">
+        <label>DatastoreModel&lt; Boete &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>Boete</label>
+        <link refid="class_boete"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Boete.h" line="18" column="1" bodyfile="Boete.h" bodystart="17" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_product_1ab77f17e6bbbb5f686330af1b04b6ee01" prot="protected" virt="non-virtual"><scope>Boete</scope><name>addBoete</name></member>
+      <member refid="class_boete_1a47349453a610fd573ddd8e3e7bf3328c" prot="public" virt="virtual"><scope>Boete</scope><name>asString</name></member>
+      <member refid="class_boete_1adad75b9bc81ef740e3d43abe1ce83397" prot="private" virt="non-virtual"><scope>Boete</scope><name>Boete</name></member>
+      <member refid="class_boete_1aea6ef3d75e432a94154b35383dc0abee" prot="private" virt="non-virtual"><scope>Boete</scope><name>Boete</name></member>
+      <member refid="class_product_1adca84a4ec80bb8f905d1e60d01c268b5" prot="protected" virt="non-virtual"><scope>Boete</scope><name>boetes</name></member>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>Boete</scope><name>Create</name></member>
+      <member refid="class_boete_1a926b4c0277b1c31f1d69c2ae0aaff219" prot="private" virt="non-virtual"><scope>Boete</scope><name>DatastoreModel&lt; Boete &gt;</name></member>
+      <member refid="class_product_1a909fc12b80f4638775084397a3ec9d7a" prot="public" virt="virtual"><scope>Boete</scope><name>getExtraKosten</name></member>
+      <member refid="class_boete_1ab302f78468da3e1e10d1df96f0cc3e9b" prot="public" virt="virtual"><scope>Boete</scope><name>getKosten</name></member>
+      <member refid="class_product_1a4ab8cc7ecfe96cb54df437ce6b993ec4" prot="public" virt="virtual"><scope>Boete</scope><name>getTotaalKosten</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>Boete</scope><name>id</name></member>
+      <member refid="class_boete_1aea709b74c085ddd4b3fec93827a9f4ed" prot="private" virt="non-virtual"><scope>Boete</scope><name>kosten</name></member>
+      <member refid="class_product_1a4d36a87cd6e9bb55496c3a19a45fcf51" prot="protected" virt="non-virtual"><scope>Boete</scope><name>maakFactuur</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>Boete</scope><name>ModelPtr</name></member>
+      <member refid="class_product_1a0b641a5eadb6ff3488c09329acd6d1ef" prot="protected" virt="non-virtual"><scope>Boete</scope><name>Product</name></member>
+      <member refid="class_product_1a24c9842e7a076d4da5c106010c3481b9" prot="protected" virt="non-virtual"><scope>Boete</scope><name>Product</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>Boete</scope><name>ptr</name></member>
+      <member refid="class_boete_1a1336f073956262da7f134aca4b1f6f51" prot="private" virt="non-virtual"><scope>Boete</scope><name>reden</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>Boete</scope><name>shared_from_this</name></member>
+      <member refid="class_boete_1a2b7fc3791f523596493f337f03f2b19d" prot="private" virt="non-virtual"><scope>Boete</scope><name>timeStamp</name></member>
+      <member refid="class_boete_1a8861be9c6f438179b631cc99d5e658a4" prot="public" virt="virtual"><scope>Boete</scope><name>~Boete</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>Boete</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>Boete</scope><name>~IDatastoreModel</name></member>
+      <member refid="class_product_1a8b28088bf44ce0b2a1548fb1d48709ca" prot="public" virt="virtual"><scope>Boete</scope><name>~Product</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

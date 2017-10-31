@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_static_datastore_storeage" kind="struct" language="C++" prot="public">
+    <compoundname>StaticDatastoreStoreage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">true_type</basecompoundref>
+    <includes refid="_static_datastore_8h" local="no">StaticDatastore.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ModelType</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="struct_static_datastore_storeage_1ac5fb1f6de752ac452ba3e5171a7770e1" prot="private" static="no">
+        <type>ModelType::ModelPtr</type>
+        <definition>typedef ModelType::ModelPtr StaticDatastoreStoreage&lt; ModelType &gt;::ModelPtr</definition>
+        <argsstring></argsstring>
+        <name>ModelPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="38" column="1" bodyfile="StaticDatastore.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="struct_static_datastore_storeage_1a38c764f6e2b84d4a054240656546a4bb" prot="private" static="no">
+        <type>std::vector&lt; ModelPtr &gt;</type>
+        <definition>using StaticDatastoreStoreage&lt; ModelType &gt;::VectorType =  std::vector&lt;ModelPtr&gt;</definition>
+        <argsstring></argsstring>
+        <name>VectorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="39" column="1" bodyfile="StaticDatastore.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_static_datastore_storeage_1acd788a7c08ed914047ce6edb8a2767b6" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend StaticDatastoreStoreage&lt; ModelType &gt;::StaticDatastore</definition>
+        <argsstring></argsstring>
+        <name>StaticDatastore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="37" column="1" bodyfile="StaticDatastore.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="struct_static_datastore_storeage_1acef9253e0920e0e5ba92b63925e1a988" prot="private" static="yes" mutable="no">
+        <type>std::atomic&lt; uint32_t &gt;</type>
+        <definition>std::atomic&lt; uint32_t &gt; StaticDatastoreStoreage&lt; ModelType &gt;::idCounter</definition>
+        <argsstring></argsstring>
+        <name>idCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="69" column="1" bodyfile="StaticDatastore.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_static_datastore_storeage_1a5543a46040e5169a20bee1d7bc0e8e10" prot="private" static="yes" mutable="no">
+        <type>VectorType</type>
+        <definition>std::vector&lt; typename ModelType::ModelPtr &gt; StaticDatastoreStoreage&lt; ModelType &gt;::store</definition>
+        <argsstring></argsstring>
+        <name>store</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="70" column="1" bodyfile="StaticDatastore.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="struct_static_datastore_storeage_1aa98cdfa507389775dd4cdf2002aeb3d1" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SelectPredicate</type>
+          </param>
+        </templateparamlist>
+        <type>ModelPtr</type>
+        <definition>static ModelPtr StaticDatastoreStoreage&lt; ModelType &gt;::load</definition>
+        <argsstring>(const SelectPredicate &amp;selectPredicate)</argsstring>
+        <name>load</name>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>selectPredicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="43" column="1" bodyfile="StaticDatastore.h" bodystart="43" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_static_datastore_storeage_1a6fe99cfe3ef831715b8b5bcc2e2f4b5b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename SelectPredicate</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>static bool StaticDatastoreStoreage&lt; ModelType &gt;::save</definition>
+        <argsstring>(ModelPtr &amp;model, const SelectPredicate &amp;selectPredicate)</argsstring>
+        <name>save</name>
+        <param>
+          <type>ModelPtr &amp;</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>const SelectPredicate &amp;</type>
+          <declname>selectPredicate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="52" column="1" bodyfile="StaticDatastore.h" bodystart="52" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_static_datastore_storeage_1a7e95ce591703ab5e1764fd55acfb1c59" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void StaticDatastoreStoreage&lt; ModelType &gt;::create</definition>
+        <argsstring>(const ModelPtr model)</argsstring>
+        <name>create</name>
+        <param>
+          <type>const ModelPtr</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="StaticDatastore.h" line="62" column="1" bodyfile="StaticDatastore.h" bodystart="62" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="176">
+        <label>std::true_type</label>
+      </node>
+      <node id="175">
+        <label>StaticDatastoreStoreage&lt; ModelType &gt;</label>
+        <link refid="struct_static_datastore_storeage"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>std::true_type</label>
+      </node>
+      <node id="177">
+        <label>StaticDatastoreStoreage&lt; ModelType &gt;</label>
+        <link refid="struct_static_datastore_storeage"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="StaticDatastore.h" line="35" column="1" bodyfile="StaticDatastore.h" bodystart="34" bodyend="72"/>
+    <listofallmembers>
+      <member refid="struct_static_datastore_storeage_1a7e95ce591703ab5e1764fd55acfb1c59" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>create</name></member>
+      <member refid="struct_static_datastore_storeage_1acef9253e0920e0e5ba92b63925e1a988" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>idCounter</name></member>
+      <member refid="struct_static_datastore_storeage_1aa98cdfa507389775dd4cdf2002aeb3d1" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>load</name></member>
+      <member refid="struct_static_datastore_storeage_1ac5fb1f6de752ac452ba3e5171a7770e1" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>ModelPtr</name></member>
+      <member refid="struct_static_datastore_storeage_1a6fe99cfe3ef831715b8b5bcc2e2f4b5b" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>save</name></member>
+      <member refid="struct_static_datastore_storeage_1acd788a7c08ed914047ce6edb8a2767b6" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>StaticDatastore</name></member>
+      <member refid="struct_static_datastore_storeage_1a5543a46040e5169a20bee1d7bc0e8e10" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>store</name></member>
+      <member refid="struct_static_datastore_storeage_1a38c764f6e2b84d4a054240656546a4bb" prot="private" virt="non-virtual"><scope>StaticDatastoreStoreage</scope><name>VectorType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_i_datastore_model" kind="struct" language="C++" prot="public">
+    <compoundname>IDatastoreModel</compoundname>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; ModelType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; AbonnementType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; AutoType &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Boete &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Deelauto &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Klant &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; RedcarModule &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Reservering &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Standplaats &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Tarief &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; TariefSoort &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; TariefSoortPrijs &gt;</derivedcompoundref>
+    <derivedcompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; Verhuur &gt;</derivedcompoundref>
+    <includes refid="_datastore_model_8h" local="no">DatastoreModel.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual IDatastoreModel::~IDatastoreModel</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IDatastoreModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="DatastoreModel.h" line="16" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>AutoType</label>
+        <link refid="class_auto_type"/>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>Reservering</label>
+        <link refid="class_reservering"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>DatastoreModel&lt; AbonnementType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>DatastoreModel&lt; AutoType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="84">
+        <label>DatastoreModel&lt; Tarief &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>DatastoreModel&lt; Standplaats &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>Verhuur</label>
+        <link refid="class_verhuur"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Klant</label>
+        <link refid="class_klant"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>RedcarModule</label>
+        <link refid="class_redcar_module"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>DatastoreModel&lt; ModelType &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>DatastoreModel&lt; TariefSoort &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>DatastoreModel&lt; TariefSoortPrijs &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="87">
+        <label>tarieven::TariefSoort</label>
+        <link refid="classtarieven_1_1_tarief_soort"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>Deelauto</label>
+        <link refid="class_deelauto"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>DatastoreModel&lt; Reservering &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="90">
+        <label>DatastoreModel&lt; Verhuur &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>tarieven::TariefSoortPrijs</label>
+        <link refid="classtarieven_1_1_tarief_soort_prijs"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>tarieven::Tarief</label>
+        <link refid="classtarieven_1_1_tarief"/>
+        <childnode refid="84" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="74">
+        <label>DatastoreModel&lt; Deelauto &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>AbonnementType</label>
+        <link refid="class_abonnement_type"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Standplaats</label>
+        <link refid="class_standplaats"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>DatastoreModel&lt; Boete &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="76">
+        <label>DatastoreModel&lt; Klant &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>DatastoreModel&lt; RedcarModule &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>Boete</label>
+        <link refid="class_boete"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="DatastoreModel.h" line="15" column="1" bodyfile="DatastoreModel.h" bodystart="15" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>IDatastoreModel</scope><name>~IDatastoreModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classtarieven_1_1_tarief_soort" kind="class" language="C++" prot="public">
+    <compoundname>tarieven::TariefSoort</compoundname>
+    <basecompoundref refid="class_datastore_model" prot="public" virt="non-virtual">DatastoreModel&lt; TariefSoort &gt;</basecompoundref>
+    <includes refid="_tarief_soort_8h" local="no">TariefSoort.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_soort_1af371891b25d2d79427a1d19d56dce3d8" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string tarieven::TariefSoort::naam</definition>
+        <argsstring></argsstring>
+        <name>naam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="24" column="1" bodyfile="TariefSoort.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_soort_1a8b0e9cd20473b8cbc9141f9bcd7e46fa" prot="public" static="no" mutable="no">
+        <type>union tarieven::TariefSoort::@0</type>
+        <definition>union tarieven::TariefSoort::@0 tarieven::TariefSoort::@1</definition>
+        <argsstring></argsstring>
+        <name>@1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Dag(en) van de week dit soort tarief geld (in bits) <hruler/>
+ <heading level="2">BitNr 7 6 5 4 3 2 1 0 </heading>
+</para><para>0 1 0 1 0 1 0 1 | | | | | | | | v v v v v v v v Zo Za Vr Do Wo Di Ma</para><para>Bijv: weekend 0 1 1 0 0 0 0 0 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_soort_1a4023f7687d16aea8e63a881cf31c16f7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t tarieven::TariefSoort::weekMask</definition>
+        <argsstring></argsstring>
+        <name>weekMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="44" column="1" bodyfile="TariefSoort.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_soort_1ae4aae828656c6db7c468625f006490b1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t tarieven::TariefSoort::periode</definition>
+        <argsstring></argsstring>
+        <name>periode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="45" column="1" bodyfile="TariefSoort.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtarieven_1_1_tarief_soort_1a91f72be944ed32d046bbdff21ab1363f" prot="private" static="no" mutable="no">
+        <type>friend</type>
+        <definition>friend tarieven::TariefSoort::DatastoreModel&lt; TariefSoort &gt;</definition>
+        <argsstring></argsstring>
+        <name>DatastoreModel&lt; TariefSoort &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="48" column="1" bodyfile="TariefSoort.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtarieven_1_1_tarief_soort_1a0f2399a55e21bf9c5474e81fd2e0b74e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual tarieven::TariefSoort::~TariefSoort</definition>
+        <argsstring>()=default</argsstring>
+        <name>~TariefSoort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classtarieven_1_1_tarief_soort_1abe494bbe0c79185fea1c5276f8a27bdb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>tarieven::TariefSoort::TariefSoort</definition>
+        <argsstring>(std::string naam, uint8_t weekMask, uint32_t periode)</argsstring>
+        <name>TariefSoort</name>
+        <param>
+          <type>std::string</type>
+          <declname>naam</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>weekMask</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>periode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="49" column="1" bodyfile="TariefSoort.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="194">
+        <label>DatastoreModel&lt; TariefSoort &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="195" relation="public-inheritance">
+        </childnode>
+        <childnode refid="196" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="193">
+        <label>tarieven::TariefSoort</label>
+        <link refid="classtarieven_1_1_tarief_soort"/>
+        <childnode refid="194" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="195">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="196">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; TariefSoort &gt; &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="198">
+        <label>DatastoreModel&lt; TariefSoort &gt;</label>
+        <link refid="class_datastore_model"/>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>tarieven::TariefSoort</label>
+        <link refid="classtarieven_1_1_tarief_soort"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>IDatastoreModel</label>
+        <link refid="struct_i_datastore_model"/>
+      </node>
+      <node id="200">
+        <label>std::enable_shared_from_this&lt; DatastoreModel&lt; TariefSoort &gt; &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="TariefSoort.h" line="19" column="1" bodyfile="TariefSoort.h" bodystart="18" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_datastore_model_1aa014b35aa18e0506fcafc53f8de18fdb" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>Create</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1a91f72be944ed32d046bbdff21ab1363f" prot="private" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>DatastoreModel&lt; TariefSoort &gt;</name></member>
+      <member refid="class_datastore_model_1a31fe3e59f3b3d7fdea7b3bfb12b13418" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>id</name></member>
+      <member refid="class_datastore_model_1ae835d650ec9d0aa367404fa986c2a3bf" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>ModelPtr</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1af371891b25d2d79427a1d19d56dce3d8" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>naam</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1ae4aae828656c6db7c468625f006490b1" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>periode</name></member>
+      <member refid="class_datastore_model_1ace7c6c1c805301825d72c49dd4fa33f4" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>ptr</name></member>
+      <member refid="class_datastore_model_1abc731b05f0301094a39bd584ff785f8a" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>shared_from_this</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1abe494bbe0c79185fea1c5276f8a27bdb" prot="private" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>TariefSoort</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1a4023f7687d16aea8e63a881cf31c16f7" prot="public" virt="non-virtual"><scope>tarieven::TariefSoort</scope><name>weekMask</name></member>
+      <member refid="class_datastore_model_1ac82a543a687bfaf2892319a628f74f57" prot="public" virt="virtual"><scope>tarieven::TariefSoort</scope><name>~DatastoreModel</name></member>
+      <member refid="struct_i_datastore_model_1aac8fe50b1a775961d2e06f7bd3d8df06" prot="public" virt="virtual"><scope>tarieven::TariefSoort</scope><name>~IDatastoreModel</name></member>
+      <member refid="classtarieven_1_1_tarief_soort_1a0f2399a55e21bf9c5474e81fd2e0b74e" prot="public" virt="virtual"><scope>tarieven::TariefSoort</scope><name>~TariefSoort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

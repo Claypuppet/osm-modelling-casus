@@ -14,6 +14,10 @@
 
 #include <stdint.h>
 
+namespace Klanten {
+
+using core::DatastoreModel;
+
 class Klant : public DatastoreModel<Klant>
 {
 	friend DatastoreModel<Klant>;
@@ -33,5 +37,7 @@ public:
 };
 
 typedef std::shared_ptr<Klant> KlantPtr;
+
+}
 
 #endif /* KLANT_H_ */

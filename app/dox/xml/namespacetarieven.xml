@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacetarieven" kind="namespace" language="C++">
+    <compoundname>tarieven</compoundname>
+    <innerclass refid="classtarieven_1_1_tarief" prot="public">tarieven::Tarief</innerclass>
+    <innerclass refid="classtarieven_1_1_tarief_soort" prot="public">tarieven::TariefSoort</innerclass>
+    <innerclass refid="classtarieven_1_1_tarief_soort_prijs" prot="public">tarieven::TariefSoortPrijs</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacetarieven_1a6dc04260377c527b93f961ccaa9b7761" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtarieven_1_1_tarief" kindref="compound">Tarief</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;Tarief&gt; tarieven::TariefPtr</definition>
+        <argsstring></argsstring>
+        <name>TariefPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Tarief.h" line="20" column="1" bodyfile="Tarief.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacetarieven_1af73e6836a04e491f0511f2a485773671" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtarieven_1_1_tarief_soort" kindref="compound">TariefSoort</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;TariefSoort&gt; tarieven::TariefSoortPtr</definition>
+        <argsstring></argsstring>
+        <name>TariefSoortPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoort.h" line="52" column="1" bodyfile="TariefSoort.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacetarieven_1a19e986600da340fa9803529764b1dcf4" prot="public" static="no">
+        <type>std::shared_ptr&lt; <ref refid="classtarieven_1_1_tarief_soort_prijs" kindref="compound">TariefSoortPrijs</ref> &gt;</type>
+        <definition>typedef std::shared_ptr&lt;TariefSoortPrijs&gt; tarieven::TariefSoortPrijsPtr</definition>
+        <argsstring></argsstring>
+        <name>TariefSoortPrijsPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="34" column="1" bodyfile="TariefSoortPrijs.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespacetarieven_1a1d8be32d83a4abc968a6ce45281b094a" prot="public" static="no">
+        <type>std::vector&lt; <ref refid="namespacetarieven_1a19e986600da340fa9803529764b1dcf4" kindref="member">TariefSoortPrijsPtr</ref> &gt;</type>
+        <definition>typedef std::vector&lt;TariefSoortPrijsPtr&gt; tarieven::tariefSoortenPrijsLijst</definition>
+        <argsstring></argsstring>
+        <name>tariefSoortenPrijsLijst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="TariefSoortPrijs.h" line="35" column="1" bodyfile="TariefSoortPrijs.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Tarief.cpp" line="12" column="1"/>
+  </compounddef>
+</doxygen>

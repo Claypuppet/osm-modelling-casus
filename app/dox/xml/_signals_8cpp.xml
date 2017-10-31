@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_signals_8cpp" kind="file" language="C++">
+    <compoundname>Signals.cpp</compoundname>
+    <includes refid="_signals_8h" local="yes">Signals.h</includes>
+    <incdepgraph>
+      <node id="907">
+        <label>Singleton.h</label>
+        <link refid="_singleton_8h"/>
+      </node>
+      <node id="908">
+        <label>boost/signals2.hpp</label>
+      </node>
+      <node id="905">
+        <label>Signals.cpp</label>
+        <link refid="_signals_8cpp"/>
+        <childnode refid="906" relation="include">
+        </childnode>
+      </node>
+      <node id="909">
+        <label>memory</label>
+      </node>
+      <node id="906">
+        <label>Signals.h</label>
+        <link refid="_signals_8h"/>
+        <childnode refid="907" relation="include">
+        </childnode>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="909" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Signals.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/>Created<sp/>on:<sp/>28<sp/>Oct<sp/>2017</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>Author:<sp/>Vuurvlieg</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_signals_8h" kindref="compound">Signals.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Signals.cpp"/>
+  </compounddef>
+</doxygen>

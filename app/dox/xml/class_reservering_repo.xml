@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_reservering_repo" kind="class" language="C++" prot="public">
+    <compoundname>ReserveringRepo</compoundname>
+    <basecompoundref refid="class_base_repo" prot="public" virt="non-virtual">BaseRepo&lt; Reservering, DataStoreType &gt;</basecompoundref>
+    <includes refid="_reservering_repo_8h" local="no">ReserveringRepo.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename</type>
+        <declname>DataStoreType</declname>
+        <defname>DataStoreType</defname>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_reservering_repo_1aae3522a2303489eaf3ff285b0db977fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ReserveringRepo&lt; DataStoreType &gt;::ReserveringRepo</definition>
+        <argsstring>(IDataStore&lt; DataStoreType &gt; &amp;dataStore)</argsstring>
+        <name>ReserveringRepo</name>
+        <param>
+          <type><ref refid="class_i_data_store" kindref="compound">IDataStore</ref>&lt; DataStoreType &gt; &amp;</type>
+          <declname>dataStore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="50" column="1" bodyfile="ReserveringRepo.h" bodystart="50" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reservering_repo_1a1c93b5b18a511619e47c3f970b451d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReserveringRepo&lt; DataStoreType &gt;::~ReserveringRepo</definition>
+        <argsstring>()=default</argsstring>
+        <name>~ReserveringRepo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_reservering_repo_1a21ff9c7afed28d12ab5aada45ab77e34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::shared_ptr&lt; <ref refid="class_reservering" kindref="compound">Reservering</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Reservering&gt; ReserveringRepo&lt; DataStoreType &gt;::getBeschikbareReservering</definition>
+        <argsstring>(std::shared_ptr&lt; Klant &gt; &amp;klant)</argsstring>
+        <name>getBeschikbareReservering</name>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="class_klant" kindref="compound">Klant</ref> &gt; &amp;</type>
+          <declname>klant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ReserveringRepo.h" line="55" column="1" bodyfile="ReserveringRepo.h" bodystart="55" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="150">
+        <label>ReserveringRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_reservering_repo"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="151">
+        <label>BaseRepo&lt; Reservering, DataStoreType &gt;</label>
+        <link refid="class_base_repo"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>ReserveringRepo&lt; DataStoreType &gt;</label>
+        <link refid="class_reservering_repo"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="153">
+        <label>BaseRepo&lt; Reservering, DataStoreType &gt;</label>
+        <link refid="class_base_repo"/>
+        <childnode refid="154" relation="usage">
+          <edgelabel>mDataStore</edgelabel>
+        </childnode>
+      </node>
+      <node id="154">
+        <label>IDataStore&lt; DataStoreType &gt;</label>
+        <link refid="class_i_data_store"/>
+      </node>
+    </collaborationgraph>
+    <location file="ReserveringRepo.h" line="48" column="1" bodyfile="ReserveringRepo.h" bodystart="47" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_base_repo_1ad15627fcbaa43e486c20386d48b28a49" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>BaseRepo</name></member>
+      <member refid="class_base_repo_1a8aabaca29cee66eb9ca5dad568cba7a0" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>create</name></member>
+      <member refid="class_reservering_repo_1a21ff9c7afed28d12ab5aada45ab77e34" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>getBeschikbareReservering</name></member>
+      <member refid="class_base_repo_1acead0908baa6af29577487e3a9bcf1ca" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>getById</name></member>
+      <member refid="class_base_repo_1a97bd5b2a2929872470c053e249f71940" prot="protected" virt="non-virtual"><scope>ReserveringRepo</scope><name>mDataStore</name></member>
+      <member refid="class_reservering_repo_1aae3522a2303489eaf3ff285b0db977fe" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>ReserveringRepo</name></member>
+      <member refid="class_base_repo_1a2466ad8a9c91a45a365777c8b3dc9a85" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>save</name></member>
+      <member refid="class_base_repo_1af2168f49ca27644b1f3d362e1913e8e6" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>~BaseRepo</name></member>
+      <member refid="class_reservering_repo_1a1c93b5b18a511619e47c3f970b451d78" prot="public" virt="non-virtual"><scope>ReserveringRepo</scope><name>~ReserveringRepo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
