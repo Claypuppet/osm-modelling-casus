@@ -22,7 +22,7 @@ std::string Boete::asString()
 }
 
 Boete::Boete(Geld kosten, std::string reden)
-: kosten(kosten), reden(reden), timeStamp(Application::getNowMoment())
+: kosten(kosten), reden(reden), timeStamp(Application::i().getNowMoment())
 {
 }
 

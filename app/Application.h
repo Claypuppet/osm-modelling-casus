@@ -15,9 +15,7 @@
 #include "KlantRepo.h"
 #include "VerhuurRepo.h"
 #include "TariefRepo.h"
-
-
-#include <chrono>
+#include "timeProfider.h"
 
 class Application : public Singleton<Application>
 {
@@ -31,11 +29,14 @@ public:
 
 	int main(int argc, char* argv[]);
 
-	static uint32_t getNowMoment()
+	uint32_t getNowMoment()
 	{
-		return std::chrono::time_point_cast<std::chrono::seconds>(std::chrono::system_clock::now()).time_since_epoch().count();
+		return timeProvider->getTime();
 	}
 
+	void setTimeProvider(std::shared_ptr<ITimeProvider> aTimeProvider){
+		timeProvider = aTimeProvider;
+	}
 
 	tarieven::TariefSoortPtr getBoeteTariefSoort() const;
 	void setBoeteTariefSoort(tarieven::TariefSoortPtr boeteTariefSoort);
@@ -45,6 +46,8 @@ private:
 	bool	mQuit;
 	cui::CUI mCUI;
 	tarieven::TariefSoortPtr boeteTariefSoort;
+	std::shared_ptr<ITimeProvider> timeProvider;
+
 };
 
 #endif /* APPLICATION_H_ */

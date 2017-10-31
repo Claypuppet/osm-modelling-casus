@@ -54,10 +54,7 @@ std::shared_ptr<Verhuur> Reservering::verzilveren()
 	}
 
 
-	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::getNowMoment());
-	RedCarsContext::getInstance().getVehuurRepo().save(verhuur);
-
-	Signals::i().VehuurIngecheckt(verhuur);
+	verhuur = Verhuur::Create(std::static_pointer_cast<Reservering>(shared_from_this()), Application::getInstance().getNowMoment());
 
 	return verhuur;
 }

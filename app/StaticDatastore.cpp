@@ -110,7 +110,7 @@ void StaticDatastore::initStaticTestData()
 	// 1509444000 = Tuesday, October 31, 2017 10:00:00
 	// 1509472800 = Tuesday, October 31, 2017 18:00:00
 	// 1509616800 = Thursday, November 2, 2017 10:00:00
-	auto reservering1 = createModel<Reservering>(Reservering::Create(1509444000, 1509472800, klant1, deelAuto1, tariefPerUur));
+	auto reservering1 = createModel<Reservering>(Reservering::Create(0, 1509472800, klant1, deelAuto1, tariefPerUur));
 	auto reservering2 = createModel<Reservering>(Reservering::Create(1509444000, 1509616800, klant2, deelAuto2, tariefPerDag));
 
 	// Set boete tariefsoort

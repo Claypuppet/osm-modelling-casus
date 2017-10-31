@@ -57,7 +57,7 @@ void Verhuur::voltooi()
 {
 	if(!reservering->deelauto->checkOpLocatie()) {
 		reservering->deelauto->verhuurVoltooid();
-		setUitcheckMoment(Application::getNowMoment());
+		setUitcheckMoment(Application::i().getNowMoment());
 		if(uitcheckMoment > reservering->eindMoment){
 			Geld kosten = berekenTeLaatBoeteKosten();
 			auto boete = Boete::Create(kosten, "TE LAAT TERUG GEBRACHT!! :((");
