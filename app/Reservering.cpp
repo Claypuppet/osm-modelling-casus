@@ -96,5 +96,5 @@ Geld Reservering::getKosten()
 
 std::string Reservering::asString()
 {
-	return "hier komt reservering string";
+	return "Kosten reservering: " + getKosten().toString() + "\nKosten Boetes: " + getExtraKosten().toString() + "\nTotaal kosten: " + getTotaalKosten().toString();
 }

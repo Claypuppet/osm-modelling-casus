@@ -56,7 +56,7 @@ void ReserveringController::voltooiVerhuur(uint32_t pasnummer)
 
 	context.getVehuurRepo().save(v);
 
-	std::cout << v->reservering->getKosten().toString() << std::endl;
+	std::cout << v->reservering->asString() << std::endl;
 }
 
 } /* namespace reserveringen */

@@ -11,7 +11,6 @@
 
 Geld Product::getExtraKosten()
 {
-	return Geld(0);
 	return std::accumulate(boetes.begin(), boetes.end(), Geld(0), [](Geld& g, const BoetePtr& b)
 		{
 			return g + b->getKosten();
