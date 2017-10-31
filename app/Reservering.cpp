@@ -86,7 +86,7 @@ uint32_t Reservering::getTariefSoortPeriodeAantal()
 {
 	uint32_t timeDelta = eindMoment - beginMoment;
 	uint32_t betalingPer = tariefSoort->periode;
-	return (timeDelta / betalingPer) + 1;
+	return (timeDelta / betalingPer) + (timeDelta % betalingPer ? 1 : 0);
 }
 
 Geld Reservering::getKosten()

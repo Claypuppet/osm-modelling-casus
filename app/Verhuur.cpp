@@ -35,7 +35,7 @@ Geld Verhuur::berekenTeLaatBoeteKosten()
 	Geld kosten;
 	if(deltaSec > 0) {
 		tarieven::TariefSoortPtr boeteSoort = Application::getInstance().getBoeteTariefSoort();
-		uint32_t aantal = deltaSec / boeteSoort->periode;
+		uint32_t aantal = deltaSec / boeteSoort->periode + (deltaSec % boeteSoort->periode ? 1 : 0);
 		tarieven::TariefPtr tarief = reservering->getTarief();
 		kosten = tarief->berekenKosten(0, boeteSoort, aantal);
 	}

@@ -9,7 +9,7 @@
 #define APP_TARIEFSOORT_H_
 
 #include "DatastoreModel.h"
-#include "BitFlag.h"
+//#include "BitFlag.h"
 #include <memory>
 
 namespace tarieven
