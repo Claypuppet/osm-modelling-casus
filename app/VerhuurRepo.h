@@ -14,6 +14,10 @@
 #include "Verhuur.h"
 #include <memory>
 
+
+namespace Producten
+{
+
 class Klant;
 class Verhuur;
 
@@ -62,5 +66,6 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 	return this->mDataStore.loadModel(result, ActiefVerhuurVanKlant(klant));
 }
 
+}
 
 #endif /* VERHUURREPO_H_ */

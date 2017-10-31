@@ -7,7 +7,7 @@
 
 #include "TariefSoortPrijs.h"
 
-namespace tarieven
+namespace Tarieven
 {
 
 TariefSoortPrijs::TariefSoortPrijs(TariefSoortPtr soort, Geld prijs)
@@ -15,7 +15,7 @@ TariefSoortPrijs::TariefSoortPrijs(TariefSoortPtr soort, Geld prijs)
 {
 }
 
-Geld tarieven::TariefSoortPrijs::berekenKosten(uint32_t aantalPeriodes)
+Geld Tarieven::TariefSoortPrijs::berekenKosten(uint32_t aantalPeriodes)
 {
 	return prijs * aantalPeriodes;
 }

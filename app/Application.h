@@ -38,14 +38,14 @@ public:
 		timeProvider = aTimeProvider;
 	}
 
-	tarieven::TariefSoortPtr getBoeteTariefSoort() const;
-	void setBoeteTariefSoort(tarieven::TariefSoortPtr boeteTariefSoort);
+	Tarieven::TariefSoortPtr getBoeteTariefSoort() const;
+	void setBoeteTariefSoort(Tarieven::TariefSoortPtr boeteTariefSoort);
 
 private:
 
 	bool	mQuit;
 	cui::CUI mCUI;
-	tarieven::TariefSoortPtr boeteTariefSoort;
+	Tarieven::TariefSoortPtr boeteTariefSoort;
 	std::shared_ptr<ITimeProvider> timeProvider;
 
 };

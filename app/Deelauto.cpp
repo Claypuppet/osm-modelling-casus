@@ -15,8 +15,10 @@ Deelauto::Deelauto()
 {
 }
 
-Deelauto::Deelauto(const std::string& kenteken, std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule)
+Deelauto::Deelauto(const std::string& kenteken, std::shared_ptr<AutoType> type,
+		std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule)
 : kenteken(kenteken)
+, type(type)
 , standplaats(standplaats)
 , redcardModule(redcardModule)
 {

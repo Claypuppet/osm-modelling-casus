@@ -8,8 +8,9 @@
 #include "Boete.h"
 #include "Application.h"
 
-//namespace producten
-//{
+
+namespace Producten
+{
 
 Boete::Boete(Geld kosten, std::string reden, uint32_t timeStamp)
 : kosten(kosten), reden(reden), timeStamp(timeStamp)
@@ -30,4 +31,5 @@ Geld Boete::getKosten()
 {
 	return kosten;
 }
-//} /* namespace producten */
+
+} /* namespace producten */

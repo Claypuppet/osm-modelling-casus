@@ -9,7 +9,8 @@
 #include "RedCarsContext.h"
 #include <iostream>
 
-namespace reserveringen
+
+namespace Producten
 {
 
 ReserveringController::ReserveringController()
@@ -56,7 +57,7 @@ void ReserveringController::voltooiVerhuur(uint32_t pasnummer)
 
 	context.getVehuurRepo().save(v);
 
-	std::cout << v->reservering->getKosten().toString() << std::endl;
+	std::cout << v->reservering->asString() << std::endl;
 }
 
 } /* namespace reserveringen */

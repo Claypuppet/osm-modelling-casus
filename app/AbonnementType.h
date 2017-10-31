@@ -16,6 +16,9 @@
 #include <string>
 
 
+namespace Producten
+{
+
 
 class AbonnementType : public DatastoreModel<AbonnementType>
 {
@@ -29,5 +32,7 @@ public:
 	std::string	naam;
 	Geld kosten;
 };
+
+}
 
 #endif /* ABBONOMENTTYPE_H_ */

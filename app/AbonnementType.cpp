@@ -7,6 +7,9 @@
 
 #include "AbonnementType.h"
 
+namespace Producten
+{
+
 AbonnementType::AbonnementType()
 {
 }
@@ -20,5 +23,7 @@ AbonnementType::AbonnementType(const std::string& naam,const Geld& kosten)
 AbonnementType::~AbonnementType()
 {
 	// TODO Auto-generated destructor stub
+}
+
 }
 

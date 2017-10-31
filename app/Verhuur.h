@@ -13,6 +13,9 @@
 #include "Geld.h"
 
 
+namespace Producten
+{
+
 
 class Verhuur : public DatastoreModel<Verhuur>
 {
@@ -41,5 +44,7 @@ public:
 	uint32_t aantalKilometers;
 
 };
+
+}
 
 #endif /* VERHUUR_H_ */

@@ -18,6 +18,9 @@
 #include <memory>
 #include <chrono>
 
+namespace Producten
+{
+
 struct ReserverMetKlantEnMoment
 {
 	ReserverMetKlantEnMoment(std::shared_ptr<Klant>& klant, uint32_t moment)
@@ -60,6 +63,6 @@ public:
 
 };
 
-
+}
 
 #endif /* RESERVERINGREPO_H_ */

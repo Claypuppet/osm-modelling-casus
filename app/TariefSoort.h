@@ -12,7 +12,7 @@
 //#include "BitFlag.h"
 #include <memory>
 
-namespace tarieven
+namespace Tarieven
 {
 
 	class TariefSoort : public DatastoreModel<TariefSoort>

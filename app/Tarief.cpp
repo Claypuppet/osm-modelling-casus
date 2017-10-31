@@ -8,7 +8,7 @@
 #include "Tarief.h"
 #include <algorithm>
 
-namespace tarieven
+namespace Tarieven
 {
 
 Tarief::Tarief(uint32_t kilometersVrij, Geld prijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr<AutoType> autoType, std::shared_ptr<AbonnementType> aboType)

@@ -13,7 +13,7 @@
 #include "TariefSoort.h"
 #include "Geld.h"
 
-namespace tarieven
+namespace Tarieven
 {
 
 class TariefSoortPrijs : public DatastoreModel<TariefSoortPrijs>

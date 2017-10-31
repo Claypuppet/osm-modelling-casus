@@ -36,7 +36,7 @@ void Application::init()
 	// initialize the context
 //	initUI();
 
-	reserveringen::ReserveringController rc;
+	Producten::ReserveringController rc;
 
 
 
@@ -58,12 +58,12 @@ int Application::main(int argc, char* argv[])
 	return 0;
 }
 
-tarieven::TariefSoortPtr Application::getBoeteTariefSoort() const
+Tarieven::TariefSoortPtr Application::getBoeteTariefSoort() const
 {
 	return boeteTariefSoort;
 }
 
-void Application::setBoeteTariefSoort(tarieven::TariefSoortPtr boeteTariefSoort)
+void Application::setBoeteTariefSoort(Tarieven::TariefSoortPtr boeteTariefSoort)
 {
 	this->boeteTariefSoort = boeteTariefSoort;
 }

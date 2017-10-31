@@ -13,6 +13,9 @@
 #include "Application.h"
 
 
+namespace Producten
+{
+
 Verhuur::Verhuur()
 : incheckMoment(0)
 , uitcheckMoment(0)
@@ -34,9 +37,9 @@ Geld Verhuur::berekenTeLaatBoeteKosten()
 	int32_t deltaSec = uitcheckMoment - reservering->eindMoment;
 	Geld kosten;
 	if(deltaSec > 0) {
-		tarieven::TariefSoortPtr boeteSoort = Application::getInstance().getBoeteTariefSoort();
+		Tarieven::TariefSoortPtr boeteSoort = Application::getInstance().getBoeteTariefSoort();
 		uint32_t aantal = deltaSec / boeteSoort->periode + (deltaSec % boeteSoort->periode ? 1 : 0);
-		tarieven::TariefPtr tarief = reservering->getTarief();
+		Tarieven::TariefPtr tarief = reservering->getTarief();
 		kosten = tarief->berekenKosten(0, boeteSoort, aantal);
 	}
 
@@ -71,4 +74,5 @@ void Verhuur::voltooi()
 	}
 }
 
+}
 

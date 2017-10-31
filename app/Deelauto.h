@@ -25,7 +25,8 @@ class Deelauto : public DatastoreModel<Deelauto>
 {
 	friend DatastoreModel<Deelauto>;
 	Deelauto();
-	Deelauto(const std::string& kenteken, std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule);
+	Deelauto(const std::string& kenteken, std::shared_ptr<AutoType> type,
+			std::shared_ptr<Standplaats>& standplaats, std::shared_ptr<RedcarModule>& redcardModule);
 
 public:
 	~Deelauto() = default;
@@ -40,9 +41,9 @@ public:
 
 public:
 	std::string kenteken;
+	std::shared_ptr<AutoType> type;
 	std::shared_ptr<Standplaats> standplaats;
 	std::shared_ptr<RedcarModule> redcardModule;
-	std::shared_ptr<AutoType> type;
 
 };
 
