@@ -21,14 +21,8 @@ class Reservering : public DatastoreModel<Reservering>, public Product
 {
 	friend DatastoreModel<Klant>;
 	friend Verhuur;
-	Reservering();
-	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant, std::shared_ptr<Deelauto>& deelauto);
-	virtual ~Reservering();
 
 public:
-	std::shared_ptr<Verhuur>	verzilveren();
-	bool						isIngecheckt();
-	uint32_t 					getTariefSoortPeriodeAantal();
 
 public:
 
@@ -40,8 +34,17 @@ public:
 	std::shared_ptr<Verhuur>	verhuur;
 
 public:
-	virtual tarieven::TariefPtr getTarief();
-	virtual Geld getKosten() override;
+	Reservering();
+	Reservering(uint32_t beginMoment , uint32_t eindMoment, std::shared_ptr<Klant>& klant,
+			std::shared_ptr<Deelauto>& deelauto, tarieven::TariefSoortPtr tariefSoort);
+	virtual ~Reservering();
+
+	tarieven::TariefPtr getTarief();
+	Geld getKosten() override;
+	std::shared_ptr<Verhuur> verzilveren();
+	bool isIngecheckt();
+	uint32_t getTariefSoortPeriodeAantal();
+	virtual std::string asString() override;
 
 };
 

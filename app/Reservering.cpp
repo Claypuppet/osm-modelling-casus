@@ -27,17 +27,21 @@ Reservering::~Reservering()
 {
 }
 
-Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant, std::shared_ptr<Deelauto>& deelauto)
+Reservering::Reservering(uint32_t beginMoment, uint32_t eindMoment, std::shared_ptr<Klant>& klant,
+		std::shared_ptr<Deelauto>& deelauto, tarieven::TariefSoortPtr tariefSoort)
 : beginMoment(beginMoment)
 , eindMoment(eindMoment)
 , klant(klant)
 , deelauto(deelauto)
+, tariefSoort(tariefSoort)
 , verhuur(nullptr)
 {
 	if(!klant)
 		throw std::logic_error("Reservering moet tot een klant behoren");
 	if(!deelauto)
 		throw std::logic_error("Reservering moet tot een deelauto behoren");
+	if(!tariefSoort)
+		throw std::logic_error("Reservering moet een tariefsoort bevatten");
 }
 
 std::shared_ptr<Verhuur> Reservering::verzilveren()
@@ -85,4 +89,9 @@ Geld Reservering::getKosten()
 	uint32_t aantal = getTariefSoortPeriodeAantal();
 	uint32_t kilometers = verhuur != NULL ? verhuur->aantalKilometers : 0;
 	return t->berekenKosten(kilometers, tariefSoort, aantal);
+}
+
+std::string Reservering::asString()
+{
+	return "hier komt reservering string";
 }

@@ -21,6 +21,7 @@ class Boete : public DatastoreModel<Boete>, public Product
 public:
 	Geld getKosten();
 	virtual ~Boete() = default;
+	virtual std::string asString() override;
 
 private:
 	Boete(Geld kosten, std::string reden, uint32_t timeStamp);

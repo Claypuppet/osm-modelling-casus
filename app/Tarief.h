@@ -15,6 +15,9 @@
 
 namespace tarieven
 {
+class Tarief;
+
+typedef std::shared_ptr<Tarief> TariefPtr;
 
 class Tarief : public DatastoreModel<Tarief>
 {
@@ -26,16 +29,16 @@ public:
 	std::shared_ptr<AbonnementType> aboType;
 
 public:
+	Tarief();
+	Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr<AutoType> autoType, std::shared_ptr<AbonnementType> aboType);
+	TariefSoortPrijsPtr getTariefSoortPrijs(const TariefSoortPtr& soort);
 	virtual ~Tarief() = default;
 	Geld berekenKosten(uint32_t aantalKilometers, TariefSoortPtr soort, uint32_t aantal);
 
 private:
-	Tarief(uint32_t kilometersVrij, Geld PrijsPerKilometer, tariefSoortenPrijsLijst prijzen);
-	TariefSoortPrijsPtr getTariefSoortPrijs(const TariefSoortPtr& soort);
+	friend DatastoreModel<Tarief>;
 	Geld getKilometerPrijs(uint32_t aantalKilometers);
 };
-
-typedef std::shared_ptr<Tarief> TariefPtr;
 
 } /* namespace tarieven */
 

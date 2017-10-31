@@ -11,9 +11,12 @@
 namespace tarieven
 {
 
-
-Tarief::Tarief(uint32_t kilometersVrij, Geld prijsPerKilometer, tariefSoortenPrijsLijst prijzen)
-: kilometersVrij(kilometersVrij), prijsPerKilometer(prijsPerKilometer), prijzen(prijzen)
+Tarief::Tarief(uint32_t kilometersVrij, Geld prijsPerKilometer, tariefSoortenPrijsLijst prijzen, std::shared_ptr<AutoType> autoType, std::shared_ptr<AbonnementType> aboType)
+: kilometersVrij(kilometersVrij)
+, prijsPerKilometer(prijsPerKilometer)
+, prijzen(prijzen)
+, autoType(autoType)
+, aboType(aboType)
 {
 	// TODO Auto-generated constructor stub
 
@@ -37,6 +40,11 @@ TariefSoortPrijsPtr Tarief::getTariefSoortPrijs(const TariefSoortPtr& soort)
 		throw std::logic_error("Tarief soort niet ondersteunt door dit tarief");
 	return *soortPrijs;
 }
+
+Tarief::Tarief() : kilometersVrij(0), prijsPerKilometer(0)
+{
+}
+
 
 Geld Tarief::getKilometerPrijs(uint32_t aantalKilometers)
 {
