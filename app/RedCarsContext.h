@@ -12,6 +12,7 @@
 #include "KlantRepo.h"
 #include "TariefRepo.h"
 #include "VerhuurRepo.h"
+#include "ReserveringRepo.h"
 #include "StaticDatastore.h"
 
 
@@ -25,6 +26,7 @@ namespace detail {
 		:	mKlantRepo(mDatastore)
 		,	mVehuurRepo(mDatastore)
 		,	mTariefRepo(mDatastore)
+		,	mReserveringRepo(mDatastore)
 		{
 
 		}
@@ -37,12 +39,14 @@ namespace detail {
 		KlantRepo<DataStoreType>& getKlantRepo()  { return mKlantRepo; }
 		VerhuurRepo<DataStoreType>& getVehuurRepo()  { return mVehuurRepo; }
 		TariefRepo<DataStoreType>& getTariefRepo()  { return mTariefRepo; }
+		ReserveringRepo<DataStoreType>& getReserveringRepo() { return mReserveringRepo; }
 
 	private:
 		DataStoreType mDatastore;
 		KlantRepo<DataStoreType> mKlantRepo;
 		VerhuurRepo<DataStoreType> mVehuurRepo;
 		TariefRepo<DataStoreType> mTariefRepo;
+		ReserveringRepo<DataStoreType> mReserveringRepo;
 
 	};
 }

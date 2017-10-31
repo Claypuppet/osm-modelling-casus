@@ -13,15 +13,16 @@
 #include "Tarief.h"
 #include "AutoType.h"
 #include "AbonnementType.h"
+#include "BaseRepo.h"
 #include <memory>
 
 
 template <typename DataStoreType>
-class TariefRepo
+class TariefRepo : public BaseRepo<tarieven::Tarief, DataStoreType>
 {
 public:
 	TariefRepo(IDataStore<DataStoreType>& dataStore)
-	:	mDataStore(dataStore)
+	:	BaseRepo<tarieven::Tarief, DataStoreType>(dataStore)
 	{}
 	~TariefRepo() = default;
 
@@ -36,9 +37,6 @@ public:
 		return tarief;
 	}
 
-
-private:
-	IDataStore<DataStoreType>& mDataStore;
 };
 
 

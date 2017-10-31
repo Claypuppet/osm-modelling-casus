@@ -9,6 +9,7 @@
 #define VERHUURREPO_H_
 
 #include "IDataStore.h"
+#include "BaseRepo.h"
 #include "Geld.h"
 #include "Verhuur.h"
 #include <memory>
@@ -17,22 +18,22 @@ class Klant;
 class Verhuur;
 
 template <typename DataStoreType>
-class VerhuurRepo
+class VerhuurRepo : public BaseRepo<Verhuur, DataStoreType>
 {
 public:
 	VerhuurRepo(IDataStore<DataStoreType>& dataStore)
-	:	mDataStore(dataStore)
+	:	BaseRepo<Verhuur, DataStoreType>(dataStore)
 	{}
 	~VerhuurRepo() = default;
 
 
 	std::shared_ptr<Verhuur> getActiefVerhuur(const std::shared_ptr<Klant>& klant);
-	void save(std::shared_ptr<Verhuur> verhuur);
 
+	bool controleerKlantIngecheckt(const std::shared_ptr<Klant>& klant)
+	{
+		return !!getActiefVerhuur(klant);
+	}
 
-
-private:
-	IDataStore<DataStoreType>& mDataStore;
 };
 
 
@@ -61,13 +62,5 @@ inline std::shared_ptr<Verhuur> VerhuurRepo<DataStoreType>::getActiefVerhuur(
 	return mDataStore.loadModel(result, ActiefVerhuurVanKlant(klant));
 }
 
-template<typename DataStoreType>
-inline void VerhuurRepo<DataStoreType>::save(std::shared_ptr<Verhuur> verhuur)
-{
-	if(verhuur->id)
-		mDataStore.saveModel(verhuur, ModelById<Verhuur>(verhuur->id));
-	else
-		mDataStore.createModel(verhuur);
-}
 
 #endif /* VERHUURREPO_H_ */

@@ -21,6 +21,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <iostream>
 
 
 StaticDatastore::StaticDatastore()
@@ -30,6 +31,7 @@ StaticDatastore::StaticDatastore()
 
 	//auto& store = StaticDatastoreStoreage<Klant>::store;
 	//std::sort(store.begin(), store.end(), [](auto& a, auto& b){ return a.id < b.id; });
+	initStaticTestData();
 }
 
 StaticDatastore::~StaticDatastore()
@@ -40,6 +42,7 @@ StaticDatastore::~StaticDatastore()
 
 void StaticDatastore::initStaticTestData()
 {
+	std::cout << "INIT STATIC DATA" << std::endl;
 
 	// AutoTypes
 	auto personenAuto = createModel<AutoType>(AutoType::Create("Personsen auto"));

@@ -11,14 +11,12 @@
 
 #include "Reservering.h"
 #include "Klant.h"
+#include "BaseRepo.h"
 #include "Application.h"
 
 #include <stdint.h>
 #include <memory>
 #include <chrono>
-
-template <typename T> class IDataStore;
-
 
 struct ReserverMetKlantEnMoment
 {
@@ -46,23 +44,19 @@ private:
 
 
 template <typename DataStoreType>
-class ReserveringRepo
+class ReserveringRepo : public BaseRepo<Reservering, DataStoreType>
 {
 public:
 	ReserveringRepo(IDataStore<DataStoreType>& dataStore)
-	:	mDataStore(dataStore)
+	:	BaseRepo<Reservering, DataStoreType>(dataStore)
 	{}
 	~ReserveringRepo() = default;
 
-	std::shared_ptr<Reservering> getBeschrikbareReservering(std::shared_ptr<Klant>& klant)
+	std::shared_ptr<Reservering> getBeschikbareReservering(std::shared_ptr<Klant>& klant)
 	{
 		return mDataStore.loadModel(ReserverMetKlantEnMoment(klant, Application::getNowMoment()));
 	}
 
-
-
-private:
-	IDataStore<DataStoreType>& mDataStore;
 };
 
 
