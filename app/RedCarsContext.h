@@ -13,6 +13,7 @@
 #include "TariefRepo.h"
 #include "VerhuurRepo.h"
 #include "ReserveringRepo.h"
+#include "ReserveringController.h"
 #include "StaticDatastore.h"
 
 namespace Core {
@@ -53,6 +54,7 @@ namespace detail {
 		VerhuurRepo<DataStoreType> mVehuurRepo;
 		TariefRepo<DataStoreType> mTariefRepo;
 		ReserveringRepo<DataStoreType> mReserveringRepo;
+		Producten::ReserveringController mReserveringController;
 
 	};
 }

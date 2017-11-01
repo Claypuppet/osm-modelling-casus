@@ -33,7 +33,6 @@ void Application::init()
 	// initialize the context if it wasn't done yet
 	RedCarsContext::i();
 
-	Producten::ReserveringController rc;
 
 	setTimeProvider(std::make_shared<FakeTimeProvider>(0));
 	std::cout << "TIJD IS NU 0" << std::endl;
