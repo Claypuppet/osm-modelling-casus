@@ -35,12 +35,22 @@ void Application::init()
 
 	Producten::ReserveringController rc;
 
-
-
 	setTimeProvider(std::make_shared<FakeTimeProvider>(0));
 	rc.verzilverReservering(12345678);
 	setTimeProvider(std::make_shared<FakeTimeProvider>(getNowMoment() + (60 * 60 * 8))); // 8 hours later...
 	rc.voltooiVerhuur(12345678);
+
+	Producten::ReserveringPtr reservering;
+	reservering = RedCarsContext::i().getDataStore().loadModel(reservering, [](const Producten::ReserveringPtr& r) {
+		if(r->klant->pasNummmer != 12345678)
+			return false;
+		if(!r->verhuur->uitcheckMoment)
+			return false;
+		return true;
+	});
+
+	if(reservering)
+		mCUI.showReserveringScreen(reservering);
 
 
 }

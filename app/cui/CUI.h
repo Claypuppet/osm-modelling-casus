@@ -14,6 +14,16 @@
 #include <memory>
 #include <list>
 
+namespace Producten {
+	class Reservering;
+	class Verhuur;
+
+	typedef std::shared_ptr<Reservering> ReserveringPtr;
+	typedef std::shared_ptr<Verhuur> VerhuurPtr;
+}
+
+
+
 namespace cui
 {
 	class CUI
@@ -31,15 +41,24 @@ namespace cui
 
 		void showDefaultScreen();
 
+		void showReserveringScreen(Producten::ReserveringPtr reservering);
+
+
+
+
 		bool showCursor(bool veryVisible=false);
 		bool hideCursor();
 
 
-		Window create(int width = 0, int height = 0, int dx = 0, int dy = 0);
+		Window createWnd(int width = 0, int height = 0, int dx = 0, int dy = 0);
+		Window createSubWnd(Window& parent, int width = 0, int height = 0, int dx = 0, int dy = 0);
+
 		bool getColorPairIndex(const ColorPair& pair, ColorPairIndex& index, bool createIfNotExist=true);
 		bool getColorPair(ColorPairIndex index, ColorPair& pair);
 		bool validColorPairIndex(ColorPairIndex index);
 		const ColorPairVec& getAllColorPairs() const;
+
+
 
 	private:
 

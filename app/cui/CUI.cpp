@@ -48,6 +48,8 @@ void CUI::cleanup()
 	endwin();
 }
 
+
+
 Window CUI::toWindow(WINDOW* window)
 {
 	if(!window)
@@ -57,9 +59,17 @@ Window CUI::toWindow(WINDOW* window)
 	})};
 }
 
-Window CUI::create(int width, int height, int dx, int dy)
+Window CUI::createWnd(int width, int height, int dx, int dy)
 {
 	return toWindow(newwin(height, width, dy, dx));
+}
+
+Window CUI::createSubWnd(Window& parent, int width, int height, int dx, int dy)
+{
+	auto window = subwin(parent.wptr(), height, width, dy, dx);
+	if(!window)
+		throw std::invalid_argument("failed to create sub window");;
+	return toWindow(window);
 }
 
 
@@ -138,10 +148,31 @@ void CUI::showDefaultScreen()
 			.str(mMainWnd.xFact(0.5f) - 4, 4, "RedCars")
 			.wborder()
 			.refresh();
-	Window wnd = create(mMainWnd.xFact(.5f), mMainWnd.yFact(.6f), mMainWnd.xFact(.25f), mMainWnd.yFact(.2f) );
+	Window wnd = createWnd(mMainWnd.xFact(.5f), mMainWnd.yFact(.6f), mMainWnd.xFact(.25f), mMainWnd.yFact(.2f) );
 	wnd.setBgColors(ColorPair{kColorYellow,kColorBlue})
 			.wborder()
 			.refresh();
+}
+
+void CUI::showReserveringScreen(Producten::ReserveringPtr reservering)
+{
+	mMainWnd.setColors(ColorPair{kColorRed, kColorBlack})
+				.attrOn(Attr::kAttrStandout)
+				.str(mMainWnd.xFact(0.5f) - 4, 4, "RedCars")
+				.wborder()
+				.refresh();
+	Window wnd = createWnd(mMainWnd.xFact(0.6f), mMainWnd.yFact(0.6f), mMainWnd.xFact(0.2f), mMainWnd.xFact(0.2f));
+	wnd.setBgColors(ColorPair{kColorMagenta, kColorCyan})
+			.setFgColor(kColorMagenta)
+			.wborder()
+			.refresh();
+	/*
+	Window title = createWnd(wnd.getWidth(), 1, wnd., 0);
+	title.setBgColors(ColorPair{kColorWhite, kColorYellow})
+			.setFgColor(kColorWhite)
+			.str(STR_X_HALIGN_CENTRE, 0, "Reservering")
+			.refresh();
+	*/
 }
 
 

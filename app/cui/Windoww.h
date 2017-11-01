@@ -86,8 +86,7 @@ namespace cui
 			Window& moveCursor(int x, int y);
 			Window& getCursor(int& x, int& y);
 			int getCursorX();
-			int getCursorY();
-
+			int getCursorY();;
 
 			int getChar();
 			int getChar(int x, int y);
