@@ -6,129 +6,40 @@
  */
 
 #include "CUI.h"
+#include <cstdio>
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include <iterator>
+#include <stdexcept>
+#include <algorithm>
 
-
-namespace cui
-{
-
-Window::~Window()
-{
-	release();
-}
-
-Window& Window::operator=(WINDOW* window)
-{
-	if(window != mWindow) {
-		release();
-		mWindow = window;
-	}
-	return *this;
-}
-
-bool Window::create(int nlines, int ncols, int begin_y, int begin_x)
-{
-	release();
-	mWindow = newwin(nlines, ncols, begin_x, begin_y);
-	return mWindow != NULL;
-}
-
-void Window::refresh()
-{
-	wrefresh(mWindow);
-}
-
-void Window::setCursor(int x, int y)
-{
-	wmove(mWindow, x, y);
-}
-
-int Window::getChar()
-{
-	return wgetch(mWindow);
-}
-
-int Window::getChar(int x, int y)
-{
-	return mvwgetch(mWindow, x, y);
-}
-
-int Window::outStr(const std::string& text)
-{
-	return waddstr(mWindow, text.c_str());
-}
-
-int Window::outStr(const std::string& text, int y, int x)
-{
-	return mvwaddstr(mWindow, y, x, text.c_str());
-}
-
-int Window::outStr(const std::string& text, int y, int x, int max)
-{
-	return mvwaddnstr(mWindow, y, x, text.c_str(), max);
-}
-
-int Window::box(chtype verch, chtype horch)
-{
-	return ::box(mWindow, verch, horch);
-}
-
-int Window::getInputStr(std::string& input)
-{
-	char buf[1024] = {};
-	int err = wgetnstr(mWindow, buf, sizeof(buf) - 1);
-	if(err)
-		buf[0] = 0;
-	input = std::string(buf);
-	return err;
-}
-
-void Window::release()
-{
-	if(mWindow) {
-		delwin(mWindow);
-		mWindow = NULL;
-	}
-}
-
-
-
-void Window::clear()
-{
-	wclear(mWindow);
-}
-
-void Window::erase()
-{
-	werase(mWindow);
-}
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+namespace cui {
 
 
 CUI::CUI()
+: 	mMainWnd{toWindow(initscr())}
 {
-	// TODO Auto-generated constructor stub
-
+	initialize();
 }
 
 CUI::~CUI()
 {
-	// TODO Auto-generated destructor stub
+	cleanup();
 }
 
 void CUI::initialize()
 {
-	mMainWnd = initscr();
 	start_color();
 	noecho();
 	cbreak();
-	curs_set(0);
-	resize_term(40, 90);
+	hideCursor();
+	//resize_term(40, 90);
+	//mMainWnd.resize(90, 40);
+
+	mColorPairs.clear();
+	mColorPairs.push_back(ColorPair{});
+
 	showDefaultScreen();
 }
 
@@ -137,21 +48,103 @@ void CUI::cleanup()
 	endwin();
 }
 
-void CUI::showDefaultScreen()
+Window CUI::toWindow(WINDOW* window)
 {
-	mMainWnd.outStr("Hello");
-	mMainWnd.refresh();
+	if(!window)
+		throw std::invalid_argument("window == nullptr");
+	return Window{*this, std::shared_ptr<WINDOW>(window, [](WINDOW* w){
+			delwin(w);
+	})};
 }
 
-int CUI::setColorPair(short index, Color foreground, Color backgrnd)
+Window CUI::create(int width, int height, int dx, int dy)
 {
-	return ::init_pair(index, (short)foreground, (short)backgrnd);
+	return toWindow(newwin(height, width, dy, dx));
 }
+
+
+bool CUI::getColorPairIndex(const ColorPair& pair, ColorPairIndex& index, bool createIfNotExist)
+{
+	auto iter = std::find(mColorPairs.begin(), mColorPairs.end(), pair);
+	if(iter != mColorPairs.end()) {
+		index = static_cast<ColorPairIndex>(std::distance(mColorPairs.begin(), iter));
+		return true;
+	}
+	if(createIfNotExist) {
+		const ColorPairIndex nextIndex = static_cast<ColorPairIndex>(mColorPairs.size());
+		if(index >= COLOR_PAIRS)
+			return false;
+		if(noError(init_pair(nextIndex, pair.fgColor, pair.bgColor))) {
+			mColorPairs.push_back(pair);
+			index = nextIndex;
+			return true;
+		}
+	}
+	return false;
+}
+
 
 void CUI::update()
 {
 
 }
 
+bool CUI::showCursor(bool veryVisible)
+{
+	if(veryVisible && noError(curs_set(kCursorVisVeryVisible)))
+		return true;
+	return noError(curs_set(kCursorVisVisible));
 }
+
+bool CUI::hideCursor()
+{
+	return noError(curs_set(kCursorVisInvisible));
+}
+
+bool CUI::getColorPair(ColorPairIndex index, ColorPair& pair)
+{
+	if(static_cast<size_t>(index) >= mColorPairs.size()) {
+		ColorPair p;
+		if(noError(pair_content(index, &p.fgColor, &p.bgColor))) {
+			pair = p;
+			return true;
+		}
+		return false;
+	}
+	pair = mColorPairs[index];
+	return true;
+}
+
+
+bool CUI::validColorPairIndex(ColorPairIndex index)
+{
+	size_t absIndex = static_cast<size_t>(index);
+	if(absIndex < mColorPairs.size())
+		return true;
+	ColorPair p;
+	return noError(pair_content(index, &p.fgColor, &p.bgColor));
+}
+
+const CUI::ColorPairVec& CUI::getAllColorPairs() const
+{
+	return mColorPairs;
+}
+
+
+void CUI::showDefaultScreen()
+{
+	mMainWnd.setColors(ColorPair{kColorRed, kColorBlack})
+			.attrOn(Attr::kAttrStandout)
+			.str(mMainWnd.xFact(0.5f) - 4, 4, "RedCars")
+			.wborder()
+			.refresh();
+	Window wnd = create(mMainWnd.xFact(.5f), mMainWnd.yFact(.6f), mMainWnd.xFact(.25f), mMainWnd.yFact(.2f) );
+	wnd.setBgColors(ColorPair{kColorYellow,kColorBlue})
+			.wborder()
+			.refresh();
+}
+
+
+}
+
 

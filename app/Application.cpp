@@ -28,15 +28,10 @@ Application::~Application()
 	// TODO Auto-generated destructor stub
 }
 
-void Application::initUI()
-{
-	mCUI.initialize();
-}
-
 void Application::init()
 {
-	// initialize the context
-//	initUI();
+	// initialize the context if it wasn't done yet
+	RedCarsContext::i();
 
 	Producten::ReserveringController rc;
 
@@ -54,7 +49,7 @@ int Application::main(int argc, char* argv[])
 {
 	init();
 	while(!mQuit) {
-//		mCUI.update();
+		mCUI.update();
 		std::this_thread::sleep_for(std::chrono::milliseconds(100));
 	}
 	return 0;

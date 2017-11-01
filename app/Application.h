@@ -28,7 +28,6 @@ public:
 
 
 	void init();
-	void initUI();
 
 	int main(int argc, char* argv[]);
 
