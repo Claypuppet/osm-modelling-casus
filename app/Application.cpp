@@ -36,9 +36,23 @@ void Application::init()
 	Producten::ReserveringController rc;
 
 	setTimeProvider(std::make_shared<FakeTimeProvider>(0));
+	std::cout << "TIJD IS NU 0" << std::endl;
 	rc.verzilverReservering(12345678);
+
 	setTimeProvider(std::make_shared<FakeTimeProvider>(getNowMoment() + (60 * 60 * 8))); // 8 hours later...
+	std::cout << "TIJD IS NU 60 * 60 * 8 ( 8 uur later)" << std::endl;
 	rc.voltooiVerhuur(12345678);
+
+//	reservering = RedCarsContext::i().getDataStore().loadModel(reservering, [](const Producten::ReserveringPtr& r) {
+//		if(r->klant->pasNummmer != 12345678)
+//			return false;
+//		if(!r->verhuur->uitcheckMoment)
+//			return false;
+//		return true;
+//	});
+//
+//	if(reservering)
+//		mCUI.showReserveringScreen(reservering);
 
 }
 

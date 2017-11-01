@@ -105,7 +105,7 @@ void StaticDatastore::initStaticTestData()
 	auto tariefBS = createModel<Tarief>(Tarief::Create(100, Geld(0,30), tarievenBS, stationWagen, abboBetlaad));
 
 	// Klanten
-	auto klant1 = createModel<Klant>(Klant::Create("Jelle Bouwhuis", "jelle@email.nl", 12345678, abboGratis));
+	auto klant1 = createModel<Klant>(Klant::Create("Jelle Bouwhuis", "jelle@email.nl", 12345678, abboBetlaad));
 	auto klant2 = createModel<Klant>(Klant::Create("Michel Peters", "michel@email.nl", 87654321, abboBetlaad));
 
 	// RedCarModules
@@ -121,10 +121,7 @@ void StaticDatastore::initStaticTestData()
 	auto deelAuto2 = createModel<Deelauto>(Deelauto::Create("AB-04-21", stationWagen, standPlaatsVoorDeelauto2, moduleVoorDeelauto2));
 
 	// Reserveringen
-	// 1509444000 = Tuesday, October 31, 2017 10:00:00
-	// 1509472800 = Tuesday, October 31, 2017 18:00:00
-	// 1509616800 = Thursday, November 2, 2017 10:00:00
-	auto reservering1 = createModel<Reservering>(Reservering::Create(0, 60*60*7, klant1, deelAuto1, tariefPerUur));
+	auto reservering1 = createModel<Reservering>(Reservering::Create(0, 60*60*7, klant1, deelAuto1, tariefPerDag));
 	auto reservering2 = createModel<Reservering>(Reservering::Create(0, 60*60*24*2, klant2, deelAuto2, tariefPerDag));
 
 	// Set boete tariefsoort

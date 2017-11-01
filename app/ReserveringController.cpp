@@ -39,6 +39,11 @@ void ReserveringController::verzilverReservering(uint32_t pasnummer)
 	if(!r)
 		throw std::logic_error("Hee er is helemaal geen reservering voor deze klant!");
 
+
+	std::cout << "Reservering gaat ingecheckt worden!" << std::endl;
+	std::cout << r->asString() << std::endl;
+
+
 	std::shared_ptr<Verhuur> v =  r->verzilveren();
 
 	context.getVehuurRepo().create(v);

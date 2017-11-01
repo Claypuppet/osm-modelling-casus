@@ -16,6 +16,7 @@
 #else
 #	include <ncurses.h>
 #endif
+#include <algorithm>
 
 namespace cui
 {
@@ -38,6 +39,15 @@ namespace cui
 	static const constexpr int kCursorVisInvisible = 0;
 	static const constexpr int kCursorVisVisible = 1;
 	static const constexpr int kCursorVisVeryVisible = 0;
+
+	static const constexpr int STR_X_HALIGN_LEFT 	= 0x8001;
+	static const constexpr int STR_X_HALIGN_RIGHT 	= 0x8002;
+	static const constexpr int STR_X_HALIGN_CENTRE 	= 0x8003;
+	static const constexpr int STR_Y_HALIGN_LEFT 	= 0x8001;
+	static const constexpr int STR_Y_HALIGN_RIGHT 	= 0x8002;
+	static const constexpr int STR_Y_HALIGN_CENTRE 	= 0x8003;
+
+
 
 
 
@@ -100,6 +110,25 @@ namespace cui
 			return (chtype)_value;
 		}
 	};
+
+	constexpr int adjustForStrAlignmentX(int x, int width, size_t strlen)
+	{
+		if(!(x & STR_X_HALIGN_CENTRE))
+			return x;
+		if((x & ~STR_X_HALIGN_CENTRE))
+			return x;
+		int opt = x & 3;
+		switch(opt) {
+		default:
+		case 1:
+			return x;
+		case 2:
+			return std::max(0, width - static_cast<int>(strlen));
+		case 3:
+			return std::min(width, std::max(0, width / 2 - static_cast<int>(strlen) / 2));
+		}
+	}
+
 }
 
 

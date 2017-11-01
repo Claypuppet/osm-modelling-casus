@@ -107,6 +107,7 @@ Window& Window::str(const std::string& text)
 
 Window& Window::str(const std::string& text, int x, int y)
 {
+	x = adjustForStrAlignmentX(x, getWidth(), text.size());
 	if(noError(mvwaddstr(wptr(), y, x, text.c_str())))
 		mNeedRefresh = true;
 	return *this;

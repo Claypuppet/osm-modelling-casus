@@ -107,15 +107,18 @@ Geld Reservering::getKosten()
 std::string Reservering::asString()
 {
 	std::stringstream ss;
-	ss << "Reservering:" <<
-			"-Door: " << klant->naam << std::endl <<
-			"-Van " << beginMoment << " tot " << eindMoment << std::endl <<
-			"-Geclaimt: " << (isIngecheckt ? "Ja" : "Nee") << std::endl <<
-			"-Kosten reservering: " << getKosten().toString() << std::endl;
+	ss << "Reservering:" << std::endl <<
+			"-Door: " << klant->toString() << std::endl <<
+			"-Voor: " << deelauto->kenteken << "(" << deelauto->type->naam << ")" << std::endl <<
+			"-Gereserveerd van " << beginMoment << " tot " << eindMoment << std::endl <<
+			"-Terief soort: " << tariefSoort->naam << std::endl <<
+			"-Kosten reservering: " << getKosten().toString() << std::endl <<
+			"-Kosten Boetes: " << getExtraKosten().toString() << std::endl <<
+			"-Totaal kosten: " << getTotaalKosten().toString() << std::endl;
 	if(verhuur){
-		ss << "-Kosten Boetes: " << getExtraKosten().toString() << std::endl <<
-				"-Totaal kosten: " << getTotaalKosten().toString() << std::endl;
-
+		ss << "Verhuur:" << std::endl <<
+				"-Incheck moment: " << verhuur->incheckMoment << std::endl <<
+				"-Uitcheck moment: " << (verhuur->uitcheckMoment ? std::to_string(verhuur->uitcheckMoment) : "geen") << std::endl;
 	}
 	return ss.str();
 }

@@ -46,7 +46,7 @@ public:
 private:
 
 	bool	mQuit;
-	cui::CUI mCUI;
+//	cui::CUI mCUI;
 	TariefSoortPtr boeteTariefSoort;
 	std::shared_ptr<ITimeProvider> timeProvider;
 
