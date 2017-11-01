@@ -15,6 +15,7 @@
 #include "RedCarsContext.h"
 #include "Signals.h"
 
+#include <sstream>
 #include <stdexcept>
 
 namespace Producten
@@ -105,7 +106,18 @@ Geld Reservering::getKosten()
 
 std::string Reservering::asString()
 {
-	return "Kosten reservering: " + getKosten().toString() + "\nKosten Boetes: " + getExtraKosten().toString() + "\nTotaal kosten: " + getTotaalKosten().toString();
+	std::stringstream ss;
+	ss << "Reservering:" <<
+			"-Door: " << klant->naam << std::endl <<
+			"-Van " << beginMoment << " tot " << eindMoment << std::endl <<
+			"-Geclaimt: " << (isIngecheckt ? "Ja" : "Nee") << std::endl <<
+			"-Kosten reservering: " << getKosten().toString() << std::endl;
+	if(verhuur){
+		ss << "-Kosten Boetes: " << getExtraKosten().toString() << std::endl <<
+				"-Totaal kosten: " << getTotaalKosten().toString() << std::endl;
+
+	}
+	return ss.str();
 }
 
 }
