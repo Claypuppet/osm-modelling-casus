@@ -31,7 +31,7 @@ Application::~Application()
 void Application::init()
 {
 	// initialize the context if it wasn't done yet
-	RedCarsContext::i();
+	ReserveringController& rc = RedCarsContext::i().getReserveringController();
 
 
 	setTimeProvider(std::make_shared<FakeTimeProvider>(0));

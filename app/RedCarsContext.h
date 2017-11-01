@@ -21,6 +21,7 @@ namespace Core {
 	using Klanten::KlantRepo;
 	using Producten::VerhuurRepo;
 	using Producten::ReserveringRepo;
+	using Producten::ReserveringController;
 	using Tarieven::TariefRepo;
 
 namespace detail {
@@ -47,6 +48,7 @@ namespace detail {
 		VerhuurRepo<DataStoreType>& getVehuurRepo()  { return mVehuurRepo; }
 		TariefRepo<DataStoreType>& getTariefRepo()  { return mTariefRepo; }
 		ReserveringRepo<DataStoreType>& getReserveringRepo() { return mReserveringRepo; }
+		ReserveringController& getReserveringController() { return mReserveringController; }
 
 	private:
 		DataStoreType mDatastore;
@@ -54,7 +56,7 @@ namespace detail {
 		VerhuurRepo<DataStoreType> mVehuurRepo;
 		TariefRepo<DataStoreType> mTariefRepo;
 		ReserveringRepo<DataStoreType> mReserveringRepo;
-		Producten::ReserveringController mReserveringController;
+		ReserveringController mReserveringController;
 
 	};
 }
