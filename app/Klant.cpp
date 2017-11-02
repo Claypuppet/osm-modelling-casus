@@ -7,6 +7,8 @@
 
 #include "Klant.h"
 
+#include <sstream>
+
 namespace Klanten {
 
 Klant::Klant()
@@ -28,4 +30,12 @@ Klant::~Klant()
 	// TODO Auto-generated destructor stub
 }
 
+}
+
+std::string Klanten::Klant::toString() const
+{
+	std::stringstream ss;
+	ss << "Klant: " << naam << "(" << abbonomentType->naam << ")";
+
+	return ss.str();
 }

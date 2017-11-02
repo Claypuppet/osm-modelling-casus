@@ -31,37 +31,37 @@ Application::~Application()
 void Application::init()
 {
 	// initialize the context if it wasn't done yet
-	RedCarsContext::i();
+	ReserveringController& rc = RedCarsContext::i().getReserveringController();
 
-	Producten::ReserveringController rc;
 
 	setTimeProvider(std::make_shared<FakeTimeProvider>(0));
+	std::cout << "TIJD IS NU 0" << std::endl;
 	rc.verzilverReservering(12345678);
+
 	setTimeProvider(std::make_shared<FakeTimeProvider>(getNowMoment() + (60 * 60 * 8))); // 8 hours later...
+	std::cout << "TIJD IS NU 60 * 60 * 8 ( 8 uur later)" << std::endl;
 	rc.voltooiVerhuur(12345678);
 
-	Producten::ReserveringPtr reservering;
-	reservering = RedCarsContext::i().getDataStore().loadModel(reservering, [](const Producten::ReserveringPtr& r) {
-		if(r->klant->pasNummmer != 12345678)
-			return false;
-		if(!r->verhuur->uitcheckMoment)
-			return false;
-		return true;
-	});
-
-	if(reservering)
-		mCUI.showReserveringScreen(reservering);
-
+//	reservering = RedCarsContext::i().getDataStore().loadModel(reservering, [](const Producten::ReserveringPtr& r) {
+//		if(r->klant->pasNummmer != 12345678)
+//			return false;
+//		if(!r->verhuur->uitcheckMoment)
+//			return false;
+//		return true;
+//	});
+//
+//	if(reservering)
+//		mCUI.showReserveringScreen(reservering);
 
 }
 
 int Application::main(int argc, char* argv[])
 {
 	init();
-	while(!mQuit) {
-		mCUI.update();
-		std::this_thread::sleep_for(std::chrono::milliseconds(100));
-	}
+//	while(!mQuit) {
+//		mCUI.update();
+//		std::this_thread::sleep_for(std::chrono::milliseconds(100));
+//	}
 	return 0;
 }
 

@@ -39,10 +39,18 @@ void ReserveringController::verzilverReservering(uint32_t pasnummer)
 	if(!r)
 		throw std::logic_error("Hee er is helemaal geen reservering voor deze klant!");
 
+
+	std::cout << "Reservering gaat ingecheckt worden!" << std::endl;
+	std::cout << r->asString() << std::endl;
+
+
 	std::shared_ptr<Verhuur> v =  r->verzilveren();
 
 	context.getVehuurRepo().create(v);
 	context.getReserveringRepo().save(r);
+
+	std::cout << "Reservering ingecheckt!" << std::endl;
+	std::cout << r->asString() << std::endl;
 }
 
 void ReserveringController::voltooiVerhuur(uint32_t pasnummer)
@@ -59,6 +67,7 @@ void ReserveringController::voltooiVerhuur(uint32_t pasnummer)
 
 	context.getVehuurRepo().save(v);
 
+	std::cout << "Verhuur voltooid!" << std::endl;
 	std::cout << v->reservering->asString() << std::endl;
 }
 

@@ -30,6 +30,7 @@ class Klant : public DatastoreModel<Klant>
 public:
 
 	~Klant();
+	std::string toString() const;
 
 	std::string naam;
 	std::string email;
